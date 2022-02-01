@@ -8,3 +8,8 @@ matlab/data/Statuses.mat
 
 python/APIkey.txt
 python/data/Orbits.json
+python/data/Agencies.json
+python/data/Launches.json
+python/data/Locations.json
+python/data/Pads.json
+python/data/Statuses.json
