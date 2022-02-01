@@ -7,3 +7,4 @@ matlab/data/Pads.mat
 matlab/data/Statuses.mat
 
 python/APIkey.txt
+python/data/Orbits.json
