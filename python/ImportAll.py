@@ -24,7 +24,7 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version):
             number_data = call['count']
             print('Total ' + data_name + ' : ' + str(number_data))
             number_calls = math.ceil(number_data / 100.0)
-        data.append(call['results'])
+        data.extend(call['results'])
         next_url = call['next']
         print('API Call ' + str(ii) + '/' + str(number_calls))
     return data
@@ -33,7 +33,6 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version):
 def export(data_name, path, data):
     with open(path, 'w+') as file:
         json.dump(data, file, indent=4)
-        file.close()
     print('Successfully exported ' + data_name + ' to file.')
 
 
