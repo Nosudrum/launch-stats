@@ -6,31 +6,31 @@ import json
 # Import parameters
 API = 'll'  # ll or lldev
 API_ver = '2.2.0'
-file = open('APIkey.txt', 'r')
-API_key = file.read()
-file.close()
+with open('APIkey.txt', 'r') as f:
+    API_key = f.read()
+    f.close()
 headers_dict = {'Authorization': 'Token ' + API_key}
 
 # Import Orbits
-API_url = 'https://' + API + '.thespacedevs.com/' + API_ver + '/config/orbit/?limit=100&mode=detailed'
-FirstCall = requests.get(API_url, headers=headers_dict, timeout=20).json()
-NbOrbits = FirstCall['count']
-NbCalls = math.ceil(NbOrbits / 100.0)
-Orbits = FirstCall['results']
-nextURL = FirstCall['next']
-ii = 1
-print('Total Orbits : ' + str(NbOrbits))
-print('API Call ' + str(ii) + '/' + str(NbCalls))
+nextURL = 'https://' + API + '.thespacedevs.com/' + API_ver + '/config/orbit/?limit=100&mode=detailed'
+ii = 0
+NbCalls = 0
+Orbits = {}
 while nextURL is not None:
     ii += 1
-    LoopCall = requests.get(nextURL, headers=headers_dict, timeout=20).json()
-    Orbits.update(LoopCall['results'])
-    nextURL = LoopCall['next']
+    APICall = requests.get(nextURL, headers=headers_dict, timeout=20).json()
+    if ii == 1:
+        NbOrbits = APICall['count']
+        print('Total Orbits : ' + str(NbOrbits))
+        NbCalls = math.ceil(NbOrbits / 100.0)
+    Orbits.update(APICall['results'])
+    nextURL = APICall['next']
     print('API Call ' + str(ii) + '/' + str(NbCalls))
 
 # Export Orbits Dictionary
 with open('data/Orbits.json', 'w+') as f:
     json.dump(Orbits, f, indent=4)
+    f.close()
 print('Successfully exported Orbits to file.')
 
 # # Import Statuses
