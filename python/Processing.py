@@ -67,7 +67,7 @@ for Location in Locations:
 
 # Figures
 def dark_figure():
-    fig = plt.figure(facecolor='black', figsize=(7, 5))
+    plt.figure(facecolor='black', figsize=(7, 5))
     f = plt.gca()
     for i in f.spines:
         f.spines[i].set_color('white')
@@ -84,43 +84,18 @@ def dark_figure():
 # geobubble(LocsLat,LocsLong,LocsLaunchCount,'BubbleColorList',[1 0 0])
 # geobasemap('satellite')
 
-
-plt.figure()
-F1_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
-
-plt.hist(F1_Years, bins=np.unique(F1_Years))
-plt.xlabel('Year')
-plt.ylabel('# of launches')
-plt.ylim([0, 170])
-plt.title('All launches attempts')
-plt.savefig('plots/test1.png', transparent=True, dpi=300)
-plt.savefig('plots/test1.pdf', transparent=True, dpi=300)
-plt.show()
-
-plt.figure()
-F2_Years = [i[1].year for i in enumerate(LaunchT0) if
-            i[1] < datetime.now(timezone.utc).replace(tzinfo=None) and LaunchOrbit[i[0]] != 15]
-plt.hist(F2_Years, bins=np.unique(F2_Years), alpha=0.5)
-plt.xlabel('Year')
-plt.ylabel('# of launches')
-plt.ylim([0, 170])
-plt.title('Orbital attempts')
-plt.savefig('plots/test2.png', transparent=True, dpi=300)
-plt.savefig('plots/test2.pdf', transparent=True, dpi=300)
-plt.show()
-
-F4_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
-F4_Countries_Flatten = []
-for i in F4_Countries:
+F1_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
+F1_Countries_Flatten = []
+for i in F1_Countries:
     if isinstance(i, list):
-        F4_Countries_Flatten += i
+        F1_Countries_Flatten += i
     else:
-        F4_Countries_Flatten.append(i)
-F4_Countries_Labels = ['Russia/USSR', 'USA', 'China', 'France', 'Japan', 'India', 'New Zealand', 'Others']
-F4_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
-F4 = dark_figure()
-F4_data = []
-for ii in F4_Countries:
+        F1_Countries_Flatten.append(i)
+F1_Countries_Labels = ['Russia/USSR', 'USA', 'China', 'France', 'Japan', 'India', 'New Zealand', 'Others']
+F1_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
+F1 = dark_figure()
+F1_data = []
+for ii in F1_Countries:
     if isinstance(ii, list):
         tmp = []
         for jj in ii:
@@ -128,41 +103,23 @@ for ii in F4_Countries:
                     i[1] < datetime.now(timezone.utc).replace(tzinfo=None) and LaunchOrbit[i[0]] != 15 and
                     LaunchCountry[
                         i[0]] == jj]
-        F4_data.append(tmp)
+        F1_data.append(tmp)
     else:
-        F4_data.append([i[1].year for i in enumerate(LaunchT0) if
+        F1_data.append([i[1].year for i in enumerate(LaunchT0) if
                         i[1] < datetime.now(timezone.utc).replace(tzinfo=None) and LaunchOrbit[i[0]] != 15 and
                         LaunchCountry[
                             i[0]] == ii])
-F4_data.append([i[1].year for i in enumerate(LaunchT0) if
+F1_data.append([i[1].year for i in enumerate(LaunchT0) if
                 i[1] < datetime.now(timezone.utc).replace(tzinfo=None) and LaunchOrbit[i[0]] != 15 and
                 LaunchCountry[
-                    i[0]] not in F4_Countries_Flatten])
-plt.hist(F4_data, bins=np.append(np.unique(F4_Years),max(F4_Years)+1), histtype='bar', stacked=True)
-
-plt.legend(F4_Countries_Labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
-# legend = plt.legend(frameon=1)
-# frame = legend.get_frame()
-# frame.set_facecolor('black')
-# frame.set_edgecolor('white')
+                    i[0]] not in F1_Countries_Flatten])
+plt.hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='bar', stacked=True)
+plt.legend(F1_Countries_Labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
 plt.xlabel('Year')
 plt.ylabel('# of launches')
 plt.ylim([0, 180])
-plt.xlim([min(F4_Years), max(F4_Years)+1])
-plt.title('Orbital launch attempts per country since ' + str(min(F4_Years)))
+plt.xlim([min(F1_Years), max(F1_Years) + 1])
+plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.png', transparent=True, dpi=300)
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.pdf', transparent=True, dpi=300)
 plt.show()
-
-# plt.figure()
-# plt.show()
-# [N1,edges] = histcounts(year(LaunchT0((LaunchT0<datetime('now')).*(LaunchOrbit~=15).*(LaunchCountry=='RUS' | LaunchCountry=='KAZ')>=1)),min(year(LaunchT0(LaunchT0<datetime('now')))):(year(datetime('now'))+1));
-# [N2,edges] = histcounts(year(LaunchT0((LaunchT0<datetime('now')).*(LaunchOrbit~=15).*(LaunchCountry=='USA')>=1)),min(year(LaunchT0(LaunchT0<datetime('now')))):(year(datetime('now'))+1));
-# [N3,edges] = histcounts(year(LaunchT0((LaunchT0<datetime('now')).*(LaunchOrbit~=15).*(LaunchCountry=='CHN')>=1)),min(year(LaunchT0(LaunchT0<datetime('now')))):(year(datetime('now'))+1));
-# [N4,edges] = histcounts(year(LaunchT0((LaunchT0<datetime('now')).*(LaunchOrbit~=15).*(LaunchCountry~='USA' & LaunchCountry~='RUS' & LaunchCountry~='KAZ' & LaunchCountry~='CHN')>=1)),min(year(LaunchT0(LaunchT0<datetime('now')))):(year(datetime('now'))+1));
-# bar(edges(1:(end-1)),[N1',N2',N3',N4'],'stacked','EdgeColor','black','LineWidth',0.001)
-# legend("USSR/Russia","USA","China","Others",'Location','southoutside','Orientation','horizontal')
-# title('Orbital launch attempts per launch country since 1957')
-# ylim([0 150])
-# exportgraphics(gcf,'plots/OrbitalAttemptsPerCountry.pdf')
-# exportgraphics(gcf,'plots/OrbitalAttemptsPerCountry.png','Resolution',300)
