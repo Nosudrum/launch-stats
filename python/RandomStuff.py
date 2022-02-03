@@ -1,9 +1,6 @@
 # Preamble
 import json
 from datetime import datetime, timedelta, timezone
-import matplotlib.pyplot as plt
-import numpy as np
-import cartopy.crs as ccrs
 
 
 # Import json data
