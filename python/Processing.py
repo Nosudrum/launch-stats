@@ -3,6 +3,7 @@ import json
 from datetime import datetime, timezone
 import matplotlib.pyplot as plt
 import numpy as np
+import cartopy.crs as ccrs
 
 
 # Import json data
@@ -48,26 +49,32 @@ for Launch in Launches:
         LaunchProgram.append(-1)
 
 # Process Locations Data
-NumberOfLaunches = len(Locations)
 LocsName = []
 LocsLat = []
-LocsLong = []
+LocsLon = []
 LocsLaunchCount = []
 
 for Location in Locations:
-    LocsName.append(Location['name'])
-    LocsLaunchCount.append(Location['total_launch_count'])
-    if Location['pads']:
-        LocsLat.append(Location['pads'][0]['latitude'])
-        LocsLong.append(Location['pads'][0]['longitude'])
+    if Location['id'] == 20 or Location['id'] == 144 or Location['id'] == 3:
+        # Air launch to orbit, air launch to suborbital flight, sea launch
+        for pad in Location['pads']:
+            LocsName.append(pad['name'])
+            LocsLat.append(pad['latitude'])
+            LocsLon.append(pad['longitude'])
+            LocsLaunchCount.append(pad['total_launch_count'])
+    elif Location['id'] == 22:  # Unknown location
+        break
     else:
-        LocsLat.append(None)
-        LocsLong.append(None)
+        if Location['pads']:
+            LocsLat.append(Location['pads'][0]['latitude'])
+            LocsLon.append(Location['pads'][0]['longitude'])
+            LocsName.append(Location['name'])
+            LocsLaunchCount.append(Location['total_launch_count'])
 
 
-# Figures
+# Functions for figures
 def dark_figure():
-    plt.figure(facecolor='black', figsize=(7, 5))
+    fig = plt.figure(facecolor='black', figsize=(7, 5))
     f = plt.gca()
     for i in f.spines:
         f.spines[i].set_color('white')
@@ -77,23 +84,41 @@ def dark_figure():
     f.xaxis.label.set_color('white')
     f.title.set_color('white')
     f.set_facecolor('black')
-    return f
+    return f, fig
 
 
-# figure
-# geobubble(LocsLat,LocsLong,LocsLaunchCount,'BubbleColorList',[1 0 0])
-# geobasemap('satellite')
+def flatten(list_of_lists):
+    flattened_list = []
+    for i in list_of_lists:
+        if isinstance(i, list):
+            flattened_list += i
+        else:
+            flattened_list.append(i)
+    return flattened_list
 
+
+# Figures
+
+# Plot of launch sites
+dark_figure()
+
+F0 = plt.axes(projection=ccrs.EckertIII())
+F0.set_global()
+for Location in enumerate(LocsName):
+    if LocsLaunchCount[Location[0]] != 0:
+        F0.plot(float(LocsLon[Location[0]]), float(LocsLat[Location[0]]), marker='o', color='red',
+                markersize=max(LocsLaunchCount[Location[0]] / max(LocsLaunchCount) * 20, 1), transform=ccrs.Geodetic())
+F0.stock_img()
+plt.savefig('plots/test1.png', transparent=True, dpi=300)
+plt.savefig('plots/test1.pdf', transparent=True, dpi=300)
+plt.show()
+
+# Plot of orbital launch attempts per country since 1957
 F1_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
-F1_Countries_Flatten = []
-for i in F1_Countries:
-    if isinstance(i, list):
-        F1_Countries_Flatten += i
-    else:
-        F1_Countries_Flatten.append(i)
+F1_Countries_Flatten = flatten(F1_Countries)
 F1_Countries_Labels = ['Russia/USSR', 'USA', 'China', 'France', 'Japan', 'India', 'New Zealand', 'Others']
 F1_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
-F1 = dark_figure()
+dark_figure()
 F1_data = []
 for ii in F1_Countries:
     if isinstance(ii, list):
