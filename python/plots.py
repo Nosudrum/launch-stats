@@ -54,6 +54,8 @@ for Location in enumerate(LocsName):
         F0.plot(float(LocsLon[Location[0]]), float(LocsLat[Location[0]]), marker='o', color='red',
                 markersize=max(LocsLaunchCount[Location[0]] / max(LocsLaunchCount) * 20, 1), transform=ccrs.Geodetic())
 F0.stock_img()
+plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
+           labelpad=10)
 plt.savefig('plots/test1.png', transparent=True, dpi=300)
 plt.savefig('plots/test1.pdf', transparent=True, dpi=300)
 plt.show()
@@ -95,6 +97,8 @@ plt.ylabel('Total launches per year')
 plt.ylim([0, 180])
 plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
+plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
+           labelpad=10)
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.png', transparent=True, dpi=300)
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.pdf', transparent=True, dpi=300)
 plt.show()
@@ -108,6 +112,8 @@ plt.legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolo
 plt.ylabel('Launches per year')
 plt.ylim([0, 130])
 plt.xlim([min(F1_Years), max(F1_Years) + 1])
+plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
+           labelpad=10)
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
 plt.savefig('plots/OrbitalAttemptsPerCountry.png', transparent=True, dpi=300)
 plt.savefig('plots/OrbitalAttemptsPerCountry.pdf', transparent=True, dpi=300)
@@ -146,6 +152,8 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     plt.ylabel('Cumulative number of launches')
     plt.ylim([0, max([len(x) for x in F1y_data]) * 1.2])
     plt.xlim([1, max(days)])
+    plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
+               labelpad=10)
     plt.title('Orbital launch attempts per country in ' + str(year))
     plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.png', transparent=True, dpi=300)
     plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.svg', transparent=True, dpi=300)
