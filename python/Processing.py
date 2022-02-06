@@ -174,8 +174,11 @@ plt.savefig('plots/OrbitalAttemptsPerCountry.pdf', transparent=True, dpi=300)
 plt.show()
 
 # Plot of orbital launch attempts per country per year since 1957
+F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
+F1y_README.write('# Orbital attempts per country for every year\n')
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 for year in range(1957, datetime.now(timezone.utc).year + 1):
+    F1y_README.write('![Orbital attempts per country in ' + str(year)+']('+str(year)+'.png)\n')
     days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
     dark_figure()
     F1y_data = []
@@ -206,6 +209,7 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     plt.ylim([0, max([len(x) for x in F1y_data]) * 1.2])
     plt.xlim([1, max(days)])
     plt.title('Orbital launch attempts per country in ' + str(year))
-    plt.savefig('plots/yearly/orbitalAttemptsPerCountryStacked/' + str(year) + '.png', transparent=True, dpi=300)
-    plt.savefig('plots/yearly/orbitalAttemptsPerCountryStacked/' + str(year) + '.svg', transparent=True, dpi=300)
+    plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.png', transparent=True, dpi=300)
+    plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.svg', transparent=True, dpi=300)
     plt.close()
+F1y_README.close()
