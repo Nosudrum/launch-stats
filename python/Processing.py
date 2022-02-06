@@ -175,7 +175,7 @@ plt.show()
 
 # Plot of orbital launch attempts per country per year since 1957
 F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
-F1y_README.write('# Orbital attempts per country for every year\n')
+F1y_README.write('# Orbital attempts per country for every year since 1957\n')
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 for year in range(1957, datetime.now(timezone.utc).year + 1):
     F1y_README.write('![Orbital attempts per country in ' + str(year)+']('+str(year)+'.png)\n')
