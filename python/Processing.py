@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import matplotlib.pyplot as plt
 import numpy as np
 import cartopy.crs as ccrs
+import calendar
 
 
 # Import json data
@@ -113,10 +114,14 @@ plt.savefig('plots/test1.png', transparent=True, dpi=300)
 plt.savefig('plots/test1.pdf', transparent=True, dpi=300)
 plt.show()
 
-# Plot of orbital launch attempts per country since 1957
+# Plot of orbital launch attempts per country since 1957 stacked
 F1_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
 F1_Countries_Flatten = flatten(F1_Countries)
 F1_Countries_Labels = ['Russia/USSR', 'USA', 'China', 'France', 'Japan', 'India', 'New Zealand', 'Others']
+colors = {'red': '#e41a1c', 'orange': '#ff7f00', 'blue': '#377eb8', 'pink': '#f781bf', 'yellow': '#dede00',
+          'green': '#4daf4a', 'grey': '#999999', 'purple': '#984ea3'}
+F1_colors = ['blue', 'orange', 'red', 'green', 'pink', 'yellow', 'purple', 'grey']
+F1_colors = [colors[i] for i in F1_colors]
 F1_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
 dark_figure()
 F1_data = []
@@ -138,13 +143,69 @@ F1_data.append([i[1].year for i in enumerate(LaunchT0) if
                 i[1] < datetime.now(timezone.utc).replace(tzinfo=None) and LaunchOrbit[i[0]] != 15 and
                 LaunchCountry[
                     i[0]] not in F1_Countries_Flatten])
-plt.hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='bar', stacked=True)
-plt.legend(F1_Countries_Labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
-plt.xlabel('Year')
-plt.ylabel('# of launches')
+plt.hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='bar', stacked=True,
+         label=F1_Countries_Labels, color=F1_colors)
+handles, labels = plt.gca().get_legend_handles_labels()
+handles = [k for j in [handles[i::4] for i in range(4)] for k in j]
+labels = [k for j in [labels[i::4] for i in range(4)] for k in j]
+plt.legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
+plt.ylabel('Total launches per year')
 plt.ylim([0, 180])
 plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.png', transparent=True, dpi=300)
 plt.savefig('plots/OrbitalAttemptsPerCountryStacked.pdf', transparent=True, dpi=300)
 plt.show()
+
+# Plot of orbital launch attempts per country since 1957 non stacked
+dark_figure()
+plt.hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='step', stacked=False,
+         label=F1_Countries_Labels, color=F1_colors, linewidth=2)
+handles, labels = plt.gca().get_legend_handles_labels()
+handles = [k for j in [handles[i::4] for i in range(4)] for k in j]
+labels = [k for j in [labels[i::4] for i in range(4)] for k in j]
+plt.legend(handles[::-1], labels[::-1], loc='upper center', ncol=4, frameon=False, labelcolor='white')
+plt.ylabel('Launches per year')
+plt.ylim([0, 130])
+plt.xlim([min(F1_Years), max(F1_Years) + 1])
+plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
+plt.savefig('plots/OrbitalAttemptsPerCountry.png', transparent=True, dpi=300)
+plt.savefig('plots/OrbitalAttemptsPerCountry.pdf', transparent=True, dpi=300)
+plt.show()
+
+# Plot of orbital launch attempts per country per year since 1957
+monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+for year in range(1957, datetime.now(timezone.utc).year + 1):
+    days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
+    dark_figure()
+    F1y_data = []
+    for ii in F1_Countries:
+        if isinstance(ii, list):
+            tmp = []
+            for jj in ii:
+                tmp += [i[1].timetuple().tm_yday for i in enumerate(LaunchT0) if
+                        i[1].year == year and LaunchOrbit[i[0]] != 15 and LaunchCountry[i[0]] == jj and i[
+                            1] < datetime.now(timezone.utc).replace(tzinfo=None)]
+            F1y_data.append(tmp)
+        else:
+            F1y_data.append([i[1].timetuple().tm_yday for i in enumerate(LaunchT0) if
+                             i[1].year == year and LaunchOrbit[i[0]] != 15 and LaunchCountry[i[0]] == ii and i[
+                                 1] < datetime.now(timezone.utc).replace(tzinfo=None)])
+    F1y_data.append([i[1].timetuple().tm_yday for i in enumerate(LaunchT0) if
+                     i[1].year == year and LaunchOrbit[i[0]] != 15 and LaunchCountry[
+                         i[0]] not in F1_Countries_Flatten and i[1] < datetime.now(timezone.utc).replace(tzinfo=None)])
+    plt.hist(F1y_data, bins=np.append(days, max(days) + 1), histtype='step', cumulative=True, stacked=False,
+             linewidth=2, label=F1_Countries_Labels, color=F1_colors)
+    handles, labels = plt.gca().get_legend_handles_labels()
+    handles = [k for j in [handles[i::4] for i in range(4)] for k in j]
+    labels = [k for j in [labels[i::4] for i in range(4)] for k in j]
+    plt.legend(handles[::-1], labels[::-1], loc='upper center', ncol=4, frameon=False,
+               labelcolor='white')
+    plt.xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
+    plt.ylabel('Cumulative number of launches')
+    plt.ylim([0, max([len(x) for x in F1y_data]) * 1.2])
+    plt.xlim([1, max(days)])
+    plt.title('Orbital launch attempts per country in ' + str(year))
+    plt.savefig('plots/yearly/orbitalAttemptsPerCountryStacked/' + str(year) + '.png', transparent=True, dpi=300)
+    plt.savefig('plots/yearly/orbitalAttemptsPerCountryStacked/' + str(year) + '.svg', transparent=True, dpi=300)
+    plt.close()
