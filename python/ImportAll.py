@@ -31,7 +31,7 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version):
 
 
 def export(data_name, path, data):
-    with open(path, 'w+') as file:
+    with open(path, 'w') as file:
         json.dump(data, file, indent=4)
     print('Successfully exported ' + data_name + ' to file.')
 

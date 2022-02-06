@@ -18,3 +18,5 @@ python/data/Statuses.json
 .idea/modules.xml
 .idea/vcs.xml
 .idea/workspace.xml
+python/data/animated.json
+python/data/animated.csv
