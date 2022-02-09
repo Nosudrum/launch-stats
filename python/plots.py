@@ -13,7 +13,7 @@ Badge_Nosu = Image.open('assets/Nosu.png')
 
 # Functions for figures
 def dark_figure():
-    fig = plt.figure(facecolor='#0D1117', figsize=(7, 5))
+    fig = plt.figure(facecolor='#0D1117', figsize=(7, 5.2))
     f = plt.gca()
     for i in f.spines:
         f.spines[i].set_color('white')
@@ -173,3 +173,4 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     plt.title('Orbital launch attempts per country in ' + str(year))
     finish_figure(F3, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=False)
 F1y_README.close()
+print('Successfully generated and exported all plots.')
