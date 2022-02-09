@@ -5,6 +5,10 @@ import numpy as np
 import cartopy.crs as ccrs
 import calendar
 from Processing import LaunchT0, LaunchOrbit, LaunchCountry, LocsName, LocsLaunchCount, LocsLat, LocsLon
+from PIL import Image
+
+Badge_DataLL2 = Image.open('assets/DataByLL2.png')
+Badge_Nosu = Image.open('assets/Nosu.png')
 
 
 # Functions for figures
@@ -20,6 +24,20 @@ def dark_figure():
     f.title.set_color('white')
     f.set_facecolor('black')
     return f, fig
+
+
+def finish_figure(fig, path, show):
+    plt.tight_layout()
+    fig.subplots_adjust(bottom=0.20)
+    fig_axes1 = fig.add_axes([0.678, 0.02, 0.3, 0.3], anchor='SE', zorder=1)
+    fig_axes1.imshow(Badge_DataLL2)
+    fig_axes1.axis('off')
+    fig_axes2 = fig.add_axes([0.014, 0.02, 0.3, 0.3], anchor='SW', zorder=1)
+    fig_axes2.imshow(Badge_Nosu)
+    fig_axes2.axis('off')
+    plt.savefig(path, transparent=True, dpi=500)
+    if show:
+        plt.show()
 
 
 def flip_legend(reverse):
@@ -56,9 +74,7 @@ for Location in enumerate(LocsName):
 F0.stock_img()
 plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
            labelpad=10)
-plt.savefig('plots/test1.png', transparent=True, dpi=300)
-plt.savefig('plots/test1.pdf', transparent=True, dpi=300)
-plt.show()
+# finish_figure(F0, 'plots/test1.png')
 
 # Plot of orbital launch attempts per country since 1957 stacked
 F1_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
@@ -69,7 +85,7 @@ colors = {'red': '#e41a1c', 'orange': '#ff7f00', 'blue': '#377eb8', 'pink': '#f7
 F1_colors = ['blue', 'orange', 'red', 'green', 'pink', 'yellow', 'purple', 'grey']
 F1_colors = [colors[i] for i in F1_colors]
 F1_Years = [i.year for i in LaunchT0 if i < datetime.now(timezone.utc).replace(tzinfo=None)]
-dark_figure()
+_, F1 = dark_figure()
 F1_data = []
 for ii in F1_Countries:
     if isinstance(ii, list):
@@ -99,12 +115,10 @@ plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
 plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
            labelpad=10)
-plt.savefig('plots/OrbitalAttemptsPerCountryStacked.png', transparent=True, dpi=300)
-plt.savefig('plots/OrbitalAttemptsPerCountryStacked.pdf', transparent=True, dpi=300)
-plt.show()
+finish_figure(F1, 'plots/OrbitalAttemptsPerCountryStacked.png', show=True)
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-dark_figure()
+_, F2 = dark_figure()
 plt.hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='step', stacked=False,
          label=F1_Countries_Labels, color=F1_colors, linewidth=2)
 handles, labels = flip_legend(reverse=True)
@@ -115,9 +129,7 @@ plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
            labelpad=10)
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
-plt.savefig('plots/OrbitalAttemptsPerCountry.png', transparent=True, dpi=300)
-plt.savefig('plots/OrbitalAttemptsPerCountry.pdf', transparent=True, dpi=300)
-plt.show()
+finish_figure(F2, 'plots/OrbitalAttemptsPerCountry.png', show=True)
 
 # Plot of orbital launch attempts per country per year since 1957
 F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
@@ -126,7 +138,9 @@ monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 for year in range(1957, datetime.now(timezone.utc).year + 1):
     F1y_README.write('![Orbital attempts per country in ' + str(year) + '](' + str(year) + '.png)\n')
     days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
-    dark_figure()
+    if year > 1957:
+        del F3
+    _, F3 = dark_figure()
     F1y_data = []
     for ii in F1_Countries:
         if isinstance(ii, list):
@@ -155,7 +169,5 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
                labelpad=10)
     plt.title('Orbital launch attempts per country in ' + str(year))
-    plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.png', transparent=True, dpi=300)
-    plt.savefig('plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.svg', transparent=True, dpi=300)
-    plt.close()
+    finish_figure(F3, 'plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.png', show=False)
 F1y_README.close()

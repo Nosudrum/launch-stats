@@ -53,3 +53,5 @@ export('Locations', 'data/Locations.json', ll2_call('Locations', 'location', hea
 
 # Import Pads
 export('Pads', 'data/Pads.json', ll2_call('Pads', 'pad', header, API, API_version))
+
+print('Successfully completed import.')
