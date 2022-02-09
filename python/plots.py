@@ -13,7 +13,7 @@ Badge_Nosu = Image.open('assets/Nosu.png')
 
 # Functions for figures
 def dark_figure():
-    fig = plt.figure(facecolor='black', figsize=(7, 5))
+    fig = plt.figure(facecolor='#0D1117', figsize=(7, 5))
     f = plt.gca()
     for i in f.spines:
         f.spines[i].set_color('white')
@@ -22,7 +22,7 @@ def dark_figure():
     f.yaxis.label.set_color('white')
     f.xaxis.label.set_color('white')
     f.title.set_color('white')
-    f.set_facecolor('black')
+    f.set_facecolor('#0D1117')
     return f, fig
 
 
@@ -35,9 +35,11 @@ def finish_figure(fig, path, show):
     fig_axes2 = fig.add_axes([0.014, 0.02, 0.3, 0.3], anchor='SW', zorder=1)
     fig_axes2.imshow(Badge_Nosu)
     fig_axes2.axis('off')
-    plt.savefig(path, transparent=True, dpi=500)
+    plt.savefig('plots/' + path + '_transparent.png', transparent=True, dpi=500)
+    plt.savefig('plots/' + path + '_background.png', transparent=False, dpi=500)
     if show:
         plt.show()
+    plt.close()
 
 
 def flip_legend(reverse):
@@ -115,7 +117,7 @@ plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
 plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
            labelpad=10)
-finish_figure(F1, 'plots/OrbitalAttemptsPerCountryStacked.png', show=True)
+finish_figure(F1, 'OrbitalAttemptsPerCountryStacked', show=True)
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
 _, F2 = dark_figure()
@@ -129,7 +131,7 @@ plt.xlim([min(F1_Years), max(F1_Years) + 1])
 plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
            labelpad=10)
 plt.title('Orbital launch attempts per country since ' + str(min(F1_Years)))
-finish_figure(F2, 'plots/OrbitalAttemptsPerCountry.png', show=True)
+finish_figure(F2, 'OrbitalAttemptsPerCountry', show=True)
 
 # Plot of orbital launch attempts per country per year since 1957
 F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
@@ -169,5 +171,5 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     plt.xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."), color='dimgray',
                labelpad=10)
     plt.title('Orbital launch attempts per country in ' + str(year))
-    finish_figure(F3, 'plots/yearly/orbitalAttemptsPerCountry/' + str(year) + '.png', show=False)
+    finish_figure(F3, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=False)
 F1y_README.close()
