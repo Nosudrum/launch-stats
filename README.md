@@ -6,3 +6,5 @@ Repo of Nosu's launch statistics using the Launch Library 2 API.
 ![Orbital attempts per country stacked](python/plots/OrbitalAttemptsPerCountryStacked_transparent.png)
 
 ![Orbital attempts per country](python/plots/OrbitalAttemptsPerCountry_transparent.png)
+
+![Orbital attempts per country in 2022](python/plots/yearly/orbitalAttemptsPerCountry/2022_transparent.png)
