@@ -138,6 +138,10 @@ F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
 F1y_README.write('# Orbital attempts per country for every year since 1957\n')
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 for year in range(1957, datetime.now(timezone.utc).year + 1):
+    if year <= 1991:
+        F1_Countries_Labels[0] = 'USSR'
+    else:
+        F1_Countries_Labels[0] = 'Russia'
     F1y_README.write('![Orbital attempts per country in ' + str(year) + '](' + str(year) + '_transparent.png)\n')
     days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
     if year > 1957:
