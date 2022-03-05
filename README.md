@@ -13,13 +13,16 @@ If you have feedback or ideas, feel free to open an issue 🙂
 
 ### ⌚ 2022 plots
 
-![Orbital attempts per country in 2022](python/plots/yearly/orbitalAttemptsPerCountry/2022_transparent.png)
-
-![Orbital attempts per LSP in 2022](python/plots/yearly/orbitalAttemptsPerLSP/2022_transparent.png)
+<p float="left" align="center">
+  ![Orbital attempts per country in 2022](python/plots/yearly/orbitalAttemptsPerCountry/2022_transparent.png)
+  ![Orbital attempts per LSP in 2022](python/plots/yearly/orbitalAttemptsPerLSP/2022_transparent.png)
+</p>
 
 ## 🏛️ Historical data plots
 
-![Orbital attempts per country stacked](python/plots/OrbitalAttemptsPerCountryStacked_transparent.png)
+🔗 [All historical plots](python/plots)
 
-![Orbital attempts per country](python/plots/OrbitalAttemptsPerCountry_transparent.png)
-
+<p float="left" align="center">
+  ![Orbital attempts per country stacked](python/plots/OrbitalAttemptsPerCountryStacked_transparent.png)
+  ![Orbital attempts per country](python/plots/OrbitalAttemptsPerCountry_transparent.png)
+</p>
