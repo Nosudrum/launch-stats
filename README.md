@@ -1,7 +1,7 @@
 # 🚀 Nosu's LL2 Launch Stats
-In this repository you will find various plots related to space launches made using the <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> and scripts written in [python](python). The [MATLAB](matlab) scripts are no longer used, but are still visible if anyone is interested.
+In this repository you can find various plots related to space launches made using the <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> and scripts written in [python](python). The old [MATLAB](matlab) scripts are no longer used, but are still visible if anyone is interested.
 
-If you have feedback or ideas, feel free to open an issue 🙂
+If you have feedback or ideas, feel free to open an issue. 🙂
 
 ## 🔁 Yearly plots
 
