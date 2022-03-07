@@ -89,7 +89,8 @@ LSPs_dict = {66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 'CASC', 115: 
              1018: 'CNR IT', 1017: 'SERC UK', 46: 'CNES FR', 1009: 'ISAS JP', 1019: 'ESRO', 1015: 'ELDO',
              1005: 'RAE UK', 189: 'CASC', 82: 'Lockheed', 228: 'NASDA', 100: 'OSC', 1004: 'Convair', 102: 'Rockwell',
              192: 'Lockheed SOC', 98: 'Mitsubishi HI', 1014: 'Martin M.', 111: 'Progress RSC', 154: 'Polyot',
-             197: 'LMSO', 191: 'USA', 122: 'Sea Launch', 37: 'JAXA', 118: 'ILS', 193: 'VKS', 31: 'ISRO', 194: 'ExPace'}
+             197: 'LMSO', 191: 'USA', 122: 'Sea Launch', 37: 'JAXA', 118: 'ILS', 193: 'VKS', 31: 'ISRO', 194: 'ExPace',
+             1016: 'Aus. WRE', 29: 'DLR DE', 106: 'Gen. Dynamics'}
 
 # Plot of orbital launch attempts per country since 1957 stacked
 F1_Countries = [['RUS', 'KAZ'], 'USA', 'CHN', ['FRA', 'GUF'], 'JPN', 'IND', 'NZL']
