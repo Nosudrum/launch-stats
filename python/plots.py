@@ -175,9 +175,18 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     F1y_data.append([i[1].timetuple().tm_yday for i in enumerate(LaunchT0) if
                      i[1].year == year and LaunchOrbit[i[0]] != 15 and LaunchCountry[
                          i[0]] not in F1_Countries_Flatten and i[1] < datetime.now(timezone.utc).replace(tzinfo=None)])
-    plt.hist(F1y_data, bins=np.append(days, max(days) + 1), histtype='step', cumulative=True, stacked=False,
-             linewidth=2, label=F1_Countries_Labels, color=colors)
-    handles, labels = flip_legend(reverse=True)
+    if year == datetime.now(timezone.utc).year:
+        F3y_bins = np.arange(days[0], datetime.now(timezone.utc).timetuple().tm_yday + 2)
+    else:
+        F3y_bins = np.append(days, max(days) + 1)
+    for ii in enumerate(F1y_data):
+        cnt, edges = np.histogram(np.array(F1y_data[ii[0]]), bins=F3y_bins)
+        if ii[0] == len(F1y_data) - 1:
+            F3y_color = colors[-1]
+        else:
+            F3y_color = colors[ii[0]]
+        plt.step(edges[:-1], cnt.cumsum(), linewidth=2, color=F3y_color, label=F1_Countries_Labels[ii[0]])
+    handles, labels = flip_legend(reverse=False)
     plt.legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                labelcolor='white')
     plt.xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
@@ -251,9 +260,18 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
     F3y_LSPs_ID = [element for _, element in sorted(zip(F3y_data_len, F3y_LSPs_ID))]
     F3y_LSPs_ID = F3y_LSPs_ID[-7::][::-1]
     F3y_LSPs_Labels = [LSPs_dict[ii] for ii in F3y_LSPs_ID] + ['Others']
-    plt.hist(F3y_data, bins=np.append(days, max(days) + 1), histtype='step', cumulative=True, stacked=False,
-             linewidth=2, label=F3y_LSPs_Labels, color=colors[0:len(F3y_data)])
-    handles, labels = flip_legend(reverse=True)
+    if year == datetime.now(timezone.utc).year:
+        F3y_bins = np.arange(days[0], datetime.now(timezone.utc).timetuple().tm_yday + 2)
+    else:
+        F3y_bins = np.append(days, max(days) + 1)
+    for ii in enumerate(F3y_data):
+        cnt, edges = np.histogram(np.array(F3y_data[ii[0]]), bins=F3y_bins)
+        if ii[0] == len(F3y_data) - 1:
+            F3y_color = colors[-1]
+        else:
+            F3y_color = colors[ii[0]]
+        plt.step(edges[:-1], cnt.cumsum(), linewidth=2, color=F3y_color, label=F3y_LSPs_Labels[ii[0]])
+    handles, labels = flip_legend(reverse=False)
     plt.legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                labelcolor='white')
     plt.xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)

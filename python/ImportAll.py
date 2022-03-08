@@ -2,6 +2,7 @@
 import json
 import requests
 import math
+import os
 
 # Import parameters
 API = 'll'  # ll or lldev
@@ -10,6 +11,9 @@ with open('APIkey.txt', 'r') as f:
     API_key = f.read()
     f.close()
 header = {'Authorization': 'Token ' + API_key}
+
+# create data directory if it doesnt exist
+os.makedirs("../data", exist_ok=True)
 
 
 def ll2_call(data_name, endpoint, call_headers, api, api_version):
