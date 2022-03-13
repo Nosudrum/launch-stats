@@ -3,9 +3,10 @@ import json
 import requests
 import math
 import os
+from datetime import datetime,timezone
 
 # Import parameters
-API = 'll'  # ll or lldev
+API = 'k8api'  # 'll'  # ll or lldev
 API_version = '2.2.0'
 with open('APIkey.txt', 'r') as f:
     API_key = f.read()
@@ -23,14 +24,14 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version):
     data = []
     while next_url is not None:
         ii += 1
-        call = requests.get(next_url, headers=call_headers, timeout=60).json()
+        call = requests.get(next_url, headers=call_headers, timeout=120).json()
         if ii == 1:
             number_data = call['count']
             print('Total ' + data_name + ' : ' + str(number_data))
             number_calls = math.ceil(number_data / 100.0)
         data.extend(call['results'])
         next_url = call['next']
-        print('API Call ' + str(ii) + '/' + str(number_calls))
+        print(datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + ' - API Call ' + str(ii) + '/' + str(number_calls))
     return data
 
 
