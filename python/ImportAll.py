@@ -6,7 +6,7 @@ import os
 from datetime import datetime,timezone
 
 # Import parameters
-API = 'k8api'  # 'll'  # ll or lldev
+API = 'll'  # 'k8api'  # ll or lldev
 API_version = '2.2.0'
 with open('APIkey.txt', 'r') as f:
     API_key = f.read()
