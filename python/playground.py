@@ -14,7 +14,7 @@ PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & 
 
 # Plot of orbital launch attempts by LSP for the last 8 years
 F4_LSPs = PastLSPs[LaunchT0["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
-    "id"].unique().tolist()
+    "id"].value_counts().index.tolist()
 
 F4_README = open('plots/byLSP/README.md', 'w')
 F4_README.write('# Orbital attempts per LSP for the last 8 years\n')
