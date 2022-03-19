@@ -1,0 +1,12 @@
+# Orbital attempts per LSP for the last 8 years
+![Orbital attempts by SpaceX in the last 8 years](SpaceX_transparent.png)
+![Orbital attempts by Arianespace in the last 8 years](Arianespace_transparent.png)
+![Orbital attempts by ROSCOSMOS in the last 8 years](ROSCOSMOS_transparent.png)
+![Orbital attempts by CASC in the last 8 years](CASC_transparent.png)
+![Orbital attempts by Khrunichev  in the last 8 years](Khrunichev _transparent.png)
+![Orbital attempts by Rocket Lab in the last 8 years](Rocket Lab_transparent.png)
+![Orbital attempts by ULA in the last 8 years](ULA_transparent.png)
+![Orbital attempts by Astra in the last 8 years](Astra_transparent.png)
+![Orbital attempts by Virgin Orbit in the last 8 years](Virgin Orbit_transparent.png)
+![Orbital attempts by JAXA in the last 8 years](JAXA_transparent.png)
+![Orbital attempts by ISRO in the last 8 years](ISRO_transparent.png)
