@@ -14,8 +14,8 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 ### ⌚ 2022 plots
 
 <p float="left" align="center">
-<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022_transparent.png" width="49%" />
-<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022_transparent.png" width="49%" /> 
+<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022_background.png" width="49%" />
+<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022_background.png" width="49%" /> 
 </p>
 
 ## 🏛️ Historical data plots
@@ -23,6 +23,6 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All historical plots](python/plots)
 
 <p float="left" align="center">
-<img src="python/plots/OrbitalAttemptsPerCountryStacked_transparent.png" width="49%" />
-<img src="python/plots/OrbitalAttemptsPerCountry_transparent.png" width="49%" /> 
+<img src="python/plots/OrbitalAttemptsPerCountryStacked_background.png" width="49%" />
+<img src="python/plots/OrbitalAttemptsPerCountry_background.png" width="49%" /> 
 </p>
