@@ -3,7 +3,7 @@ import json
 import requests
 import math
 import os
-from datetime import datetime,timezone
+from datetime import datetime, timezone
 
 # Import parameters
 API = 'll'  # 'k8api'  # ll or lldev
@@ -31,7 +31,8 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version):
             number_calls = math.ceil(number_data / 100.0)
         data.extend(call['results'])
         next_url = call['next']
-        print(datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + ' - API Call ' + str(ii) + '/' + str(number_calls))
+        print(datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ") + ' - API Call ' + str(ii) + '/' + str(
+            number_calls))
     return data
 
 
