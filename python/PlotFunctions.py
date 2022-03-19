@@ -19,7 +19,10 @@ LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 
              1005: 'RAE UK', 189: 'CASC', 82: 'Lockheed', 228: 'NASDA', 100: 'OSC', 1004: 'Convair', 102: 'Rockwell',
              192: 'Lockheed SOC', 98: 'Mitsubishi HI', 1014: 'Martin M.', 111: 'Progress RSC', 154: 'Polyot',
              197: 'LMSO', 191: 'USA', 122: 'Sea Launch', 37: 'JAXA', 118: 'ILS', 193: 'VKS', 31: 'ISRO', 194: 'ExPace',
-             1016: 'Aus. WRE', 29: 'DLR DE', 106: 'Gen. Dynamics', 1032: 'IRGCAF', 36: 'ASI IT', 119: 'ISCK', 34: 'IRN'}
+             1016: 'Aus. WRE', 29: 'DLR DE', 106: 'Gen. Dynamics', 1032: 'IRGCAF', 36: 'ASI IT', 119: 'ISCK', 34: 'IRN',
+             190: 'Antrix', 195: 'Sandia Nat. Labs', 40: 'KCST', 117: 'Eurockot LS', 95: 'Israel AI',
+             179: 'Orbital ATK', 259: 'LandSpace', 263: 'OneSpace', 274: 'iSpace', 272: 'Chinarocket',
+             1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI'}
 
 Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'USA', 'CHN': 'China', 'FRA': 'France', 'JPN': 'Japan',
                   'IND': 'India', 'NZL': 'New Zealand'}
@@ -43,7 +46,7 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
     return fig, axes
 
 
-def finish_figure(fig, path, show):
+def finish_figure(fig, path, show, save_transparent=False):
     plt.tight_layout()
     fig.subplots_adjust(bottom=0.20)
     fig_axes1 = fig.add_axes([0.678, 0.02, 0.3, 0.3], anchor='SE', zorder=1)
@@ -52,7 +55,8 @@ def finish_figure(fig, path, show):
     fig_axes2 = fig.add_axes([0.014, 0.02, 0.3, 0.3], anchor='SW', zorder=1)
     fig_axes2.imshow(Badge_Nosu)
     fig_axes2.axis('off')
-    plt.savefig('plots/' + path + '_transparent.png', transparent=True, dpi=500)
+    if save_transparent:
+        plt.savefig('plots/' + path + '_transparent.png', transparent=True, dpi=500)
     plt.savefig('plots/' + path + '_background.png', transparent=False, dpi=500)
     if show:
         plt.show()

@@ -13,12 +13,14 @@ PastT0s = LaunchT0[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbi
 PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 
 # Plot of orbital launch attempts by LSP for the last 8 years
-F4_LSPs_selected = [121, 115, 63, 88, 96, 147, 124, 285, 199, 37, 31]
+F4_LSPs = PastLSPs[LaunchT0["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
+    "id"].unique().tolist()
 
 F4_README = open('plots/byLSP/README.md', 'w')
 F4_README.write('# Orbital attempts per LSP for the last 8 years\n')
 print('Starting launch plots by LSP over last 8 years')
-for LSP in F4_LSPs_selected:
+for LSP in F4_LSPs:
+    print(LSPs_dict[LSP])
     F4_README.write(
         '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years](' + LSPs_dict[LSP] + '_transparent.png)\n')
     F4, F4_axes = dark_figure()
@@ -42,10 +44,12 @@ for LSP in F4_LSPs_selected:
                           monthsLabels)
     F4_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                    title='Orbital launch attempts by ' + LSPs_dict[LSP] + ' over the last ' + str(datetime.now(
-                       timezone.utc).year - int(labels[-1])+1) + ' years',
+                       timezone.utc).year - int(labels[-1]) + 1) + ' years',
                    ylim=[0, ceil(F4_axes[0].get_ylim()[1] * 1.2)])
     F4_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F4_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray', labelpad=10)
     finish_figure(F4, 'byLSP/' + LSPs_dict[LSP], show=True)
 F4_README.close()
+
+
