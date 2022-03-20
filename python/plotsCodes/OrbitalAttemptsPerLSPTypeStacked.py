@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.ticker as ticker
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, LSPs_dict
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors
 from Processing import PastT0s, PastLSPs
 
 
