@@ -27,9 +27,15 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 <img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
 </p>
 
-## 📈 LSP launch cadence evolution
+## 📈 Launch cadence evolution
 
+🔗 [All country launch cadence plots](python/plots/byCountry/README.md)
 🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
+
+<p float="left" align="center">
+<img src="python/plots/byLSP/USA.png" width="49%" />
+<img src="python/plots/byLSP/China.png" width="49%" /> 
+</p>
 
 <p float="left" align="center">
 <img src="python/plots/byLSP/SpaceX.png" width="49%" />
