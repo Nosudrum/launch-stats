@@ -25,7 +25,8 @@ LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 
              1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI'}
 
 Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'USA', 'CHN': 'China', 'FRA': 'France', 'JPN': 'Japan',
-                  'IND': 'India', 'NZL': 'New Zealand'}
+                  'IND': 'India', 'NZL': 'New Zealand', 'IRN': 'Iran', 'PRK': 'North Korea', 'ISR': 'Israel',
+                  'KOR': 'South Korea'}
 
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 
@@ -57,7 +58,7 @@ def finish_figure(fig, path, show, save_transparent=False):
     fig_axes2.axis('off')
     if save_transparent:
         plt.savefig('plots/' + path + '_transparent.png', transparent=True, dpi=500)
-    plt.savefig('plots/' + path + '_background.png', transparent=False, dpi=500)
+    plt.savefig('plots/' + path + '.png', transparent=False, dpi=500)
     if show:
         plt.show()
     plt.close()
