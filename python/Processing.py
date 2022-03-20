@@ -1,6 +1,7 @@
 # Preamble
 import json
 import pandas as pd
+from datetime import datetime, timezone
 
 
 # Import json data
@@ -32,3 +33,8 @@ LaunchCountry["location.country_code"].loc[LaunchCountry_mask] = LaunchLSP.count
 LaunchCountry[LaunchCountry == 'KAZ'] = 'RUS'
 LaunchCountry[LaunchCountry == 'GUF'] = 'FRA'
 LaunchProgram = pd.json_normalize(Launches["program"])
+
+# Intermediate data
+PastLSPs = LaunchLSP[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+PastT0s = LaunchT0[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()

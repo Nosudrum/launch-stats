@@ -1,0 +1,57 @@
+import numpy as np
+import matplotlib.ticker as ticker
+import calendar
+from math import ceil
+from datetime import datetime, timezone
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, Countries_dict, finish_figure, colors, monthsLabels
+from Processing import PastT0s, PastCountries
+
+
+# Plot of orbital launch attempts per country per year since 1957
+def main(show=False):
+    F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
+    F1y_README.write('# Orbital attempts per country for every year since 1957\n')
+    print('Starting yearly launch plots by country')
+    F1y_Countries_dict = Countries_dict
+    F1_Countries = PastCountries.copy()
+    F1_Countries_sorted = F1_Countries["location.country_code"].value_counts().index.tolist()
+    F1_Countries_selected = F1_Countries_sorted[0:7]
+    F1_Countries[~F1_Countries["location.country_code"].isin(F1_Countries_selected)] = 'OTH'
+    F1_Countries_selected.append('OTH')
+    for year in range(1957, datetime.now(timezone.utc).year + 1):
+        print(year)
+        F1y_README.write('![Orbital attempts per country in ' + str(year) + '](' + str(year) + '.png)\n')
+        days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
+        if year > 1991:
+            F1y_Countries_dict['RUS'] = 'Russia'
+        else:
+            F1y_Countries_dict['RUS'] = 'USSR'
+        if year > 1957:
+            del F1y
+        F1y, F1y_axes = dark_figure()
+        F1y_T0s = PastT0s[PastT0s["net"].dt.year == year].copy()
+        F1y_Countries = PastCountries[PastT0s["net"].dt.year == year]["location.country_code"].to_frame().copy()
+        F1y_Countries[~F1y_Countries["location.country_code"].isin(F1_Countries_selected)] = 'OTH'
+        if year == datetime.now(timezone.utc).year:
+            F1y_bins = np.arange(days[0], datetime.now(timezone.utc).timetuple().tm_yday + 2)
+        else:
+            F1y_bins = np.append(days, max(days) + 1)
+        for ii in enumerate(F1_Countries_selected):
+            F1y_data_tmp = F1y_T0s[F1y_Countries["location.country_code"] == ii[1]]["net"].dt.dayofyear.to_list()
+            if F1y_data_tmp:
+                count, edges = np.histogram(F1y_data_tmp, bins=F1y_bins)
+                F1y_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[ii[0]],
+                                 label=F1y_Countries_dict[ii[1]])
+        handles, labels = flip_legend(reverse=False)
+        F1y_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
+                           labelcolor='white')
+        F1y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
+        F1y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
+                        title='Orbital launch attempts per country in ' + str(year),
+                        ylim=[0, ceil(F1y_Countries["location.country_code"].value_counts().to_list()[0] * 1.2)])
+        F1y_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+        F1y_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
+                               color='dimgray', labelpad=10)
+        finish_figure(F1y, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=show)
+    F1y_README.close()
+    print('Done with yearly launch plots by country')
