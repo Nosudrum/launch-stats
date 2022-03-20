@@ -30,6 +30,7 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 ## 📈 Launch cadence evolution
 
 🔗 [All country launch cadence plots](python/plots/byCountry/README.md)
+
 🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
 
 <p float="left" align="center">
