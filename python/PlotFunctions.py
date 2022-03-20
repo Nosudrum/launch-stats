@@ -13,7 +13,7 @@ colors = [colors_dict[i] for i in colors]
 
 # LSPs custom names
 LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 'CASC', 115: 'Arianespace',
-             96: 'Khrunichev ', 121: 'SpaceX', 147: 'Rocket Lab', 124: 'ULA', 257: 'NGSS', 285: 'Astra',
+             96: 'Khrunichev', 121: 'SpaceX', 147: 'Rocket Lab', 124: 'ULA', 257: 'NGSS', 285: 'Astra',
              199: 'Virgin Orbit', 163: 'VVKO', 166: 'US Navy', 271: 'ABMA', 165: 'US Army', 44: 'NASA', 270: 'RVSN RF',
              1018: 'CNR IT', 1017: 'SERC UK', 46: 'CNES FR', 1009: 'ISAS JP', 1019: 'ESRO', 1015: 'ELDO',
              1005: 'RAE UK', 189: 'CASC', 82: 'Lockheed', 228: 'NASDA', 100: 'OSC', 1004: 'Convair', 102: 'Rockwell',

@@ -170,7 +170,8 @@ print('Starting launch plots by LSP over last 8 years')
 for LSP in F4_LSPs:
     print(LSPs_dict[LSP])
     F4_README.write(
-        '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years](' + LSPs_dict[LSP] + '.png)\n')
+        '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years](' + LSPs_dict[LSP].replace(" ",
+                                                                                                      "_") + '.png)\n')
     F4, F4_axes = dark_figure()
     F4_LSP_T0s = PastT0s[PastLSPs["id"] == LSP].copy()
     year_id = -1
@@ -197,7 +198,7 @@ for LSP in F4_LSPs:
     F4_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F4_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray', labelpad=10)
-    finish_figure(F4, 'byLSP/' + LSPs_dict[LSP], show=True)
+    finish_figure(F4, 'byLSP/' + LSPs_dict[LSP].replace(" ", "_"), show=True)
 F4_README.close()
 
 # Plot of orbital launch attempts by country for the last 8 years
@@ -213,7 +214,7 @@ for Country in F5_Countries:
     print(F5_Countries_dict[Country])
     F5_README.write(
         '![Orbital attempts by ' + F5_Countries_dict[Country] + ' in the last 8 years](' + F5_Countries_dict[
-            Country] + '.png)\n')
+            Country].replace(" ", "_") + '.png)\n')
     F5, F5_axes = dark_figure()
     F5_Country_T0s = PastT0s[PastCountries["location.country_code"] == Country].copy()
     year_id = -1
@@ -240,7 +241,7 @@ for Country in F5_Countries:
     F5_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F5_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray', labelpad=10)
-    finish_figure(F5, 'byCountry/' + F5_Countries_dict[Country], show=True)
+    finish_figure(F5, 'byCountry/' + F5_Countries_dict[Country].replace(" ", "_"), show=True)
 F5_README.close()
 
 print('Successfully generated and exported all plots.')
