@@ -14,8 +14,8 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 ### ⌚ 2022 plots
 
 <p float="left" align="center">
-<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022_background.png" width="49%" />
-<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022_background.png" width="49%" /> 
+<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022.png" width="49%" />
+<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
 </p>
 
 ## 🏛️ Historical data plots
@@ -23,8 +23,8 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All historical plots](python/plots)
 
 <p float="left" align="center">
-<img src="python/plots/OrbitalAttemptsPerCountryStacked_background.png" width="49%" />
-<img src="python/plots/OrbitalAttemptsPerCountry_background.png" width="49%" /> 
+<img src="python/plots/OrbitalAttemptsPerCountryStacked.png" width="49%" />
+<img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
 </p>
 
 ## 📈 LSP launch cadence evolution
@@ -32,6 +32,6 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
 
 <p float="left" align="center">
-<img src="python/plots/byLSP/SpaceX_background.png" width="49%" />
-<img src="python/plots/byLSP/CASC_background.png" width="49%" /> 
+<img src="python/plots/byLSP/SpaceX.png" width="49%" />
+<img src="python/plots/byLSP/CASC.png" width="49%" /> 
 </p>
