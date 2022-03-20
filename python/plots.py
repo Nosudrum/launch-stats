@@ -41,7 +41,7 @@ finish_figure(F1, 'OrbitalAttemptsPerCountryStacked', show=True)
 # Plot of orbital launch attempts per country since 1957 non-stacked
 F2, F2_axes = dark_figure()
 F2_axes[0].hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='step', stacked=False,
-                label=F1_Countries_Labels, color=colors, linewidth=2)
+                label=F1_Countries_Labels, color=colors, linewidth=1.5)
 handles, labels = flip_legend(reverse=True)
 F2_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
 F2_axes[0].set(ylabel='Launches per year', ylim=[0, 130], xlim=[min(F1_Years), max(F1_Years) + 1],
@@ -79,7 +79,7 @@ for year in range(1957, datetime.now(timezone.utc).year + 1):
         F1y_data_tmp = F1y_T0s[F1y_Countries["location.country_code"] == ii[1]]["net"].dt.dayofyear.to_list()
         if F1y_data_tmp:
             count, edges = np.histogram(F1y_data_tmp, bins=F1y_bins)
-            F1y_axes[0].step(edges[:-1], count.cumsum(), linewidth=2, color=colors[ii[0]],
+            F1y_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[ii[0]],
                              label=F1y_Countries_dict[ii[1]])
     handles, labels = flip_legend(reverse=False)
     F1y_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
@@ -145,7 +145,7 @@ for year in F3_Years:
     for ii in enumerate(F3y_LSPs_selected):
         F3y_data_tmp = F3y_T0s[F3y_LSPs["id"] == ii[1]]["net"].dt.dayofyear.to_list()
         count, edges = np.histogram(F3y_data_tmp, bins=F3y_bins)
-        F3y_axes[0].step(edges[:-1], count.cumsum(), linewidth=2, color=colors[ii[0]], label=LSPs_dict[ii[1]])
+        F3y_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[ii[0]], label=LSPs_dict[ii[1]])
     handles, labels = flip_legend(reverse=False)
     F3y_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                        labelcolor='white')
@@ -185,7 +185,7 @@ for LSP in F4_LSPs:
             F4_bins = np.append(days, max(days) + 1)
         if F4_LSP_T0s_yearly:
             count, edges = np.histogram(F4_LSP_T0s_yearly, bins=F4_bins)
-            F4_axes[0].step(edges[:-1], count.cumsum(), linewidth=2, color=colors[year_id], label=year)
+            F4_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[year_id], label=year)
     handles, labels = flip_legend(reverse=False)
     F4_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                       labelcolor='white')
@@ -198,7 +198,7 @@ for LSP in F4_LSPs:
     F4_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F4_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray', labelpad=10)
-    finish_figure(F4, 'byLSP/' + LSPs_dict[LSP].replace(" ", "_"), show=True)
+    finish_figure(F4, 'byLSP/' + LSPs_dict[LSP].replace(" ", "_"), show=False)
 F4_README.close()
 
 # Plot of orbital launch attempts by country for the last 8 years
@@ -228,7 +228,7 @@ for Country in F5_Countries:
             F5_bins = np.append(days, max(days) + 1)
         if F5_Country_T0s_yearly:
             count, edges = np.histogram(F5_Country_T0s_yearly, bins=F5_bins)
-            F5_axes[0].step(edges[:-1], count.cumsum(), linewidth=2, color=colors[year_id], label=year)
+            F5_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[year_id], label=year)
     handles, labels = flip_legend(reverse=False)
     F5_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                       labelcolor='white')
@@ -241,7 +241,7 @@ for Country in F5_Countries:
     F5_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F5_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray', labelpad=10)
-    finish_figure(F5, 'byCountry/' + F5_Countries_dict[Country].replace(" ", "_"), show=True)
+    finish_figure(F5, 'byCountry/' + F5_Countries_dict[Country].replace(" ", "_"), show=False)
 F5_README.close()
 
 print('Successfully generated and exported all plots.')
