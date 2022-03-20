@@ -33,8 +33,8 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
 
 <p float="left" align="center">
-<img src="python/plots/byLSP/USA.png" width="49%" />
-<img src="python/plots/byLSP/China.png" width="49%" /> 
+<img src="python/plots/byCountry/USA.png" width="49%" />
+<img src="python/plots/byCountry/China.png" width="49%" /> 
 </p>
 
 <p float="left" align="center">
