@@ -20,6 +20,7 @@ Pads = pd.read_json('data/Pads.json')
 Statuses = pd.read_json('data/Statuses.json')
 
 # Processing
+LaunchName = Launches["name"].to_frame()
 LaunchStatus = pd.json_normalize(Launches["status"])
 LaunchT0 = Launches["net"].to_frame()
 LaunchLSP = pd.json_normalize(Launches["launch_service_provider"])
@@ -38,3 +39,4 @@ LaunchProgram = pd.json_normalize(Launches["program"])
 PastLSPs = LaunchLSP[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 PastT0s = LaunchT0[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+PastName = LaunchName[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
