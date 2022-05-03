@@ -1,9 +1,6 @@
-import numpy as np
-import matplotlib.ticker as ticker
 import calendar
-from math import ceil
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, Countries_dict, finish_figure, colors, monthsLabels
+from plotsCodes.PlotFunctions import *
 from Processing import PastT0s, PastCountries
 
 
@@ -47,11 +44,9 @@ def main(show=False):
                            labelcolor='white')
         F1y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
         F1y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
-                        title='Orbital launch attempts per country in ' + str(year),
-                        ylim=[0, ceil(F1y_Countries["location.country_code"].value_counts().to_list()[0] * 1.2)])
-        F1y_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+                        title='Orbital launch attempts per country in ' + str(year))
         F1y_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                                color='dimgray', labelpad=10)
-        finish_figure(F1y, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=show)
+        finish_figure(F1y, F1y_axes, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=show)
     F1y_README.close()
     print('Done with yearly launch plots by country')

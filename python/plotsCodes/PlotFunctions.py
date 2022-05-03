@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
-from math import prod
+from math import prod, ceil, floor
+import numpy as np
 from PIL import Image
 
 Badge_DataLL2 = Image.open('assets/DataByLL2.png')
@@ -47,8 +48,11 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
     return fig, axes
 
 
-def finish_figure(fig, path, show, save_transparent=False):
+def finish_figure(fig, axes, path, show, save_transparent=False):
     plt.tight_layout()
+    ticks = axes_ticks(axes[0].get_ylim()[1])
+    axes[0].set_yticks(ticks)
+    axes[0].set_ylim([0, ticks[-1] * 1.2])
     fig.subplots_adjust(bottom=0.20)
     fig_axes1 = fig.add_axes([0.678, 0.02, 0.3, 0.3], anchor='SE', zorder=1)
     fig_axes1.imshow(Badge_DataLL2)
@@ -82,3 +86,23 @@ def flatten(list_of_lists):
         else:
             flattened_list.append(i)
     return flattened_list
+
+
+def axes_ticks(value):
+    value = floor(value)
+    if value < 5:
+        interval = 1
+    elif value < 14:
+        interval = 2
+    elif value < 30:
+        interval = 5
+    elif value < 100:
+        interval = 10
+    elif value < 200:
+        interval = 25
+    elif value < 500:
+        interval = 50
+    else:
+        interval = 1
+    upper_bound = interval * (ceil(value / interval) + 1)
+    return np.arange(0, upper_bound, interval)

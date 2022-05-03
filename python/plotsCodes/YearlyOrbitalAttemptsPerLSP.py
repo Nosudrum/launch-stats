@@ -1,9 +1,6 @@
-import numpy as np
-import matplotlib.ticker as ticker
 import calendar
-from math import ceil
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, LSPs_dict, monthsLabels
+from plotsCodes.PlotFunctions import *
 from Processing import PastT0s, PastLSPs
 
 
@@ -42,11 +39,9 @@ def main(show=False):
                            labelcolor='white')
         F3y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
         F3y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
-                        title='Orbital launch attempts per LSP in ' + str(year),
-                        ylim=[0, ceil(F3y_LSPs["id"].value_counts().to_list()[0] * 1.2)])
-        F3y_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
+                        title='Orbital launch attempts per LSP in ' + str(year))
         F3y_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                                color='dimgray', labelpad=10)
-        finish_figure(F3y, 'yearly/orbitalAttemptsPerLSP/' + str(year), show=show)
+        finish_figure(F3y, F3y_axes, 'yearly/orbitalAttemptsPerLSP/' + str(year), show=show)
     print('Done with yearly launch plots by LSP')
     F3y_README.close()

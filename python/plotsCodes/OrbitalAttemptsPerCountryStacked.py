@@ -1,7 +1,5 @@
-import numpy as np
-import matplotlib.ticker as ticker
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, Countries_dict, finish_figure, colors
+from plotsCodes.PlotFunctions import *
 from Processing import PastT0s, PastCountries
 
 
@@ -23,10 +21,9 @@ def main(show=True):
                     label=F1_Countries_Labels, color=colors)
     handles, labels = flip_legend(reverse=False)
     F1_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
-    F1_axes[0].set(ylabel='Total launches per year', ylim=[0, 180], xlim=[min(F1_Years), max(F1_Years) + 1],
+    F1_axes[0].set(ylabel='Total launches per year', xlim=[min(F1_Years), max(F1_Years) + 1],
                    title='Orbital launch attempts per country since ' + str(min(F1_Years)))
-    F1_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
     F1_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
                           color='dimgray',
                           labelpad=10)
-    finish_figure(F1, 'OrbitalAttemptsPerCountryStacked', show=show)
+    finish_figure(F1, F1_axes, 'OrbitalAttemptsPerCountryStacked', show=show)
