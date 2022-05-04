@@ -20,6 +20,10 @@ Pads = pd.read_json('data/Pads.json')
 Statuses = pd.read_json('data/Statuses.json')
 Astronauts = pd.read_json('data/Astronauts.json')
 
+# Remove unwanted data
+# Apollo 1
+Launches = Launches[Launches.id != 'a49d791b-3c7f-4ee9-8917-14596a2a1a25'].reset_index()
+
 # Processing launch data
 LaunchName = Launches["name"].to_frame()
 LaunchStatus = pd.json_normalize(Launches["status"])
@@ -43,41 +47,52 @@ PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & 
 PastName = LaunchName[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 
 # Processing astronaut data
-# Astronauts.loc[:, 'time_in_space'] = timedelta(0)
-# for astronaut in Astronauts["id"].to_list():
-#     flights = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].flights.to_list()[0])
-#     landings = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].landings.to_list()[0])
-#     if flights.empty:
-#         flights_ids = []
-#     else:
-#         flights_ids = flights["id"].to_list()
-#     if landings.empty:
-#         landings_ids = []
-#         landings_launch_ids = []
-#     else:
-#         landings_ids = landings["id"].to_list()
-#         landings_launch_ids = landings["launch.id"].to_list()
-#
-#     time_in_space = timedelta(0)
-#
-#     for launch_id in list(set(flights_ids) - set(landings_launch_ids)):
-#         launch_id_net = datetime.fromisoformat(flights[flights["id"] == launch_id]["net"].item()[:-1]).replace(
-#             tzinfo=timezone.utc)
-#         if launch_id_net < datetime.now(timezone.utc):
-#             time_in_space += datetime.now(timezone.utc) - launch_id_net
-#
-#     for landing_id in landings_ids:
-#         landing_id_mission_end = landings[landings["id"] == landing_id]["mission_end"]
-#         landing_id_launch_net = landings[landings["id"] == landing_id]["launch.net"]
-#         landing_id_launch_net = datetime.fromisoformat(landing_id_launch_net.item()[:-1]).replace(tzinfo=timezone.utc)
-#         if landing_id_mission_end.item() is not None:
-#             landing_id_mission_end = datetime.fromisoformat(landing_id_mission_end.item()[:-1]).replace(
-#                 tzinfo=timezone.utc)
-#             if landing_id_mission_end < datetime.now(timezone.utc):
-#                 time_in_space += landing_id_mission_end - landing_id_launch_net
-#             else:
-#                 time_in_space += datetime.now(timezone.utc) - landing_id_launch_net
-#         else:
-#             time_in_space += datetime.now(timezone.utc) - landing_id_launch_net
-#
-#     Astronauts.loc[Astronauts["id"] == astronaut, "time_in_space"] = time_in_space
+AstronautsAgency = pd.json_normalize(Astronauts["agency"])
+AstronautsType = pd.json_normalize(Astronauts["type"])
+
+Astronauts.loc[:, 'time_in_space'] = timedelta(0)
+for astronaut in Astronauts["id"].to_list():
+    if AstronautsAgency[Astronauts["id"] == astronaut]["id"].item() == 1024:  # Virgin Galactic
+        continue
+    if AstronautsType[Astronauts["id"] == astronaut]["id"].item() == 6:  # Non-Human
+        continue
+    flights = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].flights.to_list()[0])
+    landings = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].landings.to_list()[0])
+
+    if flights.empty:
+        # flights_ids = []
+        start_times = []
+    else:
+        # Remove Apollo 1
+        flights = flights[flights.id != 'a49d791b-3c7f-4ee9-8917-14596a2a1a25'].reset_index()
+        # flights_ids = flights["id"].to_list()
+        start_times = flights["net"].to_list()
+
+    if landings.empty:
+        # landings_ids = []
+        # landings_launch_ids = []
+        end_times = []
+    else:
+        # Remove Apollo 1
+        landings = landings[landings.id != '598'].reset_index()
+        # landings_ids = landings["id"].to_list()
+        # landings_launch_ids = landings["launch.id"].to_list()
+        end_times = landings["mission_end"].to_list()
+
+    time_delta = timedelta(0)
+    for start in enumerate(start_times):
+
+        start_time = datetime.fromisoformat(start[1][:-1]).replace(tzinfo=timezone.utc)
+        if start_time > datetime.now(timezone.utc):
+            continue
+        if start[0] >= len(end_times):
+            time_delta += datetime.now(timezone.utc) - start_time
+            continue
+        if end_times[start[0]]:
+            end_time = datetime.fromisoformat(end_times[start[0]][:-1]).replace(tzinfo=timezone.utc)
+            if end_time > datetime.now(timezone.utc):
+                time_delta += datetime.now(timezone.utc) - start_time
+                continue
+            else:
+                time_delta += end_time - start_time
+    Astronauts.loc[Astronauts["id"] == astronaut, "time_in_space"] = time_delta
