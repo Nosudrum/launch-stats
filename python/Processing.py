@@ -51,48 +51,64 @@ AstronautsAgency = pd.json_normalize(Astronauts["agency"])
 AstronautsType = pd.json_normalize(Astronauts["type"])
 
 Astronauts.loc[:, 'time_in_space'] = timedelta(0)
+Astronauts.loc[:, 'total_flights'] = 0
+Astronauts.loc[:, 'total_landings'] = 0
+Astronauts.loc[:, 'first_landing_mission_end'] = None
+Astronauts.loc[:, 'last_landing_mission_end'] = None
+Astronauts.loc[:, 'is_in_space'] = False
 for astronaut in Astronauts["id"].to_list():
-    if AstronautsAgency[Astronauts["id"] == astronaut]["id"].item() == 1024:  # Virgin Galactic
-        continue
-    if AstronautsType[Astronauts["id"] == astronaut]["id"].item() == 6:  # Non-Human
-        continue
     flights = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].flights.to_list()[0])
     landings = pd.json_normalize(Astronauts[Astronauts["id"] == astronaut].landings.to_list()[0])
 
     if flights.empty:
-        # flights_ids = []
         start_times = []
     else:
         # Remove Apollo 1
         flights = flights[flights.id != 'a49d791b-3c7f-4ee9-8917-14596a2a1a25'].reset_index()
-        # flights_ids = flights["id"].to_list()
-        start_times = flights["net"].to_list()
+        flights['net'] = pd.to_datetime(flights['net'], utc=True)
+        flights = flights[flights.net < datetime.now(timezone.utc)]
+        start_times = flights.net.to_list()
 
-    if landings.empty:
-        # landings_ids = []
-        # landings_launch_ids = []
+    if landings.empty or landings.mission_end.count() == 0:
         end_times = []
     else:
         # Remove Apollo 1
         landings = landings[landings.id != '598'].reset_index()
-        # landings_ids = landings["id"].to_list()
-        # landings_launch_ids = landings["launch.id"].to_list()
-        end_times = landings["mission_end"].to_list()
+        landings['mission_end'] = pd.to_datetime(landings['mission_end'], utc=True)
+        landings = landings[landings.mission_end < datetime.now(timezone.utc)]
+        end_times = landings.mission_end.to_list()
 
     time_delta = timedelta(0)
-    for start in enumerate(start_times):
-
-        start_time = datetime.fromisoformat(start[1][:-1]).replace(tzinfo=timezone.utc)
-        if start_time > datetime.now(timezone.utc):
-            continue
-        if start[0] >= len(end_times):
-            time_delta += datetime.now(timezone.utc) - start_time
-            continue
-        if end_times[start[0]]:
-            end_time = datetime.fromisoformat(end_times[start[0]][:-1]).replace(tzinfo=timezone.utc)
-            if end_time > datetime.now(timezone.utc):
+    if (AstronautsAgency[Astronauts["id"] == astronaut]["id"].item() != 1024) and (
+            AstronautsType[Astronauts["id"] == astronaut]["id"].item() != 6):  # Virgin Galactic & Non-Human
+        for start in enumerate(start_times):
+            start_time = start[1]
+            if start_time > datetime.now(timezone.utc):
+                continue
+            if start[0] >= len(end_times):
                 time_delta += datetime.now(timezone.utc) - start_time
                 continue
-            else:
-                time_delta += end_time - start_time
-    Astronauts.loc[Astronauts["id"] == astronaut, "time_in_space"] = time_delta
+            if end_times[start[0]]:
+                end_time = end_times[start[0]]
+                if end_time > datetime.now(timezone.utc):
+                    time_delta += datetime.now(timezone.utc) - start_time
+                    continue
+                else:
+                    time_delta += end_time - start_time
+        Astronauts.loc[Astronauts["id"] == astronaut, "time_in_space"] = time_delta
+
+    if len(flights) > 0:
+        Astronauts.loc[Astronauts["id"] == astronaut, "total_flights"] = len(flights)
+        Astronauts.loc[Astronauts["id"] == astronaut, "first_flight_net"] = flights.iloc[0].net
+        Astronauts.loc[Astronauts["id"] == astronaut, "last_flight_net"] = flights.iloc[-1].net
+
+    if len(landings) > 0:
+        Astronauts.loc[Astronauts["id"] == astronaut, "total_landings"] = len(landings)
+        if landings.iloc[0].mission_end:
+            Astronauts.loc[Astronauts["id"] == astronaut, "first_landing_mission_end"] = landings.iloc[0].mission_end
+        if landings.iloc[-1].mission_end:
+            Astronauts.loc[Astronauts["id"] == astronaut, "last_landing_mission_end"] = landings.iloc[-1].mission_end
+
+    if len(start_times) > 0:
+        if (len(end_times) == 0) or (end_times[-1] < start_times[-1]):
+            Astronauts.loc[Astronauts["id"] == astronaut, "is_in_space"] = True
