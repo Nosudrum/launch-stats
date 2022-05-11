@@ -1,37 +1,44 @@
-## Test title 2
+# 🚀 Nosu's LL2 Launch Stats
+In this repository you can find various plots related to space launches made using the <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> and scripts written in [python](python). The old [MATLAB](matlab) scripts are no longer used, but are still visible if anyone is interested.
 
-You can use the [editor on GitHub](https://github.com/Nosudrum/launch-stats/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+If you have feedback or ideas, feel free to open an issue. 🙂
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## 🔁 Yearly plots
 
-### Markdown
+### 📈 All yearly plots since 1957
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+🔗 [Yearly plots per country](python/plots/yearly/orbitalAttemptsPerCountry/README.md)
 
-```markdown
-Syntax highlighted code block
+🔗 [Yearly plots per LSP](python/plots/yearly/orbitalAttemptsPerLSP/README.md)
 
-# Header 1
-## Header 2
-### Header 3
+### ⌚ 2022 plots
 
-- Bulleted
-- List
+<p float="left" align="center">
+<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022.png" width="49%" />
+<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
+</p>
 
-1. Numbered
-2. List
+## 🏛️ Historical data plots
 
-**Bold** and _Italic_ and `Code` text
+🔗 [All historical plots](python/plots)
 
-[Link](url) and ![Image](src)
-```
+<p float="left" align="center">
+<img src="python/plots/OrbitalAttemptsPerCountryStacked.png" width="49%" />
+<img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
+</p>
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## 📈 Launch cadence evolution
 
-### Jekyll Themes
+🔗 [All country launch cadence plots](python/plots/byCountry/README.md)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Nosudrum/launch-stats/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
 
-### Support or Contact
+<p float="left" align="center">
+<img src="python/plots/byCountry/USA.png" width="49%" />
+<img src="python/plots/byCountry/China.png" width="49%" /> 
+</p>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<p float="left" align="center">
+<img src="python/plots/byLSP/SpaceX.png" width="49%" />
+<img src="python/plots/byLSP/CASC.png" width="49%" /> 
+</p>
