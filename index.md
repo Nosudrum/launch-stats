@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Test title 2
 
 You can use the [editor on GitHub](https://github.com/Nosudrum/launch-stats/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
