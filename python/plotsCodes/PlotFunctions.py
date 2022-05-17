@@ -23,13 +23,16 @@ LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 
              1016: 'Aus. WRE', 29: 'DLR DE', 106: 'Gen. Dynamics', 1032: 'IRGCAF', 36: 'ASI IT', 119: 'ISCK', 34: 'IRN',
              190: 'Antrix', 195: 'Sandia Nat. Labs', 40: 'KCST', 117: 'Eurockot LS', 95: 'Israel AI',
              179: 'Orbital ATK', 259: 'LandSpace', 263: 'OneSpace', 274: 'iSpace', 272: 'Chinarocket',
-             1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI'}
+             1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI', 1035: '7th MMB',
+             1036: 'MSI', 1037: 'MAI'}
 
 Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'USA', 'CHN': 'China', 'FRA': 'France', 'JPN': 'Japan',
                   'IND': 'India', 'NZL': 'New Zealand', 'IRN': 'Iran', 'PRK': 'North Korea', 'ISR': 'Israel',
                   'KOR': 'South Korea'}
 
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+
+monthsTicks = [1, 32, 61, 92, 122, 153, 183, 214, 245, 275, 306, 336]
 
 
 # Functions for figures
@@ -48,11 +51,23 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
     return fig, axes
 
 
-def finish_figure(fig, axes, path, show, save_transparent=False):
+def finish_figure(fig, axes, path, show, save_transparent=False, override_ylim=None, override_yticks=None,
+                  colorbar=None):
     plt.tight_layout()
-    ticks = axes_ticks(axes[0].get_ylim()[1])
-    axes[0].set_yticks(ticks)
-    axes[0].set_ylim([0, ticks[-1] * 1.2])
+    if override_yticks is None:
+        ticks = axes_ticks(axes[0].get_ylim()[1])
+        axes[0].set_yticks(ticks)
+    else:
+        ticks = override_yticks
+        axes[0].set_yticks(ticks)
+    if override_ylim is None:
+        axes[0].set_ylim([0, ticks[-1] * 1.2])
+    else:
+        axes[0].set_ylim(override_ylim)
+    if colorbar is not None:
+        colorbar.ax.xaxis.set_tick_params(color='white')
+        colorbar.outline.set_edgecolor('white')
+        plt.setp(plt.getp(colorbar.ax, 'xticklabels'), color='white', fontsize=8)
     fig.subplots_adjust(bottom=0.20)
     fig_axes1 = fig.add_axes([0.678, 0.02, 0.3, 0.3], anchor='SE', zorder=1)
     fig_axes1.imshow(Badge_DataLL2)

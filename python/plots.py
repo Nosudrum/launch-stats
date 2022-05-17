@@ -10,6 +10,9 @@ plotsCodes.OrbitalAttemptsPerLSP.main(show=True)
 plotsCodes.OrbitalAttemptsPerLSPStacked.main(show=True)
 plotsCodes.OrbitalAttemptsPerLSPType.main(show=True)
 plotsCodes.OrbitalAttemptsPerLSPTypeStacked.main(show=True)
+plotsCodes.DailyOrbitalAttemptsPerCountry.main(show=True)
+plotsCodes.DailyOrbitalFailuresPerCountry.main(show=True)
+plotsCodes.DailyOrbitalSuccessRate.main(show=True)
 
 # Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)

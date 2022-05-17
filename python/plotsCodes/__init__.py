@@ -8,3 +8,6 @@ from .OrbitalAttemptsPerLSPType import *
 from .OrbitalAttemptsPerLSPTypeStacked import *
 from .YearlyOrbitalAttemptsPerCountry import *
 from .YearlyOrbitalAttemptsPerLSP import *
+from .DailyOrbitalAttemptsPerCountry import *
+from .DailyOrbitalFailuresPerCountry import *
+from .DailyOrbitalSuccessRate import *
