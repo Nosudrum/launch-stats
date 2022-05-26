@@ -46,6 +46,8 @@ PastT0s = LaunchT0[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbi
 PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 PastName = LaunchName[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
 PastStatus = LaunchStatus[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+PastPad = LaunchPad[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+
 PastDayOfYear = PastT0s.copy()
 PastDayOfYear.loc[~PastT0s.net.dt.is_leap_year & (
         PastT0s.net.dt.dayofyear >= 60), "net"] = PastT0s.net.dt.dayofyear + 1
