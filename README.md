@@ -1,4 +1,10 @@
 # 🚀 Nosu's LL2 Launch Stats
+
+
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![DOI](https://zenodo.org/badge/454174062.svg)](https://zenodo.org/badge/latestdoi/454174062)
+
+
 In this repository you can find various plots related to space launches made using the <a href="https://thespacedevs.com/llapi">Launch Library 2 API</a> and scripts written in [python](python). The old [MATLAB](matlab) scripts are no longer used, but are still visible if anyone is interested.
 
 If you have feedback or ideas, feel free to open an issue. 🙂
