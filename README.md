@@ -1,6 +1,6 @@
 # 🚀 Nosu's LL2 Launch Stats
 
-
+[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/Nosudrum)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![DOI](https://zenodo.org/badge/454174062.svg)](https://zenodo.org/badge/latestdoi/454174062)
 
