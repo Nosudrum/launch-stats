@@ -24,6 +24,7 @@
 ![Orbital attempts by Galactic Energy in the last 8 years](Galactic_Energy.png)
 ![Orbital attempts by Israel AI in the last 8 years](Israel_AI.png)
 ![Orbital attempts by Antrix in the last 8 years](Antrix.png)
+![Orbital attempts by KARI in the last 8 years](KARI.png)
 ![Orbital attempts by LandSpace in the last 8 years](LandSpace.png)
 ![Orbital attempts by OneSpace in the last 8 years](OneSpace.png)
 ![Orbital attempts by Sea Launch in the last 8 years](Sea_Launch.png)
@@ -33,4 +34,3 @@
 ![Orbital attempts by ISCK in the last 8 years](ISCK.png)
 ![Orbital attempts by GK Launch Services in the last 8 years](GK_Launch_Services.png)
 ![Orbital attempts by Firefly in the last 8 years](Firefly.png)
-![Orbital attempts by KARI in the last 8 years](KARI.png)
