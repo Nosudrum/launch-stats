@@ -8,23 +8,24 @@ from plotsCodes.PlotFunctions import *
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
 def main():
+    print('Creating plotly of orbital launch attempts per country since 1957 stacked')
     Countries = PastCountries.copy().rename(columns={"location.country_code": "Country"}).replace(
         {"Country": Countries_dict})
     Pad = PastPad.copy().rename(columns={"name": "Pad"})["Pad"]
     Location = PastPad.rename(columns={"location.name": "Location"})["Location"]
-    Status = PastStatus.rename(columns={"name": "Status"})["Status"]
+    Outcome = PastStatus.rename(columns={"name": "Outcome"})["Outcome"]
     LSP = PastLSPs.rename(columns={"name": "LSP"})["LSP"]
     Date = PastT0s.copy().rename(columns={"net": "Date"})
     T0 = PastT0s.copy().rename(columns={"net": "T0"}).T0.dt.strftime("%B %d, %Y at %H:%M:%S %Z")
     data = Date.join(Countries).join(T0).join(Pad).join(Location).join(PastName).join(
-        Status).join(LSP)
+        Outcome).join(LSP)
 
     nb_launches_country = data.Country.value_counts().to_dict()
     data['CountryVal'] = data['Country'].map(nb_launches_country)
     data = data.sort_values(by='CountryVal', ascending=False)
 
     number_of_bins = PastT0s.net.dt.year.max() - PastT0s.net.dt.year.min() + 1
-    hover_data = ["T0", "LSP", "Location", "Pad", "Country", "Status"]
+    hover_data = ["T0", "LSP", "Location", "Pad", "Country", "Outcome"]
     fig = px.histogram(data, x="Date", color="Country", marginal="rug", hover_data=hover_data, hover_name="name",
                        template="plotly_dark", nbins=number_of_bins,
                        color_discrete_sequence=colors[:-1])

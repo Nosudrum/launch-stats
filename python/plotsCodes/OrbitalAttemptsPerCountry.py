@@ -5,7 +5,7 @@ from Processing import PastT0s, PastCountries
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
 def main(show=True):
-    print('Creating of orbital launch attempts per country since 1957 non-stacked')
+    print('Creating plot of orbital launch attempts per country since 1957 non-stacked')
     F2, F2_axes = dark_figure()
     F2_Years = PastT0s["net"].dt.year.unique().tolist()
     F2_Countries = PastCountries.copy()

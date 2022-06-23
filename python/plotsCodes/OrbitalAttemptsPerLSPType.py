@@ -5,7 +5,7 @@ from Processing import PastT0s, PastLSPs
 
 # Plot of orbital launch attempts per LSP type since 1957 non-stacked
 def main(show=True):
-    print('Creating of orbital launch attempts per LSP type since 1957 non-stacked')
+    print('Creating plot of orbital launch attempts per LSP type since 1957 non-stacked')
     F3_Years = PastT0s["net"].dt.year.unique().tolist()
     F3, F3_axes = dark_figure()
     F3_LSPs = PastLSPs.copy()
