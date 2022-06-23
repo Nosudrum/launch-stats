@@ -122,3 +122,14 @@ def axes_ticks(value):
         interval = 1
     upper_bound = interval * (ceil(value / interval) + 1)
     return np.arange(0, upper_bound, interval)
+
+
+def remove_html_margins(path):
+    with open(path, 'r') as f:
+        lines = f.readlines()
+    with open(path, 'w') as f:
+        for line in lines:
+            if '<head>' in line:
+                f.write(line.replace('<head>', '<head><style>body { margin: 0; }</style>'))
+            else:
+                f.write(line)
