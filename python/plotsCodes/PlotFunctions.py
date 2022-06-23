@@ -26,9 +26,10 @@ LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 
              1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI', 1035: '7th MMB',
              1036: 'MSI', 1037: 'MAI'}
 
-Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'USA', 'CHN': 'China', 'FRA': 'France', 'JPN': 'Japan',
-                  'IND': 'India', 'NZL': 'New Zealand', 'IRN': 'Iran', 'PRK': 'North Korea', 'ISR': 'Israel',
-                  'KOR': 'South Korea'}
+Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'United States', 'CHN': 'China', 'FRA': 'France',
+                  'JPN': 'Japan', 'IND': 'India', 'NZL': 'New Zealand', 'IRN': 'Iran', 'PRK': 'North Korea',
+                  'ISR': 'Israel', 'KOR': 'South Korea', 'ITA': 'Italy', 'AUS': 'Australia', 'BRA': 'Brazil',
+                  'MHL': 'Marshall Islands'}
 
 monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
 

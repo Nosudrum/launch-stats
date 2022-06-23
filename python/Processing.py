@@ -38,6 +38,7 @@ LaunchCountry_mask = (LaunchPad["location.id"] == 20) | (LaunchPad["location.id"
 LaunchCountry["location.country_code"].loc[LaunchCountry_mask] = LaunchLSP.country_code[LaunchCountry_mask]
 LaunchCountry[LaunchCountry == 'KAZ'] = 'RUS'
 LaunchCountry[LaunchCountry == 'GUF'] = 'FRA'
+LaunchCountry[LaunchCountry == 'MHL'] = 'USA'
 LaunchProgram = pd.json_normalize(Launches["program"])
 
 # Intermediate launch data
