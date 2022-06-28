@@ -1,7 +1,8 @@
 import calendar
 
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import *
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict, monthsLabels, \
+    datetime, timezone, np
 
 
 # Plot of orbital launch attempts by country for the last 8 years

@@ -1,10 +1,8 @@
 import calendar
-from datetime import datetime, timezone
-
-import numpy as np
 
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, flip_legend, colors, monthsLabels
+from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, flip_legend, colors, monthsLabels, \
+    datetime, timezone, np
 
 
 # Plot of orbital launch attempts per country per year since 1957

@@ -14,11 +14,13 @@ import plotsCodes
 # plotsCodes.DailyOrbitalFailuresPerCountry.main(show=True)
 # plotsCodes.DailyOrbitalSuccessRate.main(show=True)
 # plotsCodes.OrbitalFailuresPerCountry.main(show=True)
+
 # # Plots per Country
-plotsCodes.LaunchCadenceByCountry.main(show=False)
+# plotsCodes.LaunchCadenceByCountry.main(show=False)
+plotsCodes.OrbitalSuccessRatePerCountry.main(show=False)
 #
 # # Plots per LSP
-plotsCodes.LaunchCadenceByLSP.main(show=False)
+# plotsCodes.LaunchCadenceByLSP.main(show=False)
 #
 # # Yearly plots
 # plotsCodes.YearlyOrbitalAttemptsPerCountry.main(show=False)

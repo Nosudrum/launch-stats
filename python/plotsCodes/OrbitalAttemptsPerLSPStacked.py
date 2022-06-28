@@ -1,7 +1,5 @@
-import numpy as np
-
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, LSPs_dict
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, LSPs_dict, np
 
 
 # Plot of orbital launch attempts per LSP since 1957 stacked

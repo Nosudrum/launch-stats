@@ -13,3 +13,4 @@ from .DailyOrbitalFailuresPerCountry import *
 from .DailyOrbitalSuccessRate import *
 from .PlotlyOrbitalAttemptsPerCountry import *
 from .OrbitalFailuresPerCountry import *
+from .OrbitalSuccessRatePerCountry import *

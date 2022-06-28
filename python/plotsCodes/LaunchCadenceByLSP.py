@@ -1,10 +1,8 @@
 import calendar
-from datetime import datetime, timezone
-
-import numpy as np
 
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, flip_legend
+from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, flip_legend, \
+    datetime, timezone, np
 
 
 # Plot of orbital launch attempts by LSP for the last 8 years

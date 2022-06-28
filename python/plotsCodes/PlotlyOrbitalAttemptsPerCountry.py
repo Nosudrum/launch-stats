@@ -1,10 +1,7 @@
-from datetime import datetime
-from math import ceil
-
 import plotly.express as px
 
 from Processing import PastT0s, PastCountries, PastPad, PastName, PastStatus, PastLSPs
-from plotsCodes.PlotFunctions import Countries_dict, colors, subtitle_html, finish_plotly_figure
+from plotsCodes.PlotFunctions import Countries_dict, colors, subtitle_html, finish_plotly_figure, datetime, ceil
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked

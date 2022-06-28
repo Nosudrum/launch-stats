@@ -1,7 +1,5 @@
-import numpy as np
-
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict, np
 
 
 # Plot of orbital launch attempts per country since 1957 stacked
