@@ -11,7 +11,7 @@ def main(show=False):
             "location.country_code"].value_counts().index.tolist()
     F5_Countries_dict = Countries_dict.copy()
     F5_Countries_dict['RUS'] = 'Russia'
-    F5_README = open('plots/byCountry/README.md', 'w')
+    F5_README = open('plots/byCountry/launchCadence8years/README.md', 'w')
     F5_README.write('# Orbital attempts per country for the last 8 years\n')
     print('Starting launch plots by country over last 8 years')
     for Country in F5_Countries:
@@ -42,6 +42,7 @@ def main(show=False):
         F5_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                        title='Orbital launch attempts by ' + F5_Countries_dict[Country] + ' over the last ' + str(
                            datetime.now(timezone.utc).year - int(labels[-1]) + 1) + ' years')
-        finish_figure(F5, F5_axes, 'byCountry/' + F5_Countries_dict[Country].replace(" ", "_"), show=show)
+        finish_figure(F5, F5_axes, 'byCountry/launchCadence8years/' + F5_Countries_dict[Country].replace(" ", "_"),
+                      show=show)
     F5_README.close()
     print('Done with launch plots by country over last 8 years')

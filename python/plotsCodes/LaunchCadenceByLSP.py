@@ -12,7 +12,7 @@ def main(show=False):
     F4_LSPs = PastLSPs[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
         "id"].value_counts().index.tolist()
 
-    F4_README = open('plots/byLSP/README.md', 'w')
+    F4_README = open('plots/byLSP/launchCadence8years/README.md', 'w')
     F4_README.write('# Orbital attempts per LSP for the last 8 years\n')
     print('Starting launch plots by LSP over last 8 years')
     for LSP in F4_LSPs:
@@ -43,6 +43,6 @@ def main(show=False):
         F4_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                        title='Orbital launch attempts by ' + LSPs_dict[LSP] + ' over the last ' + str(datetime.now(
                            timezone.utc).year - int(labels[-1]) + 1) + ' years')
-        finish_figure(F4, F4_axes, 'byLSP/' + LSPs_dict[LSP].replace(" ", "_"), show=show)
+        finish_figure(F4, F4_axes, 'byLSP/launchCadence8years/' + LSPs_dict[LSP].replace(" ", "_"), show=show)
     F4_README.close()
     print('Done with launch plots by LSP over last 8 years')
