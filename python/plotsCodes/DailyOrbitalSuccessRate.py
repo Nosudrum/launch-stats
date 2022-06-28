@@ -1,7 +1,7 @@
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
-from Processing import PastDayOfYear, PastStatus
 from matplotlib.cm import ScalarMappable
+
+from Processing import PastDayOfYear, PastStatus
+from plotsCodes.PlotFunctions import *
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
@@ -21,9 +21,6 @@ def main(show=True):
     F2_axes[0].set_xticks(monthsTicks, monthsLabels)
     F2_axes[0].set(ylabel='Success rate per day of year [%]', xlim=[1, 367],
                    title='Orbital success rate per day of year since 1957')
-    F2_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          color='dimgray',
-                          labelpad=10)
     sm = ScalarMappable(cmap=my_cmap, norm=plt.Normalize(vmin=0, vmax=10 * ceil(max(attempts) / 10)))
     sm.set_array([])
     cax = F2_axes[0].inset_axes([0.05, 0.9, 0.9, 0.035])

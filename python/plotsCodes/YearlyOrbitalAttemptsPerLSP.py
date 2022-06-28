@@ -1,7 +1,10 @@
 import calendar
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+
+import numpy as np
+
 from Processing import PastT0s, PastLSPs
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, colors, finish_figure, LSPs_dict, monthsLabels
 
 
 # Plot of orbital launch attempts per LSP per year since 1957
@@ -40,8 +43,6 @@ def main(show=False):
         F3y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
         F3y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
                         title='Orbital launch attempts per LSP in ' + str(year))
-        F3y_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                               color='dimgray', labelpad=10)
         finish_figure(F3y, F3y_axes, 'yearly/orbitalAttemptsPerLSP/' + str(year), show=show)
     print('Done with yearly launch plots by LSP')
     F3y_README.close()

@@ -1,7 +1,10 @@
 import calendar
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+
+import numpy as np
+
 from Processing import PastT0s, PastCountries
+from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, flip_legend, colors, monthsLabels
 
 
 # Plot of orbital launch attempts per country per year since 1957
@@ -45,8 +48,6 @@ def main(show=False):
         F1y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)
         F1y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
                         title='Orbital launch attempts per country in ' + str(year))
-        F1y_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                               color='dimgray', labelpad=10)
         finish_figure(F1y, F1y_axes, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=show)
     F1y_README.close()
     print('Done with yearly launch plots by country')

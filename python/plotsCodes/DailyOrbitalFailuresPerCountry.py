@@ -1,6 +1,5 @@
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
 from Processing import PastDayOfYear, PastCountries, PastStatus
+from plotsCodes.PlotFunctions import *
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
@@ -16,7 +15,7 @@ def main(show=True):
     F2_data = []
     for Country in F2_Countries_selected:
         F2_data.append(PastDayOfYear[(F2_Countries["location.country_code"] == Country) & (
-                    (PastStatus.id == 4) | (PastStatus.id == 7))]["net"].values.tolist())
+                (PastStatus.id == 4) | (PastStatus.id == 7))]["net"].values.tolist())
     F2_Countries_Labels = [Countries_dict[ii] for ii in F2_Countries_selected]
     F2_axes[0].hist(F2_data, bins=np.arange(1, 368), histtype='bar', stacked=True,
                     label=F2_Countries_Labels, color=colors, linewidth=1.5)
@@ -25,7 +24,4 @@ def main(show=True):
     F2_axes[0].set_xticks(monthsTicks, monthsLabels)
     F2_axes[0].set(ylabel='Launch failures per day of year', xlim=[1, 367],
                    title='Orbital launch failures per country per day of year since 1957')
-    F2_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          color='dimgray',
-                          labelpad=10)
     finish_figure(F2, F2_axes, 'DailyOrbitalFailuresPerCountry', show=show)

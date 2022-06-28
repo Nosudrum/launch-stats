@@ -1,6 +1,5 @@
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
 from Processing import PastDayOfYear, PastCountries
+from plotsCodes.PlotFunctions import *
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
@@ -24,7 +23,4 @@ def main(show=True):
     F2_axes[0].set_xticks(monthsTicks, monthsLabels)
     F2_axes[0].set(ylabel='Launches per day of year', xlim=[1, 367],
                    title='Orbital launch attempts per country per day of year since 1957')
-    F2_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          color='dimgray',
-                          labelpad=10)
     finish_figure(F2, F2_axes, 'DailyOrbitalAttemptsPerCountry', show=show)

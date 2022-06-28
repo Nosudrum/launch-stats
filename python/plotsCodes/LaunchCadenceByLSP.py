@@ -1,8 +1,10 @@
-# import matplotlib.ticker as ticker
 import calendar
 from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+
+import numpy as np
+
 from Processing import PastT0s, PastLSPs
+from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, flip_legend
 
 
 # Plot of orbital launch attempts by LSP for the last 8 years
@@ -41,9 +43,6 @@ def main(show=False):
         F4_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                        title='Orbital launch attempts by ' + LSPs_dict[LSP] + ' over the last ' + str(datetime.now(
                            timezone.utc).year - int(labels[-1]) + 1) + ' years')
-        # F4_axes[0].yaxis.set_major_locator(ticker.MaxNLocator(integer=True))
-        F4_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                              color='dimgray', labelpad=10)
         finish_figure(F4, F4_axes, 'byLSP/' + LSPs_dict[LSP].replace(" ", "_"), show=show)
     F4_README.close()
     print('Done with launch plots by LSP over last 8 years')

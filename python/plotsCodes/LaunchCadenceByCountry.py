@@ -1,7 +1,7 @@
 import calendar
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+
 from Processing import PastT0s, PastCountries
+from plotsCodes.PlotFunctions import *
 
 
 # Plot of orbital launch attempts by country for the last 8 years
@@ -42,8 +42,6 @@ def main(show=False):
         F5_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                        title='Orbital launch attempts by ' + F5_Countries_dict[Country] + ' over the last ' + str(
                            datetime.now(timezone.utc).year - int(labels[-1]) + 1) + ' years')
-        F5_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                              color='dimgray', labelpad=10)
         finish_figure(F5, F5_axes, 'byCountry/' + F5_Countries_dict[Country].replace(" ", "_"), show=show)
     F5_README.close()
     print('Done with launch plots by country over last 8 years')

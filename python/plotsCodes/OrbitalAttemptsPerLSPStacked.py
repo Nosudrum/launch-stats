@@ -1,6 +1,7 @@
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+import numpy as np
+
 from Processing import PastT0s, PastLSPs
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, LSPs_dict
 
 
 # Plot of orbital launch attempts per LSP since 1957 stacked
@@ -23,6 +24,4 @@ def main(show=True):
     F3_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     F3_axes[0].set(ylabel='Total launches per year', xlim=[min(F3_Years), max(F3_Years) + 1],
                    title='Orbital launch attempts per LSP since ' + str(min(F3_Years)))
-    F3_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          color='dimgray', labelpad=10)
     finish_figure(F3, F3_axes, 'OrbitalAttemptsPerLSPStacked', show=show)

@@ -1,9 +1,10 @@
-from datetime import datetime, timezone
+from datetime import datetime
+from math import ceil
 
 import plotly.express as px
 
 from Processing import PastT0s, PastCountries, PastPad, PastName, PastStatus, PastLSPs
-from plotsCodes.PlotFunctions import *
+from plotsCodes.PlotFunctions import Countries_dict, colors, subtitle_html, finish_plotly_figure
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
@@ -29,22 +30,11 @@ def main():
     fig = px.histogram(data, x="Date", color="Country", marginal="rug", hover_data=hover_data, hover_name="name",
                        template="plotly_dark", nbins=number_of_bins,
                        color_discrete_sequence=colors[:-1])
-
-    subtitle_html = r'<br><br><sup>Double-click on legend entries to isolate, again to reset.' \
-                    r'<br>Click and drag to zoom in, double-click to reset.</sup>'
-    fig.update_layout(yaxis_title="Launches",
+    fig.update_layout(yaxis_title="Total per year",
+                      xaxis_range=[datetime(1957, 1, 1, 0, 0, 0), datetime(datetime.now().year, 12, 31, 23, 59, 59)],
+                      yaxis_range=[0, ceil(data.Date.dt.year.value_counts().max() / 10) * 10 + 27],
                       title_text="Orbital launch attempts per country since " + str(
                           PastT0s.net.dt.year.min()) + subtitle_html,
-                      xaxis=dict(
-                          title=datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          titlefont=dict(color='dimgray')),
                       legend_title="Launch Country")
-    fig.update_layout(legend=dict(font=dict(size=18)), title=dict(font=dict(size=18)))
-    fig.update_annotations()
-    fig.write_html("plots/OrbitalAttemptsPerCountry.html")
-    remove_html_margins("plots/OrbitalAttemptsPerCountry.html")
-    # labels = dict(
-    #     Country="Launch Country",
-    #     net=,
-    #     count="Launches per year"
-    # )
+
+    finish_plotly_figure(fig, 'OrbitalAttemptsPerCountry.html')

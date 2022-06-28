@@ -1,5 +1,6 @@
 import matplotlib.pyplot as plt
 from math import prod, ceil, floor
+from datetime import datetime, timezone
 import numpy as np
 from PIL import Image
 
@@ -35,6 +36,9 @@ monthsLabels = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', '
 
 monthsTicks = [1, 32, 61, 92, 122, 153, 183, 214, 245, 275, 306, 336]
 
+subtitle_html = r'<sup><br><br>Double-click on legend entries to isolate, again to reset.' \
+                r' Click and drag to zoom in, double-click to reset.</sup>'
+
 
 # Functions for figures
 def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
@@ -54,6 +58,8 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
 
 def finish_figure(fig, axes, path, show, save_transparent=False, override_ylim=None, override_yticks=None,
                   colorbar=None):
+    axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
+                       color='dimgray', labelpad=10)
     plt.tight_layout()
     if override_yticks is None:
         ticks = axes_ticks(axes[0].get_ylim()[1])
@@ -133,3 +139,34 @@ def remove_html_margins(path):
                 f.write(line.replace('<head>', '<head><style>body { margin: 0; }</style>'))
             else:
                 f.write(line)
+
+
+def finish_plotly_figure(fig, path):
+    fig.update_layout(
+        xaxis=dict(
+            title=datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
+            titlefont=dict(color='dimgray')),
+        legend=dict(font=dict(size=17)),
+        title=dict(font=dict(size=17))
+    )
+    fig.add_layout_image(
+        dict(
+            source=Badge_DataLL2,
+            xanchor="right", yanchor="top",
+            xref="x domain", yref="y domain",
+            x=1, y=0.99,
+            sizex=0.2, sizey=0.2
+        )
+    )
+    fig.add_layout_image(
+        dict(
+            source=Badge_Nosu,
+            xanchor="left", yanchor="top",
+            xref="x domain", yref="y domain",
+            x=0, y=0.99,
+            sizex=0.2, sizey=0.2
+        )
+    )
+    fig.update_annotations()
+    fig.write_html("plots/" + path)
+    remove_html_margins("plots/" + path)

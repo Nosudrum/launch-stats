@@ -1,6 +1,7 @@
-from datetime import datetime, timezone
-from plotsCodes.PlotFunctions import *
+import numpy as np
+
 from Processing import PastT0s, PastCountries
+from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict
 
 
 # Plot of orbital launch attempts per country since 1957 stacked
@@ -23,7 +24,4 @@ def main(show=True):
     F1_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     F1_axes[0].set(ylabel='Total launches per year', xlim=[min(F1_Years), max(F1_Years) + 1],
                    title='Orbital launch attempts per country since ' + str(min(F1_Years)))
-    F1_axes[0].set_xlabel(datetime.now(timezone.utc).strftime("Plot generated on %Y/%m/%d at %H:%M:%S UTC."),
-                          color='dimgray',
-                          labelpad=10)
     finish_figure(F1, F1_axes, 'OrbitalAttemptsPerCountryStacked', show=show)
