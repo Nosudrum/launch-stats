@@ -9,7 +9,7 @@ def main(show=False):
     F5_Countries = \
         PastCountries[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
             "location.country_code"].value_counts().index.tolist()
-    F5_Countries_dict = Countries_dict
+    F5_Countries_dict = Countries_dict.copy()
     F5_Countries_dict['RUS'] = 'Russia'
     F5_README = open('plots/byCountry/README.md', 'w')
     F5_README.write('# Orbital attempts per country for the last 8 years\n')

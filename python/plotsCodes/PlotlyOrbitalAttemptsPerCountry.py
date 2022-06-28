@@ -30,7 +30,7 @@ def main():
     fig = px.histogram(data, x="Date", color="Country", marginal="rug", hover_data=hover_data, hover_name="name",
                        template="plotly_dark", nbins=number_of_bins,
                        color_discrete_sequence=colors[:-1])
-    fig.update_layout(yaxis_title="Total per year",
+    fig.update_layout(yaxis_title="Total launches per year",
                       xaxis_range=[datetime(1957, 1, 1, 0, 0, 0), datetime(datetime.now().year, 12, 31, 23, 59, 59)],
                       yaxis_range=[0, ceil(data.Date.dt.year.value_counts().max() / 10) * 10 + 27],
                       title_text="Orbital launch attempts per country since " + str(

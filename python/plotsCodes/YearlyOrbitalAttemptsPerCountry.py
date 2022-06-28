@@ -12,7 +12,7 @@ def main(show=False):
     F1y_README = open('plots/yearly/orbitalAttemptsPerCountry/README.md', 'w')
     F1y_README.write('# Orbital attempts per country for every year since 1957\n')
     print('Starting yearly launch plots by country')
-    F1y_Countries_dict = Countries_dict
+    F1y_Countries_dict = Countries_dict.copy()
     F1_Countries = PastCountries.copy()
     F1_Countries_sorted = F1_Countries["location.country_code"].value_counts().index.tolist()
     F1_Countries_selected = F1_Countries_sorted[0:7]
