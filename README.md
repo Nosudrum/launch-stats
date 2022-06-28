@@ -17,15 +17,15 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 ### 📈 All yearly plots since 1957
 
-🔗 [Yearly plots per country](python/plots/yearly/launchCadence8years/orbitalAttemptsPerCountry/README.md)
+🔗 [Yearly plots per country](python/plots/yearly/orbitalAttemptsPerCountry/README.md)
 
-🔗 [Yearly plots per LSP](python/plots/yearly/launchCadence8years/orbitalAttemptsPerLSP/README.md)
+🔗 [Yearly plots per LSP](python/plots/yearly/orbitalAttemptsPerLSP/README.md)
 
 ### ⌚ 2022 plots
 
 <p float="left" align="center">
-<img src="python/plots/yearly/launchCadence8years/orbitalAttemptsPerCountry/2022.png" width="49%" />
-<img src="python/plots/yearly/launchCadence8years/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
+<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022.png" width="49%" />
+<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
 </p>
 
 ## 🏛️ Historical data plots
@@ -44,13 +44,13 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All LSP launch cadence plots](python/plots/byLSP/README.md)
 
 <p float="left" align="center">
-<img src="python/plots/byCountry/United_States.png" width="49%" />
-<img src="python/plots/byCountry/China.png" width="49%" /> 
+<img src="python/plots/byCountry/launchCadence8years/United_States.png" width="49%" />
+<img src="python/plots/byCountry/launchCadence8years/China.png" width="49%" /> 
 </p>
 
 <p float="left" align="center">
-<img src="python/plots/byLSP/SpaceX.png" width="49%" />
-<img src="python/plots/byLSP/CASC.png" width="49%" /> 
+<img src="python/plots/byLSP/launchCadence8years/SpaceX.png" width="49%" />
+<img src="python/plots/byLSP/launchCadence8years/CASC.png" width="49%" /> 
 </p>
 
 ## 📈 Day-of-year plots
