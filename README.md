@@ -9,6 +9,10 @@ In this repository you can find various plots related to space launches made usi
 
 If you have feedback or ideas, feel free to open an issue. 🙂
 
+## 🖥️ Interactive plots (better on desktop)
+
+🔗 [All launches since 1957 per country](https://htmlpreview.github.io/?https://github.com/Nosudrum/launch-stats/blob/main/python/plots/OrbitalAttemptsPerCountry.html)
+
 ## 🔁 Yearly plots
 
 ### 📈 All yearly plots since 1957
