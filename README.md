@@ -17,15 +17,15 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 ### 📈 All yearly plots since 1957
 
-🔗 [Yearly plots per country](python/plots/yearly/orbitalAttemptsPerCountry/README.md)
+🔗 [Yearly plots per country](python/plots/yearly/launchCadence8years/orbitalAttemptsPerCountry/README.md)
 
-🔗 [Yearly plots per LSP](python/plots/yearly/orbitalAttemptsPerLSP/README.md)
+🔗 [Yearly plots per LSP](python/plots/yearly/launchCadence8years/orbitalAttemptsPerLSP/README.md)
 
 ### ⌚ 2022 plots
 
 <p float="left" align="center">
-<img src="python/plots/yearly/orbitalAttemptsPerCountry/2022.png" width="49%" />
-<img src="python/plots/yearly/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
+<img src="python/plots/yearly/launchCadence8years/orbitalAttemptsPerCountry/2022.png" width="49%" />
+<img src="python/plots/yearly/launchCadence8years/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
 </p>
 
 ## 🏛️ Historical data plots
