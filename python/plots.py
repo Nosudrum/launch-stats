@@ -28,6 +28,6 @@ plotsCodes.YearlyOrbitalAttemptsPerLSP.main(show=False)
 #
 # # Plotly plots
 plotsCodes.PlotlyOrbitalAttemptsPerCountry.main()
-# plotsCodes.PlotlyOrbitalAttemptsPerLSP.main()
+plotsCodes.PlotlyOrbitalAttemptsPerLSP.main()
 
 print('Successfully generated and exported all plots.')
