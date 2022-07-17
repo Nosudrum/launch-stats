@@ -88,8 +88,8 @@ for astronaut in Astronauts["id"].to_list():
         end_times = landings.mission_end.to_list()
 
     time_delta = timedelta(0)
-    if (AstronautsAgency[Astronauts["id"] == astronaut]["id"].item() != 1024) and (
-            AstronautsType[Astronauts["id"] == astronaut]["id"].item() != 6):  # Virgin Galactic & Non-Human
+    if (AstronautsAgency[Astronauts["id"] == astronaut]["id"].head(1).item() != 1024) and (
+            AstronautsType[Astronauts["id"] == astronaut]["id"].head(1).item() != 6):  # Virgin Galactic & Non-Human
         for start in enumerate(start_times):
             start_time = start[1]
             if start_time > datetime.now(timezone.utc):
