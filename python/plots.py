@@ -14,8 +14,9 @@ plotsCodes.DailyOrbitalAttemptsPerCountry.main(show=True)
 plotsCodes.DailyOrbitalFailuresPerCountry.main(show=True)
 plotsCodes.DailyOrbitalSuccessRate.main(show=True)
 plotsCodes.OrbitalFailuresPerCountry.main(show=True)
+plotsCodes.LaunchCadenceWorldwide.main(show=True)
 
-# # Plots per Country
+# Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)
 plotsCodes.OrbitalSuccessRatePerCountry.main(show=False)
 #
