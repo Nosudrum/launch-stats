@@ -29,5 +29,5 @@ def main(show=False):
         monthsLabels)
     axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                 title='Orbital launch attempts worldwide over the last 8 years')
-    finish_figure(fig, axes, 'launchCadence8years.png', show=show)
+    finish_figure(fig, axes, 'launchCadence8years', show=show)
     print('Done with plot of worldwide launch cadence over last 8 years')
