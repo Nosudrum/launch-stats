@@ -52,7 +52,7 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 <p float="left" align="center">
 <img src="python/plots/byLSP/launchCadence8years/SpaceX.png" width="49%" />
-<img src="python/plots/byLSP/launchCadence8years/CASC.png" width="49%" /> 
+<img src="python/plots/launchCadence8years.png" width="49%" /> 
 </p>
 
 ## 📈 Day-of-year plots
