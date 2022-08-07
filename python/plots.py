@@ -1,7 +1,6 @@
 # Preamble
 import plotsCodes
 
-# Figures
 # Main plots
 plotsCodes.OrbitalAttemptsPerCountryStacked.main(show=True)
 plotsCodes.OrbitalAttemptsPerCountry.main(show=True)
@@ -19,15 +18,17 @@ plotsCodes.LaunchCadenceWorldwide.main(show=True)
 # Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)
 plotsCodes.OrbitalSuccessRatePerCountry.main(show=False)
-#
-# # Plots per LSP
+plotsCodes.OrbitalSuccessFailuresPerCountry.main(show=False)
+
+# Plots per LSP
 plotsCodes.LaunchCadenceByLSP.main(show=False)
-#
-# # Yearly plots
+plotsCodes.OrbitalSuccessFailuresPerLSP.main(show=False)
+
+# Yearly plots
 plotsCodes.YearlyOrbitalAttemptsPerCountry.main(show=False)
 plotsCodes.YearlyOrbitalAttemptsPerLSP.main(show=False)
-#
-# # Plotly plots
+
+# Plotly plots
 plotsCodes.PlotlyOrbitalAttemptsPerCountry.main()
 plotsCodes.PlotlyOrbitalAttemptsPerLSP.main()
 
