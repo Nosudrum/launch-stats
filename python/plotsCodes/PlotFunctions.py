@@ -13,7 +13,7 @@ colors_dict = {'red': '#e41a1c', 'orange': '#ff7f00', 'blue': '#377eb8', 'pink':
                'green': '#4daf4a', 'grey': '#999999', 'purple': '#984ea3'}
 colors = ['blue', 'orange', 'red', 'green', 'pink', 'yellow', 'purple', 'grey']
 colors = [colors_dict[i] for i in colors]
-SPF_colors = {'#4daf4a', '#ff7f00', '#e41a1c'}
+SPF_colors = ['#4daf4a', '#ff7f00', '#e41a1c']
 SPF_labels = ['Success', 'Partial Failure', 'Failure']
 
 # LSPs custom names
