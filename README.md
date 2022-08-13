@@ -33,6 +33,7 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All historical plots](python/plots)
 
 🔗 [Per country](python/plots/byCountry/)
+
 🔗 [Per LSP](python/plots/byLSP/)
 
 <p float="left" align="center">
