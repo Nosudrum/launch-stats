@@ -55,6 +55,13 @@ PastDayOfYear.loc[~PastT0s.net.dt.is_leap_year & (
 PastDayOfYear.loc[PastT0s.net.dt.is_leap_year | (
         PastT0s.net.dt.dayofyear < 60), "net"] = PastT0s.net.dt.dayofyear
 
+FutureLSPs = LaunchLSP[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+FutureT0s = LaunchT0[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+FutureCountries = LaunchCountry[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+FutureName = LaunchName[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+FutureStatus = LaunchStatus[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+FuturePad = LaunchPad[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+
 # Processing astronaut data
 AstronautsAgency = pd.json_normalize(Astronauts["agency"])
 AstronautsType = pd.json_normalize(Astronauts["type"])

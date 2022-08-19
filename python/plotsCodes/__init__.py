@@ -18,3 +18,6 @@ from .PlotlyOrbitalAttemptsPerCountry import *
 from .PlotlyOrbitalAttemptsPerLSP import *
 from .YearlyOrbitalAttemptsPerCountry import *
 from .YearlyOrbitalAttemptsPerLSP import *
+from .LaunchCadenceByLSPprediction import *
+from .LaunchCadenceWorldwidePrediction import *
+from .LaunchCadenceByCountryPrediction import *
