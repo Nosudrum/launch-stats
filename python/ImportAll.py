@@ -28,7 +28,7 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version, limit):
         if ii == 1:
             number_data = call['count']
             print(f'Total {data_name} : {str(number_data)}')
-            number_calls = math.ceil(number_data / 100.0)
+            number_calls = math.ceil(number_data / limit)
         data.extend(call['results'])
         next_url = call['next']
         print(f'{datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")} - API Call {str(ii)}/{str(number_calls)}')
@@ -60,6 +60,6 @@ export('Locations', 'data/Locations.json', ll2_call('Locations', 'location', hea
 export('Pads', 'data/Pads.json', ll2_call('Pads', 'pad', header, API, API_version, 100))
 
 # Import Astronauts
-export('Astronauts', 'data/Astronauts.json', ll2_call('Astronauts', 'astronaut', header, API, API_version, 50))
+export('Astronauts', 'data/Astronauts.json', ll2_call('Astronauts', 'astronaut', header, API, API_version, 20))
 
 print('Successfully completed import.')
