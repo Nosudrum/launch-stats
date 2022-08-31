@@ -42,7 +42,7 @@ def export(data_name, path, data):
 
 
 # Import Launches
-export('Launches', 'data/Launches.json', ll2_call('Launches', 'launch', header, API, API_version, 100))
+export('Launches', 'data/Launches.json', ll2_call('Launches', 'launch', header, API, API_version, 50))
 
 # Import Orbits
 export('Orbits', 'data/Orbits.json', ll2_call('Orbits', 'config/orbit', header, API, API_version, 100))
