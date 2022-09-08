@@ -25,7 +25,7 @@ def main():
     number_of_bins = PastT0s.net.dt.year.max() - PastT0s.net.dt.year.min() + 1
     hover_data = ["T0", "LSP", "Location", "Pad", "Country", "Outcome"]
     fig = px.histogram(data, x="Date", color="Country", marginal="rug", hover_data=hover_data, hover_name="name",
-                       template="plotly_dark", nbins=number_of_bins,
+                       template="plotly_dark", nbins=int(number_of_bins),
                        color_discrete_sequence=colors[:-1])
     fig.update_layout(yaxis_title="Total launches per year",
                       xaxis_range=[datetime(1957, 1, 1, 0, 0, 0), datetime(datetime.now().year, 12, 31, 23, 59, 59)],
