@@ -48,13 +48,13 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All LSP launch cadence plots](python/plots/byLSP/launchCadence8years/README.md)
 
 <p float="left" align="center">
-<img src="python/plots/byCountry/launchCadence8years/United_States.png" width="49%" />
-<img src="python/plots/byCountry/launchCadence8years/China.png" width="49%" /> 
+<img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/United_States.png" width="49%" />
+<img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png" width="49%" /> 
 </p>
 
 <p float="left" align="center">
-<img src="python/plots/byLSP/launchCadence8years/SpaceX.png" width="49%" />
-<img src="python/plots/launchCadence8years.png" width="49%" /> 
+<img src="python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png" width="49%" />
+<img src="python/plots/launchCadence8yearsPredictionLinear.png" width="49%" /> 
 </p>
 
 ## 📈 Day-of-year plots
