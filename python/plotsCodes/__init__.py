@@ -21,3 +21,6 @@ from .YearlyOrbitalAttemptsPerLSP import *
 from .LaunchCadenceByLSPprediction import *
 from .LaunchCadenceWorldwidePrediction import *
 from .LaunchCadenceByCountryPrediction import *
+from .LaunchCadenceByCountryLinear import *
+from .LaunchCadenceByLSPpredictionLinear import *
+from .LaunchCadenceWorldwidePredictionLinear import *

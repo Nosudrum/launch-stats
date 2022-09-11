@@ -15,17 +15,20 @@ plotsCodes.DailyOrbitalSuccessRate.main(show=True)
 plotsCodes.OrbitalFailuresPerCountry.main(show=True)
 plotsCodes.LaunchCadenceWorldwide.main(show=True)
 plotsCodes.LaunchCadenceWorldwidePrediction.main(show=True)
+plotsCodes.LaunchCadenceWorldwidePredictionLinear.main(show=True)
 
 # Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)
 plotsCodes.OrbitalSuccessRatePerCountry.main(show=False)
 plotsCodes.OrbitalSuccessFailuresPerCountry.main(show=False)
 plotsCodes.LaunchCadenceByCountryPrediction.main(show=False)
+plotsCodes.LaunchCadenceByCountryLinear.main(show=False)
 
 # Plots per LSP
 plotsCodes.LaunchCadenceByLSP.main(show=False)
 plotsCodes.LaunchCadenceByLSPprediction.main(show=False)
 plotsCodes.OrbitalSuccessFailuresPerLSP.main(show=False)
+plotsCodes.LaunchCadenceByLSPpredictionLinear.main(show=False)
 
 # Yearly plots
 plotsCodes.YearlyOrbitalAttemptsPerCountry.main(show=False)
