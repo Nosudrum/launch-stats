@@ -84,7 +84,7 @@ for astronaut in Astronauts["id"].to_list():
         flights['net'] = pd.to_datetime(flights['net'], utc=True)
         flights = flights[flights.net < datetime.now(timezone.utc)]
         start_times = flights.net.to_list()
-
+        start_times.sort()
     if landings.empty or landings.mission_end.count() == 0:
         end_times = []
     else:
@@ -93,6 +93,7 @@ for astronaut in Astronauts["id"].to_list():
         landings['mission_end'] = pd.to_datetime(landings['mission_end'], utc=True)
         landings = landings[landings.mission_end < datetime.now(timezone.utc)]
         end_times = landings.mission_end.to_list()
+        end_times.sort()
 
     time_delta = timedelta(0)
     if (AstronautsAgency[Astronauts["id"] == astronaut]["id"].head(1).item() != 1024) and (
