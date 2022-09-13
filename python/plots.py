@@ -16,6 +16,7 @@ plotsCodes.OrbitalFailuresPerCountry.main(show=True)
 plotsCodes.LaunchCadenceWorldwide.main(show=True)
 plotsCodes.LaunchCadenceWorldwidePrediction.main(show=True)
 plotsCodes.LaunchCadenceWorldwidePredictionLinear.main(show=True)
+plotsCodes.OrbitalFailuresPerCountryStacked.main(show=True)
 
 # Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)
