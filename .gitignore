@@ -13,11 +13,7 @@ python/data/Launches.json
 python/data/Locations.json
 python/data/Pads.json
 python/data/Statuses.json
-.idea/inspectionProfiles/profiles_settings.xml
-.idea/launch-stats.iml
-.idea/modules.xml
-.idea/vcs.xml
-.idea/workspace.xml
+.idea
 python/data/animated.json
 python/data/animated.csv
 python/assets/PoweredByTSD.png
