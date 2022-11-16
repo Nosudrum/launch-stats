@@ -39,8 +39,10 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [Per LSP](python/plots/byLSP/)
 
 <p float="left" align="center">
-<img src="python/plots/OrbitalAttemptsPerCountryStacked.png" width="49%" />
-<img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/OrbitalAttemptsPerCountryStacked.png">
+  <img src="python/plots/OrbitalAttemptsPerCountryStacked.png" width="49%" />
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/OrbitalAttemptsPerCountry.png">
+  <img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
 </p>
 
 ## 📈 Launch cadence evolution
@@ -50,20 +52,16 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 🔗 [All LSP launch cadence plots](python/plots/byLSP/launchCadence8years/README.md)
 
 <p float="left" align="center">
-<img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/United_States.png" width="49%" />
-<img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png" width="49%" /> 
-</p>
-
-<p float="left" align="center">
-<img src="python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png" width="49%" />
-<img src="python/plots/launchCadence8yearsPredictionLinear.png" width="49%" /> 
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/launchCadence8yearsPredictionLinear.png">
+  <img src="python/plots/launchCadence8yearsPredictionLinear.png" width="49%" /> 
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png">
+  <img src="python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png" width="49%" />
 </p>
 
 ## 📈 Day-of-year plots
 <p float="left" align="center">
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/DailyOrbitalAttemptsPerCountry.png">
   <img src="python/plots/DailyOrbitalAttemptsPerCountry.png" width="49%" />
-    
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/DailyOrbitalSuccessRate.png">
   <img src="python/plots/DailyOrbitalSuccessRate.png" width="49%" />
 </p>
