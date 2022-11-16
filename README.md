@@ -60,5 +60,5 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 ## 📈 Day-of-year plots
 <p float="left" align="center">
 <img src="python/plots/DailyOrbitalAttemptsPerCountry.png" width="49%" />
-[<img src="python/plots/DailyOrbitalSuccessRate.png" width="49%" />](https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/DailyOrbitalSuccessRate.png)
+[<img src="python/plots/DailyOrbitalSuccessRate.png" width="49%">](https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/DailyOrbitalSuccessRate.png)
 </p>
