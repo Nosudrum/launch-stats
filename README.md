@@ -58,11 +58,6 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 </p>
 
 ## 📈 Day-of-year plots
-<p float="left" align="center">
 <img src="python/plots/DailyOrbitalAttemptsPerCountry.png" width="49%" />
 [<img src="python/plots/DailyOrbitalSuccessRate.png" width="49%" />](https://go4liftoff.com/)
-</p>
 
-
-
-[<img src="python/plots/DailyOrbitalSuccessRate.png" width="49%" />](https://go4liftoff.com/)
