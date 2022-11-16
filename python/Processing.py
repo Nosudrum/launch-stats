@@ -29,6 +29,7 @@ LaunchName = Launches["name"].to_frame()
 LaunchStatus = pd.json_normalize(Launches["status"])
 LaunchT0 = Launches["net"].to_frame()
 LaunchLSP = pd.json_normalize(Launches["launch_service_provider"])
+Rocket = pd.json_normalize(Launches["rocket"])
 LaunchMission = pd.json_normalize(Launches.mission)
 LaunchOrbit = LaunchMission["orbit.id"].to_frame()
 LaunchPad = pd.json_normalize(Launches["pad"])
@@ -42,12 +43,15 @@ LaunchCountry[LaunchCountry == 'MHL'] = 'USA'
 LaunchProgram = pd.json_normalize(Launches["program"])
 
 # Intermediate launch data
-PastLSPs = LaunchLSP[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-PastT0s = LaunchT0[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-PastCountries = LaunchCountry[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-PastName = LaunchName[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-PastStatus = LaunchStatus[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-PastPad = LaunchPad[(LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+past_filter = (LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)
+
+PastLSPs = LaunchLSP[past_filter].copy()
+PastT0s = LaunchT0[past_filter].copy()
+PastCountries = LaunchCountry[past_filter].copy()
+PastName = LaunchName[past_filter].copy()
+PastStatus = LaunchStatus[past_filter].copy()
+PastPad = LaunchPad[past_filter].copy()
+PastRocket = Rocket[past_filter].copy()
 
 PastDayOfYear = PastT0s.copy()
 PastDayOfYear.loc[~PastT0s.net.dt.is_leap_year & (
@@ -55,12 +59,14 @@ PastDayOfYear.loc[~PastT0s.net.dt.is_leap_year & (
 PastDayOfYear.loc[PastT0s.net.dt.is_leap_year | (
         PastT0s.net.dt.dayofyear < 60), "net"] = PastT0s.net.dt.dayofyear
 
-FutureLSPs = LaunchLSP[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-FutureT0s = LaunchT0[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-FutureCountries = LaunchCountry[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-FutureName = LaunchName[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-FutureStatus = LaunchStatus[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
-FuturePad = LaunchPad[(LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)].copy()
+future_filter = (LaunchT0["net"] > datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)
+FutureLSPs = LaunchLSP[future_filter].copy()
+FutureT0s = LaunchT0[future_filter].copy()
+FutureCountries = LaunchCountry[future_filter].copy()
+FutureName = LaunchName[future_filter].copy()
+FutureStatus = LaunchStatus[future_filter].copy()
+FuturePad = LaunchPad[future_filter].copy()
+FutureRocket = Rocket[future_filter].copy()
 
 # Processing astronaut data
 AstronautsAgency = pd.json_normalize(Astronauts["agency"])

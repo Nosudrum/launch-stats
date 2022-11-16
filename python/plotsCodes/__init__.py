@@ -27,3 +27,4 @@ from .LaunchCadenceWorldwidePredictionLinear import *
 from .OrbitalFailuresPerCountryStacked import *
 from .OrbitalSuccessFailures import *
 from .DailyConsecutiveYears import *
+from .MaidenFlights import *
