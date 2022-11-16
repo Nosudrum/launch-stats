@@ -27,5 +27,5 @@ def main(show=True):
     handles, labels = flip_legend(reverse=False)
     axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     axes[0].set(ylabel='Maiden flights per year', xlim=[1957, current_year + 1],
-                title='Maiden flights of new launch vehicles per year since 1957')
+                title='Maiden flights of new orbital launch vehicles per year since 1957')
     finish_figure(fig, axes, "maidenFlights", show=show)
