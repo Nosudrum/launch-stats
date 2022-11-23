@@ -8,7 +8,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2019
+year_selected = 2020
 
 data_year = data[data.net.dt.year == year_selected].copy()
 
@@ -42,41 +42,33 @@ def name_match(string1, string2):
 count = 0
 for i in data_year.index:
     count += 1
-    if data_year.loc[i, "status_id"] == 3 or data_year.loc[i, "status_id"] == 7:  # Success or partial failure
-        identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
-        name, date = get_celestrak_data(identifier)
-        if date == data_year.loc[i, "net"].strftime("%Y-%m-%d"):
-            print(f'Found match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
-            data_year.loc[i, "identifier"] = identifier
-            data_year.loc[i, "name_check"] = name
-        else:
-            print(f'No match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
-            data_year.loc[i, "identifier"] = None
-            data_year.loc[i, "name_check"] = None
-            count -= 1
-    else:
-        identifier_1 = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
-        identifier_2 = f'{data_year.loc[i, "net"].strftime("%Y")}-{(count + 1):03d}A'
-        name_1, date_1 = get_celestrak_data(identifier_1)
-        name_2, date_2 = get_celestrak_data(identifier_2)
-        if date_1 == date_2:
-            if name_match(data_year.loc[i, "name"], name_1):
+    identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
+    name, date = get_celestrak_data(identifier)
+    if date == data_year.loc[i, "net"].strftime("%Y-%m-%d"):
+        # Check that identifier launch date matches launch date
+        if data_year.loc[i, "status_id"] == 4:
+            # If launch failure, make sure name matches
+            if name_match(name, data_year.loc[i, "name"]):
+                # Name matches, so failed launch has an identifier
                 print(f'Found match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
-                data_year.loc[i, "identifier"] = identifier_1
-                data_year.loc[i, "name_check"] = name_1
-            elif name_match(data_year.loc[i, "name"], name_2):
-                print(f'Found match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
-                data_year.loc[i, "identifier"] = identifier_2
-                data_year.loc[i, "name_check"] = name_2
+                data_year.loc[i, "identifier"] = identifier
+                data_year.loc[i, "name_check"] = name
             else:
+                # Name does not match, so failed launch does not have an identifier
                 print(f'No match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
                 data_year.loc[i, "identifier"] = None
                 data_year.loc[i, "name_check"] = None
                 count -= 1
         else:
-            print(f'No match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
-            data_year.loc[i, "identifier"] = None
-            data_year.loc[i, "name_check"] = None
-            count -= 1
+            # If launch success, assign identifier without checking name
+            print(f'Found match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
+            data_year.loc[i, "identifier"] = identifier
+            data_year.loc[i, "name_check"] = name
+    else:
+        # If launch date does not match, then no identifier for this launch
+        print(f'No match for {data_year.loc[i, "name"]} ({data_year.loc[i, "status_name"]})')
+        data_year.loc[i, "identifier"] = None
+        data_year.loc[i, "name_check"] = None
+        count -= 1
 
 print("Done")
