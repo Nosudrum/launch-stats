@@ -1,3 +1,5 @@
+from datetime import timedelta, datetime
+
 from Processing import PastStatus, PastT0s, PastName
 import pandas as pd
 import requests
@@ -8,7 +10,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2012
+year_selected = 2001
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
 
@@ -56,8 +58,9 @@ for i in data_year.index:
     count += 1
     identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
     name, date = get_celestrak_data(identifier)
-    if date == data_year.loc[i, "net"].strftime("%Y-%m-%d"):
-        # Check that identifier launch date matches launch date
+    if data_year.loc[i, "net"] - timedelta(days=3) <= datetime.strptime(date + "+00:00", "%Y-%m-%d%z") <= \
+            data_year.loc[i, "net"] + timedelta(days=3):
+        # Check if identifier launch date roughly matches launch date
         if data_year.loc[i, "status_id"] == 4:
             # If launch failure, make sure name matches
             if name_match(name, data_year.loc[i, "name"]):
@@ -73,8 +76,8 @@ for i in data_year.index:
                 # If name matches, assign this identifier to the launch
                 set_identifier_match(i, identifier, name)
             elif (i < data_year.tail(1).index.values.item()) and (
-                    data_year.loc[i, "net"].strftime("%Y-%m-%d") == data_year.loc[i + 1, "net"].strftime(
-                    "%Y-%m-%d")) and name_match(name, data_year.loc[i + 1, "name"]):
+                    data_year.loc[i, "net"].strftime("%Y-%m-%d") == data_year.loc[i + 1, "net"].strftime("%Y-%m-%d")) \
+                    and name_match(name, data_year.loc[i + 1, "name"]):
                 # There is another launch on the same day corresponding to the identifier
                 set_identifier_none(i)
                 count -= 1
