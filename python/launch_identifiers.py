@@ -8,7 +8,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2020
+year_selected = 2018
 
 data_year = data[data.net.dt.year == year_selected].copy()
 
