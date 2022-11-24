@@ -10,7 +10,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2001
+year_selected = 2021
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
 
@@ -43,19 +43,23 @@ def name_match(string1, string2):
 
 def set_identifier_match(index, identifier_, name_):
     print(f'Found match for {data_year.loc[index, "name"]} ({data_year.loc[index, "status_name"]})')
-    data_year.loc[i, "identifier"] = identifier_
-    data_year.loc[i, "name_check"] = name_
+    data_year.loc[index, "identifier"] = identifier_
+    data_year.loc[index, "name_check"] = name_
 
 
 def set_identifier_none(index):
     print(f'No match for {data_year.loc[index, "name"]} ({data_year.loc[index, "status_name"]})')
-    data_year.loc[i, "identifier"] = None
-    data_year.loc[i, "name_check"] = None
+    data_year.loc[index, "identifier"] = None
+    data_year.loc[index, "name_check"] = None
 
 
 count = 0
+skip_next = False
 for i in data_year.index:
     count += 1
+    if skip_next:
+        skip_next = False
+        continue
     identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
     name, date = get_celestrak_data(identifier)
     if data_year.loc[i, "net"] - timedelta(days=3) <= datetime.strptime(date + "+00:00", "%Y-%m-%d%z") <= \
@@ -78,9 +82,20 @@ for i in data_year.index:
             elif (i < data_year.tail(1).index.values.item()) and (
                     data_year.loc[i, "net"].strftime("%Y-%m-%d") == data_year.loc[i + 1, "net"].strftime("%Y-%m-%d")) \
                     and name_match(name, data_year.loc[i + 1, "name"]):
-                # There is another launch on the same day corresponding to the identifier
-                set_identifier_none(i)
-                count -= 1
+                # Next launch on the same day corresponding to the identifier
+                set_identifier_match(i + 1, identifier, name)
+
+                # Check if current launch is for next identifier
+                identifier_2 = f'{data_year.loc[i, "net"].strftime("%Y")}-{(count+1):03d}A'
+                name_2, date_2 = get_celestrak_data(identifier_2)
+                if name_match(name_2, data_year.loc[i, "name"]):
+                    # If name matches, assign this identifier to the launch
+                    set_identifier_match(i, identifier_2, name_2)
+                    # Skip next launch
+                    skip_next = True
+                else:
+                    set_identifier_none(i)
+                    count -= 1
             else:
                 # Assign this identifier to the launch
                 set_identifier_match(i, identifier, name)
