@@ -44,7 +44,7 @@ subtitle_html = r'<sup><br><br>Double-click on legend entries to isolate, again 
 
 
 # Functions for figures
-def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
+def dark_figure(subplots=(1, 1), figsize=(7, 5.2), grid=False):
     fig = plt.figure(facecolor='#0D1117', figsize=figsize)
     axes = []
     for ii in range(0, prod(subplots)):
@@ -54,6 +54,8 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2)):
         axes[ii].yaxis.label.set_color('white')
         axes[ii].xaxis.label.set_color('white')
         axes[ii].title.set_color('white')
+        if grid:
+            axes[ii].grid(color='#161C22', linewidth=0.5)
         for i in axes[ii].spines:
             axes[ii].spines[i].set_color('white')
     return fig, axes
@@ -127,6 +129,14 @@ def axes_ticks(value):
         interval = 25
     elif value < 500:
         interval = 50
+    elif value < 1000:
+        interval = 100
+    elif value < 2000:
+        interval = 250
+    elif value < 5000:
+        interval = 500
+    elif value < 10000:
+        interval = 1000
     else:
         interval = 1
     upper_bound = interval * (ceil(value / interval) + 1)

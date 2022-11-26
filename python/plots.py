@@ -20,6 +20,7 @@ plotsCodes.OrbitalFailuresPerCountryStacked.main(show=True)
 plotsCodes.OrbitalSuccessFailures.main(show=True)
 plotsCodes.DailyConsecutiveYears.main(show=True)
 plotsCodes.MaidenFlights.main(show=True)
+plotsCodes.TotalOrbitalAttemptsPerCountry.main(show=True)
 
 # Plots per Country
 plotsCodes.LaunchCadenceByCountry.main(show=False)
@@ -41,5 +42,7 @@ plotsCodes.YearlyOrbitalAttemptsPerLSP.main(show=False)
 # Plotly plots
 plotsCodes.PlotlyOrbitalAttemptsPerCountry.main()
 plotsCodes.PlotlyOrbitalAttemptsPerLSP.main()
+
+
 
 print('Successfully generated and exported all plots.')

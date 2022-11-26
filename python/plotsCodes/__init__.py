@@ -28,3 +28,4 @@ from .OrbitalFailuresPerCountryStacked import *
 from .OrbitalSuccessFailures import *
 from .DailyConsecutiveYears import *
 from .MaidenFlights import *
+from .TotalOrbitalAttemptsPerCountry import *
