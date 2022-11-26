@@ -10,7 +10,8 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2021
+year_selected = 2002
+days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
 
@@ -62,8 +63,7 @@ for i in data_year.index:
         continue
     identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
     name, date = get_celestrak_data(identifier)
-    if data_year.loc[i, "net"] - timedelta(days=3) <= datetime.strptime(date + "+00:00", "%Y-%m-%d%z") <= \
-            data_year.loc[i, "net"] + timedelta(days=3):
+    if date == data_year.loc[i, "net"].strftime("%Y-%m-%d"):
         # Check if identifier launch date roughly matches launch date
         if data_year.loc[i, "status_id"] == 4:
             # If launch failure, make sure name matches
