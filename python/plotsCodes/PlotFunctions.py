@@ -44,7 +44,7 @@ subtitle_html = r'<sup><br><br>Double-click on legend entries to isolate, again 
 
 
 # Functions for figures
-def dark_figure(subplots=(1, 1), figsize=(7, 5.2), grid=False):
+def dark_figure(subplots=(1, 1), figsize=(7, 5.2), grid=True):
     fig = plt.figure(facecolor='#0D1117', figsize=figsize)
     axes = []
     for ii in range(0, prod(subplots)):
@@ -55,6 +55,7 @@ def dark_figure(subplots=(1, 1), figsize=(7, 5.2), grid=False):
         axes[ii].xaxis.label.set_color('white')
         axes[ii].title.set_color('white')
         if grid:
+            axes[ii].set_axisbelow(True)
             axes[ii].grid(color='#161C22', linewidth=0.5)
         for i in axes[ii].spines:
             axes[ii].spines[i].set_color('white')
