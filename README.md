@@ -47,9 +47,9 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 ## 📈 Launch cadence evolution
 
-🔗 [All country launch cadence plots](python/plots/byCountry/launchCadence8years/README.md)
+🔗 [All country launch cadence plots](python/plots/byCountry/launchCadence8yearsPredictionLinear/README.md)
 
-🔗 [All LSP launch cadence plots](python/plots/byLSP/launchCadence8years/README.md)
+🔗 [All LSP launch cadence plots](python/plots/byLSP/launchCadence8yearsPredictionLinear/README.md)
 
 <p float="left" align="center">
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/launchCadence8yearsPredictionLinear.png">
