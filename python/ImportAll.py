@@ -24,7 +24,7 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version, limit):
     data = []
     while next_url is not None:
         ii += 1
-        call = requests.get(next_url, headers=call_headers, timeout=360).json()
+        call = requests.get(next_url, headers=call_headers, timeout=720).json()
         if ii == 1:
             number_data = call['count']
             print(f'Total {data_name} : {str(number_data)}')
