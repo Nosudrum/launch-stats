@@ -34,6 +34,7 @@ plotsCodes.LaunchCadenceByLSP.main(show=False)
 plotsCodes.LaunchCadenceByLSPprediction.main(show=False)
 plotsCodes.OrbitalSuccessFailuresPerLSP.main(show=False)
 plotsCodes.LaunchCadenceByLSPpredictionLinear.main(show=False)
+plotsCodes.OrbitalReusabilityPerLSP.main(show=False)
 
 # Yearly plots
 plotsCodes.YearlyOrbitalAttemptsPerCountry.main(show=False)

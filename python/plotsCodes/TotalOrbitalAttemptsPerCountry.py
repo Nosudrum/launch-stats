@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict
+from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, Countries_dict
 from calendar import isleap
 
 
@@ -31,7 +31,7 @@ def main(show=True):
         x_data = (years + fractional_years).tolist()
         axes[0].step(x_data, y_data, label=countries_labels[Country[0]], color=colors[Country[0]], linewidth=1.5)
 
-    handles, labels = flip_legend(reverse=False)
+    handles, labels = prepare_legend(reverse=False)
     axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     axes[0].set(ylabel='Total attempts', xlim=[1957, max(PastT0s.net.dt.year) + 1],
                 title='Total orbital launch attempts per country since 1957')

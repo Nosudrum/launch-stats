@@ -1,7 +1,7 @@
 import calendar
 
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, flip_legend, colors, monthsLabels, \
+from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, prepare_legend, colors, monthsLabels, \
     datetime, timezone, np
 
 
@@ -40,7 +40,7 @@ def main(show=False):
                 count, edges = np.histogram(F1y_data_tmp, bins=F1y_bins)
                 F1y_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[ii[0]],
                                  label=F1y_Countries_dict[ii[1]])
-        handles, labels = flip_legend(reverse=False)
+        handles, labels = prepare_legend(reverse=False)
         F1y_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                            labelcolor='white')
         F1y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)

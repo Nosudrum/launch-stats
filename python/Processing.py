@@ -30,6 +30,7 @@ LaunchStatus = pd.json_normalize(Launches["status"])
 LaunchT0 = Launches["net"].to_frame()
 LaunchLSP = pd.json_normalize(Launches["launch_service_provider"])
 Rocket = pd.json_normalize(Launches["rocket"])
+FirstStage = pd.json_normalize(Rocket["launcher_stage"])
 LaunchMission = pd.json_normalize(Launches.mission)
 LaunchOrbit = LaunchMission["orbit.id"].to_frame()
 LaunchPad = pd.json_normalize(Launches["pad"])
@@ -42,6 +43,54 @@ LaunchCountry[LaunchCountry == 'GUF'] = 'FRA'
 LaunchCountry[LaunchCountry == 'MHL'] = 'USA'
 LaunchProgram = pd.json_normalize(Launches["program"])
 
+FirstStageReuse = pd.DataFrame(columns=['NewLost', 'NewRecovered', 'ReusedLost', 'ReusedRecovered'],
+                               index=Launches.index)
+for i in range(len(FirstStage)):
+    new_not_recovered = 0
+    new_recovered = 0
+    not_new_not_recovered = 0
+    not_new_recovered = 0
+    has_first_stage = False
+    for j in range(len(FirstStage.iloc[i])):
+        if FirstStage.iloc[i][j] is not None:
+            has_first_stage = True
+            if FirstStage.iloc[i][j]['reused'] is True:
+                reused = True
+            elif FirstStage.iloc[i][j]['reused'] is False:
+                reused = False
+            else:
+                continue
+            if "landing.attempt" in FirstStage.iloc[i][j]:
+                if FirstStage.iloc[i][j]['landing.attempt'] is True:
+                    if 'landing.type.id' in FirstStage.iloc[i][j] and FirstStage.iloc[i][j]['landing.type.id'] == 3:
+                        # Ocean
+                        recovered = False
+                    elif FirstStage.iloc[i][j]['landing.success'] is True:
+                        recovered = True
+                    elif FirstStage.iloc[i][j]['landing.success'] is False:
+                        recovered = False
+                    else:
+                        if LaunchT0.iloc[i][0] <= datetime.now(timezone.utc):
+                            print(f"WARNING : Missing landing outcome for launch {LaunchName.iloc[i][0]}")
+                        continue
+                else:
+                    recovered = False
+            else:
+                if LaunchT0.iloc[i][0] <= datetime.now(timezone.utc):
+                    print(f"WARNING : Missing landing data for launch {LaunchName.iloc[i][0]}")
+                continue
+            if not reused and not recovered:
+                new_not_recovered += 1
+            elif not reused and recovered:
+                new_recovered += 1
+            elif reused and not recovered:
+                not_new_not_recovered += 1
+            elif reused and recovered:
+                not_new_recovered += 1
+    if not has_first_stage:
+        new_not_recovered = 1
+    FirstStageReuse.iloc[i] = [new_not_recovered, new_recovered, not_new_not_recovered, not_new_recovered]
+
 # Intermediate launch data
 past_filter = (LaunchT0["net"] <= datetime.now(timezone.utc)) & (LaunchOrbit["orbit.id"] != 15)
 
@@ -52,6 +101,8 @@ PastName = LaunchName[past_filter].copy()
 PastStatus = LaunchStatus[past_filter].copy()
 PastPad = LaunchPad[past_filter].copy()
 PastRocket = Rocket[past_filter].copy()
+PastFirstStage = FirstStage[past_filter].copy()
+PastFirstStageReuse = FirstStageReuse[past_filter].copy()
 
 PastDayOfYear = PastT0s.copy()
 PastDayOfYear.loc[~PastT0s.net.dt.is_leap_year & (

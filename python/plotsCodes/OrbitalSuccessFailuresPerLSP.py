@@ -1,5 +1,5 @@
 from Processing import PastStatus, PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import flip_legend, finish_figure, np, dark_figure, SPF_colors, \
+from plotsCodes.PlotFunctions import prepare_legend, finish_figure, np, dark_figure, SPF_colors, \
     SPF_labels, datetime, timezone, LSPs_dict
 
 
@@ -7,7 +7,7 @@ from plotsCodes.PlotFunctions import flip_legend, finish_figure, np, dark_figure
 def main(show=True):
     LSPs = PastLSPs[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
         "id"].value_counts().index.tolist()
-    print('Starting launch successes & failures plots by country since 1957')
+    print('Starting launch successes & failures plots by LSP since 1957')
     README = open('plots/byLSP/successFailures/README.md', 'w')
     README.write('# Launch successes and failures per LSP since 1957\n')
     years = PastT0s.net.dt.year.unique().tolist()
@@ -27,7 +27,7 @@ def main(show=True):
         fig, axes = dark_figure()
         axes[0].hist(data, bins=np.append(years, max(years) + 1), histtype='bar', stacked=True,
                      label=SPF_labels, color=SPF_colors)
-        handles, labels = flip_legend(reverse=False)
+        handles, labels = prepare_legend(reverse=False)
         axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
         axes[0].set(ylabel='Total launches per year', xlim=[min(years), max(years) + 1],
                     title='Outcome of orbital launch attempts by ' + LSPs_dict[LSP] + ' since ' + str(

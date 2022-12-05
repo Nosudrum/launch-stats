@@ -19,7 +19,7 @@ def main(show=True):
     F2_Countries_Labels = [Countries_dict[ii] for ii in F2_Countries_selected]
     F2_axes[0].hist(F2_data, bins=np.arange(1, 368), histtype='bar', stacked=True,
                     label=F2_Countries_Labels, color=colors, linewidth=1.5)
-    handles, labels = flip_legend(reverse=False)
+    handles, labels = prepare_legend(reverse=False)
     F2_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     F2_axes[0].set_xticks(monthsTicks, monthsLabels)
     F2_axes[0].set(ylabel='Launch failures per day of year', xlim=[1, 367],

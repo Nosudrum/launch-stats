@@ -1,5 +1,5 @@
 from Processing import PastT0s, PastCountries
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, Countries_dict, np
+from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, Countries_dict, np
 
 
 # Plot of orbital launch attempts per country since 1957 stacked
@@ -18,7 +18,7 @@ def main(show=True):
     F1_Countries_Labels = [Countries_dict[ii] for ii in F1_Countries_selected]
     F1_axes[0].hist(F1_data, bins=np.append(np.unique(F1_Years), max(F1_Years) + 1), histtype='bar', stacked=True,
                     label=F1_Countries_Labels, color=colors)
-    handles, labels = flip_legend(reverse=False)
+    handles, labels = prepare_legend(reverse=False)
     F1_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
     F1_axes[0].set(ylabel='Total launches per year', xlim=[min(F1_Years), max(F1_Years) + 1],
                    title='Orbital launch attempts per country since ' + str(min(F1_Years)))

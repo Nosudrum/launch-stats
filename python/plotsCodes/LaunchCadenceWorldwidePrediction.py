@@ -1,7 +1,7 @@
 import calendar
 
 from Processing import PastT0s, FutureT0s
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, monthsLabels, \
+from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, monthsLabels, \
     datetime, timezone, np
 
 
@@ -32,7 +32,7 @@ def main(show=False):
             count_future, edges_future = np.histogram(Future_T0s_yearly, bins=Future_bins)
             axes[0].step(edges_future[:-1], count_future.cumsum() + count_past.sum(), linestyle='dotted',
                          linewidth=1, color=colors[year_id], label='_nolegend_')
-    handles, labels = flip_legend(reverse=False)
+    handles, labels = prepare_legend(reverse=False)
     axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                    labelcolor='white')
     axes[0].set_xticks(

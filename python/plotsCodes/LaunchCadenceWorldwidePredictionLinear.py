@@ -1,7 +1,7 @@
 import calendar
 
 from Processing import PastT0s
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, finish_figure, colors, monthsLabels, \
+from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, monthsLabels, \
     datetime, timezone, np
 
 
@@ -29,7 +29,7 @@ def main(show=False):
             pred_maxy = np.round(pred_miny * pred_maxx / pred_minx)
             axes[0].plot([pred_minx, pred_maxx], [pred_miny, pred_maxy], linestyle='dotted',
                          linewidth=1, color=colors[year_id], label='_nolegend_')
-    handles, labels = flip_legend(reverse=False)
+    handles, labels = prepare_legend(reverse=False)
     axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                    labelcolor='white')
     axes[0].set_xticks(

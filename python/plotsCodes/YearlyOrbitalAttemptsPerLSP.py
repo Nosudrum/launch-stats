@@ -1,7 +1,7 @@
 import calendar
 
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import dark_figure, flip_legend, colors, finish_figure, LSPs_dict, monthsLabels, np, \
+from plotsCodes.PlotFunctions import dark_figure, prepare_legend, colors, finish_figure, LSPs_dict, monthsLabels, np, \
     datetime, timezone
 
 
@@ -35,7 +35,7 @@ def main(show=False):
             F3y_data_tmp = F3y_T0s[F3y_LSPs["id"] == ii[1]]["net"].dt.dayofyear.to_list()
             count, edges = np.histogram(F3y_data_tmp, bins=F3y_bins)
             F3y_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[ii[0]], label=LSPs_dict[ii[1]])
-        handles, labels = flip_legend(reverse=False)
+        handles, labels = prepare_legend(reverse=False)
         F3y_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                            labelcolor='white')
         F3y_axes[0].set_xticks([datetime(year, i, 1).timetuple().tm_yday for i in range(1, 13)], monthsLabels)

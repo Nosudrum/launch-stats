@@ -1,7 +1,7 @@
 import calendar
 
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, flip_legend, \
+from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, prepare_legend, \
     datetime, timezone, np
 
 
@@ -32,7 +32,7 @@ def main(show=False):
             if F4_LSP_T0s_yearly:
                 count, edges = np.histogram(F4_LSP_T0s_yearly, bins=F4_bins)
                 F4_axes[0].step(edges[:-1], count.cumsum(), linewidth=1.5, color=colors[year_id], label=year)
-        handles, labels = flip_legend(reverse=False)
+        handles, labels = prepare_legend(reverse=False)
         F4_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False,
                           labelcolor='white')
         F4_axes[0].set_xticks(

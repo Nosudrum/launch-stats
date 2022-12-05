@@ -1,5 +1,5 @@
 from Processing import PastCountries, PastStatus, PastT0s
-from plotsCodes.PlotFunctions import flip_legend, Countries_dict, finish_figure, np, dark_figure, SPF_colors, \
+from plotsCodes.PlotFunctions import prepare_legend, Countries_dict, finish_figure, np, dark_figure, SPF_colors, \
     SPF_labels
 
 
@@ -26,7 +26,7 @@ def main(show=True):
         fig, axes = dark_figure()
         axes[0].hist(data, bins=np.append(years, max(years) + 1), histtype='bar', stacked=True,
                      label=SPF_labels, color=SPF_colors)
-        handles, labels = flip_legend(reverse=False)
+        handles, labels = prepare_legend(reverse=False)
         axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
         axes[0].set(ylabel='Total launches per year', xlim=[min(years), max(years) + 1],
                     title='Outcome of orbital launch attempts by ' + Countries_dict[Country] + ' since ' + str(
