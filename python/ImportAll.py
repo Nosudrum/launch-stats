@@ -24,7 +24,7 @@ def ll2_call(data_name, endpoint, call_headers, api, api_version, limit):
     data = []
     while next_url is not None:
         ii += 1
-        call = requests.get(next_url, headers=call_headers, timeout=720).json()
+        call = requests.get(next_url, headers=call_headers, timeout=1440).json()
         if ii == 1:
             number_data = call['count']
             print(f'Total {data_name} : {str(number_data)}')
@@ -42,7 +42,7 @@ def export(data_name, path, data):
 
 
 # Import Launches
-export('Launches', 'data/Launches.json', ll2_call('Launches', 'launch', header, API, API_version, 50))
+export('Launches', 'data/Launches.json', ll2_call('Launches', 'launch', header, API, API_version, 80))
 
 # Import Orbits
 export('Orbits', 'data/Orbits.json', ll2_call('Orbits', 'config/orbit', header, API, API_version, 100))
