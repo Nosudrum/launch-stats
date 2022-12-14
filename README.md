@@ -58,6 +58,14 @@ If you have feedback or ideas, feel free to open an issue. 🙂
   <img src="python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png" width="49%" />
 </p>
 
+## 🚀 Maiden flights and reusability
+<p float="left" align="center">
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/maidenFlights.png">
+  <img src="python/plots/maidenFlights.png" width="49%" />
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byLSP/reusability/SpaceX.png">
+  <img src="python/plots/byLSP/reusability/SpaceX.png" width="49%" />
+</p>
+
 ## 📈 Day-of-year plots
 <p float="left" align="center">
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/DailyOrbitalAttemptsPerCountry.png">
@@ -66,12 +74,5 @@ If you have feedback or ideas, feel free to open an issue. 🙂
   <img src="python/plots/DailyOrbitalSuccessRate.png" width="49%" />
 </p>
 
-## 🚀 Maiden flights and reusability
-<p float="left" align="center">
-  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/maidenFlights.png">
-  <img src="python/plots/maidenFlights.png" width="49%" />
-  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byLSP/reusability/SpaceX.png">
-  <img src="python/plots/byLSP/reusability/SpaceX.png" width="49%" />
-</p>
 
 
