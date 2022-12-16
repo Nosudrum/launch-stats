@@ -45,6 +45,13 @@ If you have feedback or ideas, feel free to open an issue. 🙂
   <img src="python/plots/OrbitalAttemptsPerCountry.png" width="49%" /> 
 </p>
 
+<p float="left" align="center">
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/successFailures.png">
+  <img src="python/plots/successFailures.png" width="49%" />
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/TotalOrbitalAttemptsPerCountry.png">
+  <img src="python/plots/TotalOrbitalAttemptsPerCountry.png" width="49%" /> 
+</p>
+
 ## 📈 Launch cadence evolution
 
 🔗 [All country launch cadence plots](python/plots/byCountry/launchCadence8yearsPredictionLinear/README.md)
