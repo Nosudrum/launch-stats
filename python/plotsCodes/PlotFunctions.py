@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 Badge_DataLL2 = Image.open('assets/DataByLL2.png')
-Badge_Nosu = Image.open('assets/Nosu.png')
+Badge_Nosu = Image.open('assets/Nosu2.png')
 
 # Colors & Labels
 colors_dict = {'red': '#e41a1c', 'orange': '#ff7f00', 'blue': '#377eb8', 'pink': '#f781bf', 'yellow': '#dede00',
