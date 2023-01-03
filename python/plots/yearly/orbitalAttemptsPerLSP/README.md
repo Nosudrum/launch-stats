@@ -65,3 +65,4 @@
 ![Orbital attempts per LSP in 2020](2020.png)
 ![Orbital attempts per LSP in 2021](2021.png)
 ![Orbital attempts per LSP in 2022](2022.png)
+![Orbital attempts per LSP in 2023](2023.png)
