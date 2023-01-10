@@ -1,9 +1,9 @@
 import numpy as np
+from matplotlib.ticker import MaxNLocator
 
 from Processing import PastFirstStageReuse, PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import prepare_legend, finish_figure, dark_figure, reusability_labels, \
     reusability_colors, datetime, timezone, LSPs_dict
-from matplotlib.ticker import MaxNLocator
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
