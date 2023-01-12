@@ -21,13 +21,13 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 🔗 [Yearly plots per LSP](python/plots/yearly/orbitalAttemptsPerLSP/README.md)
 
-### ⌚ 2022 plots
+### ⌚ 2023 plots
 
 <p float="left" align="center">
-  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/yearly/orbitalAttemptsPerCountry/2022.png">
-  <img src="python/plots/yearly/orbitalAttemptsPerCountry/2022.png" width="49%" />
-  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/yearly/orbitalAttemptsPerLSP/2022.png">
-  <img src="python/plots/yearly/orbitalAttemptsPerLSP/2022.png" width="49%" /> 
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/yearly/orbitalAttemptsPerCountry/2023.png">
+  <img src="python/plots/yearly/orbitalAttemptsPerCountry/2023.png" width="49%" />
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/yearly/orbitalAttemptsPerLSP/2023.png">
+  <img src="python/plots/yearly/orbitalAttemptsPerLSP/2023.png" width="49%" /> 
 </p>
 
 ## 🏛️ Historical data plots
