@@ -30,7 +30,7 @@ LSPs_dict = {0: 'Others', 66: 'Soviet Union', 161: 'USAF', 63: 'ROSCOSMOS', 88: 
              190: 'Antrix', 195: 'Sandia Nat. Labs', 40: 'KCST', 117: 'Eurockot LS', 95: 'Israel AI',
              179: 'Orbital ATK', 259: 'LandSpace', 263: 'OneSpace', 274: 'iSpace', 272: 'Chinarocket',
              1021: 'Galactic Energy', 187: 'GK Launch Services', 265: 'Firefly', 41: 'KARI', 1035: '7th MMB',
-             1036: 'MSI', 1037: 'MAI', 27: 'ESA', 1040: 'CAS Space', 1030: 'ABL Space Sys.'}
+             1036: 'MSI', 1037: 'MAI', 27: 'ESA', 1040: 'CAS Space', 1030: 'ABL'}
 
 Countries_dict = {'OTH': 'Others', 'RUS': 'Russia/USSR', 'USA': 'United States', 'CHN': 'China', 'FRA': 'France',
                   'JPN': 'Japan', 'IND': 'India', 'NZL': 'New Zealand', 'IRN': 'Iran', 'PRK': 'North Korea',

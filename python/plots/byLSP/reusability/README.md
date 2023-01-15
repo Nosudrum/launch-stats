@@ -25,4 +25,4 @@
 ![First stages reusability by CAS Space](CAS_Space.png)
 ![First stages reusability by NASA](NASA.png)
 ![First stages reusability by LandSpace](LandSpace.png)
-![First stages reusability by ABL Space Sys.](ABL_Space_Sys..png)
+![First stages reusability by ABL](ABL.png)

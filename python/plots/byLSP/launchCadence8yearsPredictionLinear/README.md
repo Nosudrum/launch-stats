@@ -33,4 +33,4 @@
 ![Orbital attempts by Chinarocket in the last 8 years](Chinarocket.png)
 ![Orbital attempts by OneSpace in the last 8 years](OneSpace.png)
 ![Orbital attempts by Sea Launch in the last 8 years](Sea_Launch.png)
-![Orbital attempts by ABL Space Sys. in the last 8 years](ABL_Space_Sys..png)
+![Orbital attempts by ABL in the last 8 years](ABL.png)

@@ -33,4 +33,4 @@
 ![Launch successes and failures by Chinarocket since 2019](Chinarocket.png)
 ![Launch successes and failures by OneSpace since 2019](OneSpace.png)
 ![Launch successes and failures by Sea Launch since 1999](Sea_Launch.png)
-![Launch successes and failures by ABL Space Sys. since 2023](ABL_Space_Sys..png)
+![Launch successes and failures by ABL since 2023](ABL.png)
