@@ -9,7 +9,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 1998
+year_selected = 1993
 days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
