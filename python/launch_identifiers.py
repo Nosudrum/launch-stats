@@ -9,7 +9,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 1993
+year_selected = 1984
 days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
@@ -75,9 +75,17 @@ for i in data_year.index:
                 # Name matches, so failed launch has an identifier
                 set_identifier_match(i, identifier, name)
             else:
-                # Name does not match, so failed launch does not have an identifier
-                set_identifier_none(i)
-                count -= 1
+                # Name does not match, let's check if the next identifier matches the next launch
+                identifier_2 = f'{data_year.loc[i, "net"].strftime("%Y")}-{count + 1:03d}A'
+                name_2, date_2 = get_celestrak_data(identifier_2)
+                if name_match(name_2, data_year.loc[i + 1, "name"]) or \
+                        date_2 == data_year.loc[i + 1, "net"].strftime("%Y-%m-%d"):
+                    # Next launch matches, so failed launch has an identifier
+                    set_identifier_match(i, identifier, name)
+                else:
+                    # Next launch does not match, so failed launch does not have an identifier
+                    set_identifier_none(i)
+                    count -= 1
         else:
             # If launch success, check various things
             if name_match(name, data_year.loc[i, "name"]):
@@ -90,7 +98,7 @@ for i in data_year.index:
                 set_identifier_match(i + 1, identifier, name)
 
                 # Check if current launch is for next identifier
-                identifier_2 = f'{data_year.loc[i, "net"].strftime("%Y")}-{(count+1):03d}A'
+                identifier_2 = f'{data_year.loc[i, "net"].strftime("%Y")}-{(count + 1):03d}A'
                 name_2, date_2 = get_celestrak_data(identifier_2)
                 if name_match(name_2, data_year.loc[i, "name"]):
                     # If name matches, assign this identifier to the launch
