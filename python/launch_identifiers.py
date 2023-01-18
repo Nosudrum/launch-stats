@@ -1,8 +1,7 @@
-from datetime import timedelta, datetime
-
-from Processing import PastStatus, PastT0s, PastName
 import pandas as pd
 import requests
+
+from Processing import PastStatus, PastT0s, PastName
 
 PastT0s = PastT0s.copy()
 PastStatus = PastStatus.copy().rename(columns={"id": "status_id", "abbrev": "status_name"})
@@ -10,7 +9,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 2002
+year_selected = 1998
 days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
@@ -19,7 +18,12 @@ data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True
 def get_celestrak_data(identifier_):
     print(f'Getting data for {identifier_}')
     URL = f'https://celestrak.com/satcat/records.php?INTDES={identifier_}'
-    celestrak_json = requests.get(URL, timeout=360).json()
+
+    celestrak_result = requests.get(URL, timeout=360)
+    if celestrak_result.text == 'No SATCAT records found\r\n':
+        return None, None
+    else:
+        celestrak_json = celestrak_result.json()
     return celestrak_json[0]["OBJECT_NAME"], celestrak_json[0]["LAUNCH_DATE"]
 
 
