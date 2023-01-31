@@ -9,7 +9,7 @@ PastName = PastName.copy()
 
 data = pd.concat([PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1)
 
-year_selected = 1997
+year_selected = 1980
 days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
@@ -38,6 +38,8 @@ def cleanup_string(string_):
 
 
 def name_match(string1, string2):
+    string1 = string1.split('|')[-1]
+    string2 = string2.split('|')[-1]
     string1 = set(cleanup_string(string1).replace("kosmos", "cosmos").split())
     string2 = set(cleanup_string(string2).replace("kosmos", "cosmos").split())
     if string1 & string2:
