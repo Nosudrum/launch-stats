@@ -6,8 +6,7 @@ from calendar import isleap
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
-    print('Creating plot of total orbital launch attempts per country since 1957')
+def main(pbar, show=True):
     fig, axes = dark_figure(grid=True)
 
     countries = PastCountries.copy()
@@ -36,3 +35,4 @@ def main(show=True):
     axes[0].set(ylabel='Total attempts', xlim=[1957, max(PastT0s.net.dt.year) + 1],
                 title='Total orbital launch attempts per country since 1957')
     finish_figure(fig, axes, 'TotalOrbitalAttemptsPerCountry', show=show)
+    pbar.update()

@@ -6,8 +6,7 @@ from plotsCodes.PlotFunctions import Countries_dict, LSPs_dict, colors, subtitle
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main():
-    print('Creating plotly of orbital launch attempts per LSP since 1957 stacked')
+def main(pbar):
     Countries = PastCountries.copy().rename(columns={"location.country_code": "Country"}).replace(
         {"Country": Countries_dict})
     Pad = PastPad.copy().rename(columns={"name": "Pad"})["Pad"]
@@ -36,3 +35,4 @@ def main():
                       legend_title="Launch Service Provider")
 
     finish_plotly_figure(fig, 'OrbitalAttemptsPerLSP.html')
+    pbar.update()

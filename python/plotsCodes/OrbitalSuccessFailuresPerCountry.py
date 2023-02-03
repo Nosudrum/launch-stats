@@ -6,16 +6,15 @@ from plotsCodes.PlotFunctions import prepare_legend, Countries_dict, finish_figu
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
+def main(pbar, show=True):
     Countries_list = PastCountries["location.country_code"].unique().tolist()
-    print('Starting launch successes & failures plots by country since 1957')
     README = open('plots/byCountry/successFailures/README.md', 'w')
     README.write('# Launch successes and failures per country since 1957\n')
     years = PastT0s.net.dt.year.unique().tolist()
     success_mask = PastStatus["id"] == 3
     partial_mask = PastStatus["id"] == 7
     failure_mask = PastStatus["id"] == 4
-    for Country in tqdm(Countries_list, desc='Countries', ncols=80):
+    for Country in tqdm(Countries_list, desc='Countries', ncols=80, position=1, leave=False):
         README.write('![Launch successes and failures by ' + Countries_dict[Country] + ' since 1957](' + Countries_dict[
             Country].replace(" ", "_").replace("/", "_") + '.png)\n')
         country_mask = PastCountries["location.country_code"] == Country
@@ -36,3 +35,4 @@ def main(show=True):
                       'byCountry/successFailures/' + Countries_dict[Country].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
+    pbar.update()

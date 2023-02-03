@@ -8,7 +8,7 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure,
 
 
 # Plot of orbital launch attempts by country for the last 8 years
-def main(show=False):
+def main(pbar, show=False):
     current_year = datetime.now(timezone.utc).year
     Countries = \
         PastCountries[PastT0s["net"] >= datetime(current_year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
@@ -17,8 +17,7 @@ def main(show=False):
     Countries_dict_tmp['RUS'] = 'Russia'
     README = open('plots/byCountry/launchCadence8yearsPrediction/README.md', 'w')
     README.write(f'# Orbital attempts per country for the last 8 years (with {current_year} prediction)\n')
-    print('Starting launch plots by country over last 8 years (with prediction)')
-    for Country in tqdm(Countries, desc='Countries', ncols=80):
+    for Country in tqdm(Countries, desc='Countries', ncols=80, position=1, leave=False):
         README.write(
             f'![Orbital attempts by {Countries_dict_tmp[Country]} in the last 8 years](' + Countries_dict_tmp[
                 Country].replace(" ", "_") + '.png)\n')
@@ -60,3 +59,4 @@ def main(show=False):
         finish_figure(fig, axes, 'byCountry/launchCadence8yearsPrediction/' +
                       Countries_dict_tmp[Country].replace(" ", "_"), show=show)
     README.close()
+    pbar.update()

@@ -8,12 +8,11 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, colors, finish
 
 
 # Plot of orbital launch attempts per LSP per year since 1957
-def main(show=False):
+def main(pbar, show=False):
     F3y_README = open('plots/yearly/orbitalAttemptsPerLSP/README.md', 'w')
     F3y_README.write('# Orbital attempts per LSP for every year since 1957\n')
-    print('Starting yearly launch plots by LSP')
     F3_Years = PastT0s["net"].dt.year.unique().tolist()
-    for year in tqdm(F3_Years, desc='Years', ncols=80):
+    for year in tqdm(F3_Years, desc='Years', ncols=80, position=1, leave=False):
         F3y_README.write('![Orbital attempts per LSP in ' + str(year) + '](' + str(year) + '.png)\n')
         days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
         if year > 1957:
@@ -44,3 +43,4 @@ def main(show=False):
                         title='Orbital launch attempts per LSP in ' + str(year))
         finish_figure(F3y, F3y_axes, 'yearly/orbitalAttemptsPerLSP/' + str(year), show=show)
     F3y_README.close()
+    pbar.update()

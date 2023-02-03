@@ -8,14 +8,13 @@ from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figur
 
 
 # Plot of orbital launch attempts by LSP for the last 8 years
-def main(show=False):
+def main(pbar, show=False):
     current_year = datetime.now(timezone.utc).year
     LSPs = PastLSPs[PastT0s["net"] >= datetime(current_year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
         "id"].value_counts().index.tolist()
     README = open('plots/byLSP/launchCadence8yearsPrediction/README.md', 'w')
     README.write(f'# Orbital attempts per LSP for the last 8 years (with {current_year} prediction)\n')
-    print('Starting launch plots by LSP over last 8 years (with prediction)')
-    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80, position=1, leave=False):
         README.write(
             '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years]('
             + LSPs_dict[LSP].replace(" ", "_") + '.png)\n')
@@ -55,3 +54,4 @@ def main(show=False):
                           f' last {str(current_year - int(labels[-1]) + 1)} years')
         finish_figure(fig, axes, 'byLSP/launchCadence8yearsPrediction/' + LSPs_dict[LSP].replace(" ", "_"), show=show)
     README.close()
+    pbar.update()

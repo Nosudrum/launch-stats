@@ -3,8 +3,7 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure,
 
 
 # Plot of orbital launch attempts per country since 1957 stacked
-def main(show=True):
-    print('Creating plot of orbital launch attempts per country since 1957 stacked')
+def main(pbar, show=True):
     F1, F1_axes = dark_figure()
     F1_Years = PastT0s["net"].dt.year.unique().tolist()
     F1_Countries = PastCountries.copy()
@@ -23,3 +22,4 @@ def main(show=True):
     F1_axes[0].set(ylabel='Total launches per year', xlim=[min(F1_Years), max(F1_Years) + 1],
                    title='Orbital launch attempts per country since ' + str(min(F1_Years)))
     finish_figure(F1, F1_axes, 'OrbitalAttemptsPerCountryStacked', show=show)
+    pbar.update()

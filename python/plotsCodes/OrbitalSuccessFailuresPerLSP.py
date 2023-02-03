@@ -7,17 +7,16 @@ from plotsCodes.PlotFunctions import prepare_legend, finish_figure, np, dark_fig
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
+def main(pbar, show=True):
     LSPs = PastLSPs[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
         "id"].value_counts().index.tolist()
-    print('Starting launch successes & failures plots by LSP since 1957')
     README = open('plots/byLSP/successFailures/README.md', 'w')
     README.write('# Launch successes and failures per LSP since 1957\n')
     years = PastT0s.net.dt.year.unique().tolist()
     success_mask = PastStatus["id"] == 3
     partial_mask = PastStatus["id"] == 7
     failure_mask = PastStatus["id"] == 4
-    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80, position=1, leave=False):
         LSP_mask = PastLSPs["id"] == LSP
         successes = PastT0s[success_mask & LSP_mask]
         partial = PastT0s[partial_mask & LSP_mask]
@@ -40,3 +39,4 @@ def main(show=True):
                       'byLSP/successFailures/' + LSPs_dict[LSP].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
+    pbar.update()

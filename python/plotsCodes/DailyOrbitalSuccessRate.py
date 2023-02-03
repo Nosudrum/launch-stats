@@ -5,8 +5,7 @@ from plotsCodes.PlotFunctions import monthsTicks, monthsLabels, finish_figure, d
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
-    print('Creating plot of daily orbital success rate since 1957')
+def main(pbar, show=True):
     F2, F2_axes = dark_figure()
     F2_data = np.empty((366, 4))
     for day in np.arange(1, 367):
@@ -28,3 +27,4 @@ def main(show=True):
     cbar.ax.set_title('Total attempts per day of year since 1957', color='white', fontsize=8)
     finish_figure(F2, F2_axes, 'DailyOrbitalSuccessRate', show=show, override_ylim=[0, 120],
                   override_yticks=[0, 25, 50, 75, 100], colorbar=cbar)
+    pbar.update()

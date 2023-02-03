@@ -4,8 +4,7 @@ from plotsCodes.PlotFunctions import prepare_legend, finish_figure, np, dark_fig
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
-    print('Starting launch successes & failures plot since 1957')
+def main(pbar, show=True):
     years = PastT0s.net.dt.year.unique().tolist()
     success_mask = PastStatus["id"] == 3
     partial_mask = PastStatus["id"] == 7
@@ -23,3 +22,4 @@ def main(show=True):
     axes[0].set(ylabel='Total launches per year', xlim=[min(years), max(years) + 1],
                 title='Outcome of orbital launch attempts since ' + str(min(years)))
     finish_figure(fig, axes, "successFailures", show=show)
+    pbar.update()

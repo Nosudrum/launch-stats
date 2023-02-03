@@ -1,11 +1,11 @@
 from Processing import PastDayOfYear, PastT0s
 from plotsCodes.PlotFunctions import *
 from calendar import isleap
+from tqdm import tqdm
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
-    print('Creating plot of consecutive orbital launch attempts for each day of year')
+def main(pbar, show=True):
     fig, axes = dark_figure()
 
     PastYears = PastT0s.net.dt.year.copy().to_frame().rename(columns={'net': 'year'})
@@ -28,7 +28,7 @@ def main(show=True):
 
     daysVector = np.arange(1, 367, 1).tolist()
     consecutiveYearsVector = []
-    for dayOfYear in daysVector:
+    for dayOfYear in tqdm(daysVector, desc='Day of year', position=1, leave=False):
         if dayOfYear == 60:
             if dayOfYear > currentDayOfYear:
                 startYear = find_previous_leap_year(currentYear, current_valid=False)
@@ -59,3 +59,4 @@ def main(show=True):
     axes[0].set(ylabel='Consecutive years', xlim=[1, 367],
                 title='Consecutive years with an orbital launch attempts per day of year')
     finish_figure(fig, axes, 'DailyConsecutiveYears', show=show)
+    pbar.update()

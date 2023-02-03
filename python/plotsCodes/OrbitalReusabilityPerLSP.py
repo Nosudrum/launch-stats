@@ -8,13 +8,12 @@ from plotsCodes.PlotFunctions import prepare_legend, finish_figure, dark_figure,
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
+def main(pbar, show=True):
     LSPs = PastLSPs[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 2, 1, 1, 0, 0, 0, 0, timezone.utc)][
         "id"].value_counts().index.tolist()
-    print('Starting reusability plots by LSP')
     README = open('plots/byLSP/reusability/README.md', 'w')
     README.write('# First stages reusability per LSP since 1957\n')
-    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80, position=1, leave=False):
         years = PastT0s[PastLSPs["id"] == LSP].net.dt.year.unique().tolist()
         README.write(f"![First stages reusability by {LSPs_dict[LSP]}]({LSPs_dict[LSP].replace(' ', '_')}.png)\n")
         LSP_mask = PastLSPs["id"] == LSP
@@ -53,3 +52,4 @@ def main(show=True):
                       'byLSP/reusability/' + LSPs_dict[LSP].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
+    pbar.update()

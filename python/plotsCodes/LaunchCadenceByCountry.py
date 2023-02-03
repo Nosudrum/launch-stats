@@ -7,7 +7,7 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure,
 
 
 # Plot of orbital launch attempts by country for the last 8 years
-def main(show=False):
+def main(pbar, show=False):
     F5_Countries = \
         PastCountries[PastT0s["net"] >= datetime(datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)][
             "location.country_code"].value_counts().index.tolist()
@@ -15,8 +15,7 @@ def main(show=False):
     F5_Countries_dict['RUS'] = 'Russia'
     F5_README = open('plots/byCountry/launchCadence8years/README.md', 'w')
     F5_README.write('# Orbital attempts per country for the last 8 years\n')
-    print('Starting launch plots by country over last 8 years')
-    for Country in tqdm(F5_Countries, desc='Countries', ncols=80):
+    for Country in tqdm(F5_Countries, desc='Countries', ncols=80, position=1, leave=False):
         F5_README.write(
             '![Orbital attempts by ' + F5_Countries_dict[Country] + ' in the last 8 years](' + F5_Countries_dict[
                 Country].replace(" ", "_") + '.png)\n')
@@ -46,3 +45,4 @@ def main(show=False):
         finish_figure(F5, F5_axes, 'byCountry/launchCadence8years/' + F5_Countries_dict[Country].replace(" ", "_"),
                       show=show)
     F5_README.close()
+    pbar.update(1)

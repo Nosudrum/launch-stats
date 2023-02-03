@@ -3,8 +3,7 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure,
 
 
 # Plot of orbital launch attempts per LSP since 1957 non-stacked
-def main(show=True):
-    print('Creating plot of orbital launch attempts per LSP since 1957 non-stacked')
+def main(pbar, show=True):
     F3_Years = PastT0s["net"].dt.year.unique().tolist()
     F3, F3_axes = dark_figure()
     F3_LSPs = PastLSPs.copy()
@@ -23,3 +22,4 @@ def main(show=True):
     F3_axes[0].set(ylabel='Launches per year', xlim=[min(F3_Years), max(F3_Years) + 1],
                    title='Orbital launch attempts per LSP since ' + str(min(F3_Years)))
     finish_figure(F3, F3_axes, 'OrbitalAttemptsPerLSP', show=show)
+    pbar.update()

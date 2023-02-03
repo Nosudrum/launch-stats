@@ -3,8 +3,7 @@ from plotsCodes.PlotFunctions import prepare_legend, finish_figure, np, dark_fig
 
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
-def main(show=True):
-    print('Starting maiden flights plot since 1957')
+def main(pbar, show=True):
     data = PastRocket[
         ["configuration.name", "configuration.family", "configuration.id"]].copy().rename(
         columns={"configuration.name": "name", "configuration.family": "family",
@@ -29,3 +28,4 @@ def main(show=True):
     axes[0].set(ylabel='Maiden flights per year', xlim=[1957, current_year + 1],
                 title='Maiden flights of new orbital launch vehicles per year since 1957')
     finish_figure(fig, axes, "maidenFlights", show=show)
+    pbar.update()

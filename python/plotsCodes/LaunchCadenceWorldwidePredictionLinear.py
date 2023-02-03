@@ -6,9 +6,8 @@ from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure,
 
 
 # Plot of orbital launch attempts by country for the last 8 years
-def main(show=False):
+def main(pbar, show=False):
     Past_T0s = PastT0s.copy()
-    print('Starting plot of worldwide launch cadence over last 8 years (with linear prediction)')
     fig, axes = dark_figure()
     year_id = -1
     current_year = datetime.now(timezone.utc).year
@@ -38,4 +37,4 @@ def main(show=False):
     axes[0].set(ylabel='Cumulative number of launches', xlim=[1, 365],
                 title='Orbital launch attempts worldwide over the last 8 years')
     finish_figure(fig, axes, 'launchCadence8yearsPredictionLinear', show=show)
-    print('Done with plot of worldwide launch cadence over last 8 years (with linear prediction)')
+    pbar.update()
