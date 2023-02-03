@@ -1,4 +1,5 @@
 from matplotlib.ticker import MaxNLocator
+from tqdm import tqdm
 
 from Processing import PastStatus, PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import prepare_legend, finish_figure, np, dark_figure, SPF_colors, \
@@ -16,9 +17,7 @@ def main(show=True):
     success_mask = PastStatus["id"] == 3
     partial_mask = PastStatus["id"] == 7
     failure_mask = PastStatus["id"] == 4
-    for LSP in LSPs:
-        print(LSPs_dict[LSP])
-
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
         LSP_mask = PastLSPs["id"] == LSP
         successes = PastT0s[success_mask & LSP_mask]
         partial = PastT0s[partial_mask & LSP_mask]
@@ -41,4 +40,3 @@ def main(show=True):
                       'byLSP/successFailures/' + LSPs_dict[LSP].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
-    print('Done with launch successes & failures plots by LSP since 1957')

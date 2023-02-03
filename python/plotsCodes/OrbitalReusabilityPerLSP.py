@@ -1,5 +1,6 @@
 import numpy as np
 from matplotlib.ticker import MaxNLocator
+from tqdm import tqdm
 
 from Processing import PastFirstStageReuse, PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import prepare_legend, finish_figure, dark_figure, reusability_labels, \
@@ -13,9 +14,8 @@ def main(show=True):
     print('Starting reusability plots by LSP')
     README = open('plots/byLSP/reusability/README.md', 'w')
     README.write('# First stages reusability per LSP since 1957\n')
-    for LSP in LSPs:
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
         years = PastT0s[PastLSPs["id"] == LSP].net.dt.year.unique().tolist()
-        print(LSPs_dict[LSP])
         README.write(f"![First stages reusability by {LSPs_dict[LSP]}]({LSPs_dict[LSP].replace(' ', '_')}.png)\n")
         LSP_mask = PastLSPs["id"] == LSP
         new_not_recovered = []
@@ -45,7 +45,7 @@ def main(show=True):
 
         handles, labels = prepare_legend(reverse=False)
         axes[0].legend(handles, labels, loc='upper center', ncol=2, frameon=False, labelcolor='white')
-        axes[0].set(ylabel='Total booster flights', xlim=[min(years), max(years)+1],
+        axes[0].set(ylabel='Total booster flights', xlim=[min(years), max(years) + 1],
                     title='Reuse of orbital-class boosters by ' + LSPs_dict[LSP] + ' since ' + str(
                         min(years)))
         axes[0].xaxis.set_major_locator(MaxNLocator(integer=True))
@@ -53,4 +53,3 @@ def main(show=True):
                       'byLSP/reusability/' + LSPs_dict[LSP].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
-    print('Done with reusability plots by LSP')

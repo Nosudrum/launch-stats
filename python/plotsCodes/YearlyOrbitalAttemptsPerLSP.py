@@ -1,5 +1,7 @@
 import calendar
 
+from tqdm import tqdm
+
 from Processing import PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import dark_figure, prepare_legend, colors, finish_figure, LSPs_dict, monthsLabels, np, \
     datetime, timezone
@@ -11,8 +13,7 @@ def main(show=False):
     F3y_README.write('# Orbital attempts per LSP for every year since 1957\n')
     print('Starting yearly launch plots by LSP')
     F3_Years = PastT0s["net"].dt.year.unique().tolist()
-    for year in F3_Years:
-        print(year)
+    for year in tqdm(F3_Years, desc='Years', ncols=80):
         F3y_README.write('![Orbital attempts per LSP in ' + str(year) + '](' + str(year) + '.png)\n')
         days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
         if year > 1957:
@@ -42,5 +43,4 @@ def main(show=False):
         F3y_axes[0].set(ylabel='Cumulative number of launches', xlim=[1, max(days)],
                         title='Orbital launch attempts per LSP in ' + str(year))
         finish_figure(F3y, F3y_axes, 'yearly/orbitalAttemptsPerLSP/' + str(year), show=show)
-    print('Done with yearly launch plots by LSP')
     F3y_README.close()

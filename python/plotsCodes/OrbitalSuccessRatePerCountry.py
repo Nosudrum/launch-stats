@@ -1,4 +1,5 @@
 from matplotlib.cm import ScalarMappable
+from tqdm import tqdm
 
 from Processing import PastCountries, PastStatus, PastT0s
 from plotsCodes.PlotFunctions import Countries_dict, finish_figure, np, dark_figure, plt
@@ -13,8 +14,7 @@ def main(show=True):
     Years_list = PastT0s.net.dt.year.unique().tolist()
     success_mask = PastStatus["id"] == 3
     failure_mask = (PastStatus["id"] == 4) | (PastStatus["id"] == 7)
-    for Country in Countries_list:
-        print(Countries_dict[Country])
+    for Country in tqdm(Countries_list, desc='Countries', ncols=80):
         README.write('![Launches and success rate by ' + Countries_dict[Country] + ' since 1957](' + Countries_dict[
             Country].replace(" ", "_").replace("/", "_") + '.png)\n')
         country_mask = PastCountries["location.country_code"] == Country
@@ -27,11 +27,11 @@ def main(show=True):
             else:
                 success_rate_country = 100.0 * successes / (successes + failures)
             data[year - Years_list[0], :] = [successes + failures, success_rate_country]
-        data_color = data[:, 1]/100
+        data_color = data[:, 1] / 100
         colormap = plt.cm.get_cmap('RdYlGn')
         fig, axes = dark_figure()
         axes[0].bar(Years_list, data[:, 0], color=colormap(data_color), width=1)
-        axes[0].set(ylabel='Launches per year', xlim=[min(Years_list)-0.5, max(Years_list) + 0.5],
+        axes[0].set(ylabel='Launches per year', xlim=[min(Years_list) - 0.5, max(Years_list) + 0.5],
                     title='Orbital launch attempts by ' + Countries_dict[Country] + ' since 1957')
         sm = ScalarMappable(cmap=colormap, norm=plt.Normalize(vmin=0, vmax=100))
         sm.set_array([])
@@ -41,4 +41,3 @@ def main(show=True):
         finish_figure(fig, axes, 'byCountry/successRate/' + Countries_dict[Country].replace(" ", "_").replace("/", "_"),
                       show=show, colorbar=cbar)
     README.close()
-    print('Done with launch & success rate plots by country since 1957')

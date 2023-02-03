@@ -1,5 +1,7 @@
 import calendar
 
+from tqdm import tqdm
+
 from Processing import PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, prepare_legend, \
     datetime, timezone, np
@@ -13,8 +15,7 @@ def main(show=False):
     F4_README = open('plots/byLSP/launchCadence8years/README.md', 'w')
     F4_README.write('# Orbital attempts per LSP for the last 8 years\n')
     print('Starting launch plots by LSP over last 8 years')
-    for LSP in F4_LSPs:
-        print(LSPs_dict[LSP])
+    for LSP in tqdm(F4_LSPs, desc='LSPs', ncols=80):
         F4_README.write(
             '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years]('
             + LSPs_dict[LSP].replace(" ", "_") + '.png)\n')
@@ -43,4 +44,3 @@ def main(show=False):
                            timezone.utc).year - int(labels[-1]) + 1) + ' years')
         finish_figure(F4, F4_axes, 'byLSP/launchCadence8years/' + LSPs_dict[LSP].replace(" ", "_"), show=show)
     F4_README.close()
-    print('Done with launch plots by LSP over last 8 years')

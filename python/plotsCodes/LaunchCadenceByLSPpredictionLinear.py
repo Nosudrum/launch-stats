@@ -1,5 +1,7 @@
 import calendar
 
+from tqdm import tqdm
+
 from Processing import PastT0s, PastLSPs
 from plotsCodes.PlotFunctions import LSPs_dict, colors, monthsLabels, dark_figure, finish_figure, prepare_legend, \
     datetime, timezone, np
@@ -13,8 +15,7 @@ def main(show=False):
     README = open('plots/byLSP/launchCadence8yearsPredictionLinear/README.md', 'w')
     README.write(f'# Orbital attempts per LSP for the last 8 years (with {current_year} linear prediction)\n')
     print('Starting launch plots by LSP over last 8 years (with linear prediction)')
-    for LSP in LSPs:
-        print(LSPs_dict[LSP])
+    for LSP in tqdm(LSPs, desc='LSPs', ncols=80):
         README.write(
             '![Orbital attempts by ' + LSPs_dict[LSP] + ' in the last 8 years]('
             + LSPs_dict[LSP].replace(" ", "_") + '.png)\n')
@@ -51,4 +52,3 @@ def main(show=False):
         finish_figure(fig, axes, 'byLSP/launchCadence8yearsPredictionLinear/' + LSPs_dict[LSP].replace(" ", "_"),
                       show=show)
     README.close()
-    print('Done with launch plots by LSP over last 8 years (with linear prediction)')

@@ -1,5 +1,7 @@
 import calendar
 
+from tqdm import tqdm
+
 from Processing import PastT0s, PastCountries
 from plotsCodes.PlotFunctions import Countries_dict, dark_figure, finish_figure, prepare_legend, colors, monthsLabels, \
     datetime, timezone, np
@@ -16,8 +18,7 @@ def main(show=False):
     F1_Countries_selected = F1_Countries_sorted[0:7]
     F1_Countries[~F1_Countries["location.country_code"].isin(F1_Countries_selected)] = 'OTH'
     F1_Countries_selected.append('OTH')
-    for year in range(1957, datetime.now(timezone.utc).year + 1):
-        print(year)
+    for year in tqdm(range(1957, datetime.now(timezone.utc).year + 1), desc='Years', ncols=80):
         F1y_README.write('![Orbital attempts per country in ' + str(year) + '](' + str(year) + '.png)\n')
         days = list(range(1, 1 + (366 if calendar.isleap(year) else 365)))
         if year > 1991:
@@ -48,4 +49,3 @@ def main(show=False):
                         title='Orbital launch attempts per country in ' + str(year))
         finish_figure(F1y, F1y_axes, 'yearly/orbitalAttemptsPerCountry/' + str(year), show=show)
     F1y_README.close()
-    print('Done with yearly launch plots by country')

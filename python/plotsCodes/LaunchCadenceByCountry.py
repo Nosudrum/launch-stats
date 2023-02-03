@@ -1,4 +1,5 @@
 import calendar
+from tqdm import tqdm
 
 from Processing import PastT0s, PastCountries
 from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, Countries_dict, monthsLabels, \
@@ -15,8 +16,7 @@ def main(show=False):
     F5_README = open('plots/byCountry/launchCadence8years/README.md', 'w')
     F5_README.write('# Orbital attempts per country for the last 8 years\n')
     print('Starting launch plots by country over last 8 years')
-    for Country in F5_Countries:
-        print(F5_Countries_dict[Country])
+    for Country in tqdm(F5_Countries, desc='Countries', ncols=80):
         F5_README.write(
             '![Orbital attempts by ' + F5_Countries_dict[Country] + ' in the last 8 years](' + F5_Countries_dict[
                 Country].replace(" ", "_") + '.png)\n')
@@ -46,4 +46,3 @@ def main(show=False):
         finish_figure(F5, F5_axes, 'byCountry/launchCadence8years/' + F5_Countries_dict[Country].replace(" ", "_"),
                       show=show)
     F5_README.close()
-    print('Done with launch plots by country over last 8 years')

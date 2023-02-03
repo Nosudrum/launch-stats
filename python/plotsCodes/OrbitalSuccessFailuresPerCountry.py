@@ -1,3 +1,5 @@
+from tqdm import tqdm
+
 from Processing import PastCountries, PastStatus, PastT0s
 from plotsCodes.PlotFunctions import prepare_legend, Countries_dict, finish_figure, np, dark_figure, SPF_colors, \
     SPF_labels
@@ -13,8 +15,7 @@ def main(show=True):
     success_mask = PastStatus["id"] == 3
     partial_mask = PastStatus["id"] == 7
     failure_mask = PastStatus["id"] == 4
-    for Country in Countries_list:
-        print(Countries_dict[Country])
+    for Country in tqdm(Countries_list, desc='Countries', ncols=80):
         README.write('![Launch successes and failures by ' + Countries_dict[Country] + ' since 1957](' + Countries_dict[
             Country].replace(" ", "_").replace("/", "_") + '.png)\n')
         country_mask = PastCountries["location.country_code"] == Country
@@ -35,4 +36,3 @@ def main(show=True):
                       'byCountry/successFailures/' + Countries_dict[Country].replace(" ", "_").replace("/", "_"),
                       show=show)
     README.close()
-    print('Done with launch successes & failures plots by country since 1957')
