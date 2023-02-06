@@ -1,5 +1,12 @@
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import dark_figure, prepare_legend, finish_figure, colors, LSPs_dict, np
+from plotsCodes.PlotFunctions import (
+    dark_figure,
+    prepare_legend,
+    finish_figure,
+    colors,
+    LSPs_dict,
+    np,
+)
 
 
 # Plot of orbital launch attempts per LSP since 1957 stacked
@@ -15,11 +22,22 @@ def main(pbar, show=True):
     for LSP in F3_LSPs_selected:
         F3_data.append(PastT0s[F3_LSPs["id"] == LSP]["net"].dt.year.values.tolist())
     F3_LSPs_Labels = [LSPs_dict[ii] for ii in F3_LSPs_selected]
-    F3_axes[0].hist(F3_data, bins=np.append(F3_Years, max(F3_Years) + 1), histtype='bar', stacked=True,
-                    label=F3_LSPs_Labels, color=colors)
+    F3_axes[0].hist(
+        F3_data,
+        bins=np.append(F3_Years, max(F3_Years) + 1),
+        histtype="bar",
+        stacked=True,
+        label=F3_LSPs_Labels,
+        color=colors,
+    )
     handles, labels = prepare_legend(reverse=False)
-    F3_axes[0].legend(handles, labels, loc='upper center', ncol=4, frameon=False, labelcolor='white')
-    F3_axes[0].set(ylabel='Total launches per year', xlim=[min(F3_Years), max(F3_Years) + 1],
-                   title='Orbital launch attempts per LSP since ' + str(min(F3_Years)))
-    finish_figure(F3, F3_axes, 'OrbitalAttemptsPerLSPStacked', show=show)
+    F3_axes[0].legend(
+        handles, labels, loc="upper center", ncol=4, frameon=False, labelcolor="white"
+    )
+    F3_axes[0].set(
+        ylabel="Total launches per year",
+        xlim=[min(F3_Years), max(F3_Years) + 1],
+        title="Orbital launch attempts per LSP since " + str(min(F3_Years)),
+    )
+    finish_figure(F3, F3_axes, "OrbitalAttemptsPerLSPStacked", show=show)
     pbar.update()

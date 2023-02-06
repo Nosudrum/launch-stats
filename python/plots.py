@@ -2,7 +2,7 @@
 import plotsCodes
 from tqdm import tqdm
 
-pbar = tqdm(total=33, desc='Plots', ncols=80, position=0, leave=True)
+pbar = tqdm(total=33, desc="Plots", ncols=80, position=0, leave=True)
 
 # Main plots
 plotsCodes.OrbitalAttemptsPerCountryStacked.main(pbar, show=True)
@@ -49,4 +49,4 @@ plotsCodes.PlotlyOrbitalAttemptsPerLSP.main(pbar)
 
 pbar.close()
 
-print('Successfully generated and exported all plots.')
+print("Successfully generated and exported all plots.")
