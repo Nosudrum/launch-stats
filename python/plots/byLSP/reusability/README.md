@@ -12,7 +12,7 @@
 ![First stages reusability by NGSS](NGSS.png)
 ![First stages reusability by Virgin Orbit](Virgin_Orbit.png)
 ![First stages reusability by Astra](Astra.png)
-![First stages reusability by Mitsubishi HI](Mitsubishi_HI.png)
+![First stages reusability by MHI](MHI.png)
 ![First stages reusability by Galactic Energy](Galactic_Energy.png)
 ![First stages reusability by iSpace](iSpace.png)
 ![First stages reusability by IRN](IRN.png)

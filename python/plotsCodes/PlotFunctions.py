@@ -66,7 +66,7 @@ LSPs_dict = {
     1004: "Convair",
     102: "Rockwell",
     192: "Lockheed SOC",
-    98: "Mitsubishi HI",
+    98: "MHI",
     1014: "Martin M.",
     111: "Progress RSC",
     154: "Polyot",
