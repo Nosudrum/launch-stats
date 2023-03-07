@@ -9,6 +9,7 @@ Badge_DataLL2 = Image.open("assets/DataByLL2.png")
 Badge_Nosu = Image.open("assets/Nosu.png")
 
 # Colors & Labels
+github_dark = "#0D1117"
 colors_dict = {
     "red": "#e41a1c",
     "orange": "#ff7f00",
@@ -151,11 +152,11 @@ subtitle_html = (
 
 # Functions for figures
 def dark_figure(subplots=(1, 1), figsize=(7, 5.2), grid=True):
-    fig = plt.figure(facecolor="#0D1117", figsize=figsize)
+    fig = plt.figure(facecolor=github_dark, figsize=figsize)
     axes = []
     for ii in range(0, prod(subplots)):
         axes.append(
-            fig.add_subplot(subplots[0], subplots[1], ii + 1, facecolor="#0D1117")
+            fig.add_subplot(subplots[0], subplots[1], ii + 1, facecolor=github_dark)
         )
         axes[ii].tick_params(axis="x", colors="white", which="both")
         axes[ii].tick_params(axis="y", colors="white", which="both")

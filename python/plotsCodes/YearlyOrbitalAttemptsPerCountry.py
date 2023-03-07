@@ -12,6 +12,7 @@ from plotsCodes.PlotFunctions import (
     datetime,
     timezone,
     np,
+    github_dark,
 )
 
 
@@ -86,6 +87,7 @@ def main(pbar, show=False):
                     linewidth=1.2,
                     color=colors[ii[0]],
                     label=Countries_dict_tmp[ii[1]],
+                    zorder=1,
                 )
 
                 index_failure = [
@@ -101,7 +103,10 @@ def main(pbar, show=False):
                         count_failure,
                         marker="*",
                         c=colors[ii[0]],
-                        s=20,
+                        s=70,
+                        edgecolors=github_dark,
+                        linewidths=0.8,
+                        zorder=2,
                     )
                 index_partial = [
                     np.where(edges == item)[0][0] for item in yearly_country_partial
@@ -116,7 +121,10 @@ def main(pbar, show=False):
                         count_partial,
                         marker="^",
                         c=colors[ii[0]],
-                        s=12,
+                        s=25,
+                        edgecolors=github_dark,
+                        linewidths=0.8,
+                        zorder=2,
                     )
 
         if legend_failure:
