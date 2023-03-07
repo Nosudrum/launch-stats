@@ -66,17 +66,14 @@ def main(pbar, show=False):
         legend_failure = False
         legend_partial = False
         for ii in enumerate(Countries_selected):
-            yearly_country_dayofyear = T0s[
-                Countries_yearly["location.country_code"] == ii[1]
-            ]["net"].dt.dayofyear.to_list()
-            yearly_country_failure = T0s.loc[
-                (Countries_yearly["location.country_code"] == ii[1])
-                & (PastStatus["id"] == 4)
-            ]["net"].dt.dayofyear.to_list()
-            yearly_country_partial = T0s.loc[
-                (Countries_yearly["location.country_code"] == ii[1])
-                & (PastStatus["id"] == 7)
-            ]["net"].dt.dayofyear.to_list()
+            country_mask = Countries_yearly["location.country_code"] == ii[1]
+            yearly_country_dayofyear = T0s[country_mask]["net"].dt.dayofyear.to_list()
+            yearly_country_failure = T0s.loc[country_mask & (PastStatus["id"] == 4)][
+                "net"
+            ].dt.dayofyear.to_list()
+            yearly_country_partial = T0s.loc[country_mask & (PastStatus["id"] == 7)][
+                "net"
+            ].dt.dayofyear.to_list()
             if yearly_country_dayofyear:
                 count, edges = np.histogram(yearly_country_dayofyear, bins=bins)
                 cumulative_count = count.cumsum()
@@ -93,7 +90,6 @@ def main(pbar, show=False):
                 index_failure = [
                     np.where(edges == item)[0][0] for item in yearly_country_failure
                 ]
-                # [edges.index(item) for item in yearly_country_failure]
                 if index_failure:
                     legend_failure = True
                     edges_failure = edges[index_failure]
@@ -111,7 +107,6 @@ def main(pbar, show=False):
                 index_partial = [
                     np.where(edges == item)[0][0] for item in yearly_country_partial
                 ]
-                # [edges.index(item) for item in yearly_country_partial]
                 if index_partial:
                     legend_partial = True
                     edges_partial = edges[index_partial]
@@ -142,7 +137,7 @@ def main(pbar, show=False):
                 [],
                 marker="^",
                 c="white",
-                label="Partial Failure",
+                label="Partial",
                 edgecolors="none",
             )
 

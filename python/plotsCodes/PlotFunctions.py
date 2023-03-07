@@ -66,10 +66,10 @@ LSPs_dict = {
     100: "OSC",
     1004: "Convair",
     102: "Rockwell",
-    192: "Lockheed SOC",
+    192: "Lockheed",
     98: "MHI",
     1014: "Martin M.",
-    111: "Progress RSC",
+    111: "Progress",
     154: "Polyot",
     197: "LMSO",
     191: "USA",
@@ -196,7 +196,7 @@ def finish_figure(
         ticks = override_yticks
         axes[0].set_yticks(ticks)
     if override_ylim is None:
-        axes[0].set_ylim([0, ticks[-1] * 1.2])
+        axes[0].set_ylim([0, ticks[-1] * 1.25])
     else:
         axes[0].set_ylim(override_ylim)
     if colorbar is not None:
