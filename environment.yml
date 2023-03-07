@@ -1,0 +1,8 @@
+name: launch-stats
+channels:
+  - conda-forge
+dependencies:
+  - tqdm
+  - pip:
+    - svgpath2mpl
+    - svgpathtools
