@@ -17,7 +17,7 @@
 ![Launch successes and failures by IRN since 2008](IRN.png)
 ![Launch successes and failures by Orbital ATK since 2016](Orbital_ATK.png)
 ![Launch successes and failures by ILS since 2009](ILS.png)
-![Launch successes and failures by Galactic Energy since 2020](Galactic_Energy.png)
+![Launch successes and failures by Galactic En. since 2020](Galactic_En..png)
 ![Launch successes and failures by iSpace since 2019](iSpace.png)
 ![Launch successes and failures by Eurockot LS since 2000](Eurockot_LS.png)
 ![Launch successes and failures by Firefly since 2021](Firefly.png)

@@ -17,7 +17,7 @@
 ![Orbital attempts by IRN in the last 8 years](IRN.png)
 ![Orbital attempts by Orbital ATK in the last 8 years](Orbital_ATK.png)
 ![Orbital attempts by ILS in the last 8 years](ILS.png)
-![Orbital attempts by Galactic Energy in the last 8 years](Galactic_Energy.png)
+![Orbital attempts by Galactic En. in the last 8 years](Galactic_En..png)
 ![Orbital attempts by iSpace in the last 8 years](iSpace.png)
 ![Orbital attempts by Eurockot LS in the last 8 years](Eurockot_LS.png)
 ![Orbital attempts by Firefly in the last 8 years](Firefly.png)

@@ -96,7 +96,7 @@ LSPs_dict = {
     263: "OneSpace",
     274: "iSpace",
     272: "Chinarocket",
-    1021: "Galactic Energy",
+    1021: "Galactic En.",
     187: "GK Launch Services",
     265: "Firefly",
     41: "KARI",
