@@ -75,8 +75,8 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 </p>
 
 <p float="left" align="center">
-  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byCountry/launchCadence8yearsPredictionLinear/USA.png">
-  <img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/USA.png" width="49%" /> 
+  <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byCountry/launchCadence8yearsPredictionLinear/United_States.png">
+  <img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/United_States.png" width="49%" /> 
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png">
   <img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png" width="49%" />
 </p>
