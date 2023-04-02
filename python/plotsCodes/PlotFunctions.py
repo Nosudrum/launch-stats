@@ -107,6 +107,7 @@ LSPs_dict = {
     1040: "CAS Space",
     1030: "ABL",
     266: "Relativity",
+    1049: "Sp. Pioneer",
 }
 
 Countries_dict = {
