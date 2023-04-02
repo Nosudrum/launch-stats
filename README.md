@@ -76,9 +76,9 @@ If you have feedback or ideas, feel free to open an issue. 🙂
 
 <p float="left" align="center">
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byCountry/launchCadence8yearsPredictionLinear/USA.png">
-  <img src="python/plots/launchCadence8yearsPredictionLinear.png" width="49%" /> 
+  <img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/USA.png" width="49%" /> 
   <a href="https://raw.githubusercontent.com/Nosudrum/launch-stats/main/python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png">
-  <img src="python/plots/byLSP/launchCadence8yearsPredictionLinear/SpaceX.png" width="49%" />
+  <img src="python/plots/byCountry/launchCadence8yearsPredictionLinear/China.png" width="49%" />
 </p>
 
 ## 🚀 Maiden flights and reusability
