@@ -13,10 +13,18 @@ data = pd.concat(
     [PastID, PastT0s, PastStatus[["status_id", "status_name"]], PastName], axis=1
 )
 
-year_selected = 1970
+year_selected = 1965
 days_delta_limit = 1
 
 data_year = data[data.net.dt.year == year_selected].copy().reset_index(drop=True)
+
+
+def check_special_assignment(identifier_):
+    if identifier_ == "1966-088A":
+        return "33da85f3-08a8-4c5f-892d-8b4be3b4fae6"
+    elif identifier_ == "1966-101A":
+        return "7ec54e6a-8df8-468c-ad66-b990ab058502"
+    return
 
 
 def get_celestrak_data(identifier_):
@@ -46,10 +54,13 @@ def name_match(string1, string2):
     string2 = string2.split("|")[-1]
     string1 = set(cleanup_string(string1).replace("kosmos", "cosmos").split())
     string2 = set(cleanup_string(string2).replace("kosmos", "cosmos").split())
-    if string1 & string2:
-        return True
-    else:
+    common_words = string1 & string2
+    if not common_words:
         return False
+    for word in common_words:
+        if len(word) >= 2:
+            return True
+    return False
 
 
 def set_identifier_match(index, identifier_, name_):
@@ -75,8 +86,17 @@ for i in data_year.index:
     if skip_next:
         skip_next = False
         continue
-    identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
-    name, date = get_celestrak_data(identifier)
+    is_special = True
+    while is_special:
+        identifier = f'{data_year.loc[i, "net"].strftime("%Y")}-{count:03d}A'
+        name, date = get_celestrak_data(identifier)
+        special_case_launch_id = check_special_assignment(identifier)
+        if special_case_launch_id:
+            special_index = data_year[data_year.id == special_case_launch_id].index[0]
+            set_identifier_match(special_index, identifier, name)
+            count += 1
+        else:
+            is_special = False
     if date == data_year.loc[i, "net"].strftime("%Y-%m-%d"):
         # Check if identifier launch date roughly matches launch date
         if data_year.loc[i, "status_id"] == 4:
