@@ -29,3 +29,4 @@
 ![First stages reusability by Relativity](Relativity.png)
 ![First stages reusability by Israel AI](Israel_AI.png)
 ![First stages reusability by Sp. Pioneer](Sp._Pioneer.png)
+![First stages reusability by KCST](KCST.png)
