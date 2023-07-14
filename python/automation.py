@@ -4,7 +4,6 @@ import os
 import requests
 
 from ImportAll import import_all_data, header
-from plots import generate_plots
 
 LAST_LAUNCH_URL = "https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=1&status__ids=3,4,7&mode=list"
 
@@ -41,5 +40,6 @@ if __name__ == "__main__":
             exit(code=0)
     update_cache(launch)
     import_all_data()
+    from plots import generate_plots
     generate_plots(show=False)
     exit(code=0)
