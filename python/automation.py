@@ -27,8 +27,14 @@ def get_cached_last_launch():
 
 def update_cache(launch):
     print("Updating cache...")
-    with open("cache/last_launch.json", "w") as file:
-        json.dump(launch, file, indent=4)
+    if not os.path.exists("cache"):
+        os.mkdir("cache")
+    if not os.path.exists("cache/last_launch.json"):
+        file = open("cache/last_launch.json", "x")
+    else:
+        file = open("cache/last_launch.json", "w")
+    json.dump(launch, file, indent=4)
+    file.close()
 
 
 if __name__ == "__main__":
@@ -38,8 +44,13 @@ if __name__ == "__main__":
         if new_id == old_id and new_status == old_status:
             print("Latest launch has not changed. No need to update.")
             exit(code=0)
+        else:
+            print("Latest launch has changed. Updating all plots.")
+    else:
+        print("Cache does not exist. Creating and updating all plots.")
     update_cache(launch)
     import_all_data()
     from plots import generate_plots
+
     generate_plots(show=False)
     exit(code=0)
