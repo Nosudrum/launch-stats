@@ -1,0 +1,38 @@
+name: Update Plots
+
+on:
+  workflow_dispatch:
+
+env:
+  # Setting an environment variable with the value of a configuration variable
+  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment: ${{ vars.ENVIRONMENT_STAGE }}
+    steps:
+    - name: 🍽️ Get working copy
+      uses: actions/checkout@main
+      with:
+        fetch-depth: 1  
+    - name: 🐍 Set up Python 3.10                               
+      uses: actions/setup-python@v2                               
+      with:                                 
+        python-version: '3.10.10'                                                   
+    - name: 💿 Install required packages                           
+      run: pip install Pillow requests matplotlib numpy tqdm pandas
+    - name: 🍳 Update Plots
+      env:
+          LL2_API_KEY: ${{ secrets.LL2_API_KEY }}
+      run: |
+        cd ${GITHUB_WORKSPACE}/python/
+        python automation.py
+    - name: 🚀 Deploy
+      run: |
+        git config user.name "Launch-Stats Github Actions"
+        git config user.email "Launch-Stats-Github-Actions@users.noreply.github.com"
+        git add .
+        git commit -am "feat(automated): Updated plots"
+        git push --all -f https://${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git
+
