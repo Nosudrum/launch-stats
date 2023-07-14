@@ -19,10 +19,13 @@ elif "LL2_API_KEY" in os.environ:
     API_key = os.environ["LL2_API_KEY"]
 else:
     raise Exception("No API key found")
-header = {"Authorization": "Token " + API_key}
+header = {
+    "Authorization": "Token " + API_key,
+    "User-Agent": "Nosu's Launch Stats",
+}
 
-# create data directory if it doesnt exist
-os.makedirs("../data", exist_ok=True)
+if not os.path.exists("data"):
+    os.mkdir("data")
 
 
 def import_ll2(path, data_name, endpoint, call_headers, api, api_version, limit, pos):
