@@ -2,10 +2,8 @@ name: Update Plots
 
 on:
   workflow_dispatch:
-
-env:
-  # Setting an environment variable with the value of a configuration variable
-  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+  schedule:
+    - cron: "*/60 * * * *"   # every 60 mins
 
 jobs:
   build-and-deploy:
