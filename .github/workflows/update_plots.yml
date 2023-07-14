@@ -21,7 +21,7 @@ jobs:
       with:                                 
         python-version: '3.10.10'                                                   
     - name: 💿 Install required packages                           
-      run: pip install Pillow requests matplotlib numpy tqdm
+      run: pip install Pillow requests matplotlib numpy tqdm pandas
     - name: 🍳 Update Plots
       env:
           LL2_API_KEY: ${{ secrets.LL2_API_KEY }}
