@@ -29,12 +29,8 @@ def update_cache(launch):
     print("Updating cache...")
     if not os.path.exists("cache"):
         os.mkdir("cache")
-    if not os.path.exists("cache/last_launch.json"):
-        file = open("cache/last_launch.json", "x")
-    else:
-        file = open("cache/last_launch.json", "w")
-    json.dump(launch, file, indent=4)
-    file.close()
+    with open("cache/last_launch.json", "w+") as file:
+        json.dump(launch, file, indent=4)
 
 
 if __name__ == "__main__":

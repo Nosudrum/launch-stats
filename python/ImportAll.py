@@ -38,7 +38,7 @@ def import_ll2(path, data_name, endpoint, call_headers, api, api_version, limit,
         call = requests.get(next_url, headers=call_headers, timeout=1440).json()
         data.extend(call["results"])
         next_url = call["next"]
-    with open(path, "w") as file:
+    with open(path, "w+") as file:
         json.dump(data, file, indent=4)
 
 
