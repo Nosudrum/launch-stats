@@ -1,0 +1,33 @@
+{
+    "id": "78f7c31d-4f29-482a-96d1-390b460a0a02",
+    "url": "https://ll.thespacedevs.com/2.2.0/launch/78f7c31d-4f29-482a-96d1-390b460a0a02/",
+    "slug": "lvm-3-chandrayaan-3",
+    "name": "LVM-3 | Chandrayaan-3",
+    "status": {
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+    },
+    "last_updated": "2023-07-14T09:45:04Z",
+    "net": "2023-07-14T09:05:17Z",
+    "net_precision": {
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
+    },
+    "window_end": "2023-07-14T10:00:00Z",
+    "window_start": "2023-07-14T08:00:00Z",
+    "lsp_name": "Indian Space Research Organization",
+    "mission": "Chandrayaan-3",
+    "mission_type": "Lunar Exploration",
+    "pad": "Satish Dhawan Space Centre Second Launch Pad",
+    "location": "Satish Dhawan Space Centre, India",
+    "landing": null,
+    "landing_success": null,
+    "launcher": null,
+    "orbit": "LO",
+    "image": "https://spacelaunchnow-prod-east.nyc3.digitaloceanspaces.com/media/launch_images/lvm-32520257c_image_20230711193208.png",
+    "infographic": null
+}
