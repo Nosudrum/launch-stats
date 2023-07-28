@@ -6,7 +6,7 @@ import numpy as np
 from PIL import Image
 
 Badge_DataLL2 = Image.open("assets/DataByLL2.png")
-Badge_Nosu = Image.open("assets/Nosu.png")
+Badge_GitHub = Image.open("assets/GitHub.png")
 
 # Colors & Labels
 github_dark = "#0D1117"
@@ -210,7 +210,7 @@ def finish_figure(
     fig_axes1.imshow(Badge_DataLL2)
     fig_axes1.axis("off")
     fig_axes2 = fig.add_axes([0.014, 0.02, 0.3, 0.3], anchor="SW", zorder=1)
-    fig_axes2.imshow(Badge_Nosu)
+    fig_axes2.imshow(Badge_GitHub)
     fig_axes2.axis("off")
     if save_transparent:
         plt.savefig("plots/" + path + "_transparent.png", transparent=True, dpi=500)
@@ -307,7 +307,7 @@ def finish_plotly_figure(fig, path):
     )
     fig.add_layout_image(
         dict(
-            source=Badge_Nosu,
+            source=Badge_GitHub,
             xanchor="left",
             yanchor="top",
             xref="x domain",
