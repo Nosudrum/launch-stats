@@ -108,6 +108,7 @@ LSPs_dict = {
     1030: "ABL",
     266: "Relativity",
     1049: "Sp. Pioneer",
+    1074: "NADA (PRK)",
 }
 
 Countries_dict = {
