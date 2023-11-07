@@ -3,6 +3,7 @@
 ![Launch successes and failures of the Angara family since 2014](Angara.png)
 ![Launch successes and failures of the Antares family since 2013](Antares.png)
 ![Launch successes and failures of the Ariane family since 1979](Ariane.png)
+![Launch successes and failures of the Ariane 4 family since 1988](Ariane_4.png)
 ![Launch successes and failures of the Ariane 5 family since 1996](Ariane_5.png)
 ![Launch successes and failures of the Astra Rocket family since 2020](Astra_Rocket.png)
 ![Launch successes and failures of the Athena family since 1995](Athena.png)
