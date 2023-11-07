@@ -49,6 +49,7 @@ LaunchCountry["location.country_code"].loc[LaunchCountry_mask] = LaunchLSP.count
 LaunchCountry[LaunchCountry == "KAZ"] = "RUS"
 LaunchCountry[LaunchCountry == "GUF"] = "FRA"
 LaunchCountry[LaunchCountry == "MHL"] = "USA"
+LaunchLauncherFamily = Rocket["configuration.family"]
 LaunchProgram = pd.json_normalize(Launches["program"])
 
 FirstStageReuse = pd.DataFrame(
@@ -125,6 +126,7 @@ PastName = LaunchName[past_filter].copy()
 PastStatus = LaunchStatus[past_filter].copy()
 PastPad = LaunchPad[past_filter].copy()
 PastRocket = Rocket[past_filter].copy()
+PastLauncherFamily = LaunchLauncherFamily[past_filter].copy()
 PastFirstStage = FirstStage[past_filter].copy()
 PastFirstStageReuse = FirstStageReuse[past_filter].copy()
 

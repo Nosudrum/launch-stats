@@ -41,6 +41,9 @@ def generate_plots(show):
     plotsCodes.LaunchCadenceByLSPpredictionLinear.main(pbar, show=False)
     plotsCodes.OrbitalReusabilityPerLSP.main(pbar, show=False)
 
+    # Plots per Launcher Family
+    plotsCodes.OrbitalSuccessFailuresPerLauncherFamily.main(pbar, show=False)
+
     # Yearly plots
     plotsCodes.YearlyOrbitalAttemptsPerCountry.main(pbar, show=False)
     plotsCodes.YearlyOrbitalAttemptsPerLSP.main(pbar, show=False)
@@ -52,3 +55,7 @@ def generate_plots(show):
     pbar.close()
 
     print("Successfully generated and exported all plots.")
+
+
+if __name__ == "__main__":
+    generate_plots(True)

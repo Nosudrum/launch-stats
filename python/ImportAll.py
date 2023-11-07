@@ -2,7 +2,9 @@
 import json
 import math
 import os
+import time
 from threading import Thread
+
 import requests
 from tqdm.auto import tqdm
 
@@ -38,7 +40,15 @@ def import_ll2(path, data_name, endpoint, call_headers, api, api_version, limit,
     for _ in tqdm(
         range(number_calls), desc=data_name, ncols=80, leave=False, position=pos
     ):
-        call = requests.get(next_url, headers=call_headers, timeout=1440).json()
+        response = None
+        for ii in range(20):
+            response = requests.get(next_url, headers=call_headers, timeout=1440)
+            if response.status_code == 200:
+                break
+            print(response.status_code)
+            time.sleep(5)
+
+        call = response.json()
         data.extend(call["results"])
         next_url = call["next"]
     with open(path, "w+") as file:

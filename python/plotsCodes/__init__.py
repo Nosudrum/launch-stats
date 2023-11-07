@@ -12,6 +12,7 @@ from .OrbitalAttemptsPerLSPType import *
 from .OrbitalAttemptsPerLSPTypeStacked import *
 from .OrbitalFailuresPerCountry import *
 from .OrbitalSuccessFailuresPerCountry import *
+from .OrbitalSuccessFailuresPerLauncherFamily import *
 from .OrbitalSuccessFailuresPerLSP import *
 from .OrbitalSuccessRatePerCountry import *
 from .PlotlyOrbitalAttemptsPerCountry import *

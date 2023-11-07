@@ -1,3 +1,4 @@
+from matplotlib.ticker import MaxNLocator
 from tqdm import tqdm
 
 from Processing import PastCountries, PastStatus, PastT0s
@@ -9,6 +10,7 @@ from plotsCodes.PlotFunctions import (
     dark_figure,
     SPF_colors,
     SPF_labels,
+    flatten,
 )
 
 
@@ -24,13 +26,6 @@ def main(pbar, show=True):
     for Country in tqdm(
         Countries_list, desc="Countries", ncols=80, position=1, leave=False
     ):
-        README.write(
-            "![Launch successes and failures by "
-            + Countries_dict[Country]
-            + " since 1957]("
-            + Countries_dict[Country].replace(" ", "_").replace("/", "_")
-            + ".png)\n"
-        )
         country_mask = PastCountries["location.country_code"] == Country
         successes = PastT0s[success_mask & country_mask]
         partial = PastT0s[partial_mask & country_mask]
@@ -40,6 +35,15 @@ def main(pbar, show=True):
             partial["net"].dt.year.values.tolist(),
             failures["net"].dt.year.values.tolist(),
         ]
+        first_year = min(flatten(data))
+        last_year = max(flatten(data))
+        README.write(
+            f"![Launch successes and failures by "
+            + Countries_dict[Country]
+            + f" since {first_year}]("
+            + Countries_dict[Country].replace(" ", "_").replace("/", "_")
+            + ".png)\n"
+        )
         fig, axes = dark_figure()
         axes[0].hist(
             data,
@@ -60,12 +64,12 @@ def main(pbar, show=True):
         )
         axes[0].set(
             ylabel="Total launches per year",
-            xlim=[min(years), max(years) + 1],
+            xlim=[first_year, last_year + 1],
             title="Outcome of orbital launch attempts by "
             + Countries_dict[Country]
-            + " since "
-            + str(min(years)),
+            + f" since {first_year}",
         )
+        axes[0].xaxis.set_major_locator(MaxNLocator(integer=True))
         finish_figure(
             fig,
             axes,
