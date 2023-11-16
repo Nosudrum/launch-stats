@@ -1,10 +1,7 @@
 import matplotlib.pyplot as plt
 
 from Processing import PastT0s, PastLSPs
-from plotsCodes.PlotFunctions import (
-    np,
-    datetime,
-)
+from plotsCodes.PlotFunctions import np, datetime, xkcd_font
 
 
 # Plot of orbital launch attempts per LSP per year since 1957
@@ -26,6 +23,7 @@ def main(show=False):
         xy=(datetime(2019, 8, 20), 85),
         arrowprops=dict(arrowstyle="->"),
         xytext=(datetime(2007, 1, 1), 82),
+        font=xkcd_font,
     )
 
     ax.annotate(
@@ -33,17 +31,18 @@ def main(show=False):
         xy=(datetime(2021, 9, 20), 133),
         arrowprops=dict(arrowstyle="->"),
         xytext=(datetime(2007, 1, 1), 230),
+        font=xkcd_font,
     )
 
     ax.plot(T0s, count)
-    ax.set_xlabel("time")
-    ax.set_ylabel("orbital launches")
+    ax.set_xlabel("time", font=xkcd_font)
+    ax.set_ylabel("orbital launches", font=xkcd_font)
 
-    ax.set_title("SpaceX launch cadence")
+    ax.set_title("SpaceX launch cadence", font=xkcd_font)
 
-    fig.text(0.05, 0.05, "launch-stats.com", ha="left")
+    fig.text(0.05, 0.05, "launch-stats.com", ha="left", font=xkcd_font)
 
-    fig.text(0.95, 0.05, "data from the LL2 API", ha="right")
+    fig.text(0.95, 0.05, "data from the LL2 API", ha="right", font=xkcd_font)
 
     plt.savefig("plots/xkcd/SpaceXStarlink.png", transparent=False, dpi=500)
     if show:

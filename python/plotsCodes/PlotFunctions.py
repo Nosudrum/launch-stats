@@ -1,5 +1,6 @@
 from datetime import datetime, timezone
 from math import prod, ceil, floor
+from pathlib import Path
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -7,6 +8,7 @@ from PIL import Image
 
 Badge_DataLL2 = Image.open("assets/DataByLL2.png")
 Badge_GitHub = Image.open("assets/GitHub.png")
+xkcd_font = fpath = Path("assets/Humor-Sans.ttf")
 
 # Colors & Labels
 github_dark = "#0D1117"
