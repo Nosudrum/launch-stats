@@ -31,3 +31,4 @@ from .DailyConsecutiveYears import *
 from .MaidenFlights import *
 from .TotalOrbitalAttemptsPerCountry import *
 from .OrbitalReusabilityPerLSP import *
+from .XKCDstarlink import *

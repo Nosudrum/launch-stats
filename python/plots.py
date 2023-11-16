@@ -4,7 +4,7 @@ from tqdm import tqdm
 
 
 def generate_plots(show):
-    pbar = tqdm(total=33, desc="Plots", ncols=80, position=0, leave=True)
+    pbar = tqdm(total=34, desc="Plots", ncols=80, position=0, leave=True)
 
     # Main plots
     plotsCodes.OrbitalAttemptsPerCountryStacked.main(pbar, show=show)
@@ -51,6 +51,9 @@ def generate_plots(show):
     # Plotly plots
     plotsCodes.PlotlyOrbitalAttemptsPerCountry.main(pbar)
     plotsCodes.PlotlyOrbitalAttemptsPerLSP.main(pbar)
+
+    # XKCD plots
+    plotsCodes.XKCDstarlink.main(show=show)
 
     pbar.close()
 
