@@ -72,6 +72,7 @@
 ![Launch successes and failures of the Shtil' family since 1998](Shtil'.png)
 ![Launch successes and failures of the Simorgh family since 2017](Simorgh.png)
 ![Launch successes and failures of the Smart Dragon family since 2019](Smart_Dragon.png)
+![Launch successes and failures of the South Korean ADD Solid-Fuel SLV family since 2023](South_Korean_ADD_Solid-Fuel_SLV.png)
 ![Launch successes and failures of the Soyuz family since 1965](Soyuz.png)
 ![Launch successes and failures of the Soyuz-U family since 1982](Soyuz-U.png)
 ![Launch successes and failures of the Space Launch System family since 2022](Space_Launch_System.png)
