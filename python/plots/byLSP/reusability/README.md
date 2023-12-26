@@ -18,6 +18,7 @@
 ![First stages reusability by Firefly](Firefly.png)
 ![First stages reusability by KARI](KARI.png)
 ![First stages reusability by JAXA](JAXA.png)
+![First stages reusability by CASIC](CASIC.png)
 ![First stages reusability by NADA (PRK)](NADA_(PRK).png)
 ![First stages reusability by LandSpace](LandSpace.png)
 ![First stages reusability by IRN](IRN.png)
