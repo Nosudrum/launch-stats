@@ -112,6 +112,7 @@ LSPs_dict = {
     1049: "Sp. Pioneer",
     1074: "NADA (PRK)",
     1079: "ADD (KOR)",
+    184: "CASIC",
 }
 
 Countries_dict = {
