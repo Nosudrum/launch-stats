@@ -93,5 +93,6 @@
 ![Launch successes and failures of the Vega family since 2012](Vega.png)
 ![Launch successes and failures of the Volna family since 2005](Volna.png)
 ![Launch successes and failures of the Vostok family since 1958](Vostok.png)
+![Launch successes and failures of the Vulcan family since 2024](Vulcan.png)
 ![Launch successes and failures of the Zenith family since 1985](Zenith.png)
 ![Launch successes and failures of the Zhuque family since 2022](Zhuque.png)
