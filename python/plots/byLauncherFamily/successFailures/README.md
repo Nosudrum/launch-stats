@@ -23,6 +23,7 @@
 ![Launch successes and failures of the Feng Bao family since 1973](Feng_Bao.png)
 ![Launch successes and failures of the Firefly Alpha family since 2021](Firefly_Alpha.png)
 ![Launch successes and failures of the GSLV family since 2001](GSLV.png)
+![Launch successes and failures of the Gravity-1 family since 2024](Gravity-1.png)
 ![Launch successes and failures of the H-I family since 1986](H-I.png)
 ![Launch successes and failures of the H-II family since 1994](H-II.png)
 ![Launch successes and failures of the H2B family since 2009](H2B.png)
