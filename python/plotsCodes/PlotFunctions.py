@@ -113,6 +113,7 @@ LSPs_dict = {
     1074: "NADA (PRK)",
     1079: "ADD (KOR)",
     184: "CASIC",
+    1080: "OrienSpace",
 }
 
 Countries_dict = {
