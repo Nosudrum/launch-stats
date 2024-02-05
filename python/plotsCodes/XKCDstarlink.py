@@ -5,7 +5,7 @@ from plotsCodes.PlotFunctions import np, datetime, xkcd_font
 
 
 # Plot of orbital launch attempts per LSP per year since 1957
-def main(show=False):
+def main(pbar, show=False):
     SpX_mask = PastLSPs["id"] == 121
     T0s = PastT0s[SpX_mask]["net"]
     count = np.arange(1, T0s.count() + 1, 1)
@@ -47,3 +47,4 @@ def main(show=False):
     plt.savefig("plots/xkcd/SpaceXStarlink.png", transparent=False, dpi=500)
     if show:
         plt.show()
+    pbar.update()

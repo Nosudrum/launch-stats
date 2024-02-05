@@ -21,6 +21,7 @@ Orbits = pd.read_json("data/Orbits.json")
 Pads = pd.read_json("data/Pads.json")
 Statuses = pd.read_json("data/Statuses.json")
 Astronauts = pd.read_json("data/Astronauts.json")
+Updates = pd.read_json("data/Updates.json", convert_dates=["created_on"])
 
 # Remove unwanted data
 # Apollo 1

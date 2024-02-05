@@ -85,6 +85,19 @@ def import_all_data():
             1,
         ),
     )
+    t_updates = Thread(
+        target=import_ll2,
+        args=(
+            "data/Updates.json",
+            "Updates",
+            "updates",
+            header,
+            API,
+            API_VERSION,
+            100,
+            2,
+        ),
+    )
     t_agencies = Thread(
         target=import_ll2,
         args=(
@@ -95,12 +108,12 @@ def import_all_data():
             API,
             API_VERSION,
             100,
-            2,
+            3,
         ),
     )
     t_pads = Thread(
         target=import_ll2,
-        args=("data/Pads.json", "Pads", "pad", header, API, API_VERSION, 100, 3),
+        args=("data/Pads.json", "Pads", "pad", header, API, API_VERSION, 100, 4),
     )
     t_orbits = Thread(
         target=import_ll2,
@@ -112,7 +125,7 @@ def import_all_data():
             API,
             API_VERSION,
             100,
-            4,
+            5,
         ),
     )
     t_statuses = Thread(
@@ -125,7 +138,7 @@ def import_all_data():
             API,
             API_VERSION,
             100,
-            5,
+            6,
         ),
     )
     t_locations = Thread(
@@ -138,13 +151,14 @@ def import_all_data():
             API,
             API_VERSION,
             100,
-            6,
+            7,
         ),
     )
 
     # Start threads
     t_launches.start()
     t_astronauts.start()
+    t_updates.start()
     t_agencies.start()
     t_pads.start()
     t_orbits.start()

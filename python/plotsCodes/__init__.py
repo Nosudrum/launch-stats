@@ -32,3 +32,4 @@ from .MaidenFlights import *
 from .TotalOrbitalAttemptsPerCountry import *
 from .OrbitalReusabilityPerLSP import *
 from .XKCDstarlink import *
+from .LL2UpdatesPerLibrarianStacked import *

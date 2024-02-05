@@ -34,6 +34,26 @@ reusability_labels = [
 ]
 reusability_colors = [colors_dict[i] for i in ["blue", "yellow", "orange", "green"]]
 
+# Librarians custom names
+Librarians_dict = {
+    0: "Others",
+    "Cosmic_Penguin": "Cosmic Penguin",
+    "Nosu": "Nosu",
+    "SwGustav": "SwGustav",
+    "Jay": "Jay",
+    "LL2": "LL2",
+    "hitura-nobad": "hitura-nobad",
+    "spacevogel": "spacevogel",
+    "scottm3": "scottm3",
+    "JRascagneres": "Scorp",
+    "Koun7erfit": "Koun7erfit",
+    "Altrius": "Altrius",
+    "spacelaunchnowadmin": "SLN",
+    "Rob1bouchet": "Rob1bouchet",
+    "IronRain": "IronRain",
+}
+
+
 # LSPs custom names
 LSPs_dict = {
     0: "Others",
