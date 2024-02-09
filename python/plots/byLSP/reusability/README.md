@@ -1,8 +1,8 @@
 # First stages reusability per LSP since 1957
 ![First stages reusability by SpaceX](SpaceX.png)
 ![First stages reusability by CASC](CASC.png)
-![First stages reusability by Rocket Lab](Rocket_Lab.png)
 ![First stages reusability by VKS](VKS.png)
+![First stages reusability by Rocket Lab](Rocket_Lab.png)
 ![First stages reusability by ROSCOSMOS](ROSCOSMOS.png)
 ![First stages reusability by ISRO](ISRO.png)
 ![First stages reusability by ULA](ULA.png)
