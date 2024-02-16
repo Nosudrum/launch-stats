@@ -52,10 +52,11 @@ def generate_plots(show):
     plotsCodes.PlotlyOrbitalAttemptsPerCountry.main(pbar)
     plotsCodes.PlotlyOrbitalAttemptsPerLSP.main(pbar)
 
-    # XKCD plots
-    plotsCodes.XKCDstarlink.main(pbar, show=show)
+    # LL2 meta plots
     plotsCodes.LL2UpdatesPerLibrarianStacked.main(pbar, show=show)
 
+    # XKCD plots
+    plotsCodes.XKCDstarlink.main(pbar, show=show)
     pbar.close()
 
     print("Successfully generated and exported all plots.")
