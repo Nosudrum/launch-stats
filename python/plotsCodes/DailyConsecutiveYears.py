@@ -17,27 +17,32 @@ def main(pbar, show=True):
         currentDayOfYear += 1
 
     def find_previous_leap_year(year, current_valid):
-        if current_valid and isleap(year):
-            return year
+        if isleap(year):
+            if current_valid:
+                return year
+            else:
+                year -= 1
         else:
             while not isleap(year):
                 year -= 1
             return year
 
-    lastLeapYear = find_previous_leap_year(currentYear, current_valid=True)
-
     daysVector = np.arange(1, 367, 1).tolist()
     consecutiveYearsVector = []
     for dayOfYear in tqdm(daysVector, desc="Day of year", position=1, leave=False):
-        if dayOfYear == 60:
-            if dayOfYear > currentDayOfYear:
+        if dayOfYear == 60:  # February 29th
+            if (
+                dayOfYear > currentDayOfYear
+            ):  # Last time this day happened was in the previous **leap** year
                 startYear = find_previous_leap_year(currentYear, current_valid=False)
-            else:
-                startYear = lastLeapYear
-        else:
-            if dayOfYear > currentDayOfYear:
+            else:  # Last time this day happened was in the previous OR current **leap** year
+                startYear = find_previous_leap_year(currentYear, current_valid=True)
+        else:  # All other days
+            if (
+                dayOfYear > currentDayOfYear
+            ):  # Last time this day happened was in the previous year
                 startYear = currentYear - 1
-            else:
+            else:  # Last time this day happened was in the current year
                 startYear = currentYear
         consecutiveYears = 0
         consecutive = True
