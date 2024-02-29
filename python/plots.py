@@ -63,4 +63,4 @@ def generate_plots(show):
 
 
 if __name__ == "__main__":
-    generate_plots(True)
+    generate_plots(False)
