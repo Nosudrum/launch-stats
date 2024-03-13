@@ -39,3 +39,4 @@
 ![Launch successes and failures by Sea Launch since 1999](Sea_Launch.png)
 ![Launch successes and failures by ADD (KOR) since 2023](ADD_(KOR).png)
 ![Launch successes and failures by OrienSpace since 2024](OrienSpace.png)
+![Launch successes and failures by Space One since 2024](Space_One.png)

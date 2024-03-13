@@ -30,6 +30,7 @@
 ![Launch successes and failures of the H3 family since 2023](H3.png)
 ![Launch successes and failures of the Hyperbola family since 2019](Hyperbola.png)
 ![Launch successes and failures of the Juno family since 1958](Juno.png)
+![Launch successes and failures of the KAIROS family since 2024](KAIROS.png)
 ![Launch successes and failures of the KSLV family since 2009](KSLV.png)
 ![Launch successes and failures of the Kaituozhe family since 2002](Kaituozhe.png)
 ![Launch successes and failures of the Kinetica family since 2022](Kinetica.png)

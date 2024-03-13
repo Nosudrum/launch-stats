@@ -39,3 +39,4 @@
 ![Orbital attempts by Sea Launch in the last 8 years](Sea_Launch.png)
 ![Orbital attempts by ADD (KOR) in the last 8 years](ADD_(KOR).png)
 ![Orbital attempts by OrienSpace in the last 8 years](OrienSpace.png)
+![Orbital attempts by Space One in the last 8 years](Space_One.png)
