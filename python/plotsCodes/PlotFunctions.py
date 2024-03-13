@@ -134,6 +134,7 @@ LSPs_dict = {
     1079: "ADD (KOR)",
     184: "CASIC",
     1080: "OrienSpace",
+    1083: "Space One",
 }
 
 Countries_dict = {
