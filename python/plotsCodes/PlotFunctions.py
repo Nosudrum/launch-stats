@@ -41,7 +41,7 @@ Librarians_dict = {
     "Nosu": "Nosu",
     "SwGustav": "SwGustav",
     "Jay": "Jay",
-    "LL2": "LL2 automation",
+    "LL2": "LL2",
     "hitura-nobad": "hitura-nobad",
     "spacevogel": "spacevogel",
     "scottm3": "scottm3",
