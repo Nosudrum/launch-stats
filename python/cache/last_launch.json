@@ -4,12 +4,12 @@
     "slug": "falcon-9-block-5-starlink-group-9-3",
     "name": "Falcon 9 Block 5 | Starlink Group 9-3",
     "status": {
-        "id": 7,
-        "name": "Launch was a Partial Failure",
-        "abbrev": "Partial Failure",
-        "description": "Either the launch vehicle reached orbit but did not deliver its payload in the targeted orbit, or an exceptional event made it impossible to consider the mission a success."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2024-07-12T14:41:32Z",
+    "last_updated": "2024-07-14T11:24:16Z",
     "net": "2024-07-12T02:35:00Z",
     "net_precision": {
         "id": 0,
