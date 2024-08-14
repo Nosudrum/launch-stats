@@ -22,7 +22,7 @@ def main(pbar, show=False):
     Countries = (
         PastCountries[
             PastT0s["net"] >= datetime(current_year - 7, 1, 1, 0, 0, 0, 0, timezone.utc)
-        ]["location.country_code"]
+        ]["country.alpha_3_code"]
         .value_counts()
         .index.tolist()
     )
@@ -40,10 +40,10 @@ def main(pbar, show=False):
         )
         fig, axes = dark_figure()
         Country_Past_T0s = PastT0s[
-            PastCountries["location.country_code"] == Country
+            PastCountries["country.alpha_3_code"] == Country
         ].copy()
         Country_Future_T0s = FutureT0s[
-            FutureCountries["location.country_code"] == Country
+            FutureCountries["country.alpha_3_code"] == Country
         ].copy()
         year_id = -1
         for year in range(current_year, current_year - 8, -1):

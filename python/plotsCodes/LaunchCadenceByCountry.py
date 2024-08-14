@@ -23,7 +23,7 @@ def main(pbar, show=False):
             >= datetime(
                 datetime.now(timezone.utc).year - 7, 1, 1, 0, 0, 0, 0, timezone.utc
             )
-        ]["location.country_code"]
+        ]["country.alpha_3_code"]
         .value_counts()
         .index.tolist()
     )
@@ -43,7 +43,7 @@ def main(pbar, show=False):
         )
         F5, F5_axes = dark_figure()
         F5_Country_T0s = PastT0s[
-            PastCountries["location.country_code"] == Country
+            PastCountries["country.alpha_3_code"] == Country
         ].copy()
         year_id = -1
         for year in range(

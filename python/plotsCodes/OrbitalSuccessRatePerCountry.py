@@ -7,7 +7,7 @@ from plotsCodes.PlotFunctions import Countries_dict, finish_figure, np, dark_fig
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
 def main(pbar, show=True):
-    Countries_list = PastCountries["location.country_code"].unique().tolist()
+    Countries_list = PastCountries["country.alpha_3_code"].unique().tolist()
     README = open("plots/byCountry/successRate/README.md", "w")
     README.write("# Launches and success rate per country since 1957\n")
     Years_list = PastT0s.net.dt.year.unique().tolist()
@@ -23,7 +23,7 @@ def main(pbar, show=True):
             + Countries_dict[Country].replace(" ", "_").replace("/", "_")
             + ".png)\n"
         )
-        country_mask = PastCountries["location.country_code"] == Country
+        country_mask = PastCountries["country.alpha_3_code"] == Country
         data = np.empty((len(Years_list), 2))
         for year in Years_list:
             successes = (

@@ -38,19 +38,28 @@ FirstStage = pd.json_normalize(Rocket["launcher_stage"])
 LaunchMission = pd.json_normalize(Launches.mission)
 LaunchOrbit = LaunchMission["orbit.id"].to_frame()
 LaunchPad = pd.json_normalize(Launches["pad"])
-LaunchCountry = LaunchPad["location.country_code"].to_frame()
-LaunchCountry_mask = (
-    (LaunchPad["location.id"] == 20)
-    | (LaunchPad["location.id"] == 144)
-    | (LaunchPad["location.id"] == 3)
-)
-LaunchCountry["location.country_code"].loc[LaunchCountry_mask] = LaunchLSP.country_code[
-    LaunchCountry_mask
-]
+LaunchCountry = LaunchPad["country.alpha_3_code"].to_frame()
+
+for index in LaunchCountry.index:
+    if not LaunchPad.iloc[index]["location.id"] in [20, 144, 3]:
+        continue
+    LaunchCountry.iloc[index] = LaunchLSP.iloc[index]["country"][0]["alpha_3_code"]
+
 LaunchCountry[LaunchCountry == "KAZ"] = "RUS"
 LaunchCountry[LaunchCountry == "GUF"] = "FRA"
 LaunchCountry[LaunchCountry == "MHL"] = "USA"
-LaunchLauncherFamily = Rocket["configuration.family"]
+
+LaunchLauncherFamily = []
+for index in Rocket.index:
+    LaunchLauncherFamily.append(
+        max(
+            [family["name"] for family in Rocket.iloc[7000]["configuration.families"]],
+            key=len,
+        )
+    )
+
+LaunchLauncherFamily = pd.Series(LaunchLauncherFamily)
+Rocket["configuration.family"] = LaunchLauncherFamily
 LaunchProgram = pd.json_normalize(Launches["program"])
 
 FirstStageReuse = pd.DataFrame(

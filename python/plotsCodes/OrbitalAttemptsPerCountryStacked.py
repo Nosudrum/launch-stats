@@ -15,17 +15,17 @@ def main(pbar, show=True):
     F1_Years = PastT0s["net"].dt.year.unique().tolist()
     F1_Countries = PastCountries.copy()
     F1_Countries_sorted = (
-        F1_Countries["location.country_code"].value_counts().index.tolist()
+        F1_Countries["country.alpha_3_code"].value_counts().index.tolist()
     )
     F1_Countries_selected = F1_Countries_sorted[0:7]
     F1_Countries[
-        ~F1_Countries["location.country_code"].isin(F1_Countries_selected)
+        ~F1_Countries["country.alpha_3_code"].isin(F1_Countries_selected)
     ] = "OTH"
     F1_Countries_selected.append("OTH")
     F1_data = []
     for Country in F1_Countries_selected:
         F1_data.append(
-            PastT0s[F1_Countries["location.country_code"] == Country][
+            PastT0s[F1_Countries["country.alpha_3_code"] == Country][
                 "net"
             ].dt.year.values.tolist()
         )

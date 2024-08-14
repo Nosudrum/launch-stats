@@ -16,18 +16,18 @@ def main(pbar, show=True):
     F2_Countries = PastCountries.copy()
     F2_Status = PastStatus.copy()
     F2_Countries_sorted = (
-        F2_Countries["location.country_code"].value_counts().index.tolist()
+        F2_Countries["country.alpha_3_code"].value_counts().index.tolist()
     )
     F2_Countries_selected = F2_Countries_sorted[0:7]
     F2_Countries[
-        ~F2_Countries["location.country_code"].isin(F2_Countries_selected)
+        ~F2_Countries["country.alpha_3_code"].isin(F2_Countries_selected)
     ] = "OTH"
     F2_Countries_selected.append("OTH")
     F2_data = []
     Failures_mask = (F2_Status.id == 4) | (F2_Status.id == 7)
     for Country in F2_Countries_selected:
         F2_data.append(
-            PastT0s[(F2_Countries["location.country_code"] == Country) & Failures_mask][
+            PastT0s[(F2_Countries["country.alpha_3_code"] == Country) & Failures_mask][
                 "net"
             ].dt.year.values.tolist()
         )

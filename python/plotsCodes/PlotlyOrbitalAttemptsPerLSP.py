@@ -16,7 +16,7 @@ from plotsCodes.PlotFunctions import (
 def main(pbar):
     Countries = (
         PastCountries.copy()
-        .rename(columns={"location.country_code": "Country"})
+        .rename(columns={"country.alpha_3_code": "Country"})
         .replace({"Country": Countries_dict})
     )
     Pad = PastPad.copy().rename(columns={"name": "Pad"})["Pad"]

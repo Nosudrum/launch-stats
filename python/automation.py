@@ -5,7 +5,7 @@ import requests
 
 from ImportAll import import_all_data, header
 
-LAST_LAUNCH_URL = "https://ll.thespacedevs.com/2.2.0/launch/previous/?limit=1&status__ids=3,4,7&mode=list"
+LAST_LAUNCH_URL = "https://ll.thespacedevs.com/2.3.0/launches/previous/?limit=1&status__ids=3,4,7&mode=list"
 
 
 def get_last_launch():

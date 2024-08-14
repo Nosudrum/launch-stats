@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 
 # Import parameters
 API = "ll"  # ll or lldev
-API_VERSION = "2.2.0"
+API_VERSION = "2.3.0"
 if os.path.exists("APIkey.txt"):
     print("Using API key from APIkey.txt")
     with open("APIkey.txt", "r") as f:
@@ -30,13 +30,15 @@ if not os.path.exists("data"):
     os.mkdir("data")
 
 
-def import_ll2(path, data_name, endpoint, call_headers, api, api_version, limit, pos):
-    count_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit={limit}&mode=list"
+def import_ll2(
+    path, data_name, endpoint, call_headers, api, api_version, limit, pos, filters
+):
+    count_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit=1"
     count_call = requests.get(count_url, headers=call_headers, timeout=1440).json()
     number_data = count_call["count"]
     number_calls = math.ceil(number_data / limit)
     data = []
-    next_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit={limit}&mode=detailed"
+    next_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit={limit}&mode=detailed&{'&'.join(filters)}"
     for _ in tqdm(
         range(number_calls), desc=data_name, ncols=80, leave=False, position=pos
     ):
@@ -64,12 +66,13 @@ def import_all_data():
         args=(
             "data/Launches.json",
             "Launches",
-            "launch",
+            "launches",
             header,
             API,
             API_VERSION,
             80,
             0,
+            ["pad__location__celestial_body__id=1"],
         ),
     )
     t_astronauts = Thread(
@@ -77,12 +80,13 @@ def import_all_data():
         args=(
             "data/Astronauts.json",
             "Astronauts",
-            "astronaut",
+            "astronauts",
             header,
             API,
             API_VERSION,
             20,
             1,
+            [],
         ),
     )
     t_updates = Thread(
@@ -96,6 +100,7 @@ def import_all_data():
             API_VERSION,
             100,
             2,
+            [],
         ),
     )
     t_agencies = Thread(
@@ -109,23 +114,25 @@ def import_all_data():
             API_VERSION,
             100,
             3,
+            [],
         ),
     )
     t_pads = Thread(
         target=import_ll2,
-        args=("data/Pads.json", "Pads", "pad", header, API, API_VERSION, 100, 4),
+        args=("data/Pads.json", "Pads", "pads", header, API, API_VERSION, 100, 4, []),
     )
     t_orbits = Thread(
         target=import_ll2,
         args=(
             "data/Orbits.json",
             "Orbits",
-            "config/orbit",
+            "config/orbits",
             header,
             API,
             API_VERSION,
             100,
             5,
+            [],
         ),
     )
     t_statuses = Thread(
@@ -133,12 +140,13 @@ def import_all_data():
         args=(
             "data/Statuses.json",
             "Statuses",
-            "config/launchstatus",
+            "config/launch_statuses",
             header,
             API,
             API_VERSION,
             100,
             6,
+            [],
         ),
     )
     t_locations = Thread(
@@ -146,12 +154,13 @@ def import_all_data():
         args=(
             "data/Locations.json",
             "Locations",
-            "location",
+            "locations",
             header,
             API,
             API_VERSION,
             100,
             7,
+            [],
         ),
     )
 

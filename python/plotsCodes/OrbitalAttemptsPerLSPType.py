@@ -13,12 +13,12 @@ def main(pbar, show=True):
     F3_Years = PastT0s["net"].dt.year.unique().tolist()
     F3, F3_axes = dark_figure()
     F3_LSPs = PastLSPs.copy()
-    F3_LSPs.loc[F3_LSPs["type"] == "Multinational", "type"] = "Government"
-    F3_LSPs_types = F3_LSPs["type"].unique().tolist()
+    F3_LSPs.loc[F3_LSPs["type.name"] == "Multinational", "type.name"] = "Government"
+    F3_LSPs_types = F3_LSPs["type.name"].unique().tolist()
     F3_data = []
     for LSP_type in F3_LSPs_types:
         F3_data.append(
-            PastT0s[F3_LSPs["type"] == LSP_type]["net"].dt.year.values.tolist()
+            PastT0s[F3_LSPs["type.name"] == LSP_type]["net"].dt.year.values.tolist()
         )
     F3_axes[0].hist(
         F3_data,

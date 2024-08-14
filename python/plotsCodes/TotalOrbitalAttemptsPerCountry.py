@@ -16,33 +16,33 @@ def main(pbar, show=True):
     fig, axes = dark_figure(grid=True)
 
     countries = PastCountries.copy()
-    countries_sorted = countries["location.country_code"].value_counts().index.tolist()
+    countries_sorted = countries["country.alpha_3_code"].value_counts().index.tolist()
     countries_selected = countries_sorted[0:7]
-    countries[~countries["location.country_code"].isin(countries_selected)] = "OTH"
+    countries[~countries["country.alpha_3_code"].isin(countries_selected)] = "OTH"
     countries_selected.append("OTH")
     countries_labels = [Countries_dict[ii] for ii in countries_selected]
     for Country in enumerate(countries_selected):
         y_data = (
-            PastT0s[countries["location.country_code"] == Country[1]]["net"]
+            PastT0s[countries["country.alpha_3_code"] == Country[1]]["net"]
             .copy()
             .reset_index(drop=True)
             .index.values.tolist()
         )
-        years = PastT0s[countries["location.country_code"] == Country[1]][
+        years = PastT0s[countries["country.alpha_3_code"] == Country[1]][
             "net"
         ].dt.year.values
         fractional_years = None
         for year in years:
             if isleap(year):
                 fractional_years = (
-                    PastT0s[countries["location.country_code"] == Country[1]][
+                    PastT0s[countries["country.alpha_3_code"] == Country[1]][
                         "net"
                     ].dt.dayofyear.values
                     / 366
                 )
             else:
                 fractional_years = (
-                    PastT0s[countries["location.country_code"] == Country[1]][
+                    PastT0s[countries["country.alpha_3_code"] == Country[1]][
                         "net"
                     ].dt.dayofyear.values
                     / 365

@@ -16,7 +16,7 @@ from plotsCodes.PlotFunctions import (
 
 # Plot of orbital launch attempts per country since 1957 non-stacked
 def main(pbar, show=True):
-    Countries_list = PastCountries["location.country_code"].unique().tolist()
+    Countries_list = PastCountries["country.alpha_3_code"].unique().tolist()
     README = open("plots/byCountry/successFailures/README.md", "w")
     README.write("# Launch successes and failures per country since 1957\n")
     years = PastT0s.net.dt.year.unique().tolist()
@@ -26,7 +26,7 @@ def main(pbar, show=True):
     for Country in tqdm(
         Countries_list, desc="Countries", ncols=80, position=1, leave=False
     ):
-        country_mask = PastCountries["location.country_code"] == Country
+        country_mask = PastCountries["country.alpha_3_code"] == Country
         successes = PastT0s[success_mask & country_mask]
         partial = PastT0s[partial_mask & country_mask]
         failures = PastT0s[failure_mask & country_mask]

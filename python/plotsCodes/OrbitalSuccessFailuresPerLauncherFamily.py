@@ -17,7 +17,6 @@ from plotsCodes.PlotFunctions import (
 def main(pbar, show=True):
     Families_list = PastLauncherFamily.unique().tolist()
     Families_list.sort()
-    Families_list.remove("")
     README = open("plots/byLauncherFamily/successFailures/README.md", "w")
     README.write("# Launch successes and failures per launcher family since 1957\n")
     years = PastT0s.net.dt.year.unique().tolist()

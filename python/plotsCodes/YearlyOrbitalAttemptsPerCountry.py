@@ -22,9 +22,9 @@ def main(pbar, show=False):
     README.write("# Orbital attempts per country for every year since 1957\n")
     Countries_dict_tmp = Countries_dict.copy()
     Countries = PastCountries.copy()
-    Countries_sorted = Countries["location.country_code"].value_counts().index.tolist()
+    Countries_sorted = Countries["country.alpha_3_code"].value_counts().index.tolist()
     Countries_selected = Countries_sorted[0:7]
-    Countries[~Countries["location.country_code"].isin(Countries_selected)] = "OTH"
+    Countries[~Countries["country.alpha_3_code"].isin(Countries_selected)] = "OTH"
     Countries_selected.append("OTH")
     for year in tqdm(
         range(1957, datetime.now(timezone.utc).year + 1),
@@ -50,12 +50,12 @@ def main(pbar, show=False):
         fig, axes = dark_figure()
         T0s = PastT0s[PastT0s["net"].dt.year == year].copy()
         Countries_yearly = (
-            PastCountries[PastT0s["net"].dt.year == year]["location.country_code"]
+            PastCountries[PastT0s["net"].dt.year == year]["country.alpha_3_code"]
             .to_frame()
             .copy()
         )
         Countries_yearly[
-            ~Countries_yearly["location.country_code"].isin(Countries_selected)
+            ~Countries_yearly["country.alpha_3_code"].isin(Countries_selected)
         ] = "OTH"
         if year == datetime.now(timezone.utc).year:
             bins = np.arange(
@@ -66,7 +66,7 @@ def main(pbar, show=False):
         legend_failure = False
         legend_partial = False
         for ii in enumerate(Countries_selected):
-            country_mask = Countries_yearly["location.country_code"] == ii[1]
+            country_mask = Countries_yearly["country.alpha_3_code"] == ii[1]
             yearly_country_dayofyear = T0s[country_mask]["net"].dt.dayofyear.to_list()
             yearly_country_failure = T0s.loc[country_mask & (PastStatus["id"] == 4)][
                 "net"
