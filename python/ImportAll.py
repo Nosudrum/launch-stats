@@ -168,3 +168,7 @@ def import_all_data():
     # Wait for threads to finish
     t_launches.join()
     print("Successfully completed import.")
+
+
+if __name__ == "__main__":
+    import_all_data()

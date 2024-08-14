@@ -6,3 +6,5 @@ python/APIkey.txt
 python/data
 python/assets
 __pycache__
+python/launch_designators/mcdowell_gcat_discrepancies.py
+python/launch_designators
