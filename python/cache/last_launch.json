@@ -1,9 +1,9 @@
 {
-    "id": "fa14deb0-bd6f-4318-922e-4cbe11773e54",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/fa14deb0-bd6f-4318-922e-4cbe11773e54/",
-    "name": "Soyuz 2.1a | Progress MS-28 (89P)",
+    "id": "3ecc1d59-470f-49a3-9508-35f0b6797454",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3ecc1d59-470f-49a3-9508-35f0b6797454/",
+    "name": "Falcon 9 Block 5 | WorldView Legion 3 & 4",
     "response_mode": "list",
-    "slug": "soyuz-21a-progress-ms-28-89p",
+    "slug": "falcon-9-block-5-worldview-legion-3-4",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-15T03:41:58Z",
-    "net": "2024-08-15T03:20:18Z",
+    "last_updated": "2024-08-15T16:53:41Z",
+    "net": "2024-08-15T13:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-08-15T03:20:18Z",
-    "window_start": "2024-08-15T03:20:18Z",
+    "window_end": "2024-08-15T14:00:00Z",
+    "window_start": "2024-08-15T13:00:00Z",
     "image": {
-        "id": 2143,
-        "name": "Soyuz on the launch pad (Progress MS-28)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_on_the_la_image_20240812112501.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_on_the_la_image_thumbnail_20240812112503.jpeg",
-        "credit": "Roscosmos",
+        "id": 2174,
+        "name": "F9 on SLC-40 (Worldview Legion 2)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240815122745.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20240815122745.jpeg",
+        "credit": "SpaceX",
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 5,
+            "name": "CC BY-NC 2.0 Deed",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
         "single_use": true,
         "variants": []
