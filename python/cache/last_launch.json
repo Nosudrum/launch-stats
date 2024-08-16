@@ -1,9 +1,9 @@
 {
-    "id": "72652fdb-542b-4f46-9657-d18149bd06e5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/72652fdb-542b-4f46-9657-d18149bd06e5/",
-    "name": "Long March 4B | Yaogan 43 Group 01",
+    "id": "d61c53c4-669a-44cd-a905-cea38e8e21d6",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/d61c53c4-669a-44cd-a905-cea38e8e21d6/",
+    "name": "Falcon 9 Block 5 | Transporter 11 (Dedicated SSO Rideshare)",
     "response_mode": "list",
-    "slug": "long-march-4b-yaogan-43-group-01",
+    "slug": "falcon-9-block-5-transporter-11-dedicated-sso-ride",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-16T08:26:10Z",
-    "net": "2024-08-16T07:35:00Z",
+    "last_updated": "2024-08-16T22:03:00Z",
+    "net": "2024-08-16T18:56:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-08-16T07:45:00Z",
-    "window_start": "2024-08-16T07:25:00Z",
+    "window_end": "2024-08-16T19:13:00Z",
+    "window_start": "2024-08-16T18:20:00Z",
     "image": {
-        "id": 1775,
-        "name": "[AUTO] Long March 4B - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193731.jpeg",
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
         "credit": null,
         "license": {
             "id": 1,
