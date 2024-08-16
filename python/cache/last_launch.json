@@ -1,9 +1,9 @@
 {
-    "id": "3ecc1d59-470f-49a3-9508-35f0b6797454",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3ecc1d59-470f-49a3-9508-35f0b6797454/",
-    "name": "Falcon 9 Block 5 | WorldView Legion 3 & 4",
+    "id": "daf0e1a3-fa5d-4523-9f46-3a41e5527da6",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/daf0e1a3-fa5d-4523-9f46-3a41e5527da6/",
+    "name": "SSLV | EOS-08/Microsat-2C",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-worldview-legion-3-4",
+    "slug": "sslv-eos-08microsat-2c",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-15T16:53:41Z",
-    "net": "2024-08-15T13:00:00Z",
+    "last_updated": "2024-08-16T04:17:13Z",
+    "net": "2024-08-16T03:47:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-08-15T14:00:00Z",
-    "window_start": "2024-08-15T13:00:00Z",
+    "window_end": "2024-08-16T04:47:00Z",
+    "window_start": "2024-08-16T03:47:00Z",
     "image": {
-        "id": 2174,
-        "name": "F9 on SLC-40 (Worldview Legion 2)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20240815122745.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20240815122745.jpeg",
-        "credit": "SpaceX",
+        "id": 1846,
+        "name": "[AUTO] SSLV - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0 Deed",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": true,
         "variants": []
