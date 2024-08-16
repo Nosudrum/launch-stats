@@ -1,9 +1,9 @@
 {
-    "id": "daf0e1a3-fa5d-4523-9f46-3a41e5527da6",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/daf0e1a3-fa5d-4523-9f46-3a41e5527da6/",
-    "name": "SSLV | EOS-08/Microsat-2C",
+    "id": "72652fdb-542b-4f46-9657-d18149bd06e5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/72652fdb-542b-4f46-9657-d18149bd06e5/",
+    "name": "Long March 4B | Yaogan 43 Group 01",
     "response_mode": "list",
-    "slug": "sslv-eos-08microsat-2c",
+    "slug": "long-march-4b-yaogan-43-group-01",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-16T04:17:13Z",
-    "net": "2024-08-16T03:47:00Z",
+    "last_updated": "2024-08-16T08:26:10Z",
+    "net": "2024-08-16T07:35:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-08-16T04:47:00Z",
-    "window_start": "2024-08-16T03:47:00Z",
+    "window_end": "2024-08-16T07:45:00Z",
+    "window_start": "2024-08-16T07:25:00Z",
     "image": {
-        "id": 1846,
-        "name": "[AUTO] SSLV - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/sslv_image_20220912001724.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193926.jpeg",
+        "id": 1775,
+        "name": "[AUTO] Long March 4B - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193731.jpeg",
         "credit": null,
         "license": {
             "id": 1,
