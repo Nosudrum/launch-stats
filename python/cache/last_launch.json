@@ -1,34 +1,40 @@
 {
-    "id": "34aa9340-c97e-4609-a872-e2adc8d9de13",
-    "url": "https://ll.thespacedevs.com/2.2.0/launch/34aa9340-c97e-4609-a872-e2adc8d9de13/",
-    "slug": "falcon-9-block-5-starlink-group-10-7",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-7",
+    "id": "d61c53c4-669a-44cd-a905-cea38e8e21d6",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/d61c53c4-669a-44cd-a905-cea38e8e21d6/",
+    "name": "Falcon 9 Block 5 | Transporter 11 (Dedicated SSO Rideshare)",
+    "response_mode": "list",
+    "slug": "falcon-9-block-5-transporter-11-dedicated-sso-ride",
+    "launch_designator": null,
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-12T11:50:31Z",
-    "net": "2024-08-12T10:37:00Z",
+    "last_updated": "2024-08-16T22:03:00Z",
+    "net": "2024-08-16T18:56:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-08-12T13:49:00Z",
-    "window_start": "2024-08-12T10:37:00Z",
-    "lsp_name": "SpaceX",
-    "mission": "Starlink Group 10-7",
-    "mission_type": "Communications",
-    "pad": "Launch Complex 39A",
-    "location": "Kennedy Space Center, FL, USA",
-    "landing": "ASOG",
-    "landing_success": 1,
-    "launcher": "B1073",
-    "orbit": "LEO",
-    "image": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-    "infographic": null,
-    "type": "list"
+    "window_end": "2024-08-16T19:13:00Z",
+    "window_start": "2024-08-16T18:20:00Z",
+    "image": {
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "credit": null,
+        "license": {
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
+        },
+        "single_use": true,
+        "variants": []
+    },
+    "infographic": null
 }
