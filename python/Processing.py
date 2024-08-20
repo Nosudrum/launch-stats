@@ -53,9 +53,11 @@ LaunchLauncherFamily = []
 for index in Rocket.index:
     LaunchLauncherFamily.append(
         max(
-            [family["name"] for family in Rocket.iloc[7000]["configuration.families"]],
+            [family["name"] for family in Rocket.iloc[index]["configuration.families"]],
             key=len,
         )
+        if len(Rocket.iloc[index]["configuration.families"]) > 0
+        else None
     )
 
 LaunchLauncherFamily = pd.Series(LaunchLauncherFamily)

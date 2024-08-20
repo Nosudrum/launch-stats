@@ -16,6 +16,7 @@ from plotsCodes.PlotFunctions import (
 # Plot of orbital launch attempts per country since 1957 non-stacked
 def main(pbar, show=True):
     Families_list = PastLauncherFamily.unique().tolist()
+    Families_list.remove(None)
     Families_list.sort()
     README = open("plots/byLauncherFamily/successFailures/README.md", "w")
     README.write("# Launch successes and failures per launcher family since 1957\n")
