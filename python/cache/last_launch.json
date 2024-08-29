@@ -1,9 +1,9 @@
 {
-    "id": "9a5fe2ad-1089-4b16-bf94-273b0f426741",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9a5fe2ad-1089-4b16-bf94-273b0f426741/",
-    "name": "Ceres-1S | 6 satellites",
+    "id": "cd042f6b-1b91-4783-b953-79a4a572219d",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/cd042f6b-1b91-4783-b953-79a4a572219d/",
+    "name": "New Shepard | NS-26",
     "response_mode": "list",
-    "slug": "ceres-1s-6-satellites",
+    "slug": "new-shepard-ns-26",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-08-29T06:00:50Z",
-    "net": "2024-08-29T05:22:00Z",
+    "last_updated": "2024-08-29T13:50:26Z",
+    "net": "2024-08-29T13:08:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-08-29T05:35:00Z",
-    "window_start": "2024-08-29T05:10:00Z",
+    "window_end": "2024-08-29T20:30:00Z",
+    "window_start": "2024-08-29T13:00:00Z",
     "image": {
-        "id": 1709,
-        "name": "[AUTO] Ceres-1S - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
-        "credit": null,
+        "id": 2098,
+        "name": "New Shepard liftoff (NS-25)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_thumbnail_20240621062033.jpeg",
+        "credit": "Blue Origin",
         "license": {
             "id": 1,
             "name": "Unknown",
