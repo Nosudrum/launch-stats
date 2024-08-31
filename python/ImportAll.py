@@ -33,7 +33,7 @@ if not os.path.exists("data"):
 def import_ll2(
     path, data_name, endpoint, call_headers, api, api_version, limit, pos, filters
 ):
-    count_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit=1"
+    count_url = f"https://{api}.thespacedevs.com/{api_version}/{endpoint}/?limit=1&{'&'.join(filters)}"
     count_call = requests.get(count_url, headers=call_headers, timeout=1440).json()
     number_data = count_call["count"]
     number_calls = math.ceil(number_data / limit)
