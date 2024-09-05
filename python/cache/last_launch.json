@@ -1,9 +1,9 @@
 {
-    "id": "46ddb5ee-30ac-4d70-9cbe-0342b253ee6c",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/46ddb5ee-30ac-4d70-9cbe-0342b253ee6c/",
-    "name": "Falcon 9 Block 5 | Starlink Group 8-11",
+    "id": "95b8b4e3-b648-4693-a0ea-749bedd69c4f",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/95b8b4e3-b648-4693-a0ea-749bedd69c4f/",
+    "name": "Long March 6 | Geely Constellation Group 03",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-8-11",
+    "slug": "long-march-6-geely-constellation-group-03",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-05T16:42:32Z",
-    "net": "2024-09-05T15:33:00Z",
+    "last_updated": "2024-09-05T19:34:04Z",
+    "net": "2024-09-05T18:30:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-05T16:31:00Z",
-    "window_start": "2024-09-05T12:35:00Z",
+    "window_end": "2024-09-05T18:50:00Z",
+    "window_start": "2024-09-05T18:20:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1779,
+        "name": "[AUTO] Long March 6 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193738.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0 Deed",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
