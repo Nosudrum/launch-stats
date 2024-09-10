@@ -1,9 +1,9 @@
 {
-    "id": "e8c62aa0-6bef-48ac-8ef6-b8589479c6be",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/e8c62aa0-6bef-48ac-8ef6-b8589479c6be/",
-    "name": "Falcon 9 Block 5 | NROL-113",
+    "id": "b69cfada-3320-4331-89e1-aaa8b49e6a9c",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b69cfada-3320-4331-89e1-aaa8b49e6a9c/",
+    "name": "Falcon 9 Block 5 | Polaris Dawn",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-nrol-113",
+    "slug": "falcon-9-block-5-polaris-dawn",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-06T05:13:10Z",
-    "net": "2024-09-06T03:20:00Z",
+    "last_updated": "2024-09-10T10:18:10Z",
+    "net": "2024-09-10T09:23:49Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-09-06T05:14:00Z",
-    "window_start": "2024-09-06T03:20:00Z",
+    "window_end": "2024-09-10T11:09:00Z",
+    "window_start": "2024-09-10T07:38:00Z",
     "image": {
-        "id": 2102,
-        "name": "Falcon 9 on SLC-4E (NROL-146)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20240522073317.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20240522073317.jpeg",
+        "id": 2184,
+        "name": "F9 at Sunset on LC-39A (Polaris Dawn)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_at_sunset_on_image_20240825123951.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_at_sunset_on_image_thumbnail_20240825123952.jpeg",
         "credit": "SpaceX",
         "license": {
             "id": 5,
