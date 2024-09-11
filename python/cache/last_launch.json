@@ -1,9 +1,9 @@
 {
-    "id": "b69cfada-3320-4331-89e1-aaa8b49e6a9c",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/b69cfada-3320-4331-89e1-aaa8b49e6a9c/",
-    "name": "Falcon 9 Block 5 | Polaris Dawn",
+    "id": "cb26e9e5-0d72-44e8-b1e3-5ec5e3b44e9d",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/cb26e9e5-0d72-44e8-b1e3-5ec5e3b44e9d/",
+    "name": "Soyuz 2.1a | Soyuz MS-26",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-polaris-dawn",
+    "slug": "soyuz-21a-soyuz-ms-26",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-10T10:18:10Z",
-    "net": "2024-09-10T09:23:49Z",
+    "last_updated": "2024-09-11T16:44:23Z",
+    "net": "2024-09-11T16:23:12Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-09-10T11:09:00Z",
-    "window_start": "2024-09-10T07:38:00Z",
+    "window_end": "2024-09-11T16:23:12Z",
+    "window_start": "2024-09-11T16:23:12Z",
     "image": {
-        "id": 2184,
-        "name": "F9 at Sunset on LC-39A (Polaris Dawn)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_at_sunset_on_image_20240825123951.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_at_sunset_on_image_thumbnail_20240825123952.jpeg",
-        "credit": "SpaceX",
+        "id": 1828,
+        "name": "[AUTO] Soyuz 2.1a - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0 Deed",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": true,
         "variants": []
