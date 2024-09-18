@@ -1,9 +1,9 @@
 {
-    "id": "40b7cb3e-4418-4cdf-a274-d01709706b86",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/40b7cb3e-4418-4cdf-a274-d01709706b86/",
-    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "id": "b9c44ac9-e201-4042-9f08-bd517cd2e6a5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b9c44ac9-e201-4042-9f08-bd517cd2e6a5/",
+    "name": "Falcon 9 Block 5 | Galileo L13 (FOC FM26 & FM32)",
     "response_mode": "list",
-    "slug": "angara-12-kosmos-unknown-payload",
+    "slug": "falcon-9-block-5-galileo-l13-foc-fm26-fm32",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-17T09:24:20Z",
-    "net": "2024-09-17T07:00:00Z",
+    "last_updated": "2024-09-18T05:41:58Z",
+    "net": "2024-09-17T22:50:49Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-09-17T09:00:00Z",
-    "window_start": "2024-09-17T07:00:00Z",
+    "window_end": "2024-09-17T22:50:49Z",
+    "window_start": "2024-09-17T22:50:49Z",
     "image": {
-        "id": 1677,
-        "name": "[AUTO] Angara 1.2 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg",
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
         "credit": null,
         "license": {
             "id": 1,
