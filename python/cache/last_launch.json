@@ -1,9 +1,9 @@
 {
-    "id": "b9c44ac9-e201-4042-9f08-bd517cd2e6a5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/b9c44ac9-e201-4042-9f08-bd517cd2e6a5/",
-    "name": "Falcon 9 Block 5 | Galileo L13 (FOC FM26 & FM32)",
+    "id": "01032968-e280-4306-b44c-f39ddf5bf1ab",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/01032968-e280-4306-b44c-f39ddf5bf1ab/",
+    "name": "Long March 3B/YZ-1 | 2 x Beidou-3 MEO",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-galileo-l13-foc-fm26-fm32",
+    "slug": "long-march-3byz-1-2-x-beidou-3-meo",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-18T05:41:58Z",
-    "net": "2024-09-17T22:50:49Z",
+    "last_updated": "2024-09-19T05:32:02Z",
+    "net": "2024-09-19T01:14:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-17T22:50:49Z",
-    "window_start": "2024-09-17T22:50:49Z",
+    "window_end": "2024-09-19T01:30:00Z",
+    "window_start": "2024-09-19T00:54:00Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "id": 1771,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20200102181012.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193724.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
