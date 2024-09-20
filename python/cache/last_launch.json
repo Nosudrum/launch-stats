@@ -1,9 +1,9 @@
 {
-    "id": "acc6cddc-0c34-4d64-9cbe-1d8fa1833544",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/acc6cddc-0c34-4d64-9cbe-1d8fa1833544/",
-    "name": "Long March 2D | Jilin-1 Wideband 02B-01 to 06",
+    "id": "f9c16ec7-7592-4ec0-ab1e-f753b96d23fb",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/f9c16ec7-7592-4ec0-ab1e-f753b96d23fb/",
+    "name": "Kuaizhou-1A | Tianqi 29-32",
     "response_mode": "list",
-    "slug": "long-march-2d-jilin-1-wideband-02b-01-to-06",
+    "slug": "kuaizhou-1a-tianqi-29-32",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-20T04:42:59Z",
-    "net": "2024-09-20T04:11:00Z",
+    "last_updated": "2024-09-20T10:24:33Z",
+    "net": "2024-09-20T09:43:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-20T04:26:00Z",
-    "window_start": "2024-09-20T04:01:00Z",
+    "window_end": "2024-09-20T09:58:00Z",
+    "window_start": "2024-09-20T09:33:00Z",
     "image": {
-        "id": 1768,
-        "name": "[AUTO] Long March 2D - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "id": 1758,
+        "name": "[AUTO] Kuaizhou - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193703.jpeg",
         "credit": null,
         "license": {
             "id": 1,
