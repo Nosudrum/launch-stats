@@ -1,9 +1,9 @@
 {
-    "id": "1fae2781-87aa-4a0a-a023-af689a9c5d79",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/1fae2781-87aa-4a0a-a023-af689a9c5d79/",
-    "name": "Electron | Kin\u00e9is Killed the RadIoT Star (Kin\u00e9is 6-10)",
+    "id": "78224ca7-278d-4410-a1ac-eddb3cc018ca",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/78224ca7-278d-4410-a1ac-eddb3cc018ca/",
+    "name": "Smart Dragon 3 | 8 satellites",
     "response_mode": "list",
-    "slug": "electron-kineis-killed-the-radiot-star-kineis-6-10",
+    "slug": "smart-dragon-3-8-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-21T02:48:28Z",
-    "net": "2024-09-20T23:01:00Z",
+    "last_updated": "2024-09-24T04:41:11Z",
+    "net": "2024-09-24T02:31:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-20T23:01:00Z",
-    "window_start": "2024-09-20T23:01:00Z",
+    "window_end": "2024-09-24T03:52:00Z",
+    "window_start": "2024-09-24T02:24:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "id": 1824,
+        "name": "[AUTO] Smart Dragon 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3_image_20221001082607.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193851.jpeg",
         "credit": null,
         "license": {
             "id": 1,
