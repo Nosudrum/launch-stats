@@ -1,9 +1,9 @@
 {
-    "id": "78224ca7-278d-4410-a1ac-eddb3cc018ca",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/78224ca7-278d-4410-a1ac-eddb3cc018ca/",
-    "name": "Smart Dragon 3 | 8 satellites",
+    "id": "4df73c3a-3bd8-4ea9-bb8c-1fe306564b53",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/4df73c3a-3bd8-4ea9-bb8c-1fe306564b53/",
+    "name": "Kinetica 1 | 5 satellites",
     "response_mode": "list",
-    "slug": "smart-dragon-3-8-satellites",
+    "slug": "kinetica-1-5-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-24T04:41:11Z",
-    "net": "2024-09-24T02:31:00Z",
+    "last_updated": "2024-09-25T00:12:13Z",
+    "net": "2024-09-24T23:33:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-24T03:52:00Z",
-    "window_start": "2024-09-24T02:24:00Z",
+    "window_end": "2024-09-24T23:50:00Z",
+    "window_start": "2024-09-24T23:24:00Z",
     "image": {
-        "id": 1824,
-        "name": "[AUTO] Smart Dragon 3 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3_image_20221001082607.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193851.jpeg",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
         "credit": null,
         "license": {
             "id": 1,
