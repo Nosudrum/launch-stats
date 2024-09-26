@@ -1,37 +1,37 @@
 {
-    "id": "f97e9181-c9cd-4e68-9c19-68ddb5e80763",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/f97e9181-c9cd-4e68-9c19-68ddb5e80763/",
-    "name": "Falcon 9 Block 5 | Starlink Group 9-8",
+    "id": "ca78b818-63d5-4280-853e-478db107b022",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ca78b818-63d5-4280-853e-478db107b022/",
+    "name": "H-IIA 202 | IGS Radar 8",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-9-8",
-    "launch_designator": null,
+    "slug": "h-iia-202-igs-radar-8",
+    "launch_designator": "2024-176",
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-25T05:07:10Z",
-    "net": "2024-09-25T04:01:00Z",
+    "last_updated": "2024-09-26T07:44:20Z",
+    "net": "2024-09-26T05:24:20Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-09-25T04:05:00Z",
-    "window_start": "2024-09-25T03:59:00Z",
+    "window_end": "2024-09-26T05:25:21Z",
+    "window_start": "2024-09-26T05:24:20Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1482,
+        "name": "H-IIA 202 liftoff (XRISM & SLIM)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_thumbnail_20240325123250.jpeg",
+        "credit": "Mitsubishi Heavy Industries",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
