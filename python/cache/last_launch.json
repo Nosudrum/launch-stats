@@ -1,39 +1,39 @@
 {
-    "id": "ca78b818-63d5-4280-853e-478db107b022",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/ca78b818-63d5-4280-853e-478db107b022/",
-    "name": "H-IIA 202 | IGS Radar 8",
+    "id": "bdfd3337-621d-4fc1-965f-1844638a3204",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/bdfd3337-621d-4fc1-965f-1844638a3204/",
+    "name": "Long March 2D | Shijian 19",
     "response_mode": "list",
-    "slug": "h-iia-202-igs-radar-8",
-    "launch_designator": "2024-176",
+    "slug": "long-march-2d-shijian-19",
+    "launch_designator": null,
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-26T07:44:20Z",
-    "net": "2024-09-26T05:24:20Z",
+    "last_updated": "2024-09-27T11:00:36Z",
+    "net": "2024-09-27T10:30:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-09-26T05:25:21Z",
-    "window_start": "2024-09-26T05:24:20Z",
+    "window_end": "2024-09-27T11:02:00Z",
+    "window_start": "2024-09-27T10:22:00Z",
     "image": {
-        "id": 1482,
-        "name": "H-IIA 202 liftoff (XRISM & SLIM)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_20240325123250.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iia_202_lifto_image_thumbnail_20240325123250.jpeg",
-        "credit": "Mitsubishi Heavy Industries",
+        "id": 1768,
+        "name": "[AUTO] Long March 2D - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
