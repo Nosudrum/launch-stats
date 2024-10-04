@@ -1,9 +1,9 @@
 {
-    "id": "0102940a-4a60-4686-b34d-ced3fed6c595",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0102940a-4a60-4686-b34d-ced3fed6c595/",
-    "name": "Falcon 9 Block 5 | Crew-9",
+    "id": "cd199e27-63cd-409c-817c-5c38039b17cd",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/cd199e27-63cd-409c-817c-5c38039b17cd/",
+    "name": "Vulcan VC2S | Certification Flight 2",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-crew-9",
+    "slug": "vulcan-vc2s-certification-flight-2",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-09-28T18:05:05Z",
-    "net": "2024-09-28T17:17:21Z",
+    "last_updated": "2024-10-04T13:33:09Z",
+    "net": "2024-10-04T11:25:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-09-28T17:17:21Z",
-    "window_start": "2024-09-28T17:17:21Z",
+    "window_end": "2024-10-04T13:00:00Z",
+    "window_start": "2024-10-04T10:00:00Z",
     "image": {
-        "id": 1385,
-        "name": "Crew Dragon at sunset",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
-        "credit": "SpaceX",
+        "id": 1863,
+        "name": "Vulcan VC2S at SLC-41",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg",
+        "credit": "United Launch Alliance",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 10,
+            "name": "ULA Image Use Policy",
+            "priority": 3,
+            "link": "https://www.ulalaunch.com/terms-and-conditions"
         },
         "single_use": false,
         "variants": []
