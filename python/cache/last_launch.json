@@ -1,9 +1,9 @@
 {
-    "id": "cd199e27-63cd-409c-817c-5c38039b17cd",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/cd199e27-63cd-409c-817c-5c38039b17cd/",
-    "name": "Vulcan VC2S | Certification Flight 2",
+    "id": "e1ffdd01-c146-44d0-a250-b845dc2eb20d",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/e1ffdd01-c146-44d0-a250-b845dc2eb20d/",
+    "name": "Falcon 9 Block 5 | Hera",
     "response_mode": "list",
-    "slug": "vulcan-vc2s-certification-flight-2",
+    "slug": "falcon-9-block-5-hera",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-04T13:33:09Z",
-    "net": "2024-10-04T11:25:00Z",
+    "last_updated": "2024-10-07T16:18:24Z",
+    "net": "2024-10-07T14:52:11Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-10-04T13:00:00Z",
-    "window_start": "2024-10-04T10:00:00Z",
+    "window_end": "2024-10-07T14:52:11Z",
+    "window_start": "2024-10-07T14:52:11Z",
     "image": {
-        "id": 1863,
-        "name": "Vulcan VC2S at SLC-41",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_image_20240107162928.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193953.jpeg",
-        "credit": "United Launch Alliance",
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "credit": null,
         "license": {
-            "id": 10,
-            "name": "ULA Image Use Policy",
-            "priority": 3,
-            "link": "https://www.ulalaunch.com/terms-and-conditions"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
