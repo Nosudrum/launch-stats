@@ -1,9 +1,9 @@
 {
-    "id": "e1ffdd01-c146-44d0-a250-b845dc2eb20d",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/e1ffdd01-c146-44d0-a250-b845dc2eb20d/",
-    "name": "Falcon 9 Block 5 | Hera",
+    "id": "3fcc3bea-dd86-4818-96e2-71ca0f24fd5b",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3fcc3bea-dd86-4818-96e2-71ca0f24fd5b/",
+    "name": "Long March 3B/E | WHG-03",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-hera",
+    "slug": "long-march-3be-whg-03",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-07T16:18:24Z",
-    "net": "2024-10-07T14:52:11Z",
+    "last_updated": "2024-10-10T14:34:15Z",
+    "net": "2024-10-10T13:50:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-10-07T14:52:11Z",
-    "window_start": "2024-10-07T14:52:11Z",
+    "window_end": "2024-10-10T14:12:00Z",
+    "window_start": "2024-10-10T13:40:00Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "id": 1770,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
