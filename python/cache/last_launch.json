@@ -1,9 +1,9 @@
 {
-    "id": "83ba001e-9bca-48ac-84cb-ccea96bfe9c1",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/83ba001e-9bca-48ac-84cb-ccea96bfe9c1/",
-    "name": "Starship | Integrated Flight Test 5",
+    "id": "59548105-347d-4477-8747-7fc3f91016c5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/59548105-347d-4477-8747-7fc3f91016c5/",
+    "name": "Falcon Heavy | Europa Clipper",
     "response_mode": "list",
-    "slug": "starship-integrated-flight-test-5",
+    "slug": "falcon-heavy-europa-clipper",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-13T13:38:22Z",
-    "net": "2024-10-13T12:25:00Z",
+    "last_updated": "2024-10-14T17:34:42Z",
+    "net": "2024-10-14T16:06:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-10-13T12:30:00Z",
-    "window_start": "2024-10-13T12:00:00Z",
+    "window_end": "2024-10-14T16:06:00Z",
+    "window_start": "2024-10-14T16:05:45Z",
     "image": {
-        "id": 2254,
-        "name": "Starship at Starbase (IFT-5)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_at_sta_image_20241012171948.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_at_sta_image_thumbnail_20241012171949.jpeg",
-        "credit": "SpaceX",
+        "id": 1739,
+        "name": "[AUTO] Falcon Heavy - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
