@@ -1,9 +1,9 @@
 {
-    "id": "59548105-347d-4477-8747-7fc3f91016c5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/59548105-347d-4477-8747-7fc3f91016c5/",
-    "name": "Falcon Heavy | Europa Clipper",
+    "id": "9d576892-dcf0-472b-92d1-37053ff549ab",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/9d576892-dcf0-472b-92d1-37053ff549ab/",
+    "name": "Falcon 9 Block 5 | Starlink Group 10-10",
     "response_mode": "list",
-    "slug": "falcon-heavy-europa-clipper",
+    "slug": "falcon-9-block-5-starlink-group-10-10",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-14T17:34:42Z",
-    "net": "2024-10-14T16:06:00Z",
+    "last_updated": "2024-10-15T07:18:34Z",
+    "net": "2024-10-15T06:10:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-10-14T16:06:00Z",
-    "window_start": "2024-10-14T16:05:45Z",
+    "window_end": "2024-10-15T09:22:00Z",
+    "window_start": "2024-10-15T05:34:00Z",
     "image": {
-        "id": 1739,
-        "name": "[AUTO] Falcon Heavy - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
-        "credit": null,
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
