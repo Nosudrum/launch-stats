@@ -1,9 +1,9 @@
 {
-    "id": "5f9fa9b2-e6f4-4e68-b4c8-2b1586cc5fba",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/5f9fa9b2-e6f4-4e68-b4c8-2b1586cc5fba/",
-    "name": "Falcon 9 Block 5 | Starlink Group 8-19",
+    "id": "525ed290-dd97-4187-9118-d71f0b8285be",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/525ed290-dd97-4187-9118-d71f0b8285be/",
+    "name": "Falcon 9 Block 5 | OneWeb 20",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-8-19",
+    "slug": "falcon-9-block-5-oneweb-20",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-19T00:45:27Z",
-    "net": "2024-10-18T23:31:00Z",
+    "last_updated": "2024-10-20T09:12:15Z",
+    "net": "2024-10-20T05:13:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-10-18T23:31:00Z",
-    "window_start": "2024-10-18T19:31:00Z",
+    "window_end": "2024-10-20T05:48:00Z",
+    "window_start": "2024-10-20T05:09:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "id": 2256,
+        "name": "Falcon 9 on SLC-4E (OneWeb-20)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241020063410.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241020063411.jpeg",
         "credit": "SpaceX",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
