@@ -1,9 +1,9 @@
 {
-    "id": "7cee7744-de69-4271-b2f4-205fb3b4bf87",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/7cee7744-de69-4271-b2f4-205fb3b4bf87/",
-    "name": "Long March 2C | Yaogan 43 Group 03",
+    "id": "828095e3-1c38-4700-9dd2-a700162fbd15",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/828095e3-1c38-4700-9dd2-a700162fbd15/",
+    "name": "New Shepard | NS-27",
     "response_mode": "list",
-    "slug": "long-march-2c-yaogan-43-group-03",
+    "slug": "new-shepard-ns-27",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-23T01:39:51Z",
-    "net": "2024-10-23T01:09:00Z",
+    "last_updated": "2024-10-23T15:41:10Z",
+    "net": "2024-10-23T15:27:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-10-23T01:16:00Z",
-    "window_start": "2024-10-23T00:59:00Z",
+    "window_end": "2024-10-23T15:27:00Z",
+    "window_start": "2024-10-23T15:27:00Z",
     "image": {
-        "id": 1764,
-        "name": "[AUTO] Long March 2 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193713.jpeg",
-        "credit": null,
+        "id": 2098,
+        "name": "New Shepard liftoff (NS-25)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_thumbnail_20240621062033.jpeg",
+        "credit": "Blue Origin",
         "license": {
             "id": 1,
             "name": "Unknown",
