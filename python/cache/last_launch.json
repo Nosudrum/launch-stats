@@ -1,9 +1,9 @@
 {
-    "id": "95a9c95c-1a30-4b34-8b11-16e765a26eb6",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/95a9c95c-1a30-4b34-8b11-16e765a26eb6/",
-    "name": "Soyuz 2.1a | Kosmos 2579 (Bars-M No. 6)",
+    "id": "aa429cd7-a947-430a-9956-72dff1ab9c60",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/aa429cd7-a947-430a-9956-72dff1ab9c60/",
+    "name": "H3-22 | DSN 3 (Kirameki 3)",
     "response_mode": "list",
-    "slug": "soyuz-21a-kosmos-2579-bars-m-no-6",
+    "slug": "h3-22-dsn-3-kirameki-3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-10-31T10:57:13Z",
-    "net": "2024-10-31T07:51:31Z",
+    "last_updated": "2024-11-04T09:56:28Z",
+    "net": "2024-11-04T06:48:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-10-31T09:00:00Z",
-    "window_start": "2024-10-31T07:00:00Z",
+    "window_end": "2024-11-04T08:16:00Z",
+    "window_start": "2024-11-04T06:48:00Z",
     "image": {
-        "id": 1828,
-        "name": "[AUTO] Soyuz 2.1a - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
-        "credit": null,
+        "id": 1747,
+        "name": "H3-22 liftoff (ALOS-3)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_image_20230307130808.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193645.jpeg",
+        "credit": "JAXA",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 9,
+            "name": "JAXA Image Usage Policy",
+            "priority": 8,
+            "link": "https://global.jaxa.jp/policy.html"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
