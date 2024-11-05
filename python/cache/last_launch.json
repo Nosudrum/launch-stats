@@ -1,9 +1,9 @@
 {
-    "id": "f97bce95-052e-4fa9-80e8-dbedf16bc516",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/f97bce95-052e-4fa9-80e8-dbedf16bc516/",
-    "name": "Falcon 9 Block 5 | Dragon CRS-2 SpX-31",
+    "id": "3dfcd148-b684-447a-acde-e6195dbd12f1",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3dfcd148-b684-447a-acde-e6195dbd12f1/",
+    "name": "Electron | Changes In Latitudes, Changes In Attitudes",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-dragon-crs-2-spx-31",
+    "slug": "electron-changes-in-latitudes-changes-in-attitudes",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-11-05T02:48:32Z",
-    "net": "2024-11-05T02:29:31Z",
+    "last_updated": "2024-11-05T11:53:18Z",
+    "net": "2024-11-05T10:54:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-11-05T02:29:31Z",
-    "window_start": "2024-11-05T02:29:31Z",
+    "window_end": "2024-11-05T10:54:00Z",
+    "window_start": "2024-11-05T10:54:00Z",
     "image": {
-        "id": 1390,
-        "name": "F9B5 liftoff from 39A with Cargo Dragon",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20210520085648.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192619.jpeg",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
