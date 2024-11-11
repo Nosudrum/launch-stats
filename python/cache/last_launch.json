@@ -1,39 +1,39 @@
 {
-    "id": "be86d592-5eb7-4565-ac7b-02de845d838e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/be86d592-5eb7-4565-ac7b-02de845d838e/",
-    "name": "Falcon 9 Block 5 | Starlink Group 9-10",
+    "id": "d771b35f-0a6a-4967-bff0-9a94286c31bb",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/d771b35f-0a6a-4967-bff0-9a94286c31bb/",
+    "name": "Kinetica 1 | 15 satellites",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-9-10",
-    "launch_designator": "2024-204",
+    "slug": "kinetica-1-15-satellites",
+    "launch_designator": null,
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-11-09T08:12:26Z",
-    "net": "2024-11-09T06:14:00Z",
+    "last_updated": "2024-11-11T04:47:48Z",
+    "net": "2024-11-11T04:03:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-11-09T09:26:00Z",
-    "window_start": "2024-11-09T06:14:00Z",
+    "window_end": "2024-11-11T04:22:00Z",
+    "window_start": "2024-11-11T03:51:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
