@@ -1,9 +1,9 @@
 {
-    "id": "ce986507-bfc1-43fb-953d-3f30e7c5f48f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/ce986507-bfc1-43fb-953d-3f30e7c5f48f/",
-    "name": "Falcon 9 Block 5 | Starlink Group 6-69",
+    "id": "1d186a4d-734e-4d45-a4cd-ae8da62f0c5c",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1d186a4d-734e-4d45-a4cd-ae8da62f0c5c/",
+    "name": "Long March 4B | Haiyang 4-01",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-6-69",
+    "slug": "long-march-4b-haiyang-4-01",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-11-11T22:35:25Z",
-    "net": "2024-11-11T21:28:00Z",
+    "last_updated": "2024-11-13T23:18:14Z",
+    "net": "2024-11-13T22:42:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-11-12T00:44:00Z",
-    "window_start": "2024-11-11T21:02:00Z",
+    "window_end": "2024-11-13T23:07:00Z",
+    "window_start": "2024-11-13T22:34:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1775,
+        "name": "[AUTO] Long March 4B - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193731.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
