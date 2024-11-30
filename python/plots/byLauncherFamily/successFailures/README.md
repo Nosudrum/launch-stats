@@ -38,6 +38,7 @@
 ![Launch successes and failures of the Kuaizhou family since 2013](Kuaizhou.png)
 ![Launch successes and failures of the Long March family since 1970](Long_March.png)
 ![Launch successes and failures of the Long March 11 family since 2015](Long_March_11.png)
+![Launch successes and failures of the Long March 12 family since 2024](Long_March_12.png)
 ![Launch successes and failures of the Long March 2 family since 1974](Long_March_2.png)
 ![Launch successes and failures of the Long March 3 family since 1984](Long_March_3.png)
 ![Launch successes and failures of the Long March 4 family since 1988](Long_March_4.png)
