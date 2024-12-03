@@ -1,9 +1,9 @@
 {
-    "id": "87c8453f-8428-4acd-bbbe-9f37493f674f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/87c8453f-8428-4acd-bbbe-9f37493f674f/",
-    "name": "Long March 12 | Maiden Flight",
+    "id": "351bf216-4cae-49df-82d0-9afaeb5df0f2",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/351bf216-4cae-49df-82d0-9afaeb5df0f2/",
+    "name": "Long March 3B/E | TJSW-13",
     "response_mode": "list",
-    "slug": "long-march-12-maiden-flight",
+    "slug": "long-march-3be-tjsw-13",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-11-30T14:57:25Z",
-    "net": "2024-11-30T14:25:00Z",
+    "last_updated": "2024-12-03T06:37:01Z",
+    "net": "2024-12-03T05:56:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-11-30T16:08:00Z",
-    "window_start": "2024-11-30T14:17:00Z",
+    "window_end": "2024-12-03T06:21:00Z",
+    "window_start": "2024-12-03T05:46:00Z",
     "image": {
-        "id": 2282,
-        "name": "CZ-12 on its launch pad.",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-        "credit": "Unknown",
+        "id": 1770,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
