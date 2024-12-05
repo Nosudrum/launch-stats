@@ -1,9 +1,9 @@
 {
-    "id": "81fe0bdd-6a33-4976-9bad-4a1268400b1e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/81fe0bdd-6a33-4976-9bad-4a1268400b1e/",
-    "name": "Long March 6A | G60 Polar Group 03",
+    "id": "2a780cb9-9bf9-4537-927e-389f1659a709",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/2a780cb9-9bf9-4537-927e-389f1659a709/",
+    "name": "PSLV-XL | Proba-3",
     "response_mode": "list",
-    "slug": "long-march-6a-g60-polar-group-03",
+    "slug": "pslv-xl-proba-3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-05T06:40:29Z",
-    "net": "2024-12-05T04:41:00Z",
+    "last_updated": "2024-12-05T11:02:12Z",
+    "net": "2024-12-05T10:34:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-12-05T04:58:00Z",
-    "window_start": "2024-12-05T04:32:00Z",
+    "window_end": "2024-12-05T10:34:00Z",
+    "window_start": "2024-12-05T10:34:00Z",
     "image": {
-        "id": 2258,
-        "name": "CZ-6A liftoff (G60 Polar Group 02)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6a_liftoff__image_20241020123401.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-6a_liftoff__image_thumbnail_20241020123401.jpeg",
-        "credit": "\u7a7a\u5929\u9010\u68a6",
+        "id": 1810,
+        "name": "[AUTO] PSLV-XL - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190224012254.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
