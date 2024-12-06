@@ -1,9 +1,9 @@
 {
-    "id": "2a780cb9-9bf9-4537-927e-389f1659a709",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/2a780cb9-9bf9-4537-927e-389f1659a709/",
-    "name": "PSLV-XL | Proba-3",
+    "id": "aa79ad61-9276-4c14-8d01-40fd348d641e",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/aa79ad61-9276-4c14-8d01-40fd348d641e/",
+    "name": "Vega-C | Sentinel-1C",
     "response_mode": "list",
-    "slug": "pslv-xl-proba-3",
+    "slug": "vega-c-sentinel-1c",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-05T11:02:12Z",
-    "net": "2024-12-05T10:34:00Z",
+    "last_updated": "2024-12-06T01:32:08Z",
+    "net": "2024-12-05T21:20:33Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-12-05T10:34:00Z",
-    "window_start": "2024-12-05T10:34:00Z",
+    "window_end": "2024-12-05T21:20:33Z",
+    "window_start": "2024-12-05T21:20:33Z",
     "image": {
-        "id": 1810,
-        "name": "[AUTO] PSLV-XL - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190224012254.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
+        "id": 1861,
+        "name": "[AUTO] Vega-C - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
         "credit": null,
         "license": {
             "id": 1,
