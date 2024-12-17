@@ -1,9 +1,9 @@
 {
-    "id": "3f28ecb9-a83d-4424-882d-3710c686d69f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3f28ecb9-a83d-4424-882d-3710c686d69f/",
-    "name": "Long March 2D | PIESAT-2 09-12",
+    "id": "99570ecf-f7e4-40ec-b84a-5758425a6d99",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/99570ecf-f7e4-40ec-b84a-5758425a6d99/",
+    "name": "Falcon 9 Block 5 | GPS III SV07 (RRT-1)",
     "response_mode": "list",
-    "slug": "long-march-2d-piesat-2-09-12",
+    "slug": "falcon-9-block-5-gps-iii-sv07-rrt-1",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-16T19:28:24Z",
-    "net": "2024-12-16T18:50:00Z",
+    "last_updated": "2024-12-17T03:21:02Z",
+    "net": "2024-12-17T00:52:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-12-16T19:10:00Z",
-    "window_start": "2024-12-16T18:42:00Z",
+    "window_end": "2024-12-17T00:52:00Z",
+    "window_start": "2024-12-17T00:52:00Z",
     "image": {
-        "id": 1768,
-        "name": "[AUTO] Long March 2D - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
         "credit": null,
         "license": {
             "id": 1,
