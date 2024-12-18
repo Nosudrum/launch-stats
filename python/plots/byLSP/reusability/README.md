@@ -26,6 +26,7 @@
 ![First stages reusability by KARI](KARI.png)
 ![First stages reusability by ESA](ESA.png)
 ![First stages reusability by IRN](IRN.png)
+![First stages reusability by Space One](Space_One.png)
 ![First stages reusability by NASA](NASA.png)
 ![First stages reusability by ABL](ABL.png)
 ![First stages reusability by Relativity](Relativity.png)
@@ -33,4 +34,3 @@
 ![First stages reusability by Sp. Pioneer](Sp._Pioneer.png)
 ![First stages reusability by ADD (KOR)](ADD_(KOR).png)
 ![First stages reusability by OrienSpace](OrienSpace.png)
-![First stages reusability by Space One](Space_One.png)

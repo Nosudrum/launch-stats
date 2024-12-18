@@ -30,6 +30,7 @@
 ![Orbital attempts by Israel AI in the last 8 years](Israel_AI.png)
 ![Orbital attempts by ESA in the last 8 years](ESA.png)
 ![Orbital attempts by Eurockot LS in the last 8 years](Eurockot_LS.png)
+![Orbital attempts by Space One in the last 8 years](Space_One.png)
 ![Orbital attempts by GK Launch Services in the last 8 years](GK_Launch_Services.png)
 ![Orbital attempts by Sea Launch in the last 8 years](Sea_Launch.png)
 ![Orbital attempts by NASA in the last 8 years](NASA.png)
@@ -39,4 +40,3 @@
 ![Orbital attempts by OneSpace in the last 8 years](OneSpace.png)
 ![Orbital attempts by ADD (KOR) in the last 8 years](ADD_(KOR).png)
 ![Orbital attempts by OrienSpace in the last 8 years](OrienSpace.png)
-![Orbital attempts by Space One in the last 8 years](Space_One.png)

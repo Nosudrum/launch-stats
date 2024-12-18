@@ -30,6 +30,7 @@
 ![Launch successes and failures by Israel AI since 2010](Israel_AI.png)
 ![Launch successes and failures by ESA since 1979](ESA.png)
 ![Launch successes and failures by Eurockot LS since 2000](Eurockot_LS.png)
+![Launch successes and failures by Space One since 2024](Space_One.png)
 ![Launch successes and failures by GK Launch Services since 2021](GK_Launch_Services.png)
 ![Launch successes and failures by Sea Launch since 1999](Sea_Launch.png)
 ![Launch successes and failures by NASA since 1958](NASA.png)
@@ -39,4 +40,3 @@
 ![Launch successes and failures by OneSpace since 2019](OneSpace.png)
 ![Launch successes and failures by ADD (KOR) since 2023](ADD_(KOR).png)
 ![Launch successes and failures by OrienSpace since 2024](OrienSpace.png)
-![Launch successes and failures by Space One since 2024](Space_One.png)
