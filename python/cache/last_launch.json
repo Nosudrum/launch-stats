@@ -1,9 +1,9 @@
 {
-    "id": "50a1337c-db6f-4bf4-b7b0-919c9fca906e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/50a1337c-db6f-4bf4-b7b0-919c9fca906e/",
-    "name": "Falcon 9 Block 5 | Bandwagon 2 (Dedicated Mid-Inclination Rideshare)",
+    "id": "af1466bb-289b-40b3-b83c-102b3a7af047",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/af1466bb-289b-40b3-b83c-102b3a7af047/",
+    "name": "Electron | Owl The Way Up (StriX Launch 6)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-bandwagon-2-dedicated-mid-inclina",
+    "slug": "electron-owl-the-way-up-strix-launch-6",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-21T14:51:27Z",
-    "net": "2024-12-21T11:34:24Z",
+    "last_updated": "2024-12-21T16:42:54Z",
+    "net": "2024-12-21T14:17:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2024-12-21T11:34:24Z",
-    "window_start": "2024-12-21T11:34:24Z",
+    "window_end": "2024-12-21T15:15:00Z",
+    "window_start": "2024-12-21T14:00:00Z",
     "image": {
-        "id": 2294,
-        "name": "Falcon 9 at SLC-4E (Bandwagon-2)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20241220183145.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_thumbnail_20241220183145.jpeg",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
