@@ -1,37 +1,37 @@
 {
-    "id": "37ebb629-0999-46af-84c4-ae7b2584ac38",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/37ebb629-0999-46af-84c4-ae7b2584ac38/",
-    "name": "Soyuz 2.1b | Resurs-P No.5",
+    "id": "18b49918-d2e0-4899-be7a-6c216952b8f3",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/18b49918-d2e0-4899-be7a-6c216952b8f3/",
+    "name": "Kinetica 1 | DEAR-3 & 10 other satellites",
     "response_mode": "list",
-    "slug": "soyuz-21b-resurs-p-no5",
+    "slug": "kinetica-1-dear-3-10-other-satellites",
     "launch_designator": null,
     "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2024-12-25T16:07:45Z",
-    "net": "2024-12-25T07:45:42Z",
+    "last_updated": "2024-12-27T04:22:54Z",
+    "net": "2024-12-27T01:03:31Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-12-25T07:45:42Z",
-    "window_start": "2024-12-25T07:45:42Z",
+    "window_end": "2024-12-27T01:16:00Z",
+    "window_start": "2024-12-27T00:53:00Z",
     "image": {
-        "id": 2299,
-        "name": "Soyuz 2.1b liftoff from pad 31/6 (Resurs-P No.5)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_lift_image_20241225121717.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_lift_image_thumbnail_20241225121717.jpeg",
-        "credit": "Roscosmos",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+        "credit": null,
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": true,
         "variants": []
