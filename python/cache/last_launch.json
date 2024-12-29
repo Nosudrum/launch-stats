@@ -1,39 +1,39 @@
 {
-    "id": "18b49918-d2e0-4899-be7a-6c216952b8f3",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/18b49918-d2e0-4899-be7a-6c216952b8f3/",
-    "name": "Kinetica 1 | DEAR-3 & 10 other satellites",
+    "id": "eea43b3f-eddc-437a-ada5-8e23286f1eef",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/eea43b3f-eddc-437a-ada5-8e23286f1eef/",
+    "name": "Falcon 9 Block 5 | Starlink Group 11-3",
     "response_mode": "list",
-    "slug": "kinetica-1-dear-3-10-other-satellites",
+    "slug": "falcon-9-block-5-starlink-group-11-3",
     "launch_designator": null,
     "status": {
-        "id": 4,
-        "name": "Launch Failure",
-        "abbrev": "Failure",
-        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
+        "id": 3,
+        "name": "Launch Successful",
+        "abbrev": "Success",
+        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-27T04:22:54Z",
-    "net": "2024-12-27T01:03:31Z",
+    "last_updated": "2024-12-29T03:14:24Z",
+    "net": "2024-12-29T01:58:30Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-12-27T01:16:00Z",
-    "window_start": "2024-12-27T00:53:00Z",
+    "window_end": "2024-12-29T05:31:00Z",
+    "window_start": "2024-12-29T01:35:00Z",
     "image": {
-        "id": 1755,
-        "name": "[AUTO] Kinetica 1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-        "credit": null,
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
