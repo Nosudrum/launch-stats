@@ -1,9 +1,9 @@
 {
-    "id": "33bf462e-796f-441c-bc36-206ba52bb90e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/33bf462e-796f-441c-bc36-206ba52bb90e/",
-    "name": "Falcon 9 Block 5 | Astranis: From One to Many (4x Astranis MicroGEO)",
+    "id": "644eaa0e-7c09-4be1-980c-ab5c2a07acce",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/644eaa0e-7c09-4be1-980c-ab5c2a07acce/",
+    "name": "PSLV-CA | SPADEX (Space Docking Experiment)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-astranis-from-one-to-many-4x-astr",
+    "slug": "pslv-ca-spadex-space-docking-experiment",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2024-12-29T08:17:06Z",
-    "net": "2024-12-29T05:00:00Z",
+    "last_updated": "2024-12-31T04:28:11Z",
+    "net": "2024-12-30T16:30:15Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2024-12-29T07:30:00Z",
-    "window_start": "2024-12-29T05:00:00Z",
+    "window_end": "2024-12-30T16:30:15Z",
+    "window_start": "2024-12-30T16:30:15Z",
     "image": {
-        "id": 2297,
-        "name": "Falcon 9 on SLC-40 (From One To Many)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241221043403.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241221043404.jpeg",
-        "credit": "SpaceX",
+        "id": 1807,
+        "name": "[AUTO] PSLV - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20230730102956.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193824.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
