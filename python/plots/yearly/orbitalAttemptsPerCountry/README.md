@@ -67,3 +67,4 @@
 ![Orbital attempts per country in 2022](2022.png)
 ![Orbital attempts per country in 2023](2023.png)
 ![Orbital attempts per country in 2024](2024.png)
+![Orbital attempts per country in 2025](2025.png)
