@@ -31,3 +31,4 @@
 ![First stages reusability by Virgin Orbit](Virgin_Orbit.png)
 ![First stages reusability by OrienSpace](OrienSpace.png)
 ![First stages reusability by ESA](ESA.png)
+![First stages reusability by Blue Origin](Blue_Origin.png)
