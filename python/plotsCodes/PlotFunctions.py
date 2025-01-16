@@ -135,6 +135,7 @@ LSPs_dict = {
     184: "CASIC",
     1080: "OrienSpace",
     1083: "Space One",
+    141: "Blue Origin",
 }
 
 Countries_dict = {
