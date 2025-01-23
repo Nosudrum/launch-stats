@@ -1,9 +1,9 @@
 {
-    "id": "fa36ad1a-e596-4d8a-9325-ec30c1853953",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/fa36ad1a-e596-4d8a-9325-ec30c1853953/",
-    "name": "Long March 6A | G60 Polar Group 06",
+    "id": "00b19545-e13c-4863-a6b1-1a414a167c83",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/00b19545-e13c-4863-a6b1-1a414a167c83/",
+    "name": "Long March 3B/E | TJSW-14",
     "response_mode": "list",
-    "slug": "long-march-6a-g60-polar-group-06",
+    "slug": "long-march-3be-tjsw-14",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-01-23T07:14:25Z",
-    "net": "2025-01-23T05:15:00Z",
+    "last_updated": "2025-01-23T16:13:47Z",
+    "net": "2025-01-23T15:32:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-01-23T05:24:00Z",
-    "window_start": "2025-01-23T05:04:00Z",
+    "window_end": "2025-01-23T16:17:00Z",
+    "window_start": "2025-01-23T15:22:00Z",
     "image": {
-        "id": 1780,
-        "name": "[AUTO] Long March 6A - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a_image_20221109174525.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193739.png",
+        "id": 1770,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
