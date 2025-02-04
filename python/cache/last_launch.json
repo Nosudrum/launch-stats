@@ -1,9 +1,9 @@
 {
-    "id": "0680d9c6-8b90-405e-bbe0-167cd48e36bb",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0680d9c6-8b90-405e-bbe0-167cd48e36bb/",
-    "name": "H3-22 | Michibiki 6 (QZS-6)",
+    "id": "028d5699-11ea-4309-9266-5f9c2372219f",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/028d5699-11ea-4309-9266-5f9c2372219f/",
+    "name": "Falcon 9 Block 5 | Starlink Group 12-3",
     "response_mode": "list",
-    "slug": "h3-22-michibiki-6-qzs-6",
+    "slug": "falcon-9-block-5-starlink-group-12-3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-02-02T11:38:35Z",
-    "net": "2025-02-02T08:30:00Z",
+    "last_updated": "2025-02-04T11:49:10Z",
+    "net": "2025-02-04T10:15:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-02-02T10:30:00Z",
-    "window_start": "2025-02-02T08:30:00Z",
+    "window_end": "2025-02-04T11:24:19Z",
+    "window_start": "2025-02-04T08:27:10Z",
     "image": {
-        "id": 1747,
-        "name": "H3-22 liftoff (ALOS-3)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-22_image_20230307130808.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193645.jpeg",
-        "credit": "JAXA",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 9,
-            "name": "JAXA Image Usage Policy",
-            "priority": 8,
-            "link": "https://global.jaxa.jp/policy.html"
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
         "single_use": false,
         "variants": []
