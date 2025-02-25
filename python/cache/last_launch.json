@@ -1,9 +1,9 @@
 {
-    "id": "2b616a35-e7b7-497b-8cf1-ef26528b99de",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/2b616a35-e7b7-497b-8cf1-ef26528b99de/",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-1",
+    "id": "466c90a9-e52d-4116-b09f-e41284aacab7",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/466c90a9-e52d-4116-b09f-e41284aacab7/",
+    "name": "New Shepard | NS-30",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-15-1",
+    "slug": "new-shepard-ns-30",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-02-23T02:44:39Z",
-    "net": "2025-02-23T01:38:20Z",
+    "last_updated": "2025-02-25T16:19:05Z",
+    "net": "2025-02-25T15:49:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-02-23T01:38:20Z",
-    "window_start": "2025-02-22T22:25:20Z",
+    "window_end": "2025-02-25T22:30:00Z",
+    "window_start": "2025-02-25T14:30:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2098,
+        "name": "New Shepard liftoff (NS-25)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_thumbnail_20240621062033.jpeg",
+        "credit": "Blue Origin",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
