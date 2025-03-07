@@ -1,39 +1,39 @@
 {
-    "id": "abb6612f-3fc4-4e9c-96ed-71c12f9e9086",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/abb6612f-3fc4-4e9c-96ed-71c12f9e9086/",
-    "name": "Ariane 62 | CSO-3",
+    "id": "a2b94add-d1e8-4b1d-9f25-afe7904580d3",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/a2b94add-d1e8-4b1d-9f25-afe7904580d3/",
+    "name": "Starship | Flight 8",
     "response_mode": "list",
-    "slug": "ariane-62-cso-3",
+    "slug": "starship-flight-8",
     "launch_designator": null,
     "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2025-03-06T18:43:58Z",
-    "net": "2025-03-06T16:24:26Z",
+    "last_updated": "2025-03-07T01:37:47Z",
+    "net": "2025-03-06T23:30:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-03-06T16:24:26Z",
-    "window_start": "2025-03-06T16:24:26Z",
+    "window_end": "2025-03-07T00:30:00Z",
+    "window_start": "2025-03-06T23:30:00Z",
     "image": {
-        "id": 2123,
-        "name": "Ariane 62 liftoff (Maiden Flight)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
-        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique vid\u00e9o du CSG\u2013S. Martin",
+        "id": 2301,
+        "name": "Starship on the launch pad during WDR (Flight 7)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20250111100520.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20250111100521.jpeg",
+        "credit": "SpaceX",
         "license": {
-            "id": 2,
-            "name": "ESA Standard Licence",
-            "priority": 2,
-            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
