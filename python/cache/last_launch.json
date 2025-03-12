@@ -1,9 +1,9 @@
 {
-    "id": "1bb05be3-e862-44e2-8aac-0120a46904de",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/1bb05be3-e862-44e2-8aac-0120a46904de/",
-    "name": "Long March 8 | G60 Polar Group 05",
+    "id": "800351fd-0bfb-4473-a07c-f19161976877",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/800351fd-0bfb-4473-a07c-f19161976877/",
+    "name": "Falcon 9 Block 5 | SPHEREx & PUNCH",
     "response_mode": "list",
-    "slug": "long-march-8-g60-polar-group-05",
+    "slug": "falcon-9-block-5-spherex-punch",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-03-11T17:20:13Z",
-    "net": "2025-03-11T16:38:00Z",
+    "last_updated": "2025-03-12T04:59:42Z",
+    "net": "2025-03-12T03:10:12Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-03-11T17:05:00Z",
-    "window_start": "2025-03-11T16:31:00Z",
+    "window_end": "2025-03-12T03:10:27Z",
+    "window_start": "2025-03-12T03:09:57Z",
     "image": {
-        "id": 1783,
-        "name": "CZ-8 liftoff (Maiden Flight)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240315183218.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240315183218.jpeg",
-        "credit": "\u6211\u4eec\u7684\u592a\u7a7a",
+        "id": 1736,
+        "name": "[AUTO] Falcon 9 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
