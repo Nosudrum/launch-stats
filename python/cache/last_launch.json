@@ -1,9 +1,9 @@
 {
-    "id": "fb39ac94-5e74-4ee9-afc5-df19c4132b28",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/fb39ac94-5e74-4ee9-afc5-df19c4132b28/",
-    "name": "Falcon 9 Block 5 | Crew-10",
+    "id": "113a85d7-2f1c-4302-a1d5-9b8837ab6a33",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/113a85d7-2f1c-4302-a1d5-9b8837ab6a33/",
+    "name": "Electron | The Lightning God Reigns (iQPS Launch 1)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-crew-10",
+    "slug": "electron-the-lightning-god-reigns-iqps-launch-1",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-03-14T23:19:51Z",
-    "net": "2025-03-14T23:03:48Z",
+    "last_updated": "2025-03-15T03:47:24Z",
+    "net": "2025-03-15T00:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-03-14T23:03:48Z",
-    "window_start": "2025-03-14T23:03:48Z",
+    "window_end": "2025-03-15T02:00:00Z",
+    "window_start": "2025-03-15T00:00:00Z",
     "image": {
-        "id": 1385,
-        "name": "Crew Dragon at sunset",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20220301072106.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192609.jpeg",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
