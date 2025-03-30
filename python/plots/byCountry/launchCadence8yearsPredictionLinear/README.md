@@ -10,3 +10,4 @@
 ![Orbital attempts by South Korea in the last 8 years](South_Korea.png)
 ![Orbital attempts by North Korea in the last 8 years](North_Korea.png)
 ![Orbital attempts by Israel in the last 8 years](Israel.png)
+![Orbital attempts by Norway in the last 8 years](Norway.png)
