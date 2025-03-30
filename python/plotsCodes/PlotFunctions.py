@@ -155,6 +155,7 @@ Countries_dict = {
     "AUS": "Australia",
     "BRA": "Brazil",
     "MHL": "Marshall Islands",
+    "NOR": "Norway",
 }
 
 monthsLabels = [
