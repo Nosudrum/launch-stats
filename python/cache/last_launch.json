@@ -1,9 +1,9 @@
 {
-    "id": "a3c9c47e-976e-40a5-8889-30c407131e3a",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a3c9c47e-976e-40a5-8889-30c407131e3a/",
-    "name": "Soyuz 2.1a | Soyuz MS-27",
+    "id": "373addc7-d9b5-40a6-a6c2-e4b7116b21f1",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/373addc7-d9b5-40a6-a6c2-e4b7116b21f1/",
+    "name": "Long March 3B/E | TJSW-17",
     "response_mode": "list",
-    "slug": "soyuz-21a-soyuz-ms-27",
+    "slug": "long-march-3be-tjsw-17",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-04-08T06:06:22Z",
-    "net": "2025-04-08T05:47:15Z",
+    "last_updated": "2025-04-10T17:24:57Z",
+    "net": "2025-04-10T16:47:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-04-08T05:47:15Z",
-    "window_start": "2025-04-08T05:47:15Z",
+    "window_end": "2025-04-10T17:12:00Z",
+    "window_start": "2025-04-10T16:37:00Z",
     "image": {
-        "id": 2363,
-        "name": "Soyuz 2.1A on the launch pad (Soyuz MS-27)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_on_t_image_20250408055154.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_on_t_image_thumbnail_20250408055155.jpeg",
-        "credit": "Roscosmos",
+        "id": 1770,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
+        "credit": null,
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
