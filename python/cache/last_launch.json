@@ -1,9 +1,9 @@
 {
-    "id": "18aeb565-fc14-402e-be79-c8b141db209f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/18aeb565-fc14-402e-be79-c8b141db209f/",
-    "name": "Minotaur IV | NROL-174",
+    "id": "b38ffcec-db3b-4cbf-8ea1-865915a51f45",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b38ffcec-db3b-4cbf-8ea1-865915a51f45/",
+    "name": "Long March 6A | Shiyan 27 01-06",
     "response_mode": "list",
-    "slug": "minotaur-iv-nrol-174",
+    "slug": "long-march-6a-shiyan-27-01-06",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-04-16T22:24:55Z",
-    "net": "2025-04-16T19:33:00Z",
+    "last_updated": "2025-04-18T23:39:36Z",
+    "net": "2025-04-18T22:51:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-04-16T21:26:00Z",
-    "window_start": "2025-04-16T19:00:00Z",
+    "window_end": "2025-04-18T23:10:00Z",
+    "window_start": "2025-04-18T22:44:00Z",
     "image": {
-        "id": 1786,
-        "name": "Minotaur IV launching",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur_iv_lau_image_20240307170209.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/minotaur_iv_lau_image_thumbnail_20240307170209.jpeg",
-        "credit": "USAF",
+        "id": 1780,
+        "name": "[AUTO] Long March 6A - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a_image_20221109174525.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193739.png",
+        "credit": null,
         "license": {
-            "id": 17,
-            "name": "Department of Defense Image Use Policy",
-            "priority": 6,
-            "link": "https://www.dimoc.mil/resources/limitations/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": true,
         "variants": []
