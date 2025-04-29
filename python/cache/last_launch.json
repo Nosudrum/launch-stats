@@ -1,9 +1,9 @@
 {
-    "id": "306fbca9-d41b-44fa-b6aa-f14a7e3b887d",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/306fbca9-d41b-44fa-b6aa-f14a7e3b887d/",
-    "name": "Falcon 9 Block 5 | Starlink Group 12-10",
+    "id": "ccbd07da-d3c7-4b22-a5ee-cb190f6e06b0",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ccbd07da-d3c7-4b22-a5ee-cb190f6e06b0/",
+    "name": "Vega-C | Biomass",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-12-10",
+    "slug": "vega-c-biomass",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,30 +11,30 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-04-29T03:44:04Z",
-    "net": "2025-04-29T02:34:10Z",
+    "last_updated": "2025-04-29T10:45:44Z",
+    "net": "2025-04-29T09:15:52Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-04-29T05:31:50Z",
-    "window_start": "2025-04-29T02:31:00Z",
+    "window_end": "2025-04-29T09:15:52Z",
+    "window_start": "2025-04-29T09:15:52Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1861,
+        "name": "Vega-C liftoff on its maiden flight (LARES-2)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
+        "credit": "ESA/CNES/Arianespace/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
         "single_use": false,
         "variants": []
     },
-    "infographic": null
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/vega-c2520257_infographic_20250211185656.png"
 }
