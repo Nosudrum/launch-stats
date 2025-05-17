@@ -1,9 +1,9 @@
 {
-    "id": "35cd0984-b80f-4bc9-9d7a-ead47a40bccd",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/35cd0984-b80f-4bc9-9d7a-ead47a40bccd/",
-    "name": "Zhuque-2E | 6 satellites",
+    "id": "a150bf95-0152-410d-9657-423608ddfab4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/a150bf95-0152-410d-9657-423608ddfab4/",
+    "name": "Electron | The Sea God Sees (iQPS Launch 2)",
     "response_mode": "list",
-    "slug": "zhuque-2e-6-satellites",
+    "slug": "electron-the-sea-god-sees-iqps-launch-2",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-05-17T05:18:46Z",
-    "net": "2025-05-17T04:12:00Z",
+    "last_updated": "2025-05-17T11:24:39Z",
+    "net": "2025-05-17T08:17:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-05-17T04:40:00Z",
-    "window_start": "2025-05-17T04:04:00Z",
+    "window_end": "2025-05-17T09:15:00Z",
+    "window_start": "2025-05-17T08:15:00Z",
     "image": {
-        "id": 2289,
-        "name": "Zhuque 2E on the launch pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_20241216101643.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_thumbnail_20241216101644.jpeg",
-        "credit": "Landspace",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
