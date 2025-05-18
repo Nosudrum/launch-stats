@@ -1,31 +1,31 @@
 {
-    "id": "a150bf95-0152-410d-9657-423608ddfab4",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a150bf95-0152-410d-9657-423608ddfab4/",
-    "name": "Electron | The Sea God Sees (iQPS Launch 2)",
+    "id": "e6d98870-9a89-4cca-bbd1-511eed4bf2ce",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/e6d98870-9a89-4cca-bbd1-511eed4bf2ce/",
+    "name": "PSLV-XL | EOS-09 (RISAT-1B)",
     "response_mode": "list",
-    "slug": "electron-the-sea-god-sees-iqps-launch-2",
+    "slug": "pslv-xl-eos-09-risat-1b",
     "launch_designator": null,
     "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2025-05-17T11:24:39Z",
-    "net": "2025-05-17T08:17:00Z",
+    "last_updated": "2025-05-18T00:48:03Z",
+    "net": "2025-05-18T00:29:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-05-17T09:15:00Z",
-    "window_start": "2025-05-17T08:15:00Z",
+    "window_end": "2025-05-18T04:00:00Z",
+    "window_start": "2025-05-18T00:00:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "id": 1810,
+        "name": "[AUTO] PSLV-XL - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv_image_20190224012254.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193829.jpeg",
         "credit": null,
         "license": {
             "id": 1,
