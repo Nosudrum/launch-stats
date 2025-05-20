@@ -1,9 +1,9 @@
 {
-    "id": "0a8bf8c3-9f75-4fe9-a13d-9419eb09f432",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0a8bf8c3-9f75-4fe9-a13d-9419eb09f432/",
-    "name": "Ceres-1S | Tianqi 16-18 & 20",
+    "id": "59831598-6413-41fb-ae61-ad731c05dc4f",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/59831598-6413-41fb-ae61-ad731c05dc4f/",
+    "name": "Long March 7A | ChinaSat 3B",
     "response_mode": "list",
-    "slug": "ceres-1s-tianqi-16-18-20",
+    "slug": "long-march-7a-chinasat-3b",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-05-19T08:23:31Z",
-    "net": "2025-05-19T07:38:00Z",
+    "last_updated": "2025-05-20T12:48:43Z",
+    "net": "2025-05-20T11:50:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-05-19T07:57:00Z",
-    "window_start": "2025-05-19T07:29:00Z",
+    "window_end": "2025-05-20T13:11:00Z",
+    "window_start": "2025-05-20T11:42:00Z",
     "image": {
-        "id": 1709,
-        "name": "[AUTO] Ceres-1S - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1s_image_20230905114324.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193542.jpeg",
+        "id": 1782,
+        "name": "[AUTO] Long March 7A - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7a_image_20210311201838.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193743.jpeg",
         "credit": null,
         "license": {
             "id": 1,
