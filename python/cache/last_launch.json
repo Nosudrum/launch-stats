@@ -1,9 +1,9 @@
 {
-    "id": "38782ad8-6826-4594-bcca-ddcee8ff25e4",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/38782ad8-6826-4594-bcca-ddcee8ff25e4/",
-    "name": "Falcon 9 Block 5 | Starlink Group 12-15",
+    "id": "82cbee8b-4a94-4bff-a444-328b8db4da78",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/82cbee8b-4a94-4bff-a444-328b8db4da78/",
+    "name": "Kinetica 1 | 6 satellites",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-12-15",
+    "slug": "kinetica-1-6-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-05-21T04:27:14Z",
-    "net": "2025-05-21T03:19:10Z",
+    "last_updated": "2025-05-21T04:35:01Z",
+    "net": "2025-05-21T04:05:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-05-21T03:23:49Z",
-    "window_start": "2025-05-21T03:19:10Z",
+    "window_end": "2025-05-21T04:15:00Z",
+    "window_start": "2025-05-21T03:54:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
