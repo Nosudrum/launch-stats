@@ -1,9 +1,9 @@
 {
-    "id": "66be38aa-d9d9-4b71-8522-45e06677b2e0",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/66be38aa-d9d9-4b71-8522-45e06677b2e0/",
-    "name": "Long March 3B/E | Tianwen-2",
+    "id": "1e034f32-7384-4dd8-ba07-fe284fd8519e",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1e034f32-7384-4dd8-ba07-fe284fd8519e/",
+    "name": "Long March 4B | Shijian 26",
     "response_mode": "list",
-    "slug": "long-march-3be-tianwen-2",
+    "slug": "long-march-4b-shijian-26",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-05-28T18:40:34Z",
-    "net": "2025-05-28T17:31:00Z",
+    "last_updated": "2025-05-29T04:54:46Z",
+    "net": "2025-05-29T04:12:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-05-28T17:44:00Z",
-    "window_start": "2025-05-28T17:22:00Z",
+    "window_end": "2025-05-29T04:32:00Z",
+    "window_start": "2025-05-29T04:03:00Z",
     "image": {
-        "id": 1770,
-        "name": "[AUTO] Long March 3 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
+        "id": 1775,
+        "name": "[AUTO] Long March 4B - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193731.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
