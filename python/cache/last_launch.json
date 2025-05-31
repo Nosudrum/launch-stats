@@ -1,9 +1,9 @@
 {
-    "id": "1e034f32-7384-4dd8-ba07-fe284fd8519e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/1e034f32-7384-4dd8-ba07-fe284fd8519e/",
-    "name": "Long March 4B | Shijian 26",
+    "id": "7abd2e55-aee8-42f5-8eb2-b44dfda45708",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/7abd2e55-aee8-42f5-8eb2-b44dfda45708/",
+    "name": "Falcon 9 Block 5 | GPS III SV08",
     "response_mode": "list",
-    "slug": "long-march-4b-shijian-26",
+    "slug": "falcon-9-block-5-gps-iii-sv08",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-05-29T04:54:46Z",
-    "net": "2025-05-29T04:12:00Z",
+    "last_updated": "2025-05-31T01:55:38Z",
+    "net": "2025-05-30T17:37:59Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-05-29T04:32:00Z",
-    "window_start": "2025-05-29T04:03:00Z",
+    "window_end": "2025-05-30T17:38:00Z",
+    "window_start": "2025-05-30T17:23:00Z",
     "image": {
-        "id": 1775,
-        "name": "[AUTO] Long March 4B - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25204_image_20190430065008.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193731.jpeg",
-        "credit": null,
+        "id": 2369,
+        "name": "Falcon 9 liftoff from SLC-40 (GPS-III SV08)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20250530202015.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20250530202016.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
