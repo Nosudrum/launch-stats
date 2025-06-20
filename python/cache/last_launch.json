@@ -1,9 +1,9 @@
 {
-    "id": "4e6e74a5-6ffb-4dc3-8f39-90545067bf12",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/4e6e74a5-6ffb-4dc3-8f39-90545067bf12/",
-    "name": "Angara A5/Briz-M | Kosmos (Unknown Payload)",
+    "id": "7339173c-ff5d-4cd1-bd08-ed92f8362745",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/7339173c-ff5d-4cd1-bd08-ed92f8362745/",
+    "name": "Long March 3B/E | ChinaSat 9C",
     "response_mode": "list",
-    "slug": "angara-a5briz-m-kosmos-unknown-payload",
+    "slug": "long-march-3be-chinasat-9c",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-06-20T07:06:27Z",
-    "net": "2025-06-19T03:00:00Z",
+    "last_updated": "2025-06-20T13:21:09Z",
+    "net": "2025-06-20T12:37:00Z",
     "net_precision": {
-        "id": 2,
-        "name": "Hour",
-        "abbrev": "HR",
-        "description": "The T-0 is accurate to the hour."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-06-19T04:00:00Z",
-    "window_start": "2025-06-19T02:30:00Z",
+    "window_end": "2025-06-20T13:02:00Z",
+    "window_start": "2025-06-20T12:27:00Z",
     "image": {
-        "id": 1681,
-        "name": "[AUTO] Angara A5/Briz-M - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara_a52fbri_image_20240102171438.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193456.jpeg",
+        "id": 1770,
+        "name": "[AUTO] Long March 3 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203_image_20190222031215.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193722.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
