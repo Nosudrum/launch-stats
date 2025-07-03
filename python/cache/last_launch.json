@@ -1,9 +1,9 @@
 {
-    "id": "0ab496a8-c2e1-455f-b88c-f2ec5eecb825",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0ab496a8-c2e1-455f-b88c-f2ec5eecb825/",
-    "name": "Long March 4C | Shiyan 28 B-01",
+    "id": "dc076ce3-bff6-434d-bfce-8eaaa9800067",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/dc076ce3-bff6-434d-bfce-8eaaa9800067/",
+    "name": "Soyuz 2.1a | Progress MS-31 (92P)",
     "response_mode": "list",
-    "slug": "long-march-4c-shiyan-28-b-01",
+    "slug": "soyuz-21a-progress-ms-31-92p",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-03T10:20:14Z",
-    "net": "2025-07-03T09:35:00Z",
+    "last_updated": "2025-07-03T19:48:59Z",
+    "net": "2025-07-03T19:32:40Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-07-03T09:50:00Z",
-    "window_start": "2025-07-03T09:26:00Z",
+    "window_end": "2025-07-03T19:32:40Z",
+    "window_start": "2025-07-03T19:32:40Z",
     "image": {
-        "id": 1776,
-        "name": "[AUTO] Long March 4C - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193732.jpeg",
+        "id": 1828,
+        "name": "[AUTO] Soyuz 2.1a - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
         "credit": null,
         "license": {
             "id": 1,
