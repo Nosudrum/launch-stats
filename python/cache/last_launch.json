@@ -4,14 +4,14 @@
     "name": "Falcon 9 Block 5 | Starlink Group 17-3",
     "response_mode": "list",
     "slug": "falcon-9-block-5-starlink-group-17-3",
-    "launch_designator": null,
+    "launch_designator": "2025-152",
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-19T04:57:04Z",
+    "last_updated": "2025-07-19T05:29:06Z",
     "net": "2025-07-19T03:52:59Z",
     "net_precision": {
         "id": 0,
