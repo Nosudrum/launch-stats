@@ -1,3 +1,5 @@
+import matplotlib.pyplot as plt
+
 from Processing import PastT0s, PastCountries
 from plotsCodes.PlotFunctions import (
     dark_figure,
