@@ -48,4 +48,26 @@ def main(pbar, show=True):
         title="Orbital launch attempts per country since " + str(min(F1_Years)),
     )
     finish_figure(F1, F1_axes, "OrbitalAttemptsPerCountryStacked", show=show)
+
+    figw = plt.figure(figsize=(7, 5.2))
+    axw = [fig.add_subplot(subplots[0], subplots[1], ii + 1, facecolor=github_dark)]
+    axw[0].hist(
+        F1_data,
+        bins=np.append(np.unique(F1_Years), max(F1_Years) + 1),
+        histtype="bar",
+        stacked=True,
+        label=F1_Countries_Labels,
+        color=colors,
+    )
+    handles, labels = prepare_legend(reverse=False)
+    axw[0].legend(
+        handles, labels, loc="upper center", ncol=4, frameon=False
+    )
+    axw[0].set(
+        ylabel="Total launches per year",
+        xlim=[min(F1_Years), max(F1_Years) + 1],
+        title="Orbital launch attempts per country since " + str(min(F1_Years)),
+    )
+    finish_figure(F1, F1_axes, "OrbitalAttemptsPerCountryStacked", show=show)
+    finish_figure(figw, axw, "OrbitalAttemptsPerCountryStacked_white", show=show)
     pbar.update()
