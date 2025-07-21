@@ -52,7 +52,7 @@ def main(pbar, show=True):
     finish_figure(F1, F1_axes, "OrbitalAttemptsPerCountryStacked", show=show)
 
     figw = plt.figure(figsize=(7, 5.2))
-    axw = [figw.add_subplot(subplots[0], subplots[1], ii + 1, facecolor=github_dark)]
+    axw = [figw.add_subplot(1, 1, 1)]
     axw[0].hist(
         F1_data,
         bins=np.append(np.unique(F1_Years), max(F1_Years) + 1),
