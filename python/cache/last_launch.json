@@ -1,9 +1,9 @@
 {
-    "id": "c1dc33ba-c9cc-4c1d-ad9f-120096f60be3",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/c1dc33ba-c9cc-4c1d-ad9f-120096f60be3/",
-    "name": "Falcon 9 Block 5 | TRACERS",
+    "id": "2ae6c1b3-e234-419f-ae71-a7d5410d9303",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/2ae6c1b3-e234-419f-ae71-a7d5410d9303/",
+    "name": "Soyuz 2.1b/Fregat-M | Ionosfera-M 3 & 4",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-tracers",
+    "slug": "soyuz-21bfregat-m-ionosfera-m-3-4",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-23T23:36:22Z",
-    "net": "2025-07-23T18:13:00Z",
+    "last_updated": "2025-07-25T13:40:08Z",
+    "net": "2025-07-25T05:54:04Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-07-23T19:10:00Z",
-    "window_start": "2025-07-23T18:13:00Z",
+    "window_end": "2025-07-25T05:54:04Z",
+    "window_start": "2025-07-25T05:54:04Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-        "credit": null,
+        "id": 2267,
+        "name": "Soyuz 2.1b liftoff ( Ionosfera-M 1 & 2)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_lift_image_20241105092205.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_lift_image_thumbnail_20241105092206.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
         "single_use": true,
         "variants": []
