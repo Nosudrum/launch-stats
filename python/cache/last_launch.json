@@ -1,9 +1,9 @@
 {
-    "id": "a2a87bed-7e8c-4680-a282-045c4ffe9917",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a2a87bed-7e8c-4680-a282-045c4ffe9917/",
-    "name": "Vega-C | CO3D & MicroCarb",
+    "id": "d4eba3cb-9474-41f9-9618-a90d1c0b7025",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/d4eba3cb-9474-41f9-9618-a90d1c0b7025/",
+    "name": "Falcon 9 Block 5 | Starlink Group 10-26",
     "response_mode": "list",
-    "slug": "vega-c-co3d-microcarb",
+    "slug": "falcon-9-block-5-starlink-group-10-26",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-26T05:49:28Z",
-    "net": "2025-07-26T02:03:48Z",
+    "last_updated": "2025-07-26T10:10:48Z",
+    "net": "2025-07-26T09:01:40Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-07-26T02:03:48Z",
-    "window_start": "2025-07-26T02:03:48Z",
+    "window_end": "2025-07-26T12:28:00Z",
+    "window_start": "2025-07-26T08:28:00Z",
     "image": {
-        "id": 1861,
-        "name": "Vega-C liftoff on its maiden flight (LARES-2)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
-        "credit": "ESA/CNES/Arianespace/Optique vid\u00e9o du CSG\u2013S. Martin",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 2,
-            "name": "ESA Standard Licence",
-            "priority": 2,
-            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
         "single_use": false,
         "variants": []
