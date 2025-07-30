@@ -1,9 +1,9 @@
 {
-    "id": "87347db1-de71-4c66-803c-7f602649e56c",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/87347db1-de71-4c66-803c-7f602649e56c/",
-    "name": "Long March 8A | SatNet LEO Group 06",
+    "id": "3e852c36-4179-4c45-a2b1-9252e639372f",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3e852c36-4179-4c45-a2b1-9252e639372f/",
+    "name": "GSLV Mk II | NISAR (NASA-ISRO Synthetic Aperture Radar)",
     "response_mode": "list",
-    "slug": "long-march-8a-satnet-leo-group-06",
+    "slug": "gslv-mk-ii-nisar-nasa-isro-synthetic-aperture-rada",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-30T09:39:29Z",
-    "net": "2025-07-30T07:49:00Z",
+    "last_updated": "2025-07-30T15:52:50Z",
+    "net": "2025-07-30T12:10:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-07-30T08:07:00Z",
-    "window_start": "2025-07-30T07:41:00Z",
+    "window_end": "2025-07-30T12:10:00Z",
+    "window_start": "2025-07-30T12:10:00Z",
     "image": {
-        "id": 2327,
-        "name": "CZ-8A Y1 in VAB",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_y1_in_vab_image_20250213053137.JPG",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_y1_in_vab_image_thumbnail_20250213053137.jpeg",
-        "credit": "CASC",
+        "id": 1744,
+        "name": "[AUTO] GSLV Mk II - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
