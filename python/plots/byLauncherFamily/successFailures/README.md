@@ -26,6 +26,7 @@
 ![Launch successes and failures of the Diamant family since 1965](Diamant.png)
 ![Launch successes and failures of the Energiya family since 1987](Energiya.png)
 ![Launch successes and failures of the Epsilon family since 2013](Epsilon.png)
+![Launch successes and failures of the Eris family since 2025](Eris.png)
 ![Launch successes and failures of the Europa family since 1968](Europa.png)
 ![Launch successes and failures of the Falcon family since 2006](Falcon.png)
 ![Launch successes and failures of the Falcon 9 family since 2010](Falcon_9.png)
