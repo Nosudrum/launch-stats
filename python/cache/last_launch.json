@@ -1,9 +1,9 @@
 {
-    "id": "3e852c36-4179-4c45-a2b1-9252e639372f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3e852c36-4179-4c45-a2b1-9252e639372f/",
-    "name": "GSLV Mk II | NISAR (NASA-ISRO Synthetic Aperture Radar)",
+    "id": "38bc8d93-0d40-4c1a-a127-63578ea409f5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/38bc8d93-0d40-4c1a-a127-63578ea409f5/",
+    "name": "Kuaizhou-1A | PRSC-S1",
     "response_mode": "list",
-    "slug": "gslv-mk-ii-nisar-nasa-isro-synthetic-aperture-rada",
+    "slug": "kuaizhou-1a-prsc-s1",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-07-30T15:52:50Z",
-    "net": "2025-07-30T12:10:00Z",
+    "last_updated": "2025-07-31T03:25:01Z",
+    "net": "2025-07-31T02:00:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-07-30T12:10:00Z",
-    "window_start": "2025-07-30T12:10:00Z",
+    "window_end": "2025-07-31T02:39:00Z",
+    "window_start": "2025-07-31T01:51:00Z",
     "image": {
-        "id": 1744,
-        "name": "[AUTO] GSLV Mk II - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg",
+        "id": 1758,
+        "name": "[AUTO] Kuaizhou - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193703.jpeg",
         "credit": null,
         "license": {
             "id": 1,
