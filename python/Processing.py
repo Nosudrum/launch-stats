@@ -41,7 +41,7 @@ LaunchPad = pd.json_normalize(Launches["pad"])
 LaunchCountry = LaunchPad["country.alpha_3_code"].to_frame()
 
 for index in LaunchCountry.index:
-    if not LaunchPad.iloc[index]["location.id"] in [20, 144, 3]:
+    if not LaunchPad.iloc[index]["location.id"] in [20, 144, 3, 161]:
         continue
     LaunchCountry.iloc[index] = LaunchLSP.iloc[index]["country"][0]["alpha_3_code"]
 
