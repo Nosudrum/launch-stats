@@ -158,6 +158,7 @@ Countries_dict = {
     "BRA": "Brazil",
     "MHL": "Marshall Islands",
     "NOR": "Norway",
+    "DEU": "Germany",
 }
 
 monthsLabels = [
