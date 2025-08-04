@@ -13,4 +13,4 @@
 ![Launch successes and failures by Iran since 2008](Iran.png)
 ![Launch successes and failures by South Korea since 2009](South_Korea.png)
 ![Launch successes and failures by New Zealand since 2017](New_Zealand.png)
-![Launch successes and failures by Norway since 2025](Norway.png)
+![Launch successes and failures by Germany since 2025](Germany.png)

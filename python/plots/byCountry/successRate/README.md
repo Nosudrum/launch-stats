@@ -13,4 +13,4 @@
 ![Launches and success rate by Iran since 1957](Iran.png)
 ![Launches and success rate by South Korea since 1957](South_Korea.png)
 ![Launches and success rate by New Zealand since 1957](New_Zealand.png)
-![Launches and success rate by Norway since 1957](Norway.png)
+![Launches and success rate by Germany since 1957](Germany.png)
