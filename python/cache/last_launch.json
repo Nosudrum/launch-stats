@@ -1,9 +1,9 @@
 {
-    "id": "ffa8c798-2d33-47cb-8548-f378837e316d",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/ffa8c798-2d33-47cb-8548-f378837e316d/",
-    "name": "Smart Dragon 3 | Geely Constellation Group 04",
+    "id": "594ae0c5-2039-4a1a-a6be-7b0940b2ed2c",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/594ae0c5-2039-4a1a-a6be-7b0940b2ed2c/",
+    "name": "Falcon 9 Block 5 | Project Kuiper (KF-02)",
     "response_mode": "list",
-    "slug": "smart-dragon-3-geely-constellation-group-04",
+    "slug": "falcon-9-block-5-project-kuiper-kf-02",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-08T17:36:13Z",
-    "net": "2025-08-08T16:31:00Z",
+    "last_updated": "2025-08-11T13:49:44Z",
+    "net": "2025-08-11T12:35:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-08-08T16:44:00Z",
-    "window_start": "2025-08-08T16:21:00Z",
+    "window_end": "2025-08-11T13:02:00Z",
+    "window_start": "2025-08-11T12:35:00Z",
     "image": {
-        "id": 2251,
-        "name": "Smart Dragon 3 liftoff (8 satellites)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg",
-        "credit": "CASC",
+        "id": 2434,
+        "name": "F9 on SLC-40 (KF-02)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20250807141208.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20250807141210.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
