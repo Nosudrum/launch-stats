@@ -1,9 +1,9 @@
 {
-    "id": "594ae0c5-2039-4a1a-a6be-7b0940b2ed2c",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/594ae0c5-2039-4a1a-a6be-7b0940b2ed2c/",
-    "name": "Falcon 9 Block 5 | Project Kuiper (KF-02)",
+    "id": "1b9bed2f-7e00-4d95-b5d1-7b71c36a4ab1",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1b9bed2f-7e00-4d95-b5d1-7b71c36a4ab1/",
+    "name": "Ariane 62 | Metop-SG A1",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-project-kuiper-kf-02",
+    "slug": "ariane-62-metop-sg-a1",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-11T13:49:44Z",
-    "net": "2025-08-11T12:35:00Z",
+    "last_updated": "2025-08-13T03:06:56Z",
+    "net": "2025-08-13T00:37:50Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-08-11T13:02:00Z",
-    "window_start": "2025-08-11T12:35:00Z",
+    "window_end": "2025-08-13T00:37:50Z",
+    "window_start": "2025-08-13T00:37:50Z",
     "image": {
-        "id": 2434,
-        "name": "F9 on SLC-40 (KF-02)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_20250807141208.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/f9_on_slc-40_2_image_thumbnail_20250807141210.jpeg",
-        "credit": "SpaceX",
+        "id": 2123,
+        "name": "Ariane 62 liftoff (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
