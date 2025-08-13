@@ -1,9 +1,9 @@
 {
-    "id": "0c5642f3-24ae-4879-a8e9-981ad36a8911",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0c5642f3-24ae-4879-a8e9-981ad36a8911/",
-    "name": "Vulcan VC4S | USSF-106",
+    "id": "1267bbbb-708d-478d-a734-2dc3450524d4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1267bbbb-708d-478d-a734-2dc3450524d4/",
+    "name": "Long March 5B/YZ-2 | SatNet LEO Group 08",
     "response_mode": "list",
-    "slug": "vulcan-vc4s-ussf-106",
+    "slug": "long-march-5byz-2-satnet-leo-group-08",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-13T08:20:39Z",
-    "net": "2025-08-13T00:56:00Z",
+    "last_updated": "2025-08-13T08:35:51Z",
+    "net": "2025-08-13T06:43:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-08-13T00:59:00Z",
-    "window_start": "2025-08-12T23:59:00Z",
+    "window_end": "2025-08-13T07:01:00Z",
+    "window_start": "2025-08-13T06:36:00Z",
     "image": {
-        "id": 2436,
-        "name": "Vulcan VC4S V-003 USSF-106 at SLC-41",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_20250812014341.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc4s_v-0_image_thumbnail_20250812014342.jpeg",
-        "credit": "United Launch Alliance",
+        "id": 1778,
+        "name": "Long March 5B liftoff",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_5b_image_20210428182650.JPG",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193736.jpeg",
+        "credit": "People's Daily (\u4eba\u6c11\u65e5\u62a5)",
         "license": {
-            "id": 10,
-            "name": "ULA Image Use Policy",
-            "priority": 3,
-            "link": "https://www.ulalaunch.com/terms-and-conditions"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
