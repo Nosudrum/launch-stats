@@ -1,9 +1,9 @@
 {
-    "id": "25780f1d-a1cd-40dc-a645-836ef4a2739f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/25780f1d-a1cd-40dc-a645-836ef4a2739f/",
-    "name": "Long March 4C | Shiyan 28 B-02",
+    "id": "2983a714-53e2-4b4a-8757-ade478d63232",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/2983a714-53e2-4b4a-8757-ade478d63232/",
+    "name": "Long March 6A | SatNet LEO Group 09",
     "response_mode": "list",
-    "slug": "long-march-4c-shiyan-28-b-02",
+    "slug": "long-march-6a-satnet-leo-group-09",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-17T09:42:04Z",
-    "net": "2025-08-17T08:55:00Z",
+    "last_updated": "2025-08-17T16:15:55Z",
+    "net": "2025-08-17T14:15:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-08-17T09:20:00Z",
-    "window_start": "2025-08-17T08:55:00Z",
+    "window_end": "2025-08-17T14:23:00Z",
+    "window_start": "2025-08-17T14:07:00Z",
     "image": {
-        "id": 1776,
-        "name": "[AUTO] Long March 4C - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4c_image_20230801172338.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193732.jpeg",
+        "id": 1780,
+        "name": "[AUTO] Long March 6A - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a_image_20221109174525.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193739.png",
         "credit": null,
         "license": {
             "id": 1,
