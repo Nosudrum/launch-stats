@@ -1,9 +1,9 @@
 {
-    "id": "49678ae6-8664-4d60-9aa2-622c087ed917",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/49678ae6-8664-4d60-9aa2-622c087ed917/",
-    "name": "Soyuz 2.1b | Bion-M No. 2",
+    "id": "709a1d9f-a0aa-4fd0-b108-1015393f49e1",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/709a1d9f-a0aa-4fd0-b108-1015393f49e1/",
+    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
     "response_mode": "list",
-    "slug": "soyuz-21b-bion-m-no-2",
+    "slug": "angara-12-kosmos-unknown-payload",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-20T23:31:06Z",
-    "net": "2025-08-20T17:13:10Z",
+    "last_updated": "2025-08-21T15:02:07Z",
+    "net": "2025-08-21T09:32:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-08-20T17:13:10Z",
-    "window_start": "2025-08-20T17:13:10Z",
+    "window_end": "2025-08-21T10:30:00Z",
+    "window_start": "2025-08-21T08:30:00Z",
     "image": {
-        "id": 1830,
-        "name": "Soyuz 2.1b on the pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-        "credit": "Roscosmos",
+        "id": 1677,
+        "name": "[AUTO] Angara 1.2 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg",
+        "credit": null,
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
