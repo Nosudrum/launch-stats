@@ -1,9 +1,9 @@
 {
-    "id": "80af8d63-64aa-4d16-9abd-bdbe167cecb9",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/80af8d63-64aa-4d16-9abd-bdbe167cecb9/",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-6",
+    "id": "5b483b3d-d5c5-44df-8a67-c5a8ad87a123",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/5b483b3d-d5c5-44df-8a67-c5a8ad87a123/",
+    "name": "Electron | Live, Laugh, Launch",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-17-6",
+    "slug": "electron-live-laugh-launch",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-08-22T18:14:06Z",
-    "net": "2025-08-22T17:04:49Z",
+    "last_updated": "2025-08-23T23:42:24Z",
+    "net": "2025-08-23T22:42:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-08-22T19:44:00Z",
-    "window_start": "2025-08-22T15:44:00Z",
+    "window_end": "2025-08-23T22:42:00Z",
+    "window_start": "2025-08-23T22:42:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
