@@ -1,9 +1,9 @@
 {
-    "id": "50448abf-884a-4e04-87da-3950ab7c43e7",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/50448abf-884a-4e04-87da-3950ab7c43e7/",
-    "name": "Long March 3C/YZ-1 | Shiyan 29",
+    "id": "b1451c26-c4af-45ee-879e-6d1f6f8eec52",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b1451c26-c4af-45ee-879e-6d1f6f8eec52/",
+    "name": "Ceres-1 | 3 satellites",
     "response_mode": "list",
-    "slug": "long-march-3cyz-1-shiyan-29",
+    "slug": "ceres-1-3-satellites-2",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-09-05T10:49:23Z",
-    "net": "2025-09-05T02:34:00Z",
+    "last_updated": "2025-09-05T12:07:09Z",
+    "net": "2025-09-05T11:39:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-09-05T02:53:00Z",
-    "window_start": "2025-09-05T02:26:00Z",
+    "window_end": "2025-09-05T12:08:00Z",
+    "window_start": "2025-09-05T11:28:00Z",
     "image": {
-        "id": 1774,
-        "name": "[AUTO] Long March 3C/YZ-1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25203c25202f2520yz-1_image_20190222030929.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193729.jpeg",
+        "id": 1708,
+        "name": "[AUTO] Ceres-1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ceres-1_image_20230722081939.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193541.jpeg",
         "credit": null,
         "license": {
             "id": 1,
