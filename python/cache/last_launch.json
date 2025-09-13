@@ -1,9 +1,9 @@
 {
-    "id": "84a2a107-1e44-4994-ad9f-430ee81a741a",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/84a2a107-1e44-4994-ad9f-430ee81a741a/",
-    "name": "Falcon 9 Block 5 | Nusantara Lima",
+    "id": "c5c59136-3554-45e7-9583-9d5611bed7b4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/c5c59136-3554-45e7-9583-9d5611bed7b4/",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1 No. 18 (Kosmos 2595) & Kosmos 2596",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-nusantara-lima",
+    "slug": "soyuz-21bfregat-glonass-k1-no-18-kosmos-2595-kosmo",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-09-12T06:14:19Z",
-    "net": "2025-09-12T01:56:00Z",
+    "last_updated": "2025-09-13T12:29:20Z",
+    "net": "2025-09-13T02:10:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-09-12T01:56:00Z",
-    "window_start": "2025-09-11T23:59:00Z",
+    "window_end": "2025-09-13T03:30:00Z",
+    "window_start": "2025-09-13T02:10:00Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-        "credit": null,
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
