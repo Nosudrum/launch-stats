@@ -1,9 +1,9 @@
 {
-    "id": "b563b8fa-9f6c-4883-9a89-9cb5a073864f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/b563b8fa-9f6c-4883-9a89-9cb5a073864f/",
-    "name": "Smart Dragon 3 | Geely Constellation Group 06",
+    "id": "689d7129-10fa-4df9-b81e-2b8fb926bbaf",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/689d7129-10fa-4df9-b81e-2b8fb926bbaf/",
+    "name": "Falcon 9 Block 5 | IMAP & others",
     "response_mode": "list",
-    "slug": "smart-dragon-3-geely-constellation-group-06",
+    "slug": "falcon-9-block-5-imap-others",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-09-24T11:15:13Z",
-    "net": "2025-09-24T07:56:00Z",
+    "last_updated": "2025-09-24T13:21:51Z",
+    "net": "2025-09-24T11:30:50Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-09-24T08:30:00Z",
-    "window_start": "2025-09-24T07:47:00Z",
+    "window_end": "2025-09-24T11:30:50Z",
+    "window_start": "2025-09-24T11:30:35Z",
     "image": {
-        "id": 2251,
-        "name": "Smart Dragon 3 liftoff (8 satellites)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg",
-        "credit": "CASC",
+        "id": 2483,
+        "name": "Falcon 9 on LC-39A (IMAP)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_lc-_image_20250924094626.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_lc-_image_thumbnail_20250924094628.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
