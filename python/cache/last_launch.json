@@ -1,9 +1,9 @@
 {
-    "id": "57d675d1-9a50-4c62-bee0-915c8c26befe",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/57d675d1-9a50-4c62-bee0-915c8c26befe/",
-    "name": "Gravity-1 | 3 satellites",
+    "id": "1bdae72b-07c6-4b49-83bf-d4f17bb00265",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1bdae72b-07c6-4b49-83bf-d4f17bb00265/",
+    "name": "Long March 2D | Shiyan 31",
     "response_mode": "list",
-    "slug": "gravity-1-3-satellites",
+    "slug": "long-march-2d-shiyan-31",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-10-11T03:05:06Z",
-    "net": "2025-10-11T02:20:00Z",
+    "last_updated": "2025-10-13T21:12:03Z",
+    "net": "2025-10-13T10:00:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-10-11T02:32:00Z",
-    "window_start": "2025-10-11T02:10:00Z",
+    "window_end": "2025-10-13T10:25:00Z",
+    "window_start": "2025-10-13T09:50:00Z",
     "image": {
-        "id": 1355,
-        "name": "Gravity-1 liftoff from Haiyang Spaceport (Maiden flight)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-12520_image_20240112065126.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192513.jpeg",
-        "credit": "OrienSpace",
+        "id": 1768,
+        "name": "[AUTO] Long March 2D - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
