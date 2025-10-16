@@ -1,39 +1,39 @@
 {
-    "id": "66172ee0-3d02-4640-a802-55025a51172d",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/66172ee0-3d02-4640-a802-55025a51172d/",
-    "name": "Electron | Owl New World (StriX Launch 7)",
+    "id": "21f2d630-748b-4cd6-9f10-7ed96cc21fb5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/21f2d630-748b-4cd6-9f10-7ed96cc21fb5/",
+    "name": "Long March 8A | SatNet LEO Group 12",
     "response_mode": "list",
-    "slug": "electron-owl-new-world-strix-launch-7",
-    "launch_designator": null,
+    "slug": "long-march-8a-satnet-leo-group-12",
+    "launch_designator": "2025-231",
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-10-14T19:39:56Z",
-    "net": "2025-10-14T16:33:00Z",
+    "last_updated": "2025-10-16T03:21:23Z",
+    "net": "2025-10-16T01:33:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-10-14T16:33:00Z",
-    "window_start": "2025-10-14T16:33:00Z",
+    "window_end": "2025-10-16T01:52:00Z",
+    "window_start": "2025-10-16T01:25:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-        "credit": null,
+        "id": 2327,
+        "name": "CZ-8A Y1 in VAB",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_y1_in_vab_image_20250213053137.JPG",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_y1_in_vab_image_thumbnail_20250213053137.jpeg",
+        "credit": "CASC",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
