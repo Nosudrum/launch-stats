@@ -1,37 +1,37 @@
 {
-    "id": "8c2412ae-fbef-443f-aae8-db538f38eec6",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/8c2412ae-fbef-443f-aae8-db538f38eec6/",
-    "name": "H3-24 | HTV-X1",
+    "id": "91e9e440-f4c0-48c5-9739-4813ffaef1f1",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/91e9e440-f4c0-48c5-9739-4813ffaef1f1/",
+    "name": "Long March 3B/E | Gaofen-14 02",
     "response_mode": "list",
-    "slug": "h3-24-htv-x1",
-    "launch_designator": "2025-241",
+    "slug": "long-march-3be-gaofen-14-02",
+    "launch_designator": null,
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-10-26T03:18:57Z",
-    "net": "2025-10-26T00:00:15Z",
+    "last_updated": "2025-10-26T04:30:37Z",
+    "net": "2025-10-26T03:55:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-10-26T00:00:15Z",
-    "window_start": "2025-10-26T00:00:15Z",
+    "window_end": "2025-10-26T04:13:00Z",
+    "window_start": "2025-10-26T03:43:00Z",
     "image": {
-        "id": 1746,
-        "name": "H3 render",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h-iii_image_20221104084531.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193643.jpeg",
-        "credit": "JAXA",
+        "id": 1491,
+        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
+        "credit": "China Aerospace Science and Technology Corporation",
         "license": {
-            "id": 9,
-            "name": "JAXA Image Usage Policy",
-            "priority": 8,
-            "link": "https://global.jaxa.jp/policy.html"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
