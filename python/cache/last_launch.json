@@ -1,9 +1,9 @@
 {
-    "id": "41d2ac1b-a506-47ae-8e44-8b65f5d6f239",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/41d2ac1b-a506-47ae-8e44-8b65f5d6f239/",
-    "name": "Falcon 9 Block 5 | Bandwagon 4 (Dedicated Mid-Inclination Rideshare)",
+    "id": "05c00251-c8db-4922-9244-d1e407427962",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/05c00251-c8db-4922-9244-d1e407427962/",
+    "name": "LVM-3 | CMS-03 (GSAT-7R)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-bandwagon-4-dedicated-mid-inclina",
+    "slug": "lvm-3-cms-03-gsat-7r",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-02T07:01:25Z",
-    "net": "2025-11-02T05:09:59Z",
+    "last_updated": "2025-11-02T15:55:23Z",
+    "net": "2025-11-02T11:56:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-11-02T06:03:00Z",
-    "window_start": "2025-11-02T05:00:00Z",
+    "window_end": "2025-11-02T11:56:00Z",
+    "window_start": "2025-11-02T11:56:00Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "id": 1784,
+        "name": "[AUTO] LVM-3 (GSLV Mk III) - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520iii_image_20190604000938.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193746.jpeg",
         "credit": null,
         "license": {
             "id": 1,
