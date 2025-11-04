@@ -1,9 +1,9 @@
 {
-    "id": "5fc609f3-4aee-4ffd-968d-b4cddcd9e381",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/5fc609f3-4aee-4ffd-968d-b4cddcd9e381/",
-    "name": "Long March 7A | Yaogan 46",
+    "id": "7afcacb9-32aa-41ee-a000-0c7158f324c2",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/7afcacb9-32aa-41ee-a000-0c7158f324c2/",
+    "name": "Ariane 62 | Sentinel-1D",
     "response_mode": "list",
-    "slug": "long-march-7a-yaogan-46",
+    "slug": "ariane-62-sentinel-1d",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-03T04:52:18Z",
-    "net": "2025-11-03T03:47:00Z",
+    "last_updated": "2025-11-04T22:45:57Z",
+    "net": "2025-11-04T21:02:17Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-11-03T04:02:00Z",
-    "window_start": "2025-11-03T03:39:00Z",
+    "window_end": "2025-11-04T21:02:17Z",
+    "window_start": "2025-11-04T21:02:17Z",
     "image": {
-        "id": 1782,
-        "name": "[AUTO] Long March 7A - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_7a_image_20210311201838.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193743.jpeg",
-        "credit": null,
+        "id": 2123,
+        "name": "Ariane 62 liftoff (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
