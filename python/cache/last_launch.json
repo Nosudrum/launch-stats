@@ -1,37 +1,37 @@
 {
-    "id": "9c950919-5d11-4a79-a4f1-be7387678c0a",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9c950919-5d11-4a79-a4f1-be7387678c0a/",
-    "name": "New Glenn | EscaPADE",
+    "id": "47deaaf0-40d9-4400-bd92-4cabf1da5791",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/47deaaf0-40d9-4400-bd92-4cabf1da5791/",
+    "name": "Atlas V 551 | ViaSat-3 F2 (ViaSat-3 EMEA)",
     "response_mode": "list",
-    "slug": "new-glenn-escapade",
-    "launch_designator": null,
+    "slug": "atlas-v-551-viasat-3-f2-viasat-3-emea",
+    "launch_designator": "2025-261",
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-14T03:37:20Z",
-    "net": "2025-11-13T20:55:00Z",
+    "last_updated": "2025-11-14T11:01:58Z",
+    "net": "2025-11-14T03:04:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-11-13T21:25:00Z",
-    "window_start": "2025-11-13T19:57:00Z",
+    "window_end": "2025-11-14T03:48:00Z",
+    "window_start": "2025-11-14T03:04:00Z",
     "image": {
-        "id": 2535,
-        "name": "New Glenn on the launch pad (Escapade)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_20251113164507.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_glenn_on_th_image_thumbnail_20251113164509.jpeg",
-        "credit": "Blue Origin",
+        "id": 1705,
+        "name": "[AUTO] Atlas V 551 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193536.jpeg",
+        "credit": null,
         "license": {
-            "id": 37,
-            "name": "Blue Origin Terms of Use",
-            "priority": 6,
-            "link": "https://www.blueorigin.com/terms-of-use"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": true,
         "variants": []
