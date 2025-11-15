@@ -1,9 +1,9 @@
 {
-    "id": "fdb8c931-b1ec-441e-b0ce-75f7a8799189",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/fdb8c931-b1ec-441e-b0ce-75f7a8799189/",
-    "name": "Falcon 9 Block 5 | Starlink Group 6-89",
+    "id": "098173dc-9630-4954-ac95-bd0ec221074e",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/098173dc-9630-4954-ac95-bd0ec221074e/",
+    "name": "Falcon 9 Block 5 | Starlink Group 6-85",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-6-89",
+    "slug": "falcon-9-block-5-starlink-group-6-85",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,8 +11,8 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-15T04:17:03Z",
-    "net": "2025-11-15T03:08:10Z",
+    "last_updated": "2025-11-15T07:51:35Z",
+    "net": "2025-11-15T06:44:20Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
