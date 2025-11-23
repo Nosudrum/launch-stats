@@ -1,9 +1,9 @@
 {
-    "id": "3a22283a-4521-429c-bf45-0d53aa0fcff3",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3a22283a-4521-429c-bf45-0d53aa0fcff3/",
-    "name": "Falcon 9 Block 5 | Starlink Group 6-79",
+    "id": "8cda58f9-3fe2-43dc-8fa3-3125cbc9a754",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/8cda58f9-3fe2-43dc-8fa3-3125cbc9a754/",
+    "name": "Falcon 9 Block 5 | Starlink Group 11-30",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-6-79",
+    "slug": "falcon-9-block-5-starlink-group-11-30",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,16 +11,16 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-22T09:42:06Z",
-    "net": "2025-11-22T07:53:50Z",
+    "last_updated": "2025-11-23T09:55:45Z",
+    "net": "2025-11-23T08:48:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-11-22T10:59:00Z",
-    "window_start": "2025-11-22T06:59:00Z",
+    "window_end": "2025-11-23T12:00:00Z",
+    "window_start": "2025-11-23T08:00:00Z",
     "image": {
         "id": 1296,
         "name": "Starlink night fairing",
