@@ -1,9 +1,9 @@
 {
-    "id": "8cda58f9-3fe2-43dc-8fa3-3125cbc9a754",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/8cda58f9-3fe2-43dc-8fa3-3125cbc9a754/",
-    "name": "Falcon 9 Block 5 | Starlink Group 11-30",
+    "id": "6da58dd3-57bf-4c0a-a003-c56268db3e59",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/6da58dd3-57bf-4c0a-a003-c56268db3e59/",
+    "name": "Long March 2F/G | Shenzhou 22",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-11-30",
+    "slug": "long-march-2fg-shenzhou-22",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-23T09:55:45Z",
-    "net": "2025-11-23T08:48:00Z",
+    "last_updated": "2025-11-25T04:38:21Z",
+    "net": "2025-11-25T04:11:45Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-11-23T12:00:00Z",
-    "window_start": "2025-11-23T08:00:00Z",
+    "window_end": "2025-11-25T04:41:00Z",
+    "window_start": "2025-11-25T04:01:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1765,
+        "name": "[AUTO] Long March 2 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20210908195835.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193714.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
