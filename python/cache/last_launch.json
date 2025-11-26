@@ -1,9 +1,9 @@
 {
-    "id": "547f1a96-0539-4fd3-b13c-2a781f02cfd5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/547f1a96-0539-4fd3-b13c-2a781f02cfd5/",
-    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "id": "5c7280f6-b793-4899-a6fe-1d274ed46493",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/5c7280f6-b793-4899-a6fe-1d274ed46493/",
+    "name": "Nuri | CAS500-3",
     "response_mode": "list",
-    "slug": "angara-12-kosmos-unknown-payload",
+    "slug": "nuri-cas500-3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-25T14:53:52Z",
-    "net": "2025-11-25T13:42:00Z",
+    "last_updated": "2025-11-26T18:36:10Z",
+    "net": "2025-11-26T16:13:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-11-25T14:35:00Z",
-    "window_start": "2025-11-25T13:00:00Z",
+    "window_end": "2025-11-26T16:14:00Z",
+    "window_start": "2025-11-26T15:54:00Z",
     "image": {
-        "id": 1677,
-        "name": "[AUTO] Angara 1.2 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg",
-        "credit": null,
+        "id": 1283,
+        "name": "Nuri liftoff from LC-2 (NEXTSat-2 & SNIPE)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_20240820080542.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
+        "credit": "KARI/VNA/CVN",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
