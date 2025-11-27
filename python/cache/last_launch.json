@@ -1,9 +1,9 @@
 {
-    "id": "5c7280f6-b793-4899-a6fe-1d274ed46493",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/5c7280f6-b793-4899-a6fe-1d274ed46493/",
-    "name": "Nuri | CAS500-3",
+    "id": "40beac6e-ce8e-4481-8cf9-56d1d9c48804",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/40beac6e-ce8e-4481-8cf9-56d1d9c48804/",
+    "name": "Soyuz 2.1a | Soyuz MS-28",
     "response_mode": "list",
-    "slug": "nuri-cas500-3",
+    "slug": "soyuz-21a-soyuz-ms-28",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-11-26T18:36:10Z",
-    "net": "2025-11-26T16:13:00Z",
+    "last_updated": "2025-11-27T09:47:33Z",
+    "net": "2025-11-27T09:27:57Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-11-26T16:14:00Z",
-    "window_start": "2025-11-26T15:54:00Z",
+    "window_end": "2025-11-27T09:27:57Z",
+    "window_start": "2025-11-27T09:27:57Z",
     "image": {
-        "id": 1283,
-        "name": "Nuri liftoff from LC-2 (NEXTSat-2 & SNIPE)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_20240820080542.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/nuri_liftoff_2_image_thumbnail_20240820080542.jpeg",
-        "credit": "KARI/VNA/CVN",
+        "id": 1828,
+        "name": "[AUTO] Soyuz 2.1a - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
