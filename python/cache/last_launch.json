@@ -1,9 +1,9 @@
 {
-    "id": "880a7824-95c4-4724-91bf-83f2a5cba740",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/880a7824-95c4-4724-91bf-83f2a5cba740/",
-    "name": "Falcon 9 Block 5 | Starlink Group 11-25",
+    "id": "39e6e2a1-945b-4271-a2e3-67d6b0e07e8a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/39e6e2a1-945b-4271-a2e3-67d6b0e07e8a/",
+    "name": "Kuaizhou-1A | Traffic VDES A & B",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-11-25",
+    "slug": "kuaizhou-1a-traffic-vdes-a-b",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-04T21:45:19Z",
-    "net": "2025-12-04T20:42:20Z",
+    "last_updated": "2025-12-05T12:18:42Z",
+    "net": "2025-12-05T09:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-04T22:12:00Z",
-    "window_start": "2025-12-04T18:12:00Z",
+    "window_end": "2025-12-05T09:54:00Z",
+    "window_start": "2025-12-05T08:54:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1758,
+        "name": "[AUTO] Kuaizhou - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_image_20191027094423.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193703.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
