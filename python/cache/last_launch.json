@@ -1,9 +1,9 @@
 {
-    "id": "d6ab90f9-3897-4c0e-9a2b-c3a940dc4abb",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/d6ab90f9-3897-4c0e-9a2b-c3a940dc4abb/",
-    "name": "Long March 3B/E | TJSW-22",
+    "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/c203e807-0955-4e32-abfe-d5c71cdf5c31/",
+    "name": "Falcon 9 Block 5 | NROL-77",
     "response_mode": "list",
-    "slug": "long-march-3be-tjsw-22",
+    "slug": "falcon-9-block-5-nrol-77",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-09T15:52:23Z",
-    "net": "2025-12-09T15:08:00Z",
+    "last_updated": "2025-12-09T22:49:52Z",
+    "net": "2025-12-09T19:16:25Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-12-09T15:57:00Z",
-    "window_start": "2025-12-09T15:00:00Z",
+    "window_end": "2025-12-09T19:16:25Z",
+    "window_start": "2025-12-09T19:16:25Z",
     "image": {
-        "id": 1491,
-        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
-        "credit": "China Aerospace Science and Technology Corporation",
+        "id": 2619,
+        "name": "Falcon 9 on SLC-40 (NROL-77)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20251209085834.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20251209085835.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
