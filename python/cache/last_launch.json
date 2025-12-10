@@ -1,9 +1,9 @@
 {
-    "id": "c203e807-0955-4e32-abfe-d5c71cdf5c31",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/c203e807-0955-4e32-abfe-d5c71cdf5c31/",
-    "name": "Falcon 9 Block 5 | NROL-77",
+    "id": "c8d6f024-0a6a-4b07-8c05-97648be4d827",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/c8d6f024-0a6a-4b07-8c05-97648be4d827/",
+    "name": "Kinetica 1 | 9 satellites",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-nrol-77",
+    "slug": "kinetica-1-9-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-09T22:49:52Z",
-    "net": "2025-12-09T19:16:25Z",
+    "last_updated": "2025-12-10T04:47:36Z",
+    "net": "2025-12-10T04:03:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-09T19:16:25Z",
-    "window_start": "2025-12-09T19:16:25Z",
+    "window_end": "2025-12-10T04:15:00Z",
+    "window_start": "2025-12-10T03:54:00Z",
     "image": {
-        "id": 2619,
-        "name": "Falcon 9 on SLC-40 (NROL-77)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20251209085834.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20251209085835.jpeg",
-        "credit": "SpaceX",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
