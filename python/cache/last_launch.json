@@ -1,9 +1,9 @@
 {
-    "id": "9599500a-7c85-4d58-a3cb-aaf4915ad5fb",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9599500a-7c85-4d58-a3cb-aaf4915ad5fb/",
-    "name": "Kuaizhou 11 | DEAR-5",
+    "id": "faf4a0bc-7dad-4842-b74c-73a9f648b5cc",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/faf4a0bc-7dad-4842-b74c-73a9f648b5cc/",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-12",
     "response_mode": "list",
-    "slug": "kuaizhou-11-dear-5",
+    "slug": "falcon-9-block-5-starlink-group-15-12",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-13T02:36:28Z",
-    "net": "2025-12-13T01:08:00Z",
+    "last_updated": "2025-12-14T06:52:09Z",
+    "net": "2025-12-14T05:49:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-12-13T01:44:00Z",
-    "window_start": "2025-12-13T01:00:00Z",
+    "window_end": "2025-12-14T09:20:00Z",
+    "window_start": "2025-12-14T05:20:00Z",
     "image": {
-        "id": 2099,
-        "name": "Kuaizhou 11 liftoff (Xingyun VDES)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_thumbnail_20240520155835.jpeg",
-        "credit": "\u4e2d\u56fd\u822a\u5929\u79d1\u5de5",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
