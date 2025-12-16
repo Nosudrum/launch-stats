@@ -1,9 +1,9 @@
 {
-    "id": "4be383b3-3997-4bd9-822b-33d9ca83a8fc",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/4be383b3-3997-4bd9-822b-33d9ca83a8fc/",
-    "name": "Long March 4B | Ziyuan-3-04",
+    "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/0dcbd5ee-2728-4c79-8dc5-051ea11b888f/",
+    "name": "Atlas V 551 | Amazon Leo (LA-04)",
     "response_mode": "list",
-    "slug": "long-march-4b-ziyuan-3-04",
+    "slug": "atlas-v-551-amazon-leo-la-04",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-16T03:45:46Z",
-    "net": "2025-12-16T03:17:00Z",
+    "last_updated": "2025-12-16T10:03:32Z",
+    "net": "2025-12-16T08:28:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-16T03:39:00Z",
-    "window_start": "2025-12-16T03:10:00Z",
+    "window_end": "2025-12-16T08:57:00Z",
+    "window_start": "2025-12-16T08:28:00Z",
     "image": {
-        "id": 2618,
-        "name": "Long March 4B launching YG-43 Group 01",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_20251209044050.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
-        "credit": "CASC",
+        "id": 2627,
+        "name": "Atlas V on the Launch Pad (Amazon LEO)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_20251216072231.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_thumbnail_20251216072231.jpeg",
+        "credit": "ULA",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 10,
+            "name": "ULA Image Use Policy",
+            "priority": 3,
+            "link": "https://www.ulalaunch.com/terms-and-conditions"
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
