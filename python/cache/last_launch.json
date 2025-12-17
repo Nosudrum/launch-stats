@@ -1,9 +1,9 @@
 {
-    "id": "0dcbd5ee-2728-4c79-8dc5-051ea11b888f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0dcbd5ee-2728-4c79-8dc5-051ea11b888f/",
-    "name": "Atlas V 551 | Amazon Leo (LA-04)",
+    "id": "8e7d57b1-b5c0-4d0d-a575-fe23606bdeee",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/8e7d57b1-b5c0-4d0d-a575-fe23606bdeee/",
+    "name": "Ariane 62 | Galileo L14 (FOC FM33 & FM34)",
     "response_mode": "list",
-    "slug": "atlas-v-551-amazon-leo-la-04",
+    "slug": "ariane-62-galileo-l14-foc-fm33-fm34",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-16T10:03:32Z",
-    "net": "2025-12-16T08:28:00Z",
+    "last_updated": "2025-12-17T11:18:28Z",
+    "net": "2025-12-17T05:01:58Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-12-16T08:57:00Z",
-    "window_start": "2025-12-16T08:28:00Z",
+    "window_end": "2025-12-17T05:01:58Z",
+    "window_start": "2025-12-17T05:01:58Z",
     "image": {
-        "id": 2627,
-        "name": "Atlas V on the Launch Pad (Amazon LEO)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_20251216072231.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas_v_on_the__image_thumbnail_20251216072231.jpeg",
-        "credit": "ULA",
+        "id": 2123,
+        "name": "Ariane 62 liftoff (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_20240711132056.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_62_lifto_image_thumbnail_20240711132056.jpeg",
+        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 10,
-            "name": "ULA Image Use Policy",
-            "priority": 3,
-            "link": "https://www.ulalaunch.com/terms-and-conditions"
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
