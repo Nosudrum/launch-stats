@@ -1,9 +1,9 @@
 {
-    "id": "4a0681be-ed20-40b9-870b-38de1583c0ef",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/4a0681be-ed20-40b9-870b-38de1583c0ef/",
-    "name": "Electron | Don't Be Such A Square (STP-S30)",
+    "id": "3eb3a9c4-65b8-49fa-afb3-8eee0c3ddfd2",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3eb3a9c4-65b8-49fa-afb3-8eee0c3ddfd2/",
+    "name": "Long March 5 | TJSW-23",
     "response_mode": "list",
-    "slug": "electron-dont-be-such-a-square-stp-s30",
+    "slug": "long-march-5-tjsw-23",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-18T16:27:08Z",
-    "net": "2025-12-18T05:03:00Z",
+    "last_updated": "2025-12-20T13:15:54Z",
+    "net": "2025-12-20T12:30:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-18T09:00:00Z",
-    "window_start": "2025-12-18T05:00:00Z",
+    "window_end": "2025-12-20T13:40:00Z",
+    "window_start": "2025-12-20T12:22:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "id": 1437,
+        "name": "[AUTO] Long March 5  | Chang'e 5 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20201119165033.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192748.png",
         "credit": null,
         "license": {
             "id": 1,
