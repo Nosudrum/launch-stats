@@ -1,9 +1,9 @@
 {
-    "id": "3eb3a9c4-65b8-49fa-afb3-8eee0c3ddfd2",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3eb3a9c4-65b8-49fa-afb3-8eee0c3ddfd2/",
-    "name": "Long March 5 | TJSW-23",
+    "id": "9936c9c4-faff-4e67-9adb-c8c147239d57",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/9936c9c4-faff-4e67-9adb-c8c147239d57/",
+    "name": "New Shepard | NS-37",
     "response_mode": "list",
-    "slug": "long-march-5-tjsw-23",
+    "slug": "new-shepard-ns-37",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-20T13:15:54Z",
-    "net": "2025-12-20T12:30:00Z",
+    "last_updated": "2025-12-20T14:51:57Z",
+    "net": "2025-12-20T14:15:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-20T13:40:00Z",
-    "window_start": "2025-12-20T12:22:00Z",
+    "window_end": "2025-12-20T22:30:00Z",
+    "window_start": "2025-12-20T14:00:00Z",
     "image": {
-        "id": 1437,
-        "name": "[AUTO] Long March 5  | Chang'e 5 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20201119165033.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192748.png",
-        "credit": null,
+        "id": 2098,
+        "name": "New Shepard liftoff (NS-25)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_thumbnail_20240621062033.jpeg",
+        "credit": "Blue Origin",
         "license": {
             "id": 1,
             "name": "Unknown",
