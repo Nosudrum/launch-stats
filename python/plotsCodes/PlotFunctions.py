@@ -138,6 +138,7 @@ LSPs_dict = {
     141: "Blue Origin",
     1046: "Isar Aerospace",
     188: "Gilmour",
+    1098: "Innospace",
 }
 
 Countries_dict = {
