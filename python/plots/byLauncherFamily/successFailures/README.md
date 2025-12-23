@@ -33,6 +33,7 @@
 ![Launch successes and failures of the GSLV family since 2001](GSLV.png)
 ![Launch successes and failures of the H-II family since 1994](H-II.png)
 ![Launch successes and failures of the H3 family since 2023](H3.png)
+![Launch successes and failures of the HANBIT family since 2025](HANBIT.png)
 ![Launch successes and failures of the KSLV family since 2009](KSLV.png)
 ![Launch successes and failures of the Kaituozhe family since 2002](Kaituozhe.png)
 ![Launch successes and failures of the Kosmos family since 1961](Kosmos.png)

@@ -12,3 +12,4 @@
 ![Orbital attempts by Israel in the last 8 years](Israel.png)
 ![Orbital attempts by Germany in the last 8 years](Germany.png)
 ![Orbital attempts by Australia in the last 8 years](Australia.png)
+![Orbital attempts by Brazil in the last 8 years](Brazil.png)
