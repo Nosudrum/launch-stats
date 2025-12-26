@@ -1,9 +1,9 @@
 {
-    "id": "7b60de1e-7d8a-4213-a2f5-44a01ae21e28",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/7b60de1e-7d8a-4213-a2f5-44a01ae21e28/",
-    "name": "Soyuz 2.1a | Obzor-R No.1",
+    "id": "f4909efe-4764-43fa-9e4a-07e479af1ba7",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/f4909efe-4764-43fa-9e4a-07e479af1ba7/",
+    "name": "Long March 8A | SatNet LEO Group 17",
     "response_mode": "list",
-    "slug": "soyuz-21a-obzor-r-no1",
+    "slug": "long-march-8a-satnet-leo-group-17",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-25T20:01:20Z",
-    "net": "2025-12-25T14:11:00Z",
+    "last_updated": "2025-12-26T01:12:39Z",
+    "net": "2025-12-25T23:26:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-25T15:00:00Z",
-    "window_start": "2025-12-25T14:00:00Z",
+    "window_end": "2025-12-25T23:43:00Z",
+    "window_start": "2025-12-25T23:18:00Z",
     "image": {
-        "id": 1828,
-        "name": "[AUTO] Soyuz 2.1a - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
-        "credit": null,
+        "id": 2616,
+        "name": "CZ-8A Launch (SatNet LEO Group 14)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
+        "credit": "CASC",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
