@@ -1,9 +1,9 @@
 {
-    "id": "f4909efe-4764-43fa-9e4a-07e479af1ba7",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/f4909efe-4764-43fa-9e4a-07e479af1ba7/",
-    "name": "Long March 8A | SatNet LEO Group 17",
+    "id": "9d69b85a-940d-4c1a-be75-6449d3b2a836",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/9d69b85a-940d-4c1a-be75-6449d3b2a836/",
+    "name": "Long March 3B/E | Fengyun-4C",
     "response_mode": "list",
-    "slug": "long-march-8a-satnet-leo-group-17",
+    "slug": "long-march-3be-fengyun-4c",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-26T01:12:39Z",
-    "net": "2025-12-25T23:26:00Z",
+    "last_updated": "2025-12-26T17:21:03Z",
+    "net": "2025-12-26T16:07:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-25T23:43:00Z",
-    "window_start": "2025-12-25T23:18:00Z",
+    "window_end": "2025-12-26T16:56:00Z",
+    "window_start": "2025-12-26T16:00:00Z",
     "image": {
-        "id": 2616,
-        "name": "CZ-8A Launch (SatNet LEO Group 14)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-        "credit": "CASC",
+        "id": 1491,
+        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
+        "credit": "China Aerospace Science and Technology Corporation",
         "license": {
             "id": 1,
             "name": "Unknown",
