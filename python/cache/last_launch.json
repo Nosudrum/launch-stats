@@ -1,9 +1,9 @@
 {
-    "id": "9d69b85a-940d-4c1a-be75-6449d3b2a836",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9d69b85a-940d-4c1a-be75-6449d3b2a836/",
-    "name": "Long March 3B/E | Fengyun-4C",
+    "id": "43cfdc96-8481-446f-ace5-ddc5ed60fb14",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/43cfdc96-8481-446f-ace5-ddc5ed60fb14/",
+    "name": "Soyuz 2.1b/Fregat-M | AIST-2T 01 & 02",
     "response_mode": "list",
-    "slug": "long-march-3be-fengyun-4c",
+    "slug": "soyuz-21bfregat-m-aist-2t-01-02",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-26T17:21:03Z",
-    "net": "2025-12-26T16:07:00Z",
+    "last_updated": "2025-12-28T19:39:27Z",
+    "net": "2025-12-28T13:18:05Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2025-12-26T16:56:00Z",
-    "window_start": "2025-12-26T16:00:00Z",
+    "window_end": "2025-12-28T13:18:05Z",
+    "window_start": "2025-12-28T13:18:05Z",
     "image": {
-        "id": 1491,
-        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
-        "credit": "China Aerospace Science and Technology Corporation",
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
         "single_use": false,
         "variants": []
