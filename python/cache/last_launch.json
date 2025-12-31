@@ -1,9 +1,9 @@
 {
-    "id": "53aad862-af92-44b5-91ef-70e92a079ba4",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/53aad862-af92-44b5-91ef-70e92a079ba4/",
-    "name": "Long March 4B | Tianhui 7",
+    "id": "fb6d9dd6-2087-40b7-b3ca-c807b5b2be43",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/fb6d9dd6-2087-40b7-b3ca-c807b5b2be43/",
+    "name": "Long March 7A | Shijian 29 A-B",
     "response_mode": "list",
-    "slug": "long-march-4b-tianhui-7",
+    "slug": "long-march-7a-shijian-29-a-b",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2025-12-30T04:39:37Z",
-    "net": "2025-12-30T04:12:00Z",
+    "last_updated": "2025-12-30T23:27:34Z",
+    "net": "2025-12-30T22:40:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2025-12-30T04:32:00Z",
-    "window_start": "2025-12-30T04:04:00Z",
+    "window_end": "2025-12-30T23:10:00Z",
+    "window_start": "2025-12-30T22:32:00Z",
     "image": {
-        "id": 2618,
-        "name": "Long March 4B launching YG-43 Group 01",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_20251209044050.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
+        "id": 2617,
+        "name": "CZ-7A Launch (Yaogan 45)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg",
         "credit": "CASC",
         "license": {
             "id": 1,
