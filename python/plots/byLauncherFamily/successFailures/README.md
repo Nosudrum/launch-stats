@@ -51,6 +51,7 @@
 ![Launch successes and failures of the Minotaur family since 2000](Minotaur.png)
 ![Launch successes and failures of the Minotaur-C family since 1994](Minotaur-C.png)
 ![Launch successes and failures of the Mu family since 1970](Mu.png)
+![Launch successes and failures of the New Glenn family since 2025](New_Glenn.png)
 ![Launch successes and failures of the Nodong family since 2008](Nodong.png)
 ![Launch successes and failures of the PSLV family since 1993](PSLV.png)
 ![Launch successes and failures of the Pegasus family since 1990](Pegasus.png)
