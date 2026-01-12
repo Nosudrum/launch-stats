@@ -1,31 +1,31 @@
 {
-    "id": "02700e48-65c6-4a95-8b97-c47152302283",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/02700e48-65c6-4a95-8b97-c47152302283/",
-    "name": "Falcon 9 Block 5 | Pandora / Twilight rideshare mission",
+    "id": "520a0927-088f-4273-a7ea-eedb09965d89",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/520a0927-088f-4273-a7ea-eedb09965d89/",
+    "name": "PSLV-DL | EOS-N1 and others",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-pandora-twilight-rideshare-missio",
+    "slug": "pslv-dl-eos-n1-and-others",
     "launch_designator": null,
     "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2026-01-11T16:24:08Z",
-    "net": "2026-01-11T13:44:50Z",
+    "last_updated": "2026-01-12T05:27:29Z",
+    "net": "2026-01-12T04:48:30Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-01-11T14:16:00Z",
-    "window_start": "2026-01-11T13:19:00Z",
+    "window_end": "2026-01-12T08:15:00Z",
+    "window_start": "2026-01-12T04:15:00Z",
     "image": {
-        "id": 1736,
-        "name": "[AUTO] Falcon 9 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "id": 1809,
+        "name": "[AUTO] PSLV-DL - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pslv-dl_image_20191201202351.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193827.jpeg",
         "credit": null,
         "license": {
             "id": 1,
