@@ -30,6 +30,7 @@
 ![Launch successes and failures of the Europa family since 1968](Europa.png)
 ![Launch successes and failures of the Falcon family since 2006](Falcon.png)
 ![Launch successes and failures of the Falcon 9 family since 2010](Falcon_9.png)
+![Launch successes and failures of the Firefly Alpha family since 2021](Firefly_Alpha.png)
 ![Launch successes and failures of the GSLV family since 2001](GSLV.png)
 ![Launch successes and failures of the H-II family since 1994](H-II.png)
 ![Launch successes and failures of the H3 family since 2023](H3.png)
