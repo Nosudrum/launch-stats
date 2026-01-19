@@ -1,9 +1,9 @@
 {
-    "id": "13979f7e-c835-4813-860f-915c8ce9e784",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/13979f7e-c835-4813-860f-915c8ce9e784/",
-    "name": "Falcon 9 Block 5 | Starlink Group 6-100",
+    "id": "878c07cc-73db-4be6-8492-42f2890a498a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/878c07cc-73db-4be6-8492-42f2890a498a/",
+    "name": "Long March 12 | SatNet LEO Group 19",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-6-100",
+    "slug": "long-march-12-satnet-leo-group-19",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-01-19T00:46:45Z",
-    "net": "2026-01-18T23:31:40Z",
+    "last_updated": "2026-01-19T09:35:39Z",
+    "net": "2026-01-19T07:48:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-01-19T02:04:00Z",
-    "window_start": "2026-01-18T22:04:00Z",
+    "window_end": "2026-01-19T08:08:00Z",
+    "window_start": "2026-01-19T07:41:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2282,
+        "name": "CZ-12 on its launch pad.",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+        "credit": "Unknown",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
