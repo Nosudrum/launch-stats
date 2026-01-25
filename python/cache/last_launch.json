@@ -1,9 +1,9 @@
 {
-    "id": "8d50a489-8f86-4411-81fa-d4bfe75680eb",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/8d50a489-8f86-4411-81fa-d4bfe75680eb/",
-    "name": "New Shepard | NS-38",
+    "id": "90a7b825-ea15-41a2-a9d3-eb532a37e499",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/90a7b825-ea15-41a2-a9d3-eb532a37e499/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-20",
     "response_mode": "list",
-    "slug": "new-shepard-ns-38",
+    "slug": "falcon-9-block-5-starlink-group-17-20",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-01-22T17:07:13Z",
-    "net": "2026-01-22T16:25:00Z",
+    "last_updated": "2026-01-25T18:38:14Z",
+    "net": "2026-01-25T17:30:39Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-01-22T21:30:00Z",
-    "window_start": "2026-01-22T16:00:00Z",
+    "window_end": "2026-01-25T19:17:00Z",
+    "window_start": "2026-01-25T15:17:00Z",
     "image": {
-        "id": 2098,
-        "name": "New Shepard liftoff (NS-25)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_20240621062033.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/new_shepard_lif_image_thumbnail_20240621062033.jpeg",
-        "credit": "Blue Origin",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
