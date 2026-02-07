@@ -1,9 +1,9 @@
 {
-    "id": "726f22bb-8a58-482e-82e8-b2a88e08fc7e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/726f22bb-8a58-482e-82e8-b2a88e08fc7e/",
-    "name": "Soyuz 2.1b/Fregat-M | Kosmos (Unknown Payload)",
+    "id": "a9fd7757-9a51-4607-845d-d830673c4486",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/a9fd7757-9a51-4607-845d-d830673c4486/",
+    "name": "Long March 2F/G | Chinese Reusable Space Vehicle",
     "response_mode": "list",
-    "slug": "soyuz-21bfregat-m-kosmos-unknown-payload",
+    "slug": "long-march-2fg-chinese-reusable-space-vehicle-4",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-02-05T23:17:54Z",
-    "net": "2026-02-05T18:59:00Z",
+    "last_updated": "2026-02-07T04:44:24Z",
+    "net": "2026-02-07T03:55:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
     },
-    "window_end": "2026-02-05T22:00:00Z",
-    "window_start": "2026-02-05T15:00:00Z",
+    "window_end": "2026-02-07T04:07:00Z",
+    "window_start": "2026-02-07T03:48:00Z",
     "image": {
-        "id": 1830,
-        "name": "Soyuz 2.1b on the pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-        "credit": "Roscosmos",
+        "id": 2580,
+        "name": "Shenzhou 22 launch",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_20251129175823.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/shenzhou_22_lau_image_thumbnail_20251129175823.jpeg",
+        "credit": "Xinhua",
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
