@@ -1,9 +1,9 @@
 {
-    "id": "550f778d-6c2d-41fc-b182-6f0cd8feda93",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/550f778d-6c2d-41fc-b182-6f0cd8feda93/",
-    "name": "Vulcan VC4S | USSF-87",
+    "id": "71eba994-ab9f-4707-ba5e-024cfff73c01",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/71eba994-ab9f-4707-ba5e-024cfff73c01/",
+    "name": "Ariane 64 | Amazon Leo (LE-01)",
     "response_mode": "list",
-    "slug": "vulcan-vc4s-ussf-87",
+    "slug": "ariane-64-amazon-leo-le-01",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-02-12T17:07:11Z",
-    "net": "2026-02-12T09:22:00Z",
+    "last_updated": "2026-02-12T18:48:27Z",
+    "net": "2026-02-12T16:45:30Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-02-12T10:30:00Z",
-    "window_start": "2026-02-12T08:30:00Z",
+    "window_end": "2026-02-12T17:13:00Z",
+    "window_start": "2026-02-12T16:45:00Z",
     "image": {
-        "id": 2692,
-        "name": "Vulcan on SLC-41 (USSF-87)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_on_slc-4_image_20260212075307.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_on_slc-4_image_thumbnail_20260212075308.jpeg",
-        "credit": "United Launch Alliance",
+        "id": 1691,
+        "name": "Ariane 6 combined tests static fire",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_6_image_20240125142128.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193513.jpeg",
+        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 10,
-            "name": "ULA Image Use Policy",
-            "priority": 3,
-            "link": "https://www.ulalaunch.com/terms-and-conditions"
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
