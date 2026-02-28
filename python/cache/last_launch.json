@@ -1,9 +1,9 @@
 {
-    "id": "aeccc82e-4a01-46dc-a893-1d6d098973e2",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/aeccc82e-4a01-46dc-a893-1d6d098973e2/",
-    "name": "Falcon 9 Block 5 | Starlink Group 6-108",
+    "id": "3785d31d-770f-4622-b7e4-a683dbd34c39",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3785d31d-770f-4622-b7e4-a683dbd34c39/",
+    "name": "HASTE | That's Not A Knife (DART AE)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-6-108",
+    "slug": "haste-thats-not-a-knife-dart-ae",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-02-27T13:49:55Z",
-    "net": "2026-02-27T12:16:10Z",
+    "last_updated": "2026-02-28T00:18:32Z",
+    "net": "2026-02-28T00:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-02-27T13:52:00Z",
-    "window_start": "2026-02-27T09:52:00Z",
+    "window_end": "2026-02-28T00:45:00Z",
+    "window_start": "2026-02-27T21:00:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2696,
+        "name": "Electron on LC-0C (That's Not A Knife)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_lc-_image_20260227083412.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_lc-_image_thumbnail_20260227083414.jpeg",
+        "credit": "Rocket Lab",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 7,
+            "name": "Rocket Lab Image Use Policy",
+            "priority": 3,
+            "link": "https://www.rocketlabusa.com/about/gallery/"
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
