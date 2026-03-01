@@ -1,9 +1,9 @@
 {
-    "id": "3785d31d-770f-4622-b7e4-a683dbd34c39",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3785d31d-770f-4622-b7e4-a683dbd34c39/",
-    "name": "HASTE | That's Not A Knife (DART AE)",
+    "id": "887eb3dc-ead1-4fef-87a1-b490e780f43a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/887eb3dc-ead1-4fef-87a1-b490e780f43a/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-23",
     "response_mode": "list",
-    "slug": "haste-thats-not-a-knife-dart-ae",
+    "slug": "falcon-9-block-5-starlink-group-17-23",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-02-28T00:18:32Z",
-    "net": "2026-02-28T00:00:00Z",
+    "last_updated": "2026-03-01T11:19:55Z",
+    "net": "2026-03-01T10:10:39Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-02-28T00:45:00Z",
-    "window_start": "2026-02-27T21:00:00Z",
+    "window_end": "2026-03-01T12:00:00Z",
+    "window_start": "2026-03-01T08:00:00Z",
     "image": {
-        "id": 2696,
-        "name": "Electron on LC-0C (That's Not A Knife)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_lc-_image_20260227083412.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_lc-_image_thumbnail_20260227083414.jpeg",
-        "credit": "Rocket Lab",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 7,
-            "name": "Rocket Lab Image Use Policy",
-            "priority": 3,
-            "link": "https://www.rocketlabusa.com/about/gallery/"
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
