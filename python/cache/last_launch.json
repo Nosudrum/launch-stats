@@ -1,9 +1,9 @@
 {
-    "id": "8701f102-a33e-450b-87b1-660679aab736",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/8701f102-a33e-450b-87b1-660679aab736/",
-    "name": "Falcon 9 Block 5 | EchoStar 25",
+    "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3f6de963-7197-48aa-a49f-6c944cbf85e9/",
+    "name": "Firefly Alpha | Stairway to Seven",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-echostar-25",
+    "slug": "firefly-alpha-stairway-to-seven",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-11T15:02:23Z",
-    "net": "2026-03-10T04:19:00Z",
+    "last_updated": "2026-03-12T02:13:40Z",
+    "net": "2026-03-12T00:50:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-10T05:43:00Z",
-    "window_start": "2026-03-10T03:14:00Z",
+    "window_end": "2026-03-12T02:50:00Z",
+    "window_start": "2026-03-12T00:50:00Z",
     "image": {
-        "id": 2698,
-        "name": "Falcon 9 liftoff from SLC-40 (EchoStar 25)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260310063823.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260310063825.jpeg",
-        "credit": "SpaceX",
+        "id": 1740,
+        "name": "Firefly Alpha liftoff (FLTA004)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_thumbnail_20240605174157.jpeg",
+        "credit": "Firefly Aerospace / Jack Beyer",
         "license": {
             "id": 1,
             "name": "Unknown",
