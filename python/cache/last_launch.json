@@ -1,9 +1,9 @@
 {
-    "id": "3f6de963-7197-48aa-a49f-6c944cbf85e9",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3f6de963-7197-48aa-a49f-6c944cbf85e9/",
-    "name": "Firefly Alpha | Stairway to Seven",
+    "id": "2e3e33a1-b87d-4d52-a7e7-8cc5a28046fd",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/2e3e33a1-b87d-4d52-a7e7-8cc5a28046fd/",
+    "name": "Long March 8A | SatNet LEO Group 20",
     "response_mode": "list",
-    "slug": "firefly-alpha-stairway-to-seven",
+    "slug": "long-march-8a-satnet-leo-group-20",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-12T02:13:40Z",
-    "net": "2026-03-12T00:50:00Z",
+    "last_updated": "2026-03-12T22:31:10Z",
+    "net": "2026-03-12T19:48:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-12T02:50:00Z",
-    "window_start": "2026-03-12T00:50:00Z",
+    "window_end": "2026-03-12T20:05:00Z",
+    "window_start": "2026-03-12T19:40:00Z",
     "image": {
-        "id": 1740,
-        "name": "Firefly Alpha liftoff (FLTA004)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_20240605174156.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/firefly_alpha_l_image_thumbnail_20240605174157.jpeg",
-        "credit": "Firefly Aerospace / Jack Beyer",
+        "id": 2616,
+        "name": "CZ-8A Launch (SatNet LEO Group 14)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
+        "credit": "CASC",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
