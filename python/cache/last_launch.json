@@ -1,9 +1,9 @@
 {
-    "id": "6f2868b8-1000-48e5-893b-700c1371b4fb",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/6f2868b8-1000-48e5-893b-700c1371b4fb/",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-48",
+    "id": "f8766455-2b03-4629-a36e-b931c8b4a6c5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/f8766455-2b03-4629-a36e-b931c8b4a6c5/",
+    "name": "Long March 6A | Yaogan 50-02",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-10-48",
+    "slug": "long-march-6a-yaogan-50-02",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-14T14:20:28Z",
-    "net": "2026-03-14T12:37:10Z",
+    "last_updated": "2026-03-15T14:00:39Z",
+    "net": "2026-03-15T13:22:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-14T14:00:00Z",
-    "window_start": "2026-03-14T10:00:00Z",
+    "window_end": "2026-03-15T13:35:00Z",
+    "window_start": "2026-03-15T13:14:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2450,
+        "name": "Long March 6A | SatNet LEO Group 05 launch",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+        "credit": "CCTV",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
