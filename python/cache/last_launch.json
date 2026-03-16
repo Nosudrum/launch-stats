@@ -1,9 +1,9 @@
 {
-    "id": "f8766455-2b03-4629-a36e-b931c8b4a6c5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/f8766455-2b03-4629-a36e-b931c8b4a6c5/",
-    "name": "Long March 6A | Yaogan 50-02",
+    "id": "9819a575-468b-41a3-b254-fe2db68889a4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/9819a575-468b-41a3-b254-fe2db68889a4/",
+    "name": "Kuaizhou 11 | 8 satellites",
     "response_mode": "list",
-    "slug": "long-march-6a-yaogan-50-02",
+    "slug": "kuaizhou-11-8-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-15T14:00:39Z",
-    "net": "2026-03-15T13:22:00Z",
+    "last_updated": "2026-03-16T05:11:06Z",
+    "net": "2026-03-16T04:12:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-15T13:35:00Z",
-    "window_start": "2026-03-15T13:14:00Z",
+    "window_end": "2026-03-16T04:42:00Z",
+    "window_start": "2026-03-16T04:04:00Z",
     "image": {
-        "id": 2450,
-        "name": "Long March 6A | SatNet LEO Group 05 launch",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-        "credit": "CCTV",
+        "id": 2099,
+        "name": "Kuaizhou 11 liftoff (Xingyun VDES)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_thumbnail_20240520155835.jpeg",
+        "credit": "\u4e2d\u56fd\u822a\u5929\u79d1\u5de5",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
