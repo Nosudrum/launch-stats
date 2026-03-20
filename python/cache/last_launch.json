@@ -1,9 +1,9 @@
 {
-    "id": "890f714a-aa3c-487f-ae81-b7e654276cd5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/890f714a-aa3c-487f-ae81-b7e654276cd5/",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-33",
+    "id": "36dd2ab6-b454-40c5-8707-7d38c69cf226",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/36dd2ab6-b454-40c5-8707-7d38c69cf226/",
+    "name": "Electron | Eight Days A Week (StriX Launch 8)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-10-33",
+    "slug": "electron-eight-days-a-week-strix-launch-8",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-19T15:25:12Z",
-    "net": "2026-03-19T14:20:10Z",
+    "last_updated": "2026-03-20T21:11:08Z",
+    "net": "2026-03-20T18:10:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-19T14:35:00Z",
-    "window_start": "2026-03-19T10:35:00Z",
+    "window_end": "2026-03-20T18:10:00Z",
+    "window_start": "2026-03-20T18:10:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2734,
+        "name": "Electron liftoff (Eight Days A Week)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_liftof_image_20260320201243.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_liftof_image_thumbnail_20260320201245.jpeg",
+        "credit": "Rocket Lab",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 7,
+            "name": "Rocket Lab Image Use Policy",
+            "priority": 3,
+            "link": "https://www.rocketlabusa.com/about/gallery/"
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
