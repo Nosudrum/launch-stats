@@ -1,9 +1,9 @@
 {
-    "id": "dda0eca1-a770-43f7-ad38-43dc780d7303",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/dda0eca1-a770-43f7-ad38-43dc780d7303/",
-    "name": "Smart Dragon 3 | 10 x CentiSpace-1",
+    "id": "1477dff4-27be-4fad-9120-a18f4eacbd57",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1477dff4-27be-4fad-9120-a18f4eacbd57/",
+    "name": "Soyuz 2.1b/Fregat-M | 16 x Rassvet-3",
     "response_mode": "list",
-    "slug": "smart-dragon-3-10-x-centispace-1-2",
+    "slug": "soyuz-21bfregat-m-16-x-rassvet-3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-22T17:16:33Z",
-    "net": "2026-03-22T15:49:00Z",
+    "last_updated": "2026-03-24T05:54:32Z",
+    "net": "2026-03-23T17:24:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-22T15:59:00Z",
-    "window_start": "2026-03-22T15:39:00Z",
+    "window_end": "2026-03-23T21:00:00Z",
+    "window_start": "2026-03-23T11:00:00Z",
     "image": {
-        "id": 2251,
-        "name": "Smart Dragon 3 liftoff (8 satellites)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_20240925074606.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/smart_dragon_3__image_thumbnail_20240925074607.jpeg",
-        "credit": "CASC",
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
         "single_use": false,
         "variants": []
