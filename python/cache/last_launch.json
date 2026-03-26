@@ -1,9 +1,9 @@
 {
-    "id": "1477dff4-27be-4fad-9120-a18f4eacbd57",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/1477dff4-27be-4fad-9120-a18f4eacbd57/",
-    "name": "Soyuz 2.1b/Fregat-M | 16 x Rassvet-3",
+    "id": "64f098a3-73c2-40ab-b80b-372275149980",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/64f098a3-73c2-40ab-b80b-372275149980/",
+    "name": "Long March 2D | SuperView Neo 2-05 & 06",
     "response_mode": "list",
-    "slug": "soyuz-21bfregat-m-16-x-rassvet-3",
+    "slug": "long-march-2d-superview-neo-2-05-06",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-24T05:54:32Z",
-    "net": "2026-03-23T17:24:00Z",
+    "last_updated": "2026-03-25T23:20:43Z",
+    "net": "2026-03-25T22:51:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-23T21:00:00Z",
-    "window_start": "2026-03-23T11:00:00Z",
+    "window_end": "2026-03-25T23:05:00Z",
+    "window_start": "2026-03-25T22:43:00Z",
     "image": {
-        "id": 1830,
-        "name": "Soyuz 2.1b on the pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
-        "credit": "Roscosmos",
+        "id": 1768,
+        "name": "[AUTO] Long March 2D - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "credit": null,
         "license": {
-            "id": 14,
-            "name": "Roscosmos Image Use Policy",
-            "priority": 3,
-            "link": "https://www.roscosmos.ru/22650/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
