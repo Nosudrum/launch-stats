@@ -1,9 +1,9 @@
 {
-    "id": "aec64478-97b7-422d-93ef-2a8b0ffc8c5a",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/aec64478-97b7-422d-93ef-2a8b0ffc8c5a/",
-    "name": "Long March 2C/YZ-1S | Shiyan 33",
+    "id": "b0ca3e7a-650e-4af6-bdf9-658e6e114763",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b0ca3e7a-650e-4af6-bdf9-658e6e114763/",
+    "name": "Electron | Daughter Of The Stars (LEO-PNT Pathfinder A)",
     "response_mode": "list",
-    "slug": "long-march-2cyz-1s-shiyan-33",
+    "slug": "electron-daughter-of-the-stars-leo-pnt-pathfinder",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-03-27T05:05:57Z",
-    "net": "2026-03-27T04:11:00Z",
+    "last_updated": "2026-03-28T12:37:42Z",
+    "net": "2026-03-28T09:14:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-03-27T04:38:00Z",
-    "window_start": "2026-03-27T04:04:00Z",
+    "window_end": "2026-03-28T09:14:00Z",
+    "window_start": "2026-03-28T09:14:00Z",
     "image": {
-        "id": 1767,
-        "name": "[AUTO] Long March 2C/SD - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2c-i_image_20210908194304.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193717.jpeg",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
         "credit": null,
         "license": {
             "id": 1,
@@ -33,7 +33,7 @@
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
