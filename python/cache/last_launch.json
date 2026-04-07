@@ -1,9 +1,9 @@
 {
-    "id": "becc7e9c-72cc-4eb5-a638-1af4491a5729",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/becc7e9c-72cc-4eb5-a638-1af4491a5729/",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-35",
+    "id": "4dac3740-b75f-4d76-b702-5967d09085d8",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/4dac3740-b75f-4d76-b702-5967d09085d8/",
+    "name": "Long March 8 | SpaceSail Polar Group 07",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-17-35",
+    "slug": "long-march-8-spacesail-polar-group-07",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-07T03:57:38Z",
-    "net": "2026-04-07T02:50:39Z",
+    "last_updated": "2026-04-07T14:14:50Z",
+    "net": "2026-04-07T13:32:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-04-07T03:03:00Z",
-    "window_start": "2026-04-06T23:03:00Z",
+    "window_end": "2026-04-07T13:47:00Z",
+    "window_start": "2026-04-07T13:24:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1783,
+        "name": "CZ-8 liftoff (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240315183218.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240315183218.jpeg",
+        "credit": "\u6211\u4eec\u7684\u592a\u7a7a",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
