@@ -1,9 +1,9 @@
 {
-    "id": "41139aa5-3f45-440a-8131-9cb391ddc995",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/41139aa5-3f45-440a-8131-9cb391ddc995/",
-    "name": "Angara 1.2 | Kosmos (Unknown Payload)",
+    "id": "214b4db1-7112-4428-a999-29d2765c8306",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/214b4db1-7112-4428-a999-29d2765c8306/",
+    "name": "Long March 2D | SatNet test satellite",
     "response_mode": "list",
-    "slug": "angara-12-kosmos-unknown-payload",
+    "slug": "long-march-2d-satnet-test-satellite",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-23T15:07:50Z",
-    "net": "2026-04-23T08:29:00Z",
+    "last_updated": "2026-04-24T07:16:29Z",
+    "net": "2026-04-24T06:35:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-04-23T16:00:00Z",
-    "window_start": "2026-04-22T21:00:00Z",
+    "window_end": "2026-04-24T06:46:00Z",
+    "window_start": "2026-04-24T06:25:00Z",
     "image": {
-        "id": 1677,
-        "name": "[AUTO] Angara 1.2 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/angara25201.2_image_20190224012254.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193449.jpeg",
+        "id": 1768,
+        "name": "[AUTO] Long March 2D - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
         "credit": null,
         "license": {
             "id": 1,
