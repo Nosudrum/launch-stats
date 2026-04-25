@@ -1,9 +1,9 @@
 {
-    "id": "214b4db1-7112-4428-a999-29d2765c8306",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/214b4db1-7112-4428-a999-29d2765c8306/",
-    "name": "Long March 2D | SatNet test satellite",
+    "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/88ab98d8-44e9-4aae-ac0f-02006a1d7ce6/",
+    "name": "Long March 6 | PRSC-EO3",
     "response_mode": "list",
-    "slug": "long-march-2d-satnet-test-satellite",
+    "slug": "long-march-6-prsc-eo3",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-24T07:16:29Z",
-    "net": "2026-04-24T06:35:00Z",
+    "last_updated": "2026-04-25T12:53:43Z",
+    "net": "2026-04-25T12:15:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-04-24T06:46:00Z",
-    "window_start": "2026-04-24T06:25:00Z",
+    "window_end": "2026-04-25T12:37:00Z",
+    "window_start": "2026-04-25T12:08:00Z",
     "image": {
-        "id": 1768,
-        "name": "[AUTO] Long March 2D - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "id": 1779,
+        "name": "[AUTO] Long March 6 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193738.jpeg",
         "credit": null,
         "license": {
             "id": 1,
