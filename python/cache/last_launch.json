@@ -1,9 +1,9 @@
 {
-    "id": "88ab98d8-44e9-4aae-ac0f-02006a1d7ce6",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/88ab98d8-44e9-4aae-ac0f-02006a1d7ce6/",
-    "name": "Long March 6 | PRSC-EO3",
+    "id": "33eb7522-d371-4195-addb-c22aeff30c41",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/33eb7522-d371-4195-addb-c22aeff30c41/",
+    "name": "Soyuz 2.1a | Progress MS-34 (95P)",
     "response_mode": "list",
-    "slug": "long-march-6-prsc-eo3",
+    "slug": "soyuz-21a-progress-ms-34-95p",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-25T12:53:43Z",
-    "net": "2026-04-25T12:15:00Z",
+    "last_updated": "2026-04-25T22:42:04Z",
+    "net": "2026-04-25T22:21:47Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-04-25T12:37:00Z",
-    "window_start": "2026-04-25T12:08:00Z",
+    "window_end": "2026-04-25T22:21:47Z",
+    "window_start": "2026-04-25T22:21:47Z",
     "image": {
-        "id": 1779,
-        "name": "[AUTO] Long March 6 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6_image_20210709074933.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193738.jpeg",
+        "id": 1828,
+        "name": "[AUTO] Soyuz 2.1a - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1a_image_20230805184309.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193857.jpeg",
         "credit": null,
         "license": {
             "id": 1,
