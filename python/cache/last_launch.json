@@ -1,9 +1,9 @@
 {
-    "id": "7e89e423-6f47-40a0-b075-c6fc1d9cf228",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/7e89e423-6f47-40a0-b075-c6fc1d9cf228/",
-    "name": "Atlas V 551 | Amazon Leo (LA-06)",
+    "id": "4cc237b2-c61a-491e-9532-466cce81f524",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/4cc237b2-c61a-491e-9532-466cce81f524/",
+    "name": "Falcon Heavy | ViaSat-3 F3 (ViaSat-3 Asia-Pacific)",
     "response_mode": "list",
-    "slug": "atlas-v-551-amazon-leo-la-06",
+    "slug": "falcon-heavy-viasat-3-f3-viasat-3-asia-pacific",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-28T01:52:16Z",
-    "net": "2026-04-28T00:53:30Z",
+    "last_updated": "2026-04-29T20:11:56Z",
+    "net": "2026-04-29T14:13:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-04-28T01:21:00Z",
-    "window_start": "2026-04-28T00:52:00Z",
+    "window_end": "2026-04-29T15:38:00Z",
+    "window_start": "2026-04-29T14:13:00Z",
     "image": {
-        "id": 1705,
-        "name": "[AUTO] Atlas V 551 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193536.jpeg",
-        "credit": null,
+        "id": 2754,
+        "name": "Falcon Heavy on LC-39A (Viasat3-F3)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_20260427051334.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_on_image_thumbnail_20260427051335.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
