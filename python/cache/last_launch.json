@@ -1,9 +1,9 @@
 {
-    "id": "7bffe283-a708-427d-ba0d-43ea741453b1",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/7bffe283-a708-427d-ba0d-43ea741453b1/",
-    "name": "Ariane 64 | Amazon Leo (LE-02)",
+    "id": "74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/74b3aa8f-dc54-43dd-b8dd-1dc62ccccfc4/",
+    "name": "Soyuz-5 | Demo Flight",
     "response_mode": "list",
-    "slug": "ariane-64-amazon-leo-le-02",
+    "slug": "soyuz-5-demo-flight",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-04-30T11:01:07Z",
-    "net": "2026-04-30T08:57:15Z",
+    "last_updated": "2026-04-30T20:01:24Z",
+    "net": "2026-04-30T18:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-04-30T08:57:15Z",
-    "window_start": "2026-04-30T08:08:45Z",
+    "window_end": "2026-04-30T21:00:00Z",
+    "window_start": "2026-04-30T11:00:00Z",
     "image": {
-        "id": 2694,
-        "name": "Ariane 64 liftoff (LE-01)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_20260213070745.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/ariane_64_lifto_image_thumbnail_20260213070746.jpeg",
-        "credit": "ESA/CNES/Arianespace/ArianeGroup/Optique video du CSG\u2013P. Piron",
+        "id": 2736,
+        "name": "Soyuz-5 assembled at Baikonur Cosmodrome",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_20260327210910.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz-5_assembl_image_thumbnail_20260327210911.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 2,
-            "name": "ESA Standard Licence",
-            "priority": 2,
-            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
