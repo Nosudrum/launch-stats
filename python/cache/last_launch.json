@@ -1,9 +1,9 @@
 {
-    "id": "4aa02420-1bcb-4dd9-afa8-06d5ff89d248",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/4aa02420-1bcb-4dd9-afa8-06d5ff89d248/",
-    "name": "Zhuque-2E | Mass Simulator",
+    "id": "4d70f2c0-953e-4fbc-b579-3c901c06a158",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/4d70f2c0-953e-4fbc-b579-3c901c06a158/",
+    "name": "Kinetica 1 | 5 satellites",
     "response_mode": "list",
-    "slug": "zhuque-2e-mass-simulator",
+    "slug": "kinetica-1-5-satellites-2",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-05-14T04:00:42Z",
-    "net": "2026-05-14T03:00:00Z",
+    "last_updated": "2026-05-15T05:05:22Z",
+    "net": "2026-05-15T04:33:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-05-14T05:08:00Z",
-    "window_start": "2026-05-14T02:52:00Z",
+    "window_end": "2026-05-15T04:50:00Z",
+    "window_start": "2026-05-15T04:24:00Z",
     "image": {
-        "id": 2289,
-        "name": "Zhuque 2E on the launch pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_20241216101643.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhunque_2e_on_t_image_thumbnail_20241216101644.jpeg",
-        "credit": "Landspace",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
