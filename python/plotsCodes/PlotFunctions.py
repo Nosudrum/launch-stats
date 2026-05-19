@@ -139,6 +139,7 @@ LSPs_dict = {
     1046: "Isar Aerospace",
     188: "Gilmour",
     1098: "Innospace",
+    159: "Avio",
 }
 
 Countries_dict = {
