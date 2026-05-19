@@ -1,9 +1,9 @@
 {
-    "id": "aef8f8ea-522b-4bdb-9d57-212bbe981946",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/aef8f8ea-522b-4bdb-9d57-212bbe981946/",
-    "name": "Long March 8 | SpaceSail Polar Group #9",
+    "id": "b31313da-ee5d-42b2-9a27-20cc18105276",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b31313da-ee5d-42b2-9a27-20cc18105276/",
+    "name": "Vega-C | Solar wind Magnetosphere Ionosphere Link Explorer (SMILE)",
     "response_mode": "list",
-    "slug": "long-march-8-spacesail-polar-group-9",
+    "slug": "vega-c-solar-wind-magnetosphere-ionosphere-link-ex",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-05-17T15:37:54Z",
-    "net": "2026-05-17T14:42:00Z",
+    "last_updated": "2026-05-19T05:07:09Z",
+    "net": "2026-05-19T03:52:10Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-05-17T14:57:00Z",
-    "window_start": "2026-05-17T14:34:00Z",
+    "window_end": "2026-05-19T03:52:10Z",
+    "window_start": "2026-05-19T03:52:10Z",
     "image": {
-        "id": 1783,
-        "name": "CZ-8 liftoff (Maiden Flight)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240315183218.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240315183218.jpeg",
-        "credit": "\u6211\u4eec\u7684\u592a\u7a7a",
+        "id": 1861,
+        "name": "Vega-C liftoff on its maiden flight (LARES-2)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vega-c_image_20220713154437.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193950.jpeg",
+        "credit": "ESA/CNES/Arianespace/Optique vid\u00e9o du CSG\u2013S. Martin",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 2,
+            "name": "ESA Standard Licence",
+            "priority": 2,
+            "link": "https://www.esa.int/ESA_Multimedia/Terms_and_conditions_of_use_of_images_and_videos_available_on_the_esa_website"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
