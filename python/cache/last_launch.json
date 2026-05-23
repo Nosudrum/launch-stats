@@ -1,9 +1,9 @@
 {
-    "id": "156a9e46-01b5-46f4-818e-ea563c71c5fe",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/156a9e46-01b5-46f4-818e-ea563c71c5fe/",
-    "name": "Electron | Viva La StriX (StriX Launch 9)",
+    "id": "ed83366c-872c-4484-97c1-bc74832304fc",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ed83366c-872c-4484-97c1-bc74832304fc/",
+    "name": "Starship | Flight 12",
     "response_mode": "list",
-    "slug": "electron-viva-la-strix-strix-launch-9",
+    "slug": "starship-flight-12",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-05-22T11:37:45Z",
-    "net": "2026-05-22T09:33:00Z",
+    "last_updated": "2026-05-23T08:59:13Z",
+    "net": "2026-05-22T22:30:24Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-05-22T10:30:00Z",
-    "window_start": "2026-05-22T09:30:00Z",
+    "window_end": "2026-05-23T00:00:00Z",
+    "window_start": "2026-05-22T22:30:00Z",
     "image": {
-        "id": 2762,
-        "name": "Electron on the Launch Pad (Viva la Strix)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_the_image_20260522081756.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_on_the_image_thumbnail_20260522081756.jpeg",
-        "credit": "Rocket Lab",
+        "id": 2763,
+        "name": "Starship liftoff during flight 12",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_20260523085855.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_liftof_image_thumbnail_20260523085856.jpeg",
+        "credit": "SpaceX",
         "license": {
-            "id": 7,
-            "name": "Rocket Lab Image Use Policy",
-            "priority": 3,
-            "link": "https://www.rocketlabusa.com/about/gallery/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
