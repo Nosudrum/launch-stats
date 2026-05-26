@@ -1,9 +1,9 @@
 {
-    "id": "e6159040-124e-4a2a-91db-41f5a48acfd8",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/e6159040-124e-4a2a-91db-41f5a48acfd8/",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-47",
+    "id": "6d2beb1a-6869-4505-9fc1-a4aa224178e2",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/6d2beb1a-6869-4505-9fc1-a4aa224178e2/",
+    "name": "Long March 7A | TJSW-24",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-10-47",
+    "slug": "long-march-7a-tjsw-24",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-05-25T15:07:20Z",
-    "net": "2026-05-25T11:48:04Z",
+    "last_updated": "2026-05-26T17:18:17Z",
+    "net": "2026-05-26T16:16:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-05-25T15:41:00Z",
-    "window_start": "2026-05-25T11:41:00Z",
+    "window_end": "2026-05-26T17:08:00Z",
+    "window_start": "2026-05-26T16:08:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2617,
+        "name": "CZ-7A Launch (Yaogan 45)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg",
+        "credit": "CASC",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
