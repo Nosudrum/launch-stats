@@ -1,9 +1,9 @@
 {
-    "id": "5db6b0f1-446d-4209-824f-1187e1b6d212",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/5db6b0f1-446d-4209-824f-1187e1b6d212/",
-    "name": "Long March 6A | SpaceSail Polar Group #11",
+    "id": "3dd21d77-a37d-419c-86fb-8591fe256583",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3dd21d77-a37d-419c-86fb-8591fe256583/",
+    "name": "Long March 8 | SpaceSail Polar Group #12",
     "response_mode": "list",
-    "slug": "long-march-6a-spacesail-polar-group-11",
+    "slug": "long-march-8-spacesail-polar-group-12",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-04T13:39:29Z",
-    "net": "2026-06-04T11:39:00Z",
+    "last_updated": "2026-06-05T07:10:31Z",
+    "net": "2026-06-05T06:34:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-04T11:51:00Z",
-    "window_start": "2026-06-04T11:31:00Z",
+    "window_end": "2026-06-05T06:48:00Z",
+    "window_start": "2026-06-05T06:25:00Z",
     "image": {
-        "id": 2450,
-        "name": "Long March 6A | SatNet LEO Group 05 launch",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-        "credit": "CCTV",
+        "id": 1783,
+        "name": "CZ-8 liftoff (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_20240315183218.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8_liftoff_2_image_thumbnail_20240315183218.jpeg",
+        "credit": "\u6211\u4eec\u7684\u592a\u7a7a",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
