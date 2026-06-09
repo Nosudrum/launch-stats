@@ -1,9 +1,9 @@
 {
-    "id": "114577dc-7617-461c-aaeb-9bd0f64b5a4b",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/114577dc-7617-461c-aaeb-9bd0f64b5a4b/",
-    "name": "Falcon 9 Block 5 | Starlink Group 10-35",
+    "id": "93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804/",
+    "name": "Zhuque-2E Block 2 | 2 x SatNet DTC test satellites",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-10-35",
+    "slug": "zhuque-2e-block-2-2-x-satnet-dtc-test-satellites",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-08T11:22:08Z",
-    "net": "2026-06-08T10:13:50Z",
+    "last_updated": "2026-06-09T11:18:09Z",
+    "net": "2026-06-09T08:23:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-08T14:07:00Z",
-    "window_start": "2026-06-08T10:07:00Z",
+    "window_end": "2026-06-09T08:55:00Z",
+    "window_start": "2026-06-09T08:11:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2760,
+        "name": "Zhuque-2E Block 2 on the launch pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_block_image_20260514152313.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_block_image_thumbnail_20260514152314.jpeg",
+        "credit": "Landspace",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
