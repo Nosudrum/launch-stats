@@ -1,9 +1,9 @@
 {
-    "id": "93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/93cd9d2d-d8e2-49a1-8a85-a0eb8aef4804/",
-    "name": "Zhuque-2E Block 2 | 2 x SatNet DTC test satellites",
+    "id": "2670e4f1-d58b-4787-9c3f-f9eb03349513",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/2670e4f1-d58b-4787-9c3f-f9eb03349513/",
+    "name": "Long March 5 | TJSW-25",
     "response_mode": "list",
-    "slug": "zhuque-2e-block-2-2-x-satnet-dtc-test-satellites",
+    "slug": "long-march-5-tjsw-25",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-09T11:18:09Z",
-    "net": "2026-06-09T08:23:00Z",
+    "last_updated": "2026-06-11T08:23:38Z",
+    "net": "2026-06-11T07:30:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-09T08:55:00Z",
-    "window_start": "2026-06-09T08:11:00Z",
+    "window_end": "2026-06-11T08:40:00Z",
+    "window_start": "2026-06-11T07:22:00Z",
     "image": {
-        "id": 2760,
-        "name": "Zhuque-2E Block 2 on the launch pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_block_image_20260514152313.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_block_image_thumbnail_20260514152314.jpeg",
-        "credit": "Landspace",
+        "id": 1437,
+        "name": "[AUTO] Long March 5  | Chang'e 5 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20201119165033.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192748.png",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
