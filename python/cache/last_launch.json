@@ -1,9 +1,9 @@
 {
-    "id": "ffc0aee1-fdd7-4638-b098-9d0c01b40663",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/ffc0aee1-fdd7-4638-b098-9d0c01b40663/",
-    "name": "Kinetica 1 | 8 satellites",
+    "id": "bad5ea8c-8b17-4cb3-a063-d427fb092275",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/bad5ea8c-8b17-4cb3-a063-d427fb092275/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-54",
     "response_mode": "list",
-    "slug": "kinetica-1-8-satellites",
+    "slug": "falcon-9-block-5-starlink-group-17-54",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-15T04:22:20Z",
-    "net": "2026-06-15T03:44:00Z",
+    "last_updated": "2026-06-15T16:50:48Z",
+    "net": "2026-06-15T15:34:35Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-06-15T03:55:00Z",
-    "window_start": "2026-06-15T03:34:00Z",
+    "window_end": "2026-06-15T18:00:00Z",
+    "window_start": "2026-06-15T14:00:00Z",
     "image": {
-        "id": 1755,
-        "name": "[AUTO] Kinetica 1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-        "credit": null,
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
