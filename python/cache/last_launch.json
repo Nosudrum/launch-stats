@@ -1,9 +1,9 @@
 {
-    "id": "bad5ea8c-8b17-4cb3-a063-d427fb092275",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/bad5ea8c-8b17-4cb3-a063-d427fb092275/",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-54",
+    "id": "0ff43072-5407-425b-8c8d-6bca068143b9",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/0ff43072-5407-425b-8c8d-6bca068143b9/",
+    "name": "Long March 3B/E | Shijian 31",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-17-54",
+    "slug": "long-march-3be-shijian-31",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-15T16:50:48Z",
-    "net": "2026-06-15T15:34:35Z",
+    "last_updated": "2026-06-16T11:23:53Z",
+    "net": "2026-06-16T09:45:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-15T18:00:00Z",
-    "window_start": "2026-06-15T14:00:00Z",
+    "window_end": "2026-06-16T10:23:00Z",
+    "window_start": "2026-06-16T09:37:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1491,
+        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
+        "credit": "China Aerospace Science and Technology Corporation",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
