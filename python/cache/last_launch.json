@@ -1,9 +1,9 @@
 {
-    "id": "0ff43072-5407-425b-8c8d-6bca068143b9",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/0ff43072-5407-425b-8c8d-6bca068143b9/",
-    "name": "Long March 3B/E | Shijian 31",
+    "id": "756a042f-3da8-4a21-bb42-5996fc148050",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/756a042f-3da8-4a21-bb42-5996fc148050/",
+    "name": "Long March 12 | SatNet LEO Group 22",
     "response_mode": "list",
-    "slug": "long-march-3be-shijian-31",
+    "slug": "long-march-12-satnet-leo-group-22",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-16T11:23:53Z",
-    "net": "2026-06-16T09:45:00Z",
+    "last_updated": "2026-06-17T04:29:31Z",
+    "net": "2026-06-17T02:44:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-16T10:23:00Z",
-    "window_start": "2026-06-16T09:37:00Z",
+    "window_end": "2026-06-17T03:06:00Z",
+    "window_start": "2026-06-17T02:37:00Z",
     "image": {
-        "id": 1491,
-        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
-        "credit": "China Aerospace Science and Technology Corporation",
+        "id": 2282,
+        "name": "CZ-12 on its launch pad.",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+        "credit": "Unknown",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
