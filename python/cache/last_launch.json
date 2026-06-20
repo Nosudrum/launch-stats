@@ -1,9 +1,9 @@
 {
-    "id": "5d4099bf-a0be-4f54-b236-b6ab3aed4146",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/5d4099bf-a0be-4f54-b236-b6ab3aed4146/",
-    "name": "Falcon 9 Block 5 | NROL-179",
+    "id": "04154b70-045b-4e3a-bb5a-e5436091ba37",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/04154b70-045b-4e3a-bb5a-e5436091ba37/",
+    "name": "Electron | VICTUS HAZE Puma",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-nrol-179",
+    "slug": "electron-victus-haze-puma",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-19T11:24:50Z",
-    "net": "2026-06-19T08:50:45Z",
+    "last_updated": "2026-06-20T20:03:06Z",
+    "net": "2026-06-19T10:20:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
     },
-    "window_end": "2026-06-19T09:15:00Z",
-    "window_start": "2026-06-19T08:40:00Z",
+    "window_end": "2026-06-19T10:20:00Z",
+    "window_start": "2026-06-19T10:20:00Z",
     "image": {
-        "id": 2264,
-        "name": "Falcon 9 on SLC-4E (NROL-167)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_20241024165956.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_on_slc_image_thumbnail_20241024165957.jpeg",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
