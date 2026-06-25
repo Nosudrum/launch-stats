@@ -1,9 +1,9 @@
 {
-    "id": "74bf8472-9ba1-42d6-9245-b014f8e91de9",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/74bf8472-9ba1-42d6-9245-b014f8e91de9/",
-    "name": "Falcon 9 Block 5 | Project Starfall Demonstration Mission",
+    "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/a4fb0d1a-2655-4552-b950-f2f6340ef85a/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-45",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-project-starfall-demonstration-mi",
+    "slug": "falcon-9-block-5-starlink-group-17-45",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-24T01:55:50Z",
-    "net": "2026-06-23T10:53:00Z",
+    "last_updated": "2026-06-25T04:50:21Z",
+    "net": "2026-06-25T03:30:38Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-06-23T11:43:00Z",
-    "window_start": "2026-06-23T10:43:00Z",
+    "window_end": "2026-06-25T04:48:00Z",
+    "window_start": "2026-06-25T02:48:00Z",
     "image": {
-        "id": 2283,
-        "name": "Falcon 9 liftoff from LC-39A (Sirius XM-9)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20241206131356.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20241206131357.jpeg",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
         "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
