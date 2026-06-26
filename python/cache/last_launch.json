@@ -1,9 +1,9 @@
 {
-    "id": "a4fb0d1a-2655-4552-b950-f2f6340ef85a",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a4fb0d1a-2655-4552-b950-f2f6340ef85a/",
-    "name": "Falcon 9 Block 5 | Starlink Group 17-45",
+    "id": "add0a5be-1cf0-49cb-975a-e8c8e18d37ec",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/add0a5be-1cf0-49cb-975a-e8c8e18d37ec/",
+    "name": "Electron | Ten Owl Of Ten (StriX Launch 10)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-17-45",
+    "slug": "electron-ten-owl-of-ten-strix-launch-10",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-06-25T04:50:21Z",
-    "net": "2026-06-25T03:30:38Z",
+    "last_updated": "2026-06-26T19:52:26Z",
+    "net": "2026-06-26T17:43:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-06-25T04:48:00Z",
-    "window_start": "2026-06-25T02:48:00Z",
+    "window_end": "2026-06-26T17:43:00Z",
+    "window_start": "2026-06-26T16:45:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
