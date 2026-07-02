@@ -33,4 +33,3 @@
 ![First stages reusability by NASA](NASA.png)
 ![First stages reusability by Sp. Pioneer](Sp._Pioneer.png)
 ![First stages reusability by Avio](Avio.png)
-![First stages reusability by ADD (KOR)](ADD_(KOR).png)
