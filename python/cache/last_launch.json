@@ -1,9 +1,9 @@
 {
-    "id": "9eb09815-c237-4fdd-9057-5b161131240c",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9eb09815-c237-4fdd-9057-5b161131240c/",
-    "name": "Atlas V 551 | Amazon Leo (LA-08)",
+    "id": "f596ad48-881e-47d6-806d-113c6dd97427",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/f596ad48-881e-47d6-806d-113c6dd97427/",
+    "name": "Pegasus XL | Swift Boost Mission",
     "response_mode": "list",
-    "slug": "atlas-v-551-amazon-leo-la-08",
+    "slug": "pegasus-xl-swift-boost-mission",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,30 +11,30 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-02T05:35:56Z",
-    "net": "2026-07-02T04:30:15Z",
+    "last_updated": "2026-07-03T11:43:17Z",
+    "net": "2026-07-03T08:36:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-07-02T04:53:00Z",
-    "window_start": "2026-07-02T04:24:00Z",
+    "window_end": "2026-07-03T08:36:00Z",
+    "window_start": "2026-07-03T08:36:00Z",
     "image": {
-        "id": 1705,
-        "name": "[AUTO] Atlas V 551 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/atlas2520v2520551_image_20190224012316.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193536.jpeg",
-        "credit": null,
+        "id": 1800,
+        "name": "Pegasus XL mounted on the carrier aircraft",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_20240307124328.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/pegasus_xl_moun_image_thumbnail_20240307124328.jpeg",
+        "credit": "NASA/Laurie Losey",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 4,
+            "name": "NASA Image and Media Guidelines",
+            "priority": 0,
+            "link": "https://www.nasa.gov/nasa-brand-center/images-and-media/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
-    "infographic": null
+    "infographic": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/infographic_images/pegasus2520xl_infographic_20260612071925.jpeg"
 }
