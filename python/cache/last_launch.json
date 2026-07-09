@@ -1,9 +1,9 @@
 {
-    "id": "a6db1e67-5860-47c9-a674-adc0f35b62e0",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a6db1e67-5860-47c9-a674-adc0f35b62e0/",
-    "name": "Falcon 9 Block 5 | Transporter 17 (Dedicated SSO Rideshare)",
+    "id": "62d4cd48-ed28-418b-b58c-526781a50a39",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/62d4cd48-ed28-418b-b58c-526781a50a39/",
+    "name": "Falcon 9 Block 5 | Starlink Group 10-42",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-transporter-17-dedicated-sso-ride",
+    "slug": "falcon-9-block-5-starlink-group-10-42",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-07T09:50:46Z",
-    "net": "2026-07-07T07:12:00Z",
+    "last_updated": "2026-07-09T12:36:14Z",
+    "net": "2026-07-09T09:25:43Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-07-07T07:28:00Z",
-    "window_start": "2026-07-07T07:10:00Z",
+    "window_end": "2026-07-09T13:05:00Z",
+    "window_start": "2026-07-09T09:05:00Z",
     "image": {
-        "id": 1736,
-        "name": "Falcon 9 liftoff from LC-39A",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
         "credit": "SpaceX",
         "license": {
             "id": 5,
