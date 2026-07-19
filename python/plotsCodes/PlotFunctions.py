@@ -140,6 +140,7 @@ LSPs_dict = {
     188: "Gilmour",
     1098: "Innospace",
     159: "Avio",
+    1099: "Skyroot",
 }
 
 Countries_dict = {
