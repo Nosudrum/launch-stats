@@ -90,6 +90,7 @@
 ![Launch successes and failures of the Titan IVB family since 1997](Titan_IVB.png)
 ![Launch successes and failures of the Tsiklon family since 1967](Tsiklon.png)
 ![Launch successes and failures of the Vega family since 2012](Vega.png)
+![Launch successes and failures of the Vikram family since 2026](Vikram.png)
 ![Launch successes and failures of the Vostok family since 1958](Vostok.png)
 ![Launch successes and failures of the Vulcan family since 2024](Vulcan.png)
 ![Launch successes and failures of the Zenith family since 1985](Zenith.png)
