@@ -1,9 +1,9 @@
 {
-    "id": "10fa7952-f00b-4292-80a2-4207e208844e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/10fa7952-f00b-4292-80a2-4207e208844e/",
-    "name": "Vikram-I | Demo Flight",
+    "id": "e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/e1079d3a-c0a6-4b42-bc1d-92e48a5a78fc/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-39",
     "response_mode": "list",
-    "slug": "vikram-i-demo-flight",
+    "slug": "falcon-9-block-5-starlink-group-17-39",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-19T08:17:10Z",
-    "net": "2026-07-18T06:35:30Z",
+    "last_updated": "2026-07-21T15:57:39Z",
+    "net": "2026-07-21T14:49:34Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-07-18T09:00:00Z",
-    "window_start": "2026-07-18T05:00:00Z",
+    "window_end": "2026-07-21T17:47:00Z",
+    "window_start": "2026-07-21T14:00:00Z",
     "image": {
-        "id": 2785,
-        "name": "Vikram-I on launch pad",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_20260717052522.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vikram-i_on_lau_image_thumbnail_20260717052523.jpeg",
-        "credit": "Skyroot Aerospace",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
