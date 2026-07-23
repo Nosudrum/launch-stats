@@ -1,9 +1,9 @@
 {
-    "id": "d8eb4b68-5307-4b3b-b585-5598958defc2",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/d8eb4b68-5307-4b3b-b585-5598958defc2/",
-    "name": "Gravity-1 | 9 satellites",
+    "id": "5421e43a-1623-40ac-9dac-201075064e24",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/5421e43a-1623-40ac-9dac-201075064e24/",
+    "name": "Long March 3B/E | Tianlian 2-06",
     "response_mode": "list",
-    "slug": "gravity-1-9-satellites",
+    "slug": "long-march-3be-tianlian-2-06",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-22T03:21:31Z",
-    "net": "2026-07-22T02:54:00Z",
+    "last_updated": "2026-07-23T12:58:05Z",
+    "net": "2026-07-23T12:00:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-07-22T03:09:00Z",
-    "window_start": "2026-07-22T02:44:00Z",
+    "window_end": "2026-07-23T12:54:00Z",
+    "window_start": "2026-07-23T11:52:00Z",
     "image": {
-        "id": 1742,
-        "name": "[AUTO] Gravity-1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
-        "credit": null,
+        "id": 1491,
+        "name": "[AUTO] Long March 3B/E | ChinaSat 26 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march_image_20230907120240.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192932.jpeg",
+        "credit": "China Aerospace Science and Technology Corporation",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
