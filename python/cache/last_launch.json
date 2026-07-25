@@ -1,9 +1,9 @@
 {
-    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/",
-    "name": "Starship | Flight 13",
+    "id": "5b2f05d7-9052-49fb-9bd7-2a05d4910576",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/5b2f05d7-9052-49fb-9bd7-2a05d4910576/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-51",
     "response_mode": "list",
-    "slug": "starship-flight-13",
+    "slug": "falcon-9-block-5-starlink-group-17-51",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-25T00:00:30Z",
-    "net": "2026-07-24T22:51:00Z",
+    "last_updated": "2026-07-25T16:59:03Z",
+    "net": "2026-07-25T15:51:55Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-07-25T00:15:00Z",
-    "window_start": "2026-07-24T22:45:00Z",
+    "window_end": "2026-07-25T18:00:00Z",
+    "window_start": "2026-07-25T14:00:00Z",
     "image": {
-        "id": 2791,
-        "name": "Starship on the launch pad during sunset (Flight-13)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
         "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
