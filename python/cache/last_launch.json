@@ -1,9 +1,9 @@
 {
-    "id": "fa42624c-1e30-4b4b-a06b-59b6153bc4e5",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/fa42624c-1e30-4b4b-a06b-59b6153bc4e5/",
-    "name": "Kinetica 1 | 5 satellites",
+    "id": "ac897b9f-44d2-4ff4-8416-1a0a076e98a2",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ac897b9f-44d2-4ff4-8416-1a0a076e98a2/",
+    "name": "Starship | Flight 13",
     "response_mode": "list",
-    "slug": "kinetica-1-5-satellites-3",
+    "slug": "starship-flight-13",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-24T00:02:02Z",
-    "net": "2026-07-23T23:33:00Z",
+    "last_updated": "2026-07-25T00:00:30Z",
+    "net": "2026-07-24T22:51:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-07-23T23:50:00Z",
-    "window_start": "2026-07-23T23:24:00Z",
+    "window_end": "2026-07-25T00:15:00Z",
+    "window_start": "2026-07-24T22:45:00Z",
     "image": {
-        "id": 1755,
-        "name": "[AUTO] Kinetica 1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
-        "credit": null,
+        "id": 2791,
+        "name": "Starship on the launch pad during sunset (Flight-13)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
