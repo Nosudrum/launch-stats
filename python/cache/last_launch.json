@@ -1,9 +1,9 @@
 {
-    "id": "394d2745-610b-409e-b4ea-2071a35f8668",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/394d2745-610b-409e-b4ea-2071a35f8668/",
-    "name": "Long March 6A | TJSW-27A & B",
+    "id": "24675e3d-2458-48a3-8c70-5196e44d4dc3",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/24675e3d-2458-48a3-8c70-5196e44d4dc3/",
+    "name": "Falcon 9 Block 5 | NROL-95",
     "response_mode": "list",
-    "slug": "long-march-6a-tjsw-27a-b",
+    "slug": "falcon-9-block-5-nrol-95",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-30T01:50:26Z",
-    "net": "2026-07-30T01:00:00Z",
+    "last_updated": "2026-07-30T14:08:11Z",
+    "net": "2026-07-30T07:10:19Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-07-30T01:12:00Z",
-    "window_start": "2026-07-30T00:52:00Z",
+    "window_end": "2026-07-30T07:21:00Z",
+    "window_start": "2026-07-30T06:37:00Z",
     "image": {
-        "id": 2450,
-        "name": "Long March 6A | SatNet LEO Group 05 launch",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-        "credit": "CCTV",
+        "id": 2794,
+        "name": "Falcon 9 at SLC-40 (NROL-95)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_20260729112529.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_at_slc_image_thumbnail_20260729112529.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
