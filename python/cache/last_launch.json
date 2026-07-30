@@ -1,9 +1,9 @@
 {
-    "id": "beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/beac6ac1-97dd-4eb2-912c-8b4d4d15cd4e/",
-    "name": "Long March 7A | Tianlian 3-01",
+    "id": "394d2745-610b-409e-b4ea-2071a35f8668",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/394d2745-610b-409e-b4ea-2071a35f8668/",
+    "name": "Long March 6A | TJSW-27A & B",
     "response_mode": "list",
-    "slug": "long-march-7a-tianlian-3-01",
+    "slug": "long-march-6a-tjsw-27a-b",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-07-29T12:36:44Z",
-    "net": "2026-07-29T11:50:00Z",
+    "last_updated": "2026-07-30T01:50:26Z",
+    "net": "2026-07-30T01:00:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-07-29T13:39:00Z",
-    "window_start": "2026-07-29T11:42:00Z",
+    "window_end": "2026-07-30T01:12:00Z",
+    "window_start": "2026-07-30T00:52:00Z",
     "image": {
-        "id": 2617,
-        "name": "CZ-7A Launch (Yaogan 45)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_20251206093324.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-7a_launch_2_image_thumbnail_20251206093324.jpeg",
-        "credit": "CASC",
+        "id": 2450,
+        "name": "Long March 6A | SatNet LEO Group 05 launch",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+        "credit": "CCTV",
         "license": {
             "id": 1,
             "name": "Unknown",
