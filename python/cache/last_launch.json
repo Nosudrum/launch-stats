@@ -1,9 +1,9 @@
 {
-    "id": "12b9454b-d48b-4fd5-9c11-17c18f45dafe",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/12b9454b-d48b-4fd5-9c11-17c18f45dafe/",
-    "name": "Long March 8A | SatNet LEO Group 23",
+    "id": "0448d030-5175-4c1f-bd0b-4f3f87072921",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/0448d030-5175-4c1f-bd0b-4f3f87072921/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-53",
     "response_mode": "list",
-    "slug": "long-march-8a-satnet-leo-group-23",
+    "slug": "falcon-9-block-5-starlink-group-17-53",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-08-04T10:40:31Z",
-    "net": "2026-08-04T08:52:00Z",
+    "last_updated": "2026-08-04T18:11:40Z",
+    "net": "2026-08-04T17:05:03Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-08-04T09:09:00Z",
-    "window_start": "2026-08-04T08:44:00Z",
+    "window_end": "2026-08-04T18:00:00Z",
+    "window_start": "2026-08-04T14:00:00Z",
     "image": {
-        "id": 2616,
-        "name": "CZ-8A Launch (SatNet LEO Group 14)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-        "credit": "CASC",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
         "single_use": false,
         "variants": []
