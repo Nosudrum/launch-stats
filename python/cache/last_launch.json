@@ -1,9 +1,9 @@
 {
-    "id": "8b7e748c-6ed5-4681-a898-827b4a23b8d7",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/8b7e748c-6ed5-4681-a898-827b4a23b8d7/",
-    "name": "Electron | The Grain Goddess Provides (iQPS Launch 7)",
+    "id": "e4316d4c-9eb8-4a18-9b0d-4307c3970ef6",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/e4316d4c-9eb8-4a18-9b0d-4307c3970ef6/",
+    "name": "Falcon 9 Block 5 | Starlink Group 17-38",
     "response_mode": "list",
-    "slug": "electron-the-grain-goddess-provides-iqps-launch-7",
+    "slug": "falcon-9-block-5-starlink-group-17-38",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-08-06T15:01:26Z",
-    "net": "2026-08-06T09:18:00Z",
+    "last_updated": "2026-08-08T17:45:39Z",
+    "net": "2026-08-08T16:35:02Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-08-06T09:18:00Z",
-    "window_start": "2026-08-06T09:00:00Z",
+    "window_end": "2026-08-08T18:00:00Z",
+    "window_start": "2026-08-08T14:00:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-        "credit": null,
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
