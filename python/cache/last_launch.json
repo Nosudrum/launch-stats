@@ -1,9 +1,9 @@
 {
-    "id": "be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/be8b4b0d-1989-48a5-a96d-e8e4d59ed8b3/",
-    "name": "Falcon 9 Block 5 | Globalstar 2-R Mission 1 (x 8)",
+    "id": "b0e7d1cc-24dd-4da4-bb60-b15b6791d08e",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b0e7d1cc-24dd-4da4-bb60-b15b6791d08e/",
+    "name": "Long March 12 | SatNet LEO Group 24",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-globalstar-2-r-mission-1-x-8",
+    "slug": "long-march-12-satnet-leo-group-24",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-08-16T03:00:52Z",
-    "net": "2026-08-16T01:12:14Z",
+    "last_updated": "2026-08-16T05:59:12Z",
+    "net": "2026-08-16T04:10:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-08-16T01:27:00Z",
-    "window_start": "2026-08-16T01:12:00Z",
+    "window_end": "2026-08-16T04:32:00Z",
+    "window_start": "2026-08-16T04:03:00Z",
     "image": {
-        "id": 1736,
-        "name": "Falcon 9 liftoff from LC-39A",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-        "credit": "SpaceX",
+        "id": 2282,
+        "name": "CZ-12 on its launch pad.",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
+        "credit": "Unknown",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
