@@ -1,9 +1,9 @@
 {
-    "id": "cb6f4df1-c045-423b-904c-e63bf1ee5168",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/cb6f4df1-c045-423b-904c-e63bf1ee5168/",
-    "name": "Long March 2C | Satellite for Earth Observation (SEO)",
+    "id": "ef02e2cf-e617-4b38-a526-951ac9204b0a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ef02e2cf-e617-4b38-a526-951ac9204b0a/",
+    "name": "Zhuque-3 | Honghu-03",
     "response_mode": "list",
-    "slug": "long-march-2c-satellite-for-earth-observation-seo",
+    "slug": "zhuque-3-honghu-03",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-08-17T07:27:12Z",
-    "net": "2026-08-17T03:02:00Z",
+    "last_updated": "2026-08-19T00:38:40Z",
+    "net": "2026-08-18T23:35:20Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-08-17T03:17:00Z",
-    "window_start": "2026-08-17T02:53:00Z",
+    "window_end": "2026-08-19T00:04:00Z",
+    "window_start": "2026-08-18T23:27:00Z",
     "image": {
-        "id": 1764,
-        "name": "[AUTO] Long March 2 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_2_image_20230803100234.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193713.jpeg",
-        "credit": null,
+        "id": 2583,
+        "name": "ZQ-3 Flight 1 Liftoff",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zq-3_flight_1_l_image_20251203064230.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zq-3_flight_1_l_image_thumbnail_20251203064231.jpeg",
+        "credit": "LandSpace",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
