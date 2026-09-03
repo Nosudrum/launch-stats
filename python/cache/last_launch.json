@@ -1,9 +1,9 @@
 {
-    "id": "9f5a4cb6-63f9-47e1-9512-b468bae2a8e6",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9f5a4cb6-63f9-47e1-9512-b468bae2a8e6/",
-    "name": "Electron | Owl Around The World (StriX Launch 11)",
+    "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/17d0ec68-f466-4916-9dc5-16123eda6484/",
+    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
     "response_mode": "list",
-    "slug": "electron-owl-around-the-world-strix-launch-11",
+    "slug": "gslv-mk-ii-gisat-1a-eos-05",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-02T15:34:11Z",
-    "net": "2026-09-02T12:01:00Z",
+    "last_updated": "2026-09-03T22:09:26Z",
+    "net": "2026-09-03T21:25:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-09-02T12:01:00Z",
-    "window_start": "2026-09-02T11:12:00Z",
+    "window_end": "2026-09-04T01:00:00Z",
+    "window_start": "2026-09-03T21:00:00Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "id": 1744,
+        "name": "[AUTO] GSLV Mk II - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg",
         "credit": null,
         "license": {
             "id": 1,
