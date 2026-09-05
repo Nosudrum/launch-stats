@@ -1,9 +1,9 @@
 {
-    "id": "17d0ec68-f466-4916-9dc5-16123eda6484",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/17d0ec68-f466-4916-9dc5-16123eda6484/",
-    "name": "GSLV Mk II | GISAT-1A (EOS-05)",
+    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/1b23eb18-e06e-4058-9b42-e95ca0980511/",
+    "name": "Spectrum | Onward and Upward",
     "response_mode": "list",
-    "slug": "gslv-mk-ii-gisat-1a-eos-05",
+    "slug": "spectrum-onward-and-upward",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-03T22:09:26Z",
-    "net": "2026-09-03T21:25:00Z",
+    "last_updated": "2026-09-05T22:56:40Z",
+    "net": "2026-09-05T20:12:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-04T01:00:00Z",
-    "window_start": "2026-09-03T21:00:00Z",
+    "window_end": "2026-09-05T21:00:00Z",
+    "window_start": "2026-09-05T20:00:00Z",
     "image": {
-        "id": 1744,
-        "name": "[AUTO] GSLV Mk II - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gslv2520mk2520ii_image_20190825171642.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193640.jpeg",
-        "credit": null,
+        "id": 2355,
+        "name": "Spectrum on the pad at And\u00f8ya Spaceport (Maiden Flight)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg",
+        "credit": "Isar Aerospace | Robin Brillert, Wingmen Media",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
