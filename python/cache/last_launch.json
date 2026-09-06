@@ -1,9 +1,9 @@
 {
-    "id": "1b23eb18-e06e-4058-9b42-e95ca0980511",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/1b23eb18-e06e-4058-9b42-e95ca0980511/",
-    "name": "Spectrum | Onward and Upward",
+    "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/",
+    "name": "Falcon 9 Block 5 | Starlink Group 15-24",
     "response_mode": "list",
-    "slug": "spectrum-onward-and-upward",
+    "slug": "falcon-9-block-5-starlink-group-15-24",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-05T22:56:40Z",
-    "net": "2026-09-05T20:12:00Z",
+    "last_updated": "2026-09-06T15:33:08Z",
+    "net": "2026-09-06T14:26:54Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-09-05T21:00:00Z",
-    "window_start": "2026-09-05T20:00:00Z",
+    "window_end": "2026-09-06T14:59:00Z",
+    "window_start": "2026-09-06T10:59:00Z",
     "image": {
-        "id": 2355,
-        "name": "Spectrum on the pad at And\u00f8ya Spaceport (Maiden Flight)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_20250321072643.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/spectrum_on_the_image_thumbnail_20250321072643.jpeg",
-        "credit": "Isar Aerospace | Robin Brillert, Wingmen Media",
+        "id": 1296,
+        "name": "Starlink night fairing",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
         "single_use": false,
         "variants": []
