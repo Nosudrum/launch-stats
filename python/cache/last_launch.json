@@ -1,9 +1,9 @@
 {
-    "id": "153ef8ef-b12b-43f4-a4bf-05b225c0cd37",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/153ef8ef-b12b-43f4-a4bf-05b225c0cd37/",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-24",
+    "id": "95eb9265-bdbe-43ad-b08c-6be7eb4e58f4",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/95eb9265-bdbe-43ad-b08c-6be7eb4e58f4/",
+    "name": "Long March 4B | Yaogan 53-01 to 03/56-01 to 03",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-15-24",
+    "slug": "long-march-4b-yaogan-53-01-to-0356-01-to-03",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-06T15:33:08Z",
-    "net": "2026-09-06T14:26:54Z",
+    "last_updated": "2026-09-10T10:00:09Z",
+    "net": "2026-09-10T09:00:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-06T14:59:00Z",
-    "window_start": "2026-09-06T10:59:00Z",
+    "window_end": "2026-09-10T09:13:00Z",
+    "window_start": "2026-09-10T08:52:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2618,
+        "name": "Long March 4B launching YG-43 Group 01",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_20251209044050.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
+        "credit": "CASC",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
