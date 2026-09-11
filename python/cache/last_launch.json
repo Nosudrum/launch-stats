@@ -1,9 +1,9 @@
 {
-    "id": "3e0456da-14b1-4ac3-b59e-35fefb1d1530",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/3e0456da-14b1-4ac3-b59e-35fefb1d1530/",
-    "name": "Falcon 9 Block 5 | USSF-153",
+    "id": "b81156da-c0b8-46c8-aebd-8af8d2be83cd",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/b81156da-c0b8-46c8-aebd-8af8d2be83cd/",
+    "name": "Electron | Happily Ever Faster (BlackSky Gen-3 5)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-ussf-153",
+    "slug": "electron-happily-ever-faster-blacksky-gen-3-5",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-10T22:34:09Z",
-    "net": "2026-09-10T15:42:30Z",
+    "last_updated": "2026-09-11T05:07:04Z",
+    "net": "2026-09-11T03:28:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-10T18:37:00Z",
-    "window_start": "2026-09-10T15:37:00Z",
+    "window_end": "2026-09-11T03:28:00Z",
+    "window_start": "2026-09-11T01:00:00Z",
     "image": {
-        "id": 2797,
-        "name": "Falcon 9 liftoff from SLC-4E (USSF-366)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-        "credit": "SpaceX",
+        "id": 1727,
+        "name": "[AUTO] Electron - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
