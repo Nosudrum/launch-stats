@@ -1,9 +1,9 @@
 {
-    "id": "767f7827-53d8-4621-803b-f456a1e6b512",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/767f7827-53d8-4621-803b-f456a1e6b512/",
-    "name": "Gravity-1 | SpaceSail Polar Group #16",
+    "id": "d793ba47-faf5-4bab-a386-39a9ccc49c90",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/d793ba47-faf5-4bab-a386-39a9ccc49c90/",
+    "name": "Soyuz 2.1b | Progress MS-35 (96P)",
     "response_mode": "list",
-    "slug": "gravity-1-spacesail-polar-group-16",
+    "slug": "soyuz-21b-progress-ms-35-96p",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-15T22:41:02Z",
-    "net": "2026-09-15T22:00:00Z",
+    "last_updated": "2026-09-16T14:03:08Z",
+    "net": "2026-09-16T13:33:54Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-09-15T22:11:00Z",
-    "window_start": "2026-09-15T21:50:00Z",
+    "window_end": "2026-09-16T13:33:54Z",
+    "window_start": "2026-09-16T13:33:54Z",
     "image": {
-        "id": 1742,
-        "name": "[AUTO] Gravity-1 - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
-        "credit": null,
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
