@@ -1,9 +1,9 @@
 {
-    "id": "de446468-057f-4c9d-a6a1-af99c93b541e",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/de446468-057f-4c9d-a6a1-af99c93b541e/",
-    "name": "Zhuque-2E Block 2 | SpaceSail Polar Group #15",
+    "id": "767f7827-53d8-4621-803b-f456a1e6b512",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/767f7827-53d8-4621-803b-f456a1e6b512/",
+    "name": "Gravity-1 | SpaceSail Polar Group #16",
     "response_mode": "list",
-    "slug": "zhuque-2e-block-2-spacesail-polar-group-15",
+    "slug": "gravity-1-spacesail-polar-group-16",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-15T07:10:38Z",
-    "net": "2026-09-15T06:26:00Z",
+    "last_updated": "2026-09-15T22:41:02Z",
+    "net": "2026-09-15T22:00:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-15T06:40:00Z",
-    "window_start": "2026-09-15T06:18:00Z",
+    "window_end": "2026-09-15T22:11:00Z",
+    "window_start": "2026-09-15T21:50:00Z",
     "image": {
-        "id": 2770,
-        "name": "Zhuque-2E Y6 launch",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_20260609122825.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhuque-2e_y6_la_image_thumbnail_20260609122826.jpeg",
-        "credit": "LandSpace",
+        "id": 1742,
+        "name": "[AUTO] Gravity-1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/gravity-1_image_20240108105446.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193637.jpeg",
+        "credit": null,
         "license": {
             "id": 1,
             "name": "Unknown",
