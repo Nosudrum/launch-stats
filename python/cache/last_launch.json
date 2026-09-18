@@ -1,39 +1,39 @@
 {
-    "id": "71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/71aa4d56-0ce9-4c7d-a808-cc22f2ac5a84/",
-    "name": "Kuaizhou 11 | SpaceTY-51 & 52",
+    "id": "ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ab3c1e6c-03fe-48a7-b6ce-30c79569bdfb/",
+    "name": "Soyuz 2.1b/Fregat | Kosmos (Unknown Payload)",
     "response_mode": "list",
-    "slug": "kuaizhou-11-spacety-51-52",
-    "launch_designator": null,
+    "slug": "soyuz-21bfregat-kosmos-unknown-payload",
+    "launch_designator": "2026-216",
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-17T03:42:45Z",
-    "net": "2026-09-17T02:40:00Z",
+    "last_updated": "2026-09-18T07:36:15Z",
+    "net": "2026-09-17T16:50:00Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
     },
-    "window_end": "2026-09-17T03:12:00Z",
-    "window_start": "2026-09-17T02:31:00Z",
+    "window_end": "2026-09-17T16:50:00Z",
+    "window_start": "2026-09-17T16:50:00Z",
     "image": {
-        "id": 2099,
-        "name": "Kuaizhou 11 liftoff (Xingyun VDES)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_20240520155835.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kuaizhou_11_lif_image_thumbnail_20240520155835.jpeg",
-        "credit": "\u4e2d\u56fd\u822a\u5929\u79d1\u5de5",
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
