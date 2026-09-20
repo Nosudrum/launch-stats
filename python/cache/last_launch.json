@@ -1,9 +1,9 @@
 {
-    "id": "a527b585-f01f-4ecc-9230-711dcef72ef1",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a527b585-f01f-4ecc-9230-711dcef72ef1/",
-    "name": "Long March 2D | PIESAT-2 13-16",
+    "id": "5af31461-bce5-4cfb-a0ee-b527cf285d90",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/5af31461-bce5-4cfb-a0ee-b527cf285d90/",
+    "name": "Kinetica 1 | 9 satellites",
     "response_mode": "list",
-    "slug": "long-march-2d-piesat-2-13-16",
+    "slug": "kinetica-1-9-satellites-2",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-19T11:52:21Z",
-    "net": "2026-09-19T10:50:00Z",
+    "last_updated": "2026-09-20T04:31:03Z",
+    "net": "2026-09-20T04:03:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-19T11:06:00Z",
-    "window_start": "2026-09-19T10:43:00Z",
+    "window_end": "2026-09-20T04:15:00Z",
+    "window_start": "2026-09-20T03:54:00Z",
     "image": {
-        "id": 1768,
-        "name": "[AUTO] Long March 2D - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long2520march25202d_image_20190222031211.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193719.jpeg",
+        "id": 1755,
+        "name": "[AUTO] Kinetica 1 - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/zhongke-1a_image_20220912002218.png",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193659.png",
         "credit": null,
         "license": {
             "id": 1,
