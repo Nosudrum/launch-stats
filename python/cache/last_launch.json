@@ -1,9 +1,9 @@
 {
-    "id": "63063b9d-ade9-4448-8717-6f910aa81188",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/63063b9d-ade9-4448-8717-6f910aa81188/",
-    "name": "Long March 8A | SatNet LEO Group 26",
+    "id": "aed67837-b567-43e0-8071-c3ccc24aa496",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/aed67837-b567-43e0-8071-c3ccc24aa496/",
+    "name": "Long March 6A | Yaogan 40 Group 04",
     "response_mode": "list",
-    "slug": "long-march-8a-satnet-leo-group-26",
+    "slug": "long-march-6a-yaogan-40-group-04",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-23T15:18:41Z",
-    "net": "2026-09-23T13:32:00Z",
+    "last_updated": "2026-09-24T09:47:29Z",
+    "net": "2026-09-24T08:46:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-09-23T13:49:00Z",
-    "window_start": "2026-09-23T13:24:00Z",
+    "window_end": "2026-09-24T09:04:00Z",
+    "window_start": "2026-09-24T08:38:00Z",
     "image": {
-        "id": 2616,
-        "name": "CZ-8A Launch (SatNet LEO Group 14)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_20251206093107.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-8a_launch_2_image_thumbnail_20251206093108.jpeg",
-        "credit": "CASC",
+        "id": 2450,
+        "name": "Long March 6A | SatNet LEO Group 05 launch",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
+        "credit": "CCTV",
         "license": {
             "id": 1,
             "name": "Unknown",
