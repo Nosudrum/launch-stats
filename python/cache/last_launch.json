@@ -1,9 +1,9 @@
 {
-    "id": "7330d83b-c478-426c-8859-f9e3a335876d",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/7330d83b-c478-426c-8859-f9e3a335876d/",
-    "name": "Falcon 9 Block 5 | USSF-385",
+    "id": "7d1afb26-6f9c-429b-9ccf-29012fd1e519",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/7d1afb26-6f9c-429b-9ccf-29012fd1e519/",
+    "name": "Starship | Starlink Group 31-1 (Starship Flight 14)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-ussf-385",
+    "slug": "starship-starlink-group-31-1-starship-flight-14",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,21 +11,21 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-09-26T17:39:37Z",
-    "net": "2026-09-26T14:00:54Z",
+    "last_updated": "2026-09-28T16:46:27Z",
+    "net": "2026-09-28T12:48:59Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-09-26T14:56:00Z",
-    "window_start": "2026-09-26T11:56:00Z",
+    "window_end": "2026-09-28T13:30:00Z",
+    "window_start": "2026-09-28T12:15:00Z",
     "image": {
-        "id": 2797,
-        "name": "Falcon 9 liftoff from SLC-4E (USSF-366)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
+        "id": 2791,
+        "name": "Starship on the launch pad during sunset (Flight-13)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_20260724044615.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/starship_on_the_image_thumbnail_20260724044615.jpeg",
         "credit": "SpaceX",
         "license": {
             "id": 1,
