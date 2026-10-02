@@ -1,39 +1,39 @@
 {
-    "id": "67213393-7983-4c06-8b44-b8c785a5ed79",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/67213393-7983-4c06-8b44-b8c785a5ed79/",
-    "name": "Falcon 9 Block 5 | Transporter 18 (Dedicated SSO Rideshare)",
+    "id": "4651fd8a-43de-4166-bf8f-c168b3bd1d2c",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/4651fd8a-43de-4166-bf8f-c168b3bd1d2c/",
+    "name": "Falcon Heavy | NROL-97",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-transporter-18-dedicated-sso-ride",
-    "launch_designator": "2026-227",
+    "slug": "falcon-heavy-nrol-97",
+    "launch_designator": null,
     "status": {
         "id": 3,
         "name": "Launch Successful",
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-10-01T23:19:46Z",
-    "net": "2026-10-01T18:32:00Z",
+    "last_updated": "2026-10-02T07:13:33Z",
+    "net": "2026-10-02T03:54:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-10-01T19:16:00Z",
-    "window_start": "2026-10-01T18:18:00Z",
+    "window_end": "2026-10-02T04:42:00Z",
+    "window_start": "2026-10-02T03:53:00Z",
     "image": {
-        "id": 1736,
-        "name": "Falcon 9 liftoff from LC-39A",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
-        "credit": "SpaceX",
+        "id": 1739,
+        "name": "[AUTO] Falcon Heavy - image",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_heavy_image_20220129192819.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193632.jpeg",
+        "credit": null,
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
