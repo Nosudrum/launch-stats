@@ -1,9 +1,9 @@
 {
-    "id": "a1bb0984-19d4-4b47-9bba-706d225573e2",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/a1bb0984-19d4-4b47-9bba-706d225573e2/",
-    "name": "Long March 12 | SatNet LEO Group 27",
+    "id": "da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/da43dc2c-00af-4cc1-8ef1-90a60b2eb9e5/",
+    "name": "Falcon 9 Block 5 | SDA Tranche 1 Transport Layer A",
     "response_mode": "list",
-    "slug": "long-march-12-satnet-leo-group-27",
+    "slug": "falcon-9-block-5-sda-tranche-1-transport-layer-a",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-10-09T21:14:37Z",
-    "net": "2026-10-09T19:27:00Z",
+    "last_updated": "2026-10-10T15:08:25Z",
+    "net": "2026-10-10T07:39:44Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-10-09T19:49:00Z",
-    "window_start": "2026-10-09T19:20:00Z",
+    "window_end": "2026-10-10T07:39:44Z",
+    "window_start": "2026-10-10T07:39:44Z",
     "image": {
-        "id": 2282,
-        "name": "CZ-12 on its launch pad.",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_20241128132937.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/cz-12_on_its_la_image_thumbnail_20241128132937.jpeg",
-        "credit": "Unknown",
+        "id": 1736,
+        "name": "Falcon 9 liftoff from LC-39A",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_image_20230807133459.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193628.jpeg",
+        "credit": "SpaceX",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 5,
+            "name": "CC BY-NC 2.0",
+            "priority": 1,
+            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
