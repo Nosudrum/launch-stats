@@ -1,9 +1,9 @@
 {
-    "id": "69ebbcd2-b257-4070-9ef9-21e7d1f8a883",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/69ebbcd2-b257-4070-9ef9-21e7d1f8a883/",
-    "name": "H3-24 | Martian Moons eXploration (MMX)",
+    "id": "3b430f81-0ff1-4d85-8a1a-cef0de326198",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3b430f81-0ff1-4d85-8a1a-cef0de326198/",
+    "name": "Falcon 9 Block 5 | Bandwagon 5 (Dedicated Mid-Inclination Rideshare)",
     "response_mode": "list",
-    "slug": "h3-24-martian-moons-exploration-mmx",
+    "slug": "falcon-9-block-5-bandwagon-5-dedicated-mid-inclina",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-10-19T23:04:55Z",
-    "net": "2026-10-19T19:41:03Z",
+    "last_updated": "2026-10-20T13:58:25Z",
+    "net": "2026-10-20T11:04:00Z",
     "net_precision": {
         "id": 0,
         "name": "Second",
         "abbrev": "SEC",
         "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-10-19T19:41:03Z",
-    "window_start": "2026-10-19T19:41:03Z",
+    "window_end": "2026-10-20T11:30:00Z",
+    "window_start": "2026-10-20T10:30:00Z",
     "image": {
-        "id": 2493,
-        "name": "H3-24 liftoff (HTV-X1)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_20251028184029.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/h3-24_liftoff__image_thumbnail_20251028184029.jpeg",
-        "credit": "Mitsubishi Heavy Industries",
+        "id": 2511,
+        "name": "Falcon 9 liftoff from SLC-40 (Bandwagon-4)",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20251102082912.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20251102082912.jpeg",
+        "credit": "SpaceX",
         "license": {
             "id": 1,
             "name": "Unknown",
             "priority": 9,
             "link": null
         },
-        "single_use": false,
+        "single_use": true,
         "variants": []
     },
     "infographic": null
