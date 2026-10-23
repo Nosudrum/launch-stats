@@ -1,9 +1,9 @@
 {
-    "id": "9648124f-8568-46d2-86d7-4b4d6f12187f",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/9648124f-8568-46d2-86d7-4b4d6f12187f/",
-    "name": "Long March 6A | Yaogan 50-03",
+    "id": "3621085f-deae-4f89-bd54-c0f96ee44421",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/3621085f-deae-4f89-bd54-c0f96ee44421/",
+    "name": "Long March 4B | Yaogan 53-07 to 09/56-19 to 21",
     "response_mode": "list",
-    "slug": "long-march-6a-yaogan-50-03",
+    "slug": "long-march-4b-yaogan-53-07-to-0956-19-to-21",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,22 +11,22 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-10-23T11:32:07Z",
-    "net": "2026-10-23T10:15:00Z",
+    "last_updated": "2026-10-23T21:35:43Z",
+    "net": "2026-10-23T19:25:00Z",
     "net_precision": {
         "id": 1,
         "name": "Minute",
         "abbrev": "MIN",
         "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-10-23T10:28:00Z",
-    "window_start": "2026-10-23T10:07:00Z",
+    "window_end": "2026-10-23T19:39:00Z",
+    "window_start": "2026-10-23T19:17:00Z",
     "image": {
-        "id": 2450,
-        "name": "Long March 6A | SatNet LEO Group 05 launch",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_20251209050223.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_6a__image_thumbnail_20251209050224.jpeg",
-        "credit": "CCTV",
+        "id": 2618,
+        "name": "Long March 4B launching YG-43 Group 01",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_20251209044050.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/long_march_4b_l_image_thumbnail_20251209044052.jpeg",
+        "credit": "CASC",
         "license": {
             "id": 1,
             "name": "Unknown",
