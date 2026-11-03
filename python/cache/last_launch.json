@@ -1,9 +1,9 @@
 {
-    "id": "57ce0a39-d035-4f16-a418-bd6108f78199",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/57ce0a39-d035-4f16-a418-bd6108f78199/",
-    "name": "Falcon 9 Block 5 | Starlink Group 15-18",
+    "id": "f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/f3f201cd-0ff9-4ff7-9aaa-1d22c399c75a/",
+    "name": "Kinetica 2 | SpaceSail Polar Group #17",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-starlink-group-15-18",
+    "slug": "kinetica-2-spacesail-polar-group-17",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,27 +11,27 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-10-31T05:09:34Z",
-    "net": "2026-10-31T04:04:34Z",
+    "last_updated": "2026-11-03T00:55:38Z",
+    "net": "2026-11-03T00:15:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 1,
+        "name": "Minute",
+        "abbrev": "MIN",
+        "description": "The T-0 is accurate to the minute."
     },
-    "window_end": "2026-10-31T07:48:00Z",
-    "window_start": "2026-10-31T03:48:00Z",
+    "window_end": "2026-11-03T00:33:00Z",
+    "window_start": "2026-11-03T00:05:00Z",
     "image": {
-        "id": 1296,
-        "name": "Starlink night fairing",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon2520925_image_20221009234147.png",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305192320.png",
-        "credit": "SpaceX",
+        "id": 2742,
+        "name": "Kinetica 2 First Launch",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kinetica_2_firs_image_20260330153456.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/kinetica_2_firs_image_thumbnail_20260330153456.jpeg",
+        "credit": "CAS Space",
         "license": {
-            "id": 5,
-            "name": "CC BY-NC 2.0",
-            "priority": 1,
-            "link": "https://creativecommons.org/licenses/by-nc/2.0/"
+            "id": 1,
+            "name": "Unknown",
+            "priority": 9,
+            "link": null
         },
         "single_use": false,
         "variants": []
