@@ -1,9 +1,9 @@
 {
-    "id": "54d471e8-695c-4fa7-a3cf-dbd8b389e8ae",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/54d471e8-695c-4fa7-a3cf-dbd8b389e8ae/",
-    "name": "Falcon 9 Block 5 | USSF-432",
+    "id": "c476fea7-7814-4adb-91d1-98918bc2cc57",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/c476fea7-7814-4adb-91d1-98918bc2cc57/",
+    "name": "Soyuz 2.1b/Fregat | Glonass-K1? (Kosmos 2621?)",
     "response_mode": "list",
-    "slug": "falcon-9-block-5-ussf-432",
+    "slug": "soyuz-21bfregat-glonass-k1-kosmos-2621",
     "launch_designator": null,
     "status": {
         "id": 3,
@@ -11,29 +11,29 @@
         "abbrev": "Success",
         "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
     },
-    "last_updated": "2026-11-07T04:29:55Z",
-    "net": "2026-11-07T00:48:42Z",
+    "last_updated": "2026-11-07T17:30:52Z",
+    "net": "2026-11-07T13:30:00Z",
     "net_precision": {
-        "id": 0,
-        "name": "Second",
-        "abbrev": "SEC",
-        "description": "The T-0 is accurate to the second."
+        "id": 2,
+        "name": "Hour",
+        "abbrev": "HR",
+        "description": "The T-0 is accurate to the hour."
     },
-    "window_end": "2026-11-07T04:46:00Z",
-    "window_start": "2026-11-07T00:46:00Z",
+    "window_end": "2026-11-07T21:00:00Z",
+    "window_start": "2026-11-07T07:00:00Z",
     "image": {
-        "id": 2797,
-        "name": "Falcon 9 liftoff from SLC-4E (USSF-366)",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_20260816171423.jpg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/falcon_9_liftof_image_thumbnail_20260816171423.jpeg",
-        "credit": "SpaceX",
+        "id": 1830,
+        "name": "Soyuz 2.1b on the pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/soyuz_2.1b_image_20230802085331.jpg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193901.jpeg",
+        "credit": "Roscosmos",
         "license": {
-            "id": 1,
-            "name": "Unknown",
-            "priority": 9,
-            "link": null
+            "id": 14,
+            "name": "Roscosmos Image Use Policy",
+            "priority": 3,
+            "link": "https://www.roscosmos.ru/22650/"
         },
-        "single_use": true,
+        "single_use": false,
         "variants": []
     },
     "infographic": null
