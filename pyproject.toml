@@ -1,0 +1,19 @@
+[project]
+name = "launch-stats"
+version = "0.1.0"
+description = "Space launch statistics, charts & infographics made in Python with the Launch Library 2 API."
+requires-python = ">=3.15"
+dependencies = [
+    "pillow",
+    "requests",
+    "matplotlib",
+    "numpy",
+    "tqdm",
+    "pandas",
+    "plotly",
+    "svgpath2mpl",
+    "svgpathtools",
+]
+
+[tool.uv]
+package = false
