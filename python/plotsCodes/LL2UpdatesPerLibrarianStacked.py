@@ -18,8 +18,8 @@ def main(pbar, show=True):
     librarians = Updates["created_by"].copy()
     librarians_sorted = librarians.value_counts().index.tolist()
     librarians_selected = librarians_sorted[0:7]
-    librarians[~librarians.isin(librarians_selected)] = 0
-    librarians_selected.append(0)
+    librarians[~librarians.isin(librarians_selected)] = "Others"
+    librarians_selected.append("Others")
     data = []
     for librarian in librarians_selected:
         data.append(created_on.loc[librarians == librarian].dt.year.values.tolist())

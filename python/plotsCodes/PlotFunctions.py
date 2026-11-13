@@ -36,7 +36,7 @@ reusability_colors = [colors_dict[i] for i in ["blue", "yellow", "orange", "gree
 
 # Librarians custom names
 Librarians_dict = {
-    0: "Others",
+    "Others": "Others",
     "Cosmic_Penguin": "Cosmic Penguin",
     "Nosu": "Nosu",
     "SwGustav": "SwGustav",
@@ -319,10 +319,12 @@ def remove_html_margins(path):
 def finish_plotly_figure(fig, path):
     fig.update_layout(
         xaxis=dict(
-            title=datetime.now(timezone.utc).strftime(
-                "Plot generated on %Y/%m/%d at %H:%M:%S UTC."
+            title=dict(
+                text=datetime.now(timezone.utc).strftime(
+                    "Plot generated on %Y/%m/%d at %H:%M:%S UTC."
+                ),
+                font=dict(color="dimgray"),
             ),
-            titlefont=dict(color="dimgray"),
         ),
         legend=dict(font=dict(size=17)),
         title=dict(font=dict(size=17)),

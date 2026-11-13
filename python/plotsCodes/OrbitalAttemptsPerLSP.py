@@ -16,7 +16,7 @@ def main(pbar, show=True):
     F3_LSPs = PastLSPs.copy()
     F3_LSPs_sorted = F3_LSPs["id"].value_counts().index.tolist()
     F3_LSPs_selected = F3_LSPs_sorted[0:7]
-    F3_LSPs[~F3_LSPs["id"].isin(F3_LSPs_selected)] = 0
+    F3_LSPs.loc[~F3_LSPs["id"].isin(F3_LSPs_selected), "id"] = 0
     F3_LSPs_selected.append(0)
     F3_data = []
     for LSP in F3_LSPs_selected:

@@ -34,7 +34,15 @@ LaunchStatus = pd.json_normalize(Launches["status"])
 LaunchT0 = Launches["net"].to_frame()
 LaunchLSP = pd.json_normalize(Launches["launch_service_provider"])
 Rocket = pd.json_normalize(Launches["rocket"])
-FirstStage = pd.json_normalize(Rocket["launcher_stage"])
+FirstStage = Rocket["launcher_stage"].apply(
+    lambda stages: [
+        pd.json_normalize(stage).iloc[0].to_dict()
+        for stage in stages
+        if isinstance(stage, dict)
+    ]
+    if stages
+    else []
+)
 LaunchMission = pd.json_normalize(Launches.mission)
 LaunchOrbit = LaunchMission["orbit.id"].to_frame()
 LaunchPad = pd.json_normalize(Launches["pad"])
@@ -62,7 +70,6 @@ for index in Rocket.index:
 
 LaunchLauncherFamily = pd.Series(LaunchLauncherFamily)
 Rocket["configuration.family"] = LaunchLauncherFamily
-LaunchProgram = pd.json_normalize(Launches["program"])
 
 FirstStageReuse = pd.DataFrame(
     columns=["NewLost", "NewRecovered", "ReusedLost", "ReusedRecovered"],
@@ -96,9 +103,9 @@ for i in range(len(FirstStage)):
                     elif FirstStage.iloc[i][j]["landing.success"] is False:
                         recovered = False
                     else:
-                        if LaunchT0.iloc[i][0] <= datetime.now(timezone.utc):
+                        if LaunchT0.iloc[i]["net"] <= datetime.now(timezone.utc):
                             print(
-                                f"WARNING : Missing landing outcome for launch {LaunchName.iloc[i][0]}"
+                                f"WARNING : Missing landing outcome for launch {LaunchName.iloc[i]['name']}"
                             )
                         continue
                 else:
@@ -139,16 +146,12 @@ PastStatus = LaunchStatus[past_filter].copy()
 PastPad = LaunchPad[past_filter].copy()
 PastRocket = Rocket[past_filter].copy()
 PastLauncherFamily = LaunchLauncherFamily[past_filter].copy()
-PastFirstStage = FirstStage[past_filter].copy()
 PastFirstStageReuse = FirstStageReuse[past_filter].copy()
 
 PastDayOfYear = PastT0s.copy()
-PastDayOfYear.loc[
-    ~PastT0s.net.dt.is_leap_year & (PastT0s.net.dt.dayofyear >= 60), "net"
-] = (PastT0s.net.dt.dayofyear + 1)
-PastDayOfYear.loc[
-    PastT0s.net.dt.is_leap_year | (PastT0s.net.dt.dayofyear < 60), "net"
-] = PastT0s.net.dt.dayofyear
+PastDayOfYear["net"] = PastT0s.net.dt.dayofyear + (
+    ~PastT0s.net.dt.is_leap_year & (PastT0s.net.dt.dayofyear >= 60)
+).astype(int)
 
 future_filter = (LaunchT0["net"] > datetime.now(timezone.utc)) & (
     LaunchOrbit["orbit.id"] != 15
@@ -165,12 +168,22 @@ FutureRocket = Rocket[future_filter].copy()
 AstronautsAgency = pd.json_normalize(Astronauts["agency"])
 AstronautsType = pd.json_normalize(Astronauts["type"])
 
-Astronauts.loc[:, "time_in_space"] = timedelta(0)
-Astronauts.loc[:, "total_flights"] = 0
-Astronauts.loc[:, "total_landings"] = 0
-Astronauts.loc[:, "first_landing_mission_end"] = None
-Astronauts.loc[:, "last_landing_mission_end"] = None
-Astronauts.loc[:, "is_in_space"] = False
+Astronauts["time_in_space"] = pd.to_timedelta(0)
+Astronauts["total_flights"] = 0
+Astronauts["total_landings"] = 0
+Astronauts["first_landing_mission_end"] = pd.Series(
+    pd.NaT, index=Astronauts.index, dtype="datetime64[ns, UTC]"
+)
+Astronauts["last_landing_mission_end"] = pd.Series(
+    pd.NaT, index=Astronauts.index, dtype="datetime64[ns, UTC]"
+)
+Astronauts["first_flight_net"] = pd.Series(
+    pd.NaT, index=Astronauts.index, dtype="datetime64[ns, UTC]"
+)
+Astronauts["last_flight_net"] = pd.Series(
+    pd.NaT, index=Astronauts.index, dtype="datetime64[ns, UTC]"
+)
+Astronauts["is_in_space"] = False
 for astronaut in Astronauts["id"].to_list():
     flights = pd.json_normalize(
         Astronauts[Astronauts["id"] == astronaut].flights.to_list()[0]

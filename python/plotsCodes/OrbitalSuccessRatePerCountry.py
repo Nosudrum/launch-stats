@@ -1,3 +1,4 @@
+import matplotlib as mpl
 from matplotlib.cm import ScalarMappable
 from tqdm import tqdm
 
@@ -33,12 +34,12 @@ def main(pbar, show=True):
                 (PastT0s["net"].dt.year == year) & failure_mask & country_mask
             ).sum()
             if successes + failures == 0:
-                success_rate_country = np.NaN
+                success_rate_country = np.nan
             else:
                 success_rate_country = 100.0 * successes / (successes + failures)
             data[year - Years_list[0], :] = [successes + failures, success_rate_country]
         data_color = data[:, 1] / 100
-        colormap = plt.cm.get_cmap("RdYlGn")
+        colormap = mpl.colormaps["RdYlGn"]
         fig, axes = dark_figure()
         axes[0].bar(Years_list, data[:, 0], color=colormap(data_color), width=1)
         axes[0].set(

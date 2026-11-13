@@ -1,3 +1,4 @@
+import matplotlib as mpl
 from matplotlib.cm import ScalarMappable
 
 from Processing import PastDayOfYear, PastStatus
@@ -25,7 +26,7 @@ def main(pbar, show=True):
         F2_data[day - 1, :] = [day, successes, failures, success_rate]
     attempts = F2_data[:, 1] + F2_data[:, 2]
     data_color = attempts / max(attempts)
-    colormap = plt.cm.get_cmap("YlGnBu")
+    colormap = mpl.colormaps["YlGnBu"]
     F2_axes[0].bar(F2_data[:, 0], F2_data[:, 3], color=colormap(data_color), width=1)
     F2_axes[0].set_xticks(monthsTicks, monthsLabels)
     F2_axes[0].set(
