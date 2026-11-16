@@ -1,32 +1,32 @@
 {
-    "id": "db3500ac-965b-4ad8-b417-cb8d8d005586",
-    "url": "https://ll.thespacedevs.com/2.3.0/launches/db3500ac-965b-4ad8-b417-cb8d8d005586/",
-    "name": "Electron | The Mountain God Rises (iQPS Launch 10)",
+    "id": "ef9850ad-1096-425b-9d27-f7bbd186e61a",
+    "url": "https://ll.thespacedevs.com/2.3.0/launches/ef9850ad-1096-425b-9d27-f7bbd186e61a/",
+    "name": "Vulcan VC6L | Amazon Leo (LV-01)",
     "response_mode": "list",
-    "slug": "electron-the-mountain-god-rises-iqps-launch-10",
+    "slug": "vulcan-vc6l-amazon-leo-lv-01",
     "launch_designator": null,
     "status": {
-        "id": 3,
-        "name": "Launch Successful",
-        "abbrev": "Success",
-        "description": "The launch vehicle successfully inserted its payload(s) into the target orbit(s)."
+        "id": 4,
+        "name": "Launch Failure",
+        "abbrev": "Failure",
+        "description": "Either the launch vehicle did not reach orbit, or the payload(s) failed to separate."
     },
-    "last_updated": "2026-11-14T07:59:42Z",
-    "net": "2026-11-14T05:30:00Z",
+    "last_updated": "2026-11-15T19:30:04Z",
+    "net": "2026-11-15T17:40:30Z",
     "net_precision": {
-        "id": 1,
-        "name": "Minute",
-        "abbrev": "MIN",
-        "description": "The T-0 is accurate to the minute."
+        "id": 0,
+        "name": "Second",
+        "abbrev": "SEC",
+        "description": "The T-0 is accurate to the second."
     },
-    "window_end": "2026-11-14T05:30:00Z",
-    "window_start": "2026-11-14T05:30:00Z",
+    "window_end": "2026-11-15T17:40:30Z",
+    "window_start": "2026-11-15T17:11:30Z",
     "image": {
-        "id": 1727,
-        "name": "[AUTO] Electron - image",
-        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/electron_image_20190705175640.jpeg",
-        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/255bauto255d__image_thumbnail_20240305193613.jpeg",
-        "credit": null,
+        "id": 2845,
+        "name": "Vulcan VC6L on the launch pad",
+        "image_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_20261114102518.jpeg",
+        "thumbnail_url": "https://thespacedevs-prod.nyc3.digitaloceanspaces.com/media/images/vulcan_vc6l_on__image_thumbnail_20261114102519.jpeg",
+        "credit": "United Launch Alliance",
         "license": {
             "id": 1,
             "name": "Unknown",
